@@ -1,0 +1,24 @@
+--- 
+title: "Builder Guides"
+subtitle: "podtytul borzy"
+author: "by Bunnie and deynarde"
+date: "`r format(Sys.time(), '%d/%m/%Y')`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [latex/book.bib, latex/packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: deynarde/kag-builder-guide
+description: "A KAG builder guide for both new and experienced players."
+---
+
+# Introduction {-}
+
+<p align="center">
+  <img src="imgs/logo.png">
+</p>
+
+hehe opis borzy
+
+> link do [knajt gajd](https://deynarde.github.io/kag-knight-guide/). Also you can contact us on Discord (`bunnie#8671`, `deynarde#4491`).

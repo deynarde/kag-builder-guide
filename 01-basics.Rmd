@@ -1,0 +1,9 @@
+# bob klasa
+
+<p align="center">
+  <img src="imgs/miecz.png">
+</p>
+
+## bob
+
+hehe
