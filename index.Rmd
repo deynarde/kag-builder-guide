@@ -21,4 +21,7 @@ description: "A KAG builder guide for both new and experienced players."
 
 hehe opis borzy
 
-> link do [knajt gajd](https://deynarde.github.io/kag-knight-guide/). Also you can contact us on Discord (`bunnie#8671`, `deynarde#4491`).
+> For a tutorial on playing as knight see [Knight Guides](https://deynarde.github.io/kag-knight-guide/).
+
+> Also you can contact us on [KAG Discord](https://discord.gg/kag) (`bunnie#8671`, `deynarde#4491`).
+
