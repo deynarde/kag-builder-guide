@@ -1,4 +1,4 @@
-# Knight Guides
+# Builder Guides
 
 [![Build Status](https://api.travis-ci.org/deynarde/kag-builder-guide.svg)](https://travis-ci.org/deynarde/kag-builder-guide)
 
