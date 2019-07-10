@@ -26,16 +26,23 @@ Tunneling from inside the base is a wasteful, harmful effort.
 
 ### Stealth
 As a tunneler, you need to be discreet in your digging. The earlier the enemy notices you tunneling, the more options and time they will have to defend against it. Here are few ways enemies can spot you.
+
 * Emoji: Self explanatory
+
 * Carrying a lantern: Self explanatory 
+
 * Typing: Creates speak bubble on top of your head
+
 * Wall jumping: Creates dust
+
 * Destroying wood blocks: Creates dust
+
 * Using drill: Creates noise when drilling, makes light when heated, makes smokes when doused with water.
 
 Sometimes attracting attention is a right choice. As enemy players can overreact to a tunneling effort, you can help your team’s progress by diverting your enemy’s human resources towards you and away from the frontline. At this point, your goal would be to distract 2 or more players for the longest time possible and kill them if possible.
 
 ### Counter-Tunneling
+
 The first part of countering a tunnel is to identify it. The earlier you can see it, the better you can prepare against it. The best way to spot a tunneling effort is on the mini-map, which you can open up by pressing “M”. If a tunnel is being dug you will see a passage slowly being dug. An ideal time to do so is when you are dead and are waiting to respawn or when you are getting to mid.
 
 Method 1: Interception
