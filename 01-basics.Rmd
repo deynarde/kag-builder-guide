@@ -1,9 +1,47 @@
-# bob klasa
+# Builder I: The Basics
 
-<p align="center">
-  <img src="imgs/miecz.png">
-</p>
+## Tunneling
 
-## bob
+Tunneling is the practice of making an underground passage in order to have access to an enemy structure or flag. In the game jargon, it is pejoratively referred as “ratting”, reflecting an aversion many players have against builders who tunnel. This practice is often hated for its cheesy nature, as it is very easy to pull off and can be hard to counter. When done right, it can take the enemy by surprise and leave them not many options to react to it.
 
-hehe
+While it can be harmless in many cases, players who are not aware of the game context do not recognize when it is the wrong time to tunnel. Tunneling does offer many advantages, but it also comes with some heavy costs: 
+
+* Time-consuming: Tunneling takes time especially if stealthy precautions are taken. This disadvantage is not very costly in many cases, but if 
+
+* Team dividing: When used heavily, tunnels spreads a team thinner on both fronts. Players who choose to help the tunneling effort also choose not to be on the ground at that moment. If your team is struggling to push on the ground or if your team has a weak offense, digging a tunnel which will divide your team and thin the ground effort might not be the right call. 
+
+* Able to be stolen: A tunnel is nothing more than a passage, a passage that can be used by both sides. No matter who dug the tunnel, it will be in used by the team who spends the most effort in controlling it. Losing a tunnel means that you have lost time making something that might be helping the enemy.
+
+Because of its costs, tunneling should be done with the intent of maximizing its value. The value of a tunnel resides in its length, its security and its destination.
+ * Length: Faster your team can get from one point to the other, the easier it will for them to win. Long or meandering tunnels make your team waste time walking, give your opponent more time to react and should be avoided.
+
+* Security: As in any structure, tunnels belongs to the team who invest the most effort controlling it. To prevent enemy forces from taking over, place doors, mines, well placed spikes and sometimes small traps to protect your tunnel. Traps in tunnel are one of the rare instances when they pay off. Being in the dark, assures that you will get a few kills from inattentive players. Even then, to be cost effective, they should be fast and cheap to make.
+
+* Destination: In order to have strategic value, tunnels should give access to a point that is desirable and hard to reach (usually the flag). Making a tunnel to mid is almost always a bad idea
+
+### Tunneling from base
+
+Many new players like the security it offers, but tunneling should never be dug from inside the base and especially not near the flag. The tunnels from base go against almost every principle of the forementionned cost and benefits. They are the longest type of tunnel, are the most time-consuming to make and to travel in. When dug alone, tunnels from base and will time not divide a team, but there is a small probability of getting a flag home as lone builder. Because of the time-consuming nature of tunnels from base and their length, they give plenty of time for the enemy to react. Tunnels from base are also the hardest to secure since more materials and time have to be spent because of their length. Finally, tunnels from base offer little strategic value since they cross mid and mid is much easier accessed by ground. As a team, walking or teleporting to mid has and added value of being able to defend the map areas that are covered through travelling. If mid is hard to access because enemy forces occupy it, digging a tunnel from base to get to flag or mid will only result to a stolen tunnel and an exposed base.
+Tunneling from inside the base is a wasteful, harmful effort.
+
+### Stealth
+As a tunneler, you need to be discreet in your digging. The earlier the enemy notices you tunneling, the more options and time they will have to defend against it. Here are few ways enemies can spot you.
+* Emoji: Self explanatory
+* Carrying a lantern: Self explanatory 
+* Typing: Creates speak bubble on top of your head
+* Wall jumping: Creates dust
+* Destroying wood blocks: Creates dust
+* Using drill: Creates noise when drilling, makes light when heated, makes smokes when doused with water.
+
+Sometimes attracting attention is a right choice. As enemy players can overreact to a tunneling effort, you can help your team’s progress by diverting your enemy’s human resources towards you and away from the frontline. At this point, your goal would be to distract 2 or more players for the longest time possible and kill them if possible.
+
+### Counter-Tunneling
+The first part of countering a tunnel is to identify it. The earlier you can see it, the better you can prepare against it. The best way to spot a tunneling effort is on the mini-map, which you can open up by pressing “M”. If a tunnel is being dug you will see a passage slowly being dug. An ideal time to do so is when you are dead and are waiting to respawn or when you are getting to mid.
+
+Method 1: Interception
+One way to counter a tunnel effort is to dig passage cutting said tunnel, allowing reinforcements to overtake the tunnel. Do not forget 
+Interception can be done alone or as team. Once overtaken, you can secure it if the tunnel has strategic value for your team (for instance, if it gives access to a point that is desirable and otherwise hard to reach). If it does not have strategic you can fill it with stone, platforms or wood blocks to make it more time consuming to tunnel at that area again.
+Do remember that ratting builders can be very persistent and once a tunneling effort has been thwarted, others are surely on the way.
+
+Method 2: Heavy push
+Another way to counter a ratting team is to exploit its downsides. When many players partake in tunneling, their team is divided, sometimes leave the ground level structures exposed. If this is the case, you can choose to ignore the tunneling effort and push on ground or by air. If you manage to gain considerable progress on your heavy push, underground enemies might notice you and try get back up on the ground to stop you. Therefore, when heavy pushing, you can anticipate their reaction by covering ground access points if possible.
