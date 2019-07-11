@@ -1,6 +1,92 @@
-# Builder I: The Basics
+#### Builder I: The Basics
 
-## Tunneling
+
+#### Builder III: Intermediate/Expert
+
+### General build tenets
+
+(…)
+
+## Ease of movement
+Easy to move around to move around for your team, hard to move around for your enemies. In order to make good structures, you need to play other classes as well. A builder who understands the realities of their teammates will design better structures
+
+## Time saving
+Time is a crucial, but underrated resource in KAG. Time is why dying too often is bad: because it puts you away from the action since you need waste time waiting for the respawn timer and walk back to the fight. This is why a teleport or ballistas are vital: they save walking time; they shorten the time it takes for your team to get to the action.
+In a similar manner, you building should help your team save time. This means making movement for your team effortless and fast. 
+
+As a resource, spending time well means building structures that last without overly reinforcing them. If they break or collapse, you will need time to rebuild them, preventing you from pushing. If you reinforce them too much, then you also waste valuable time.
+
+Using time well also means to be fast. A builder who can place 20 blocks in a minute will be more useful than a player that can place a 100 block in the same amount of time.
+
+(…)
+
+### Build phase
+
+## Shops building
+(…)
+
+## Flag defence
+(…)
+
+## Main tower
+(…)
+
+
+### Defensive building
+(…)
+
+
+### Mid Building
+(…)
+In order to secure ground gained by your team, the offensive builder will be called to build structures past the base. The same principles of base building applies 
+(…)
+
+## Fast makeshift towers
+(…)
+
+## Strong towers
+(…)
+
+## Scaling towers
+(…)
+
+## Air superiority
+(…)
+
+
+### Offensive building
+
+Offensive building or attack building is the practice of using the tools at the disposal of the builder outside the confines of the base. The goal of offensive building is to help your team gain new ground and secure it.
+
+CTF in KAG is usually a little bit like a game of tug-of-war. 2 team fight for map control, they push back and forth and a team wins when their territory control reaches the flag. As an attack builder you need to help your team move around the map, through enemy structures and secure the map control progress your team has made.  
+(…)
+
+## Offensive building tools
+
+(…)
+
+# Doors spamming
+When backwall is present (underground or inside a structure), you can spam doors randomly in order to block an enemy. This can be done while retreating by placing doors behind you as you run away. This will force the enemy chasing you to move the doors, giving you more time to find safety or accomplish your goal. It can also be done in an offensive way to reduce an enemy movement freedom in order for your team or yourself to kill more easily.
+This strategy is material wasteful, since unsupported doors will fall apart. Although in an evasion situation where your death is imminent, wasting materials is a beneficial thing.
+
+# Covering dead ends or pockets
+Enemy players will sometimes put themselves in closed spaces. You can effectively render them useless to their team if you seal their exit. 
+It is worth noting that is its better to seal them away than to kill them. Killing them will make them respawn and give them the opportunity to be on the ground fighting against your team. On the other hand, once sealed, they will be wasting time and they cannot be of any use to their team. Making an access point in order for you or your team to kill sealed enemies is 
+When a sealed enemy distract 1 or more friendly players, there are being useful for their team, since the distracted players are not fighting on the ground.
+
+# Spiking for height
+When unsupported, spikes fall from wherever they were placed. They can be placed by a support (dirt, blocks…) or the
+Spikes also react to trampolines.
+
+# Spiking from ground
+
+# Wasting enemy time
+As previously examined in the build tenets, time is a valuable in KAG, making it desirable in KAG to waste enemy time when possible. On the most basic level this can mean to seal yourself in a closed space and distract the most players for the longest time. It can also mean destroying a tunnel or wrecking a base by making their movement in it harder, forcing an enemy builder player to waste time and material and time to repair the base.
+
+# Wasting enemy material
+(…)
+
+### Tunneling
 
 Tunneling is the practice of making an underground passage in order to have access to an enemy structure or flag. In the game jargon, it is pejoratively referred as “ratting”, reflecting an aversion many players have against builders who tunnel. This practice is often hated for its cheesy nature, as it is very easy to pull off and can be hard to counter. When done right, it can take the enemy by surprise and leave them not many options to react to it.
 
@@ -19,29 +105,24 @@ Because of its costs, tunneling should be done with the intent of maximizing its
 
 * Destination: In order to have strategic value, tunnels should give access to a point that is desirable and hard to reach (usually the flag). Making a tunnel to mid is almost always a bad idea
 
-### Tunneling from base
+## Tunneling from base
 
 Many new players like the security it offers, but tunneling should never be dug from inside the base and especially not near the flag. The tunnels from base go against almost every principle of the forementionned cost and benefits. They are the longest type of tunnel, are the most time-consuming to make and to travel in. When dug alone, tunnels from base and will time not divide a team, but there is a small probability of getting a flag home as lone builder. Because of the time-consuming nature of tunnels from base and their length, they give plenty of time for the enemy to react. Tunnels from base are also the hardest to secure since more materials and time have to be spent because of their length. Finally, tunnels from base offer little strategic value since they cross mid and mid is much easier accessed by ground. As a team, walking or teleporting to mid has and added value of being able to defend the map areas that are covered through travelling. If mid is hard to access because enemy forces occupy it, digging a tunnel from base to get to flag or mid will only result to a stolen tunnel and an exposed base.
 Tunneling from inside the base is a wasteful, harmful effort.
 
-### Stealth
+## Stealth
 As a tunneler, you need to be discreet in your digging. The earlier the enemy notices you tunneling, the more options and time they will have to defend against it. Here are few ways enemies can spot you.
 
 * Emoji: Self explanatory
-
 * Carrying a lantern: Self explanatory 
-
 * Typing: Creates speak bubble on top of your head
-
 * Wall jumping: Creates dust
-
 * Destroying wood blocks: Creates dust
-
 * Using drill: Creates noise when drilling, makes light when heated, makes smokes when doused with water.
 
 Sometimes attracting attention is a right choice. As enemy players can overreact to a tunneling effort, you can help your team’s progress by diverting your enemy’s human resources towards you and away from the frontline. At this point, your goal would be to distract 2 or more players for the longest time possible and kill them if possible.
 
-### Counter-Tunneling
+## Counter-Tunneling
 
 The first part of countering a tunnel is to identify it. The earlier you can see it, the better you can prepare against it. The best way to spot a tunneling effort is on the mini-map, which you can open up by pressing “M”. If a tunnel is being dug you will see a passage slowly being dug. An ideal time to do so is when you are dead and are waiting to respawn or when you are getting to mid.
 
