@@ -1,0 +1,337 @@
+# Builder I: The Basics
+
+<p align="center">
+  <img src="imgs/pikaks.png">
+</p>
+
+## The builder class
+
+There are three classes in KAG: the archer, the knight and the builder. Although a good team in Capture The Flag (CTF) should be mostly composed of knights, it's the builders who lead the team to victory. Out of 12 people in a full team, at least 3-4 should be builders. 
+
+As a builder in CTF, your role is to make defences for your flags and base, build shops for your teammates, as well as set up siege and help your team advance and destroy the opposing team's structures, and finally -- capture the enemy flag. You have plenty of tools for that, and winning the game by leading your team is basically your main focus as a builder.
+
+In this chapter we're going to explain all the structures you can place and items you can use as a builder, as well as explain some of the theory behind building a good base and a tower. We'll also highlight some common mistakes that inexperienced builders can make.
+
+[IMG: smiling builder]
+
+## Getting materials from natural sources
+
+It has been mentioned in the in-game tutorial, but we'll mention it again. You can mine any blocks by holding the right mouse button.
+There are 2 natural blocks that don't give any materials:
+[IMG: bedrock] Bedrock can't be destroyed at all.
+[IMG: dirt] Dirt does not give any materials.
+
+You can have up to 500 stone, 500 wood or 100 gold in one slot in your inventory (press F). You can take materials out of your inventory by pressing them with your inventory open (or closing the inventory while your cursor is on one of the slots). Wood and stone are taken out in stacks or 250 (or less if you have less than 250) -- so to throw out 500 wood, you'll need to throw 250 wood two times. Gold is taken out in stacks of 50.
+
+[GIF illustrating above]
+
+### Stone 
+
+[IMG: stone] Stone ore gives 4 stone per hit. Normal stone ores can be hit up to 6 times, so 24 stone per stone ore.
+[IMG: thick stone] Thick stone ore gives 6 stone per hit for 6 hits, then 4 stone per hit for remaining 5 hits. Gives a total of 56 stone after 11 hits.
+
+### Gold 
+
+[IMG: gold] Gold ore gives 4 gold per hit, can be hit up to 5 times -- 20 gold per gold ore.
+
+### Wood 
+
+[IMG: tree, log] Trees need between 10 and 12 hits to be chopped into logs. Trees have varying height, even when they reach their maximum height, but pine trees of maximum height drop 6 or 7 logs, while the smaller bushy trees drop 3, 4 or 5 logs. One log gives 10 wood per hit, 5 hits per log -- so up to 50 wood per a log.
+Trees of course can regrow after being chopped down. Although it also varies, it's between 30 and 100 seconds, with bushy trees regrowing faster than pine trees.
+
+## Your building menu
+
+In this section we'll shortly describe each of the blocks in the builder menu, which you can access by pressing F. A builder's building menu consists of 11 blocks/structures, as you can see in the image below:
+
+[IMG: builder menu, enlarged]
+
+Blocks can cost either wood or stone.
+
+Placing blocks gives you coins - depending on what you're placing and if you're placing it during build time (the first 180 seconds where teams build their bases) or game time.
+
+### Stone block
+
+[IMG: stone block]
+- Costs 10 stone.
+- Gives 4 coins when placed in game time, 1 coin in build time.
+- Can be destroyed by builders (7 hits), bombs (1 bomb if the bomb is next to the block) bomb arrows, kegs.
+- Gives 1 stone per hit (7 stone total).
+- The most basic block. Majority of your defences should consist of this block.
+
+### Stone backwall
+
+[IMG: stone backwall]
+- Costs 2 stone.
+- Doesn't give coins.
+- Can be destroyed by builders (5 hits), explosives.
+- Doesn't give stone on hit.
+- You should support your stone block walls with stone backwalls.
+
+### Stone door
+
+[IMG: stone door]
+- Costs 50 stone.
+- Gives 4 coins when placed in game time, 1 coin in build time.
+- Can be destroyed by builders (5 hits), explosives (5 bombs per 1 stone door!).
+- Gives 5 stone per hit (25 stone total).
+- Strong block, especially against enemy knights. However, quite expensive, so don't overuse it.
+- Doors can only be opened by teammates.
+- Doors should be placed next to a solid block, or else they will fall off after some time.
+
+### Wood block 
+
+[IMG: wood block]
+- Costs 10 wood.
+- Gives 1 coin when placed in game time, 0 coins in build time.
+- Can be destroyed by builders (5 hits), explosives.
+- Flammable -- can be put on fire by fire arrows and spread fire to nearby wooden structures.
+- Destroyable by knights (5 slashes)
+- Gives 1 wood per hit (5 wood total).
+- You shouldn't overuse it -- burning wooden structures is extremely easy. However it's decent for some basic defences when you don't have stone.
+
+### Wood backwall
+
+[IMG: wood block]
+- Costs 2 wood.
+- Doesn't give coins.
+- Can be destroyed by builders (2 hits), explosives.
+- Flammable.
+- Doesn't give wood on hit.
+
+### Wood door
+
+[IMG: wood block]
+- Costs 30 wood.
+- Gives 1 coin when placed in game time, 0 coins in build time.
+- Can be destroyed by builders (4 hits), explosives.
+- Flammable.
+- Destroyable by knights (14 slashes)
+- Gives 5 wood on hit (20 wood total).
+- Doors can only be opened by teammates.
+- Doors should be placed next to a solid block, or else they will fall off after some time.
+
+[GIF]
+
+### Trapblock
+
+[IMG: trapblock]
+- Costs 25 stone.
+- Gives 4 coins when placed in game time, 0 coins in build time.
+- Can be destroyed by builders (5 hits), explosives
+- Gives 2 stone per hit (10 stone total).
+- Only enemies can pass through it -- commonly used to create traps.
+
+### Ladder
+
+[IMG: ladder]
+- Costs 10 wood.
+- Doesn't give coins.
+- Can be destroyed by builders (2 hits), explosives
+- Destroyable by knights (2 slashes)
+- Gives 3 wood per hit (6 wood total).
+- Can be climbed by holding W while on them
+- Ladders are 3x1. You can rotate them by pressing Space after selecting one.
+
+[IMG: ladders vertical and horizontal]
+
+- Ladders can overlap. The center of a ladder is the team-coloured part. You don't have to place the centres next to each other -- if you want to build a few ladders on top of each other, there can be a 1 block gap between the centres. This saves some wood.
+
+[GIF: overlapping ladders, not overlapping ladders]
+
+### Platform
+
+[IMG: Platform]
+- Costs 15 wood.
+- Gives 1 coin when placed in game time, 0 coins in build time.
+- Can be destroyed by builders (5 hits), explosives.
+- Flammable.
+- Destroyable by knights (10 slashes)
+- Gives 2 wood on hit (10 wood total).
+- You can only go through one way of them.
+- You can rotate them with space if you want different directions.
+- Also places a wooden backwall behind when you build one.
+- Even though enemies can't go through their solid side, they can still attack you through it -- make sure to not get too close.
+
+### Workshop
+
+[IMG: workshop]
+- Costs 150 wood.
+- Gives 10 coins when placed in game time, 3 coins in build time.
+- Can be destroyed by builders (4 hits), explosives.
+- Flammable.
+- Destroyable by knights (8 slashes)
+- Doesn't give wood on hit.
+- 3 blocks wide and 5 blocks tall.
+- Can be converted to one of the 9 CTF shops after being built. We'll talk more about them in the next section.
+- Places some wooden backwall behind one.
+
+### Spikes
+
+[IMG: spikes]
+- Costs 30 stone.
+- Gives 4 coins when placed in game time, 1 coin in build time.
+- Can be destroyed by builders (2 hits), explosives.
+- Doesn't give stone on hit.
+- Can be placed on any solid blocks. Does damage to all players -- including teammates -- when they walk into one.
+- If placed on a stone block, the spike retracts and only activates when there's an enemy near it (keep in mind it's not instant, though)
+
+[GIF: spikes on wood/dirt, stone, retracting, walking]
+
+- If not placed on a solid block (for example, on backwall or next to a door or platform), the spike falls and damages the players it falls on. The spike deals damage depending on how much distance it fell from -- spike damage increases by 1 heart for each block it travels. For example, if a spike was placed on a backwall and there were 2 blocks between that backwall and the player, the player would get 2 hearts of damage.
+
+[GIF: falling spikes]
+
+## Workshops, items, siege
+
+After you place a workshop (150 wood), you can convert it to one of the 9 different shops. Most of them also cost wood, but some cost stone and gold as well. In this section we'll talk about all the different shops and builder-related items and vehicles you can buy in them.
+
+### Builder shop
+
+[IMG: builder shop]
+
+Costs 50 wood. One of the three class shops -- if you aren't the class of the shop (if you aren't a builder in this case), you have the option to change to builder on it. The second option (for all classes) is to open the shop.
+
+[IMG of 2 options]
+
+[IMG of buying menu]
+
+Now, let's talk about the items you can buy:
+
+#### Lantern
+
+[IMG]
+- Costs 10 wood.
+- Generates light.
+- 1x1 size in inventory.
+- Can be turned on and off with Space button.
+
+#### Bucket (no water)
+
+[IMG]
+- Costs 10 wood.
+- 1x1 size in inventory.
+- Fills with water if you put it in water.
+
+#### Bucket with water
+
+[IMG]
+- Costs 10 wood and 10 coins
+- 1x1 size in inventory.
+- You can press left mouse button while you have one in your hand to splash water. The water can extinguish fires, as well as extinguish a lit keg (which is unique for the water bucket -- water bombs or water arrows can't do that). You can make up to 3 water splashes before the bucket becomes empty and requires refilling.
+- Can also cool a heated drill
+
+[GIF illustrating above]
+
+#### Sponge
+
+[IMG]
+- Costs 15 coins.
+- 1x1 size in inventory.
+- You can use it to remove water blocks, like in gif below.
+
+[GIF]
+
+- If you have one in inventory and you get hit by a water bomb or a water arrow, the sponge will absorb the stun. This can happen up to 2 times before the sponge gets destroyed.
+
+[GIF]
+
+#### Boulder
+
+[IMG]
+- Costs 35 stone.
+- Doesn't fit in inventory.
+- You can throw it at enemies to damage them.
+
+[GIF]
+
+- If you put a boulder in a catapult and then launch it, it has a new functionality -- it also goes through blocks. Some believe this is a bug, but it works like in the GIF below.
+  
+[GIF]
+
+#### Trampoline
+
+[IMG]
+- Costs 150 wood.
+- Doesn't fit in inventory.
+- Lets players bounce of it.
+- When hold in your hand, you can rotate it to 3 directions so that it points up or diagonally.
+- Often put on top of the towers so that your knights can travel lots of distance.
+ 
+[GIF]
+
+#### Drill
+
+[IMG]
+- Costs 100 stone and 25 coins.
+- 1x1 size in inventory.
+- Builders (knights and archers can't) can use a drill by holding left mouse button while you have one in your hand. It destroys blocks much more quicker than if you were destroying them by pickaxe. The drill also destroys 2 blocks in front of the drill. 
+- Drills rotate depending on the position of your cursor.
+- The more blocks you destroy, the hotter the drill gets -- eventually it can overheat and deal you 0.25heart of damage and drop to the ground while releasing steam. If that happens, don't instantly try to pick it back up -- it will damage you and keep dropping to the ground. You have to wait a few seconds.
+
+[GIF]
+
+- Drills also deal 1 heart of damage to enemies per hit. When they are in a heated state (they have a red tint), they deal 1.5 heart of damage.
+- Drills deal half of the damage when shielded -- so 0.5 heart or 0.75 heart of damage to shielding knights.
+- They obviously also deal damage faster than pickaxe.
+
+[GIF]
+
+- Drills can be cooled down by using any kind of water on it (water bomb, water arrow or water bucket). They also cool down naturally over time. They also cool down while in your inventory. You can speed up the cooling down slightly if you move around with your drill in hand. There's also a bar that shows you how heated a drill is.
+
+[GIF]
+
+- Drills overheat quicker on natural blocks (stone ore, dirt) than on man-made blocks (stone blocks, wooden blocks). They also overheat even quicker (the fastest) on blocks such as doors, platforms or shops, as well as on trees.
+
+[GIF]
+
+- Drills have an odd angle, which allows you to damage enemies in a situation like in the gif below (pay attention to what is a door and what is a normal block), while the knights can't damage you. This is a bit more advanced and is related to doors having a slightly bigger hitbox -- we'll tell you more about it in another chapter in a combat-related section. 
+
+[GIF]
+
+#### Saw
+
+[IMG]
+- Costs 150 wood and 100 stone.
+- Doesn't fit in inventory.
+- You can press E on the saw to turn it off and on.
+- Players instantly die if they fall into a saw.
+- If a teammate falls into a saw, the saw turns off.
+
+[GIF]
+
+- Saws change team depending on who last held the saw. You can't pick up enemy saws from above or from their side. You need to be at a lower level than them.
+
+[GIF]
+
+- Another functionality of saws is that they convert logs into wood quickly. More about this will be mentioned later this chapter (building a "tree farm").
+
+[GIF: throw saw at some logs]
+
+- Items like crates also get destroyed when thrown into a saw.
+- Lit bombs and kegs explode instantly when thrown into a saw.
+
+[GIF]
+
+#### Crate
+
+[IMG]
+- Costs either 150 wood or 20 coins.
+- Doesn't fit in inventory.
+- A crate has a 3x3 inventory -- you can put items in it. The crate should be on the ground, while you should hold the item you want to put in a crate in your inventory then press E on it.
+- If you hold a crate and walk over items such as materials or unlit bombs laying on the ground, the crate will pick them up. They can be removed out of the crate manually or by pressing Space while having it in your hand.
+
+[GIF]
+
+- Players can also get into crates -- you need to pick a crate up (so that it's your hand), and then press E on it. Other players can also pick up the crate. This is a good way for builders to be "delivered" to enemy territory safely by the knights in your team.
+- You can get out of a crate by pressing E again.
+
+[GIF]
+
+- You can remove enemies from enemy crates by pressing E on it, however, it will stun you for a short time.
+
+[GIF]
+
+That's all for the items in the builder shop.
+
+### Quarters
+
