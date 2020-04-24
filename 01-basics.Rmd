@@ -36,6 +36,7 @@ You can have up to 500 stone, 500 wood or 100 gold in one slot in your inventory
 [IMG: stone] 
 
 Stone ore gives 4 stone per hit. Normal stone ores can be hit up to 6 times, so 24 stone per stone ore.
+
 [IMG: thick stone]
 
 Thick stone ore gives 6 stone per hit for 6 hits, then 4 stone per hit for remaining 5 hits. Gives a total of 56 stone after 11 hits.
@@ -368,3 +369,6 @@ Now, let's talk about the items you can buy:
 That's all of the items in the builder shop.
 
 ### Quarters
+
+
+
