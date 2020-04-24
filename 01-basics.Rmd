@@ -18,8 +18,14 @@ In this chapter we're going to explain all the structures you can place and item
 
 It has been mentioned in the in-game tutorial, but we'll mention it again. You can mine any blocks by holding the right mouse button.
 There are 2 natural blocks that don't give any materials:
-[IMG: bedrock] Bedrock can't be destroyed at all.
-[IMG: dirt] Dirt does not give any materials.
+
+[IMG: bedrock] 
+
+Bedrock can't be destroyed at all.
+
+[IMG: dirt] 
+
+Dirt does not give any materials.
 
 You can have up to 500 stone, 500 wood or 100 gold in one slot in your inventory (press F). You can take materials out of your inventory by pressing them with your inventory open (or closing the inventory while your cursor is on one of the slots). Wood and stone are taken out in stacks or 250 (or less if you have less than 250) -- so to throw out 500 wood, you'll need to throw 250 wood two times. Gold is taken out in stacks of 50.
 
@@ -27,16 +33,24 @@ You can have up to 500 stone, 500 wood or 100 gold in one slot in your inventory
 
 ### Stone 
 
-[IMG: stone] Stone ore gives 4 stone per hit. Normal stone ores can be hit up to 6 times, so 24 stone per stone ore.
-[IMG: thick stone] Thick stone ore gives 6 stone per hit for 6 hits, then 4 stone per hit for remaining 5 hits. Gives a total of 56 stone after 11 hits.
+[IMG: stone] 
+
+Stone ore gives 4 stone per hit. Normal stone ores can be hit up to 6 times, so 24 stone per stone ore.
+[IMG: thick stone]
+
+Thick stone ore gives 6 stone per hit for 6 hits, then 4 stone per hit for remaining 5 hits. Gives a total of 56 stone after 11 hits.
 
 ### Gold 
 
-[IMG: gold] Gold ore gives 4 gold per hit, can be hit up to 5 times -- 20 gold per gold ore.
+[IMG: gold] 
+
+Gold ore gives 4 gold per hit, can be hit up to 5 times -- 20 gold per gold ore.
 
 ### Wood 
 
-[IMG: tree, log] Trees need between 10 and 12 hits to be chopped into logs. Trees have varying height, even when they reach their maximum height, but pine trees of maximum height drop 6 or 7 logs, while the smaller bushy trees drop 3, 4 or 5 logs. One log gives 10 wood per hit, 5 hits per log -- so up to 50 wood per a log.
+[IMG: tree, log] 
+
+Trees need between 10 and 12 hits to be chopped into logs. Trees have varying height, even when they reach their maximum height, but pine trees of maximum height drop 6 or 7 logs, while the smaller bushy trees drop 3, 4 or 5 logs. One log gives 10 wood per hit, 5 hits per log -- so up to 50 wood per a log.
 Trees of course can regrow after being chopped down. Although it also varies, it's between 30 and 100 seconds, with bushy trees regrowing faster than pine trees.
 
 ## Your building menu
@@ -52,6 +66,7 @@ Placing blocks gives you coins - depending on what you're placing and if you're 
 ### Stone block
 
 [IMG: stone block]
+
 - Costs 10 stone.
 - Gives 4 coins when placed in game time, 1 coin in build time.
 - Can be destroyed by builders (7 hits), bombs (1 bomb if the bomb is next to the block) bomb arrows, kegs.
@@ -61,6 +76,7 @@ Placing blocks gives you coins - depending on what you're placing and if you're 
 ### Stone backwall
 
 [IMG: stone backwall]
+
 - Costs 2 stone.
 - Doesn't give coins.
 - Can be destroyed by builders (5 hits), explosives.
@@ -70,6 +86,7 @@ Placing blocks gives you coins - depending on what you're placing and if you're 
 ### Stone door
 
 [IMG: stone door]
+
 - Costs 50 stone.
 - Gives 4 coins when placed in game time, 1 coin in build time.
 - Can be destroyed by builders (5 hits), explosives (5 bombs per 1 stone door!).
@@ -81,6 +98,7 @@ Placing blocks gives you coins - depending on what you're placing and if you're 
 ### Wood block 
 
 [IMG: wood block]
+
 - Costs 10 wood.
 - Gives 1 coin when placed in game time, 0 coins in build time.
 - Can be destroyed by builders (5 hits), explosives.
@@ -92,6 +110,7 @@ Placing blocks gives you coins - depending on what you're placing and if you're 
 ### Wood backwall
 
 [IMG: wood block]
+
 - Costs 2 wood.
 - Doesn't give coins.
 - Can be destroyed by builders (2 hits), explosives.
@@ -101,6 +120,7 @@ Placing blocks gives you coins - depending on what you're placing and if you're 
 ### Wood door
 
 [IMG: wood block]
+
 - Costs 30 wood.
 - Gives 1 coin when placed in game time, 0 coins in build time.
 - Can be destroyed by builders (4 hits), explosives.
@@ -115,6 +135,7 @@ Placing blocks gives you coins - depending on what you're placing and if you're 
 ### Trapblock
 
 [IMG: trapblock]
+
 - Costs 25 stone.
 - Gives 4 coins when placed in game time, 0 coins in build time.
 - Can be destroyed by builders (5 hits), explosives
@@ -124,6 +145,7 @@ Placing blocks gives you coins - depending on what you're placing and if you're 
 ### Ladder
 
 [IMG: ladder]
+
 - Costs 10 wood.
 - Doesn't give coins.
 - Can be destroyed by builders (2 hits), explosives
@@ -141,6 +163,7 @@ Placing blocks gives you coins - depending on what you're placing and if you're 
 ### Platform
 
 [IMG: Platform]
+
 - Costs 15 wood.
 - Gives 1 coin when placed in game time, 0 coins in build time.
 - Can be destroyed by builders (5 hits), explosives.
@@ -155,6 +178,7 @@ Placing blocks gives you coins - depending on what you're placing and if you're 
 ### Workshop
 
 [IMG: workshop]
+
 - Costs 150 wood.
 - Gives 10 coins when placed in game time, 3 coins in build time.
 - Can be destroyed by builders (4 hits), explosives.
@@ -168,6 +192,7 @@ Placing blocks gives you coins - depending on what you're placing and if you're 
 ### Spikes
 
 [IMG: spikes]
+
 - Costs 30 stone.
 - Gives 4 coins when placed in game time, 1 coin in build time.
 - Can be destroyed by builders (2 hits), explosives.
@@ -200,6 +225,7 @@ Now, let's talk about the items you can buy:
 #### Lantern
 
 [IMG]
+
 - Costs 10 wood.
 - Generates light.
 - 1x1 size in inventory.
@@ -208,6 +234,7 @@ Now, let's talk about the items you can buy:
 #### Bucket (no water)
 
 [IMG]
+
 - Costs 10 wood.
 - 1x1 size in inventory.
 - Fills with water if you put it in water.
@@ -215,6 +242,7 @@ Now, let's talk about the items you can buy:
 #### Bucket with water
 
 [IMG]
+
 - Costs 10 wood and 10 coins
 - 1x1 size in inventory.
 - You can press left mouse button while you have one in your hand to splash water. The water can extinguish fires, as well as extinguish a lit keg (which is unique for the water bucket -- water bombs or water arrows can't do that). You can make up to 3 water splashes before the bucket becomes empty and requires refilling.
@@ -225,6 +253,7 @@ Now, let's talk about the items you can buy:
 #### Sponge
 
 [IMG]
+
 - Costs 15 coins.
 - 1x1 size in inventory.
 - You can use it to remove water blocks, like in gif below.
@@ -238,6 +267,7 @@ Now, let's talk about the items you can buy:
 #### Boulder
 
 [IMG]
+
 - Costs 35 stone.
 - Doesn't fit in inventory.
 - You can throw it at enemies to damage them.
@@ -251,6 +281,7 @@ Now, let's talk about the items you can buy:
 #### Trampoline
 
 [IMG]
+
 - Costs 150 wood.
 - Doesn't fit in inventory.
 - Lets players bounce of it.
@@ -262,6 +293,7 @@ Now, let's talk about the items you can buy:
 #### Drill
 
 [IMG]
+
 - Costs 100 stone and 25 coins.
 - 1x1 size in inventory.
 - Builders (knights and archers can't) can use a drill by holding left mouse button while you have one in your hand. It destroys blocks much more quicker than if you were destroying them by pickaxe. The drill also destroys 2 blocks in front of the drill. 
@@ -291,6 +323,7 @@ Now, let's talk about the items you can buy:
 #### Saw
 
 [IMG]
+
 - Costs 150 wood and 100 stone.
 - Doesn't fit in inventory.
 - You can press E on the saw to turn it off and on.
@@ -315,6 +348,7 @@ Now, let's talk about the items you can buy:
 #### Crate
 
 [IMG]
+
 - Costs either 150 wood or 20 coins.
 - Doesn't fit in inventory.
 - A crate has a 3x3 inventory -- you can put items in it. The crate should be on the ground, while you should hold the item you want to put in a crate in your inventory then press E on it.
@@ -331,7 +365,6 @@ Now, let's talk about the items you can buy:
 
 [GIF]
 
-That's all for the items in the builder shop.
+That's all of the items in the builder shop.
 
 ### Quarters
-
