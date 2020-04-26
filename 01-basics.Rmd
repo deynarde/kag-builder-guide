@@ -270,7 +270,7 @@ Now, let's talk about the items you can buy:
 [IMG]
 
 - Costs 35 stone.
-- Doesn't fit in inventory.
+- Doesn't fit in inventory (3x3 size).
 - You can throw it at enemies to damage them.
 
 [GIF]
@@ -382,27 +382,27 @@ The other button is opening the shop menu, which contains 4 options -- a beer, a
 
 #### Beer
 
-- Costs 5 coins
-- Gives you 1 heart of health -- it's worth buying only if you need 1 heart to full health
+- Costs 5 coins.
+- Gives you 1 heart of health -- it's worth buying only if you need 1 heart to full health.
 
 #### Meal
 
-- Costs 10 coins
-- Refills your health to full
+- Costs 10 coins.
+- Refills your health to full.
 
 #### Egg
 
-- Costs 30 coins
-- 1x1 inventory size
+- Costs 30 coins.
+- 1x1 inventory size.
 - If you walk over an egg while damaged, you will eat the egg. However, it's not exactly a food item -- after some time a chicken hatches out of the egg. If you hold a chicken in your hand, you fall slower. If there are 2 or more chickens, they also breed and produce more eggs.
 - Chickens are pretty much only used if you want to travel more distance when being launched out of a catapult.
 
-[GIF - being launched out of catapult with chicken]
+[GIF - being launched out of catapult]
 
 #### Burger
 
-- Costs 20 coins
-- 1x1 inventory size
+- Costs 20 coins.
+- 1x1 inventory size.
 - It's an item which you can carry around, unlike the first 2 options. It refills your health to full. You can also give burgers to others.
 - If you have a burger in your inventory (this also applies if you have a heart in your inventory), and you don't have full health, you can press V to quickly heal.
 - When two builders have a 1v1 pickaxe fight, the deciding factor is usually if someone has a heart or a burger. If you have some free space in inventory you could carry a burger for such situations. It's also useful when you get slightly damaged by a bomb.
@@ -412,3 +412,110 @@ The other button is opening the shop menu, which contains 4 options -- a beer, a
 [IMG]
 
 Costs 50 wood, another class shop -- so you have the option to swap class to Knight or open the shop menu. Since this is a builder guide, we're focusing only on the items which you can use, which in this case would be the mine.
+
+#### Mine
+
+[IMG]
+
+- the 3rd item in the knight shop.
+- Costs 60 coins.
+- 1x1 inventory size.
+- When you put one on the ground, it deploys after being still for 1.5 a second.
+- Instakills any enemies that walk into it and causes a small explosion.
+- Unshieldable by knights.
+
+[GIF]
+
+- If the person who placed the mine was next to it during the explosion, they also die.
+- You can pick up enemy mines if they haven't deployed yet. The mine changes to your team if you do that.
+
+[GIF] 
+
+- It's a good tactic to put mines in your flag rooms or next to enemy doors.
+
+### Archer shop
+
+[IMG]
+
+Costs 50 wood, is a class shop. Sells special arrows for archers.
+
+### Naval shop
+
+[IMG]
+
+Costs 100 wood and 50 gold. Sells boats -- this shop is pretty much useful only on maps with lots of water.
+
+
+All enemy boats are capturable if you stay on them for long enough.
+
+#### Dinghy
+
+[IMG]
+
+- Costs 150 wood.
+- Two people can enter a dinghy.
+- Weakest out of all the boats.
+- You can enter a dinghy by pressing S on it. Row the boat by holding A or D.
+- The more people that row the boat, the faster it goes.
+- Has a 6x5 storage (press E to open it. As mentioned earlier, in order to put something in a storage, you must have an item in your hand and then press E on the storage button.)
+
+#### Longboat
+
+[IMG]
+
+- Costs 200 wood and 50 coins.
+- Comes in a crate when bought -- it must be unpacked in water.
+- Can be entered by 6 people.
+- Fastest out of all the boats -- especially if rowed by 6 people.
+- Has a 12x5 storage.
+- Longboats crush enemies when fast enough.
+
+#### War Boat
+
+[IMG]
+
+- Costs 250 coins.
+- Comes in a crate when bought -- it must be unpacked in water.
+- Slower than a longboat, but also the hardest to destroy.
+- Has 3 rowing spots.
+- Has one mounted bow on top which lets you shoot arrows (press S to get in).
+- Has a 12x6 storage.
+- You can change class on a war boat by holding E and selecting the "change class" button.
+- War boats are also respawn points (if you die, you can respawn at a war boat). You can't respawn on a war boat if there are enemies on it, though.
+- They also crush enemies when fast enough.
+
+### Siege shop
+
+[IMG]
+
+Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballistas. They're quite useful, and gold is rare on some of the maps, so make sure you place a siege shop in a secure place.
+
+#### Catapult
+
+[IMG]
+
+- Costs 80 coins.
+- Comes in a crate when bought -- it must be unpacked in a spot with enough place.
+- It has 3 spots right after unpacking: the driving spot, the launching spot, and the spot in the bowl. You enter the spots by clicking S on them, obviously. For the upper spot in the bowl, you have to jump up first and then press S.
+
+[IMG of above]
+
+- You can remove the wheels by pressing E and clicking the remove wheels button. You should do this pretty much every time if you plan the catapult to be a stationary one on top of your tower. This removes the driver spot and can't be undone.
+
+[GIF of removing driving spot]
+
+- Catapults can launch items, as well as players. When you enter the firing spot, you can launch by holding your left mouse buttons.
+
+[GIF of launching a player]
+
+- If you want to put an item in a catapult, you must first have the item in your hand and then press E on the button next to the bowl.
+
+[GIF - put boudler and then launch]
+
+- Catapults can also fire rocks. Each catapult after unpacking has 100 stone. One rock launch costs 10 stone. They do some slight damage to structures, especially backwall
+
+[GIF of above]
+
+- You can refill catapults with stone by clicking the "Load stone" button if you have stone in your inventory.
+
+[GIF of above]
