@@ -10,11 +10,11 @@ There are three classes in KAG: the archer, the knight and the builder. Although
 
 As a builder in CTF, your role is to make defences for your flags and base, build shops for your teammates, as well as set up siege and help your team advance and destroy the opposing team's structures, and finally -- capture the enemy flag. You have plenty of tools for that, and winning the game by leading your team is basically your main focus as a builder.
 
-In this chapter we're going to explain all the structures you can place and items you can use as a builder, as well as explain some of the theory behind building a good base and a tower. We'll also highlight some common mistakes that inexperienced builders can make.
+In this chapter we're going to explain all the structures you can place and items you can use as a builder, as well as talk a bit about building a good base and a tower. We'll also highlight some common mistakes that inexperienced builders can make.
 
 [IMG: smiling builder]
 
-## Getting materials from natural sources
+## Getting materials
 
 It has been mentioned in the in-game tutorial, but we'll mention it again. You can mine any blocks by holding the right mouse button.
 There are 2 natural blocks that don't give any materials:
@@ -47,12 +47,29 @@ Thick stone ore gives 6 stone per hit for 6 hits, then 4 stone per hit for remai
 
 Gold ore gives 4 gold per hit, can be hit up to 5 times -- 20 gold per gold ore.
 
+Keep in mind that **you can actually see gold ore** on the map -- press M and look for orange spots, like in the images below.
+
+[IMG example 1]
+[IMG example 2]
+[IMG example 3]
+
 ### Wood 
 
 [IMG: tree, log] 
 
-Trees need between 10 and 12 hits to be chopped into logs. Trees have varying height, even when they reach their maximum height, but pine trees of maximum height drop 6 or 7 logs, while the smaller bushy trees drop 3, 4 or 5 logs. One log gives 10 wood per hit, 5 hits per log -- so up to 50 wood per a log.
+Trees need between 10 and 12 hits to be chopped into logs. Trees have varying height, even when they reach their maximum height, but pine trees of maximum height drop 6 or 7 logs, while the smaller bushy trees drop 3, 4 or 5 logs. 
+
+One log gives **10 wood per hit, 5 hits per log -- so up to 50 wood per a log.**
+
 Trees of course can regrow after being chopped down. Although it also varies, it's between 30 and 100 seconds, with bushy trees regrowing faster than pine trees.
+
+### Resupplies
+
+This is an important mechanic that a lot of people overlook. During the building time (the first 180 seconds of a match), you can get free materials from the tent or a builder shop every 40 seconds. **You get 300 wood and 100 stone.**
+
+**In game time, you get 100 wood and 30 stone every 20 seconds.**
+
+Keep in mind that the materials stack, so if you were next to the tent for 60 seconds straight, you'd get 300 wood and 90 stone in game time. If you're staying in your base, it's good to constantly get resupplies -- it may not seem like much, but it adds up and you can eventually decently expand your base.
 
 ## Your building menu
 
@@ -62,7 +79,7 @@ In this section we'll shortly describe each of the blocks in the builder menu, w
 
 Blocks can cost either wood or stone.
 
-Placing blocks gives you coins - depending on what you're placing and if you're placing it during build time (the first 180 seconds where teams build their bases) or game time.
+**Placing blocks gives you coins** - depending on what you're placing and if you're placing it during build time (the first 180 seconds where teams build their bases) or game time.
 
 ### Stone block
 
@@ -211,6 +228,8 @@ Placing blocks gives you coins - depending on what you're placing and if you're 
 
 After you place a workshop (150 wood), you can convert it to one of the 9 different shops. Most of them also cost wood, but some cost stone and gold as well. In this section we'll talk about all the different shops and builder-related items and vehicles you can buy in them.
 
+All enemies are also able to use your shops -- place them carefully.
+
 ### Builder shop
 
 [IMG: builder shop]
@@ -249,7 +268,9 @@ Now, let's talk about the items you can buy:
 - You can press left mouse button while you have one in your hand to splash water. The water can extinguish fires, as well as extinguish a lit keg (which is unique for the water bucket -- water bombs or water arrows can't do that). You can make up to 3 water splashes before the bucket becomes empty and requires refilling.
 - Can also cool a heated drill
 
-[GIF illustrating above]
+[GIF - extinguish fire]
+[GIF - extinguish keg]
+[GIF - cool a drill]
 
 #### Sponge
 
@@ -272,6 +293,7 @@ Now, let's talk about the items you can buy:
 - Costs 35 stone.
 - Doesn't fit in inventory (3x3 size).
 - You can throw it at enemies to damage them.
+- The damage depends on the velocity of the boulder; for the most damage, you should throw the boulder from the top of your tower.
 
 [GIF]
 
@@ -300,6 +322,10 @@ Now, let's talk about the items you can buy:
 - Builders (knights and archers can't) can use a drill by holding left mouse button while you have one in your hand. It destroys blocks much more quicker than if you were destroying them by pickaxe. The drill also destroys 2 blocks in front of the drill. 
 - Drills rotate depending on the position of your cursor.
 - The more blocks you destroy, the hotter the drill gets -- eventually it can overheat and deal you 0.25heart of damage and drop to the ground while releasing steam. If that happens, don't instantly try to pick it back up -- it will damage you and keep dropping to the ground. You have to wait a few seconds.
+
+[GIF]
+
+- Overheated drills emit light, so you can sometimes spot rats with drills.
 
 [GIF]
 
@@ -445,7 +471,6 @@ Costs 50 wood, is a class shop. Sells special arrows for archers.
 
 Costs 100 wood and 50 gold. Sells boats -- this shop is pretty much useful only on maps with lots of water.
 
-
 All enemy boats are capturable if you stay on them for long enough.
 
 #### Dinghy
@@ -496,9 +521,9 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 
 - Costs 80 coins.
 - Comes in a crate when bought -- it must be unpacked in a spot with enough place.
-- It has 3 spots right after unpacking: the driving spot, the launching spot, and the spot in the bowl. You enter the spots by clicking S on them, obviously. For the upper spot in the bowl, you have to jump up first and then press S.
+- It has 3 spots right after unpacking: the driving spot, the firing spot, and the spot in the bowl. You enter the spots by clicking S on them, obviously. For the upper spot in the bowl, you have to jump up first and then press S.
 
-[IMG of above]
+[IMG of above - spots]
 
 - You can remove the wheels by pressing E and clicking the remove wheels button. You should do this pretty much every time if you plan the catapult to be a stationary one on top of your tower. This removes the driver spot and can't be undone.
 
@@ -519,3 +544,383 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 - You can refill catapults with stone by clicking the "Load stone" button if you have stone in your inventory.
 
 [GIF of above]
+
+- You can shoot stuff through platforms too, obviously.
+
+[GIF of platforms]
+
+- Keep in mind that enemy archers can destroy your catapult with only a single bomb arrow.
+
+[GIF]
+
+- Also, if you haven't removed the wheels, archers can shoot the catapult and make it drive away. This can cause the catapult to fall off sometimes, which is why removing wheels is recommended.
+
+[GIF]
+
+#### Ballista
+
+[IMG]
+
+- Costs 200 coins.
+- Comes in a crate when bought -- it must be unpacked in a spot with enough place.
+- Has a driving spot and a firing spot.
+- You can remove the wheels (same as in catapult). Press E and select the "immobilise" option.
+- A ballista spawns with 12 bolts. More can be bought in the shop.
+- If you haven't upgraded the bolts in the vehicle shop (last option), the firing spot can shoot normal bolts that instakill enemies if they hit them.
+
+[GIF]
+
+- If the bolts are upgraded, the ballista fires explosive bolts instead that damage structures too. However, it consumes 2 bolts instead of one (so if a ballista has 12 bolts, it actually only has 6 explosive bolts)
+
+[GIF]
+
+- You can also change classes on ballistas -- hold E and select the "change class" option.
+
+[GIF]
+
+- Keep in mind you can change class on enemy ballistas too.
+
+[GIF]
+
+- They also work as a respawn point, similar to war boats. If you die and your team has a ballista, you can select it to respawn on it.
+
+[GIF]
+
+- You can't respawn on a ballista if it's being captured by the enemies (capturing any vehicle in KAG means standing on it for some amount of time).
+- Keep in mind that enemy archers can destroy your ballista with two bomb arrows.
+- Similar to catapults -- enemy archers can shoot arrows at a ballista with wheels and make it drive away. Removing wheels is recommended.
+
+#### Ballista bolts
+
+[IMG]
+
+- Costs 100 coins.
+- One stack of 12 ballista bolts.
+- Put new ballista bolts in a ballista by holding them in your hand, holding E on a ballista and selecting the "load ballista bolts" option.
+
+[GIF]
+
+#### Bomb bolt upgrade
+
+[IMG]
+
+- Costs 100 gold.
+- When bought, it applies to any future ballistas bought by your team in the match, even if it's a different siege shop.
+- Future ballistas will now fire explosive bolts, as mentioned earlier.
+- Keep in mind that this upgrade does not apply to ballistas you have bought before getting the upgrade.
+
+### Storage
+
+[IMG]
+
+- Costs 50 stone and 50 wood.
+- Has a 4x2 storage which lets a team store items.
+- Holding E and clicking the "Store" button will put all the items in your inventory into the storage.
+- If you want to put a single item into the storage, you must first hold it in your hand, then select the other "Storage" button.
+- Harder to destroy than other shops.
+- Good for storing gold, as well as excess wood and stone that you don't currently need.
+
+### Tunnel 
+
+[IMG]
+
+- Costs 50 gold, 100 stone and 50 wood.
+- If you have 2 or more tunnels, you can quickly travel between them.
+- If you have only 2 tunnels, just pressing E on the tunnel will let you travel to the other one.
+- If you have 3 or more tunnels, you will also have to select what tunnel you want to go to.
+
+[GIF]
+
+- You are stunned for a second after using a tunnel.
+- Tunnels usually should connect the most important parts of the map for your team: there should be one next to the tent, one in the tower, one or more in mid (if you have control of it).
+
+### Quarry
+
+[IMG]
+
+- Costs 150 stone and 100 gold.
+- There's a limit of only 1 per team.
+- You can put wood into a quarry in order to convert it to stone. If you have wood, just hold E and press the "add fuel" button.
+- Can hold up to 500 wood.
+- Converts 100 wood to 75 stone every 30 seconds.
+- The stone falls to the ground on the 2nd tile of the shop from the left. Since it falls like that, many people put quarries above a storage with a 1 tile gap so that the stone goes into the storage like in the gif below.
+
+[GIF]
+
+## Building a base
+
+The build time is the **first 180 seconds of the match** with an uncrossable red zone in the middle. The point is to obviously build a decent base before you start fighting with the opposing teams. The more builders in a team know how to make good defences, the more likely it is that you're going to win (or at least lose slower).
+
+Of course, if you want to, you can keep building the base after the build time ends. Often there's still lots of materials left, so you can keep improving the base.
+
+### A front tower
+
+Besides having your flags be well protected, having a decent tower is also very important. A good way to start building a front tower in 40 seconds is to build some ladders up, add some stone backwall and then build a **builder shop** like in the image below. Make sure to not place more than 10 ladders so that you have enough materials for a builder shop.
+
+[IMG]
+
+If you decide to focus on the tower for the entirety of the build time, you're most likely going to work around here. As mentioned earlier, the builder shop lets you get resupplies -- you should walk to one every 40 seconds (on around 140 seconds left, 100, 60 and 20) to get **free 100 stone and 300 wood.** 
+
+Usually you end up using all the materials you have before the next resupply, so if that happens you should go dig some stone and return for the next batch of resupplies.
+
+Keep in mind you can't make everything by yourself in an actual CTF match of course -- this is a team game after all, so other players should help you and also build a bit. You should pretty much build what is missing or improve the parts that could be better. This part will just tell you how a good tower should look like.
+
+After building a builder shop, it's good to make the front wall. Usually making a 3 block thick wall is enough.
+
+We start with placing 3 layers of doors at the bottom -- 5 wooden doors and 1 stone door. We don't want to place too many stone doors so that we have enough stone for the actual wall itself.
+
+After placing the doors we place stone walls. **Keep in mind you can actually place blocks in the red zone!** Usually I build it like this:
+
+First, the outer layer made out of stone only:
+
+[IMG]
+
+After that, the middle layer is going to be wood:
+
+[IMG]
+
+Replace every 4th or 5th wooden block with stone -- so that if the outer layer gets broken, the archers can't burn the entire middle layer at once:
+
+[IMG]
+
+And then the inner layer, stone only:
+
+[IMG]
+
+That's a solid front wall already. If you have some stone left, it'd be good to add some more backwalls so that the tower isn't too easy to collapse.
+
+[IMG]
+
+Okay, so we have a builder shop and a basic front wall. However, a good tower obviously has more. 
+
+It'd be good to have the most basic shops in a tower + a tunnel. It's good to have a food shop above the builder shop, then a tunnel, then a knight shop (close to the tunnel, because majority of your team should be knights) then an archer shop (on top, because that's where defensive archers can shoot from).
+
+Somewhat like this:
+
+[IMG]
+
+It's good to have lots, **lots of doors** -- in case the enemies get into your tower, the enemy builders will usually not be able to block all the doors and your knights will be able to defeat them by using doors to their advantage. So it can look somewhat like this, with every shop having 6 sets of doors:
+
+[IMG]
+
+Next, you want to replace majority of the wooden backwalls from the shops and doors with stone backwalls. **Fire spreads much slower and much less with stone backwalls than if there were wooden backwalls.**
+
+[IMG]
+
+Here's a comparison of using a fire arrow:
+
+With stone backwalls:
+
+[GIF]
+
+With wooden backwalls:
+
+[GIF]
+
+Obviously, you don't want the front wall to be so low. We build additional 3 layers of wooden doors next to every shop (again, the more doors there are -- the harder for enemy builders to block them all) and add stone.
+
+[IMG]
+
+This is already a pretty good tower. Another thing you could add is a trampoline on top -- like this:
+
+[IMG]
+
+The bottom could use some work too. Add some more doors and stone blocks, so that if the enemies get through the first set of doors they don't have too much space to fight, and so that the tower is harder to collapse.
+
+[IMG]
+
+Sometimes you can choose to add a bit of platforms somewhere too, for example on the top, so that defensive archers can be protected from enemy arrows.
+
+[IMG]
+
+### Flag rooms
+
+Flag rooms should have at least 2 entrances, preferably 3, so that if one gets blocked you can still use the other ones -- one from the top and two from the sides, like this:
+
+[IMG]
+
+Keep in mind that stone doors like that are enough; wooden doors are pretty powerful. You don't need to overuse stone doors.
+
+The doors from the tent's side should be on floor level so that knights can quickly get there. However, the one on the right side -- from the enemy's side -- shouldn't be placed like that; worse players can sometimes open the entrance accidentally and die, letting enemies get into the flag room. Making the entrance not on floor level usually prevents this.
+
+Of course, the thicker a flag room is, the better -- if you have lots of materials, you can make it as thick as you want. If you lose the flags you lose the game, after all.
+
+However, if you're making it thicker, it's good to have some additional doors for easier movement. 
+
+[IMG]
+
+It's also good to put a mine in each flag room (or even 2!). If any enemies eventually come to the flag, they will have to destroy the mine first and often they will just walk into it accidentally.
+
+[IMG]
+
+
+### Tunnels
+
+As I mentioned earlier, there should be a tunnel in your tower for quick travel. The other tunnel should be next to your tent (or at least close to it).
+
+The tunnel near your tent **should always have a sawtrap**. A sawtrap like this -- one trapblock, the tunnel on it and a saw below:
+
+[IMG]
+
+Here's how to build one -- as you can see, you can put a trapblock before putting the saw -- if you want to put the saw in the hole, you can just jump on the trapblock, hold S and throw it downwards.
+
+[GIF]
+
+### Tree farm
+
+A tree farm is very useful to all the builders in your team -- it lets you get lots of wood easily, which also lets you get stone from quarries.
+
+The idea is to place trees next to each other with 1 tile gaps, and have them be seperated like this:
+
+[IMG]
+
+After that, you get a saw and put it like this.
+
+[IMG]
+
+Destroying the trees will now make all of the logs fall downwards instead of the tree falling to the side. The logs, when destroyed by the saw, are converted to wood. This is much quicker than if you were chopping them manually.
+
+[GIF]
+
+If you have a bigger tree farm, you don't have to get another saw -- you can just move the saw around.
+
+[GIF]
+
+Also, if you have a saw, it's actually faster to chop down trees as a knight than as a builder -- a slash can damage 2 trees at once. So if the tree farm is near the tent you could quickly swap to knight to do that.
+
+[GIF]
+
+Trees can grow on bedrock, dirt and stone, but they can't grow on man-made blocks like stone blocks or wood blocks.
+
+[IMG]
+
+Also, sometimes it may bug out and the logs may not fall through and instead get stuck on the top. I believe this doesn't happen as often if there's more blocks vertically seperating the trees, like in the image below.
+
+[IMG]
+
+If for some reason the logs do not fall into a saw (or it was accidentally turned off), you can just throw a saw at the logs, like in the gif below.
+
+[GIF]
+
+
+### Shops
+
+It's good to have some shops outside of the tower too, in case the ones in the tower get destroyed. Usually you should have some near the tent.
+
+[IMG]
+
+Make sure that you replace some of the wooden backwalls with stone backwalls so that it's not as easy to burn. Also, make sure they have good protection (doors) so that the enemies can't get in too easily.
+
+## Block support -- wood and stone blocks
+
+For now you should also remember that wooden blocks (normal wood blocks, platforms, doors) require less support than stone blocks. For example, if you tried to build a bridge, a stone bridge from top of your tower would only be 5 blocks long, while a wooden one would be able to be 25 blocks long.
+
+[GIF]
+
+This can often cause confusing situations when you can't place blocks somewhere -- there's not enough support. For example, if you replaced first half of a wooden bridge with stone, you wouldn't be able to build past the 5 blocks.
+
+[GIF]
+
+## Common mistakes
+
+There are lots of mistakes that can be made by beginner builders or just less advanced players. Here are some of the most common ones.
+
+### Leaving shops in the open
+
+Sometimes less experienced players build shops in the open. This is dangerous, because if any enemies get into your base (by bomb jumps or by catapult, for example) then they will be able to use them -- change class or buy items (e.g. kegs)
+
+[IMG]
+
+If you see a shop (mostly knight and builder shops) like that, you should either destroy it if it's in a bad position or encase it with at least some doors and stone blocks.
+
+### Overusing stone doors
+
+Sometimes people think that wooden doors are too weak and overuse stone doors, like in the image below.
+
+[IMG]
+
+This is pointless and a total waste of mats. Destroying stone doors by builders takes only slightly longer than wooden doors. The stone should be rather used on additional layers to the tower rather than stone doors. Comparison with same amount of stone used as in image before:
+
+[IMG]
+
+### Overusing wood, not placing stone backwall
+
+If you overuse wood, structures are way too easy to burn. If you're putting lots of doors, put stone backwall behind all of them, same with shops. If you need to make some wooden defences due to lack of stone, you should still try to mix in at least some stone between wooden parts so that everything doesn't burn at once.
+
+[IMG]
+
+[IMG 2]
+
+### Awkward top doors
+
+Sometimes there are doors like this:
+
+[IMG]
+
+It's harder to go through doors like that because you need to jump up and fit properly. This is much easier when doors are to the side, like in the image below -- in this case you can wallclimb by hugging the wall and it's much easier.
+
+[GIF]
+
+### Awkward movement in general 
+
+It's important for your knights to be able to move fast in case of incoming enemies, and sometimes odd block placement can cause slower movement around the base. One example is doors not being on floor level when there's no reason to not put them like that:
+
+[IMG]
+
+Another example is not having the tunnel in the tower be next to outside doors -- this causes knights to waste time to go to other doors, like this
+
+[IMG]
+
+One block gaps in the floor like this are a bit annoying too -- you can sometimes get slightly stuck in them and shield sliding through them as a knight is slower.
+
+[IMG]
+
+### Not enough doors 
+
+Slightly related to above, not placing enough doors. There should be lots of doors on the top part of the tower so that enemy builders getting up the tower don't block them all easily. There should be enough doors near the shops too, for similar reasons.
+
+[IMG]
+
+### Certain shops at the bottom of the tower
+
+The bottom of the tower is more easily accessed by enemies than the upper parts. You shouldn't place shops like knight shops there (the enemies could buy some kegs after getting there for example).
+
+[IMG]
+
+You also shouldn't place knight shops near the flag room for similar reasons.
+
+[IMG]
+
+### Bad trapblock placement, bad traps
+
+Enemies can often use enemy trapblocks as doors. You should not use them too much -- they're only good for sawtraps.
+
+For example, with a trapblock like this, the enemy builder could quickly build something like this and start drilling into your tower. Knights wouldn't be able to destroy the trapblock with bombs.
+
+[IMG]
+
+A trap like this is pretty bad too -- an enemy builder could just get in, destroy the spikes quickly and then again, he would be able to easily protect himself from knights.
+
+[IMG]
+
+If you really want to make a trap, it's good to have some doors that lead to the spike part, like this:
+
+[IMG]
+
+Or better, just use a saw.
+
+[IMG]
+
+This also applies for making a trap under a tunnel -- don't make a spike trap, because a builder could just use the tunnel and fall into the spike trap and destroy the spikes. Use a saw.
+
+### Dirt/wood spikes
+
+These spikes or traps like these are hardly effective and often hurt the teammates more than the enemy. 
+
+[IMG]
+
+### Putting a saw in the flag room
+
+There's barely any reason to do this; it's better to have a top entrance so that you can protect the flag if there's enemies above rather than a saw. The saw can be easily avoided by placing ladders and often someone in your team will just accidentally kill themselves, disabling the saw (and also taking away coins from you -- you lose coins when teamkilling somebody).
+
+[IMG]
