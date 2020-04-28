@@ -55,7 +55,7 @@ Keep in mind that **you can actually see gold ore** on the map -- press M and lo
 
 ### Wood 
 
-[IMG: tree, log] 
+ <img src="imgs/01-basic/tree.png">
 
 Trees need between 10 and 12 hits to fall down and drop logs. Trees have varying height, even when they reach their maximum height, but pine trees of maximum height drop 6 or 7 logs, while the smaller bushy trees drop 3, 4 or 5 logs. 
 
