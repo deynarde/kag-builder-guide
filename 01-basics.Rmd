@@ -67,13 +67,13 @@ Trees of course can regrow after being chopped down. Although it also varies, it
 
 ### Resupplies
 
+ <img src="imgs/01-basic/resupply.png">
+ 
 This is an important mechanic that a lot of people overlook. During the building time (the first 180 seconds of a match), you can get free materials from the tent or a builder shop every 40 seconds. **You get 300 wood and 100 stone.**
 
 **In game time, you get 100 wood and 30 stone every 20 seconds.**
 
 Keep in mind that the materials stack, so if you were next to the tent for 60 seconds straight, you'd get 300 wood and 90 stone in game time. If you're staying in your base, it's good to constantly get resupplies -- it may not seem like much, but it adds up and you can eventually decently expand your base.
-
- <img src="imgs/01-basic/resupply.png">
 
 ## Your building menu
 
