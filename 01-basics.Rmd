@@ -57,7 +57,7 @@ Keep in mind that **you can actually see gold ore** on the map -- press M and lo
 
 [IMG: tree, log] 
 
-Trees need between 10 and 12 hits to be chopped into logs. Trees have varying height, even when they reach their maximum height, but pine trees of maximum height drop 6 or 7 logs, while the smaller bushy trees drop 3, 4 or 5 logs. 
+Trees need between 10 and 12 hits to fall down and drop logs. Trees have varying height, even when they reach their maximum height, but pine trees of maximum height drop 6 or 7 logs, while the smaller bushy trees drop 3, 4 or 5 logs. 
 
 One log gives **10 wood per hit, 5 hits per log -- so up to 50 wood per a log.**
 
@@ -70,6 +70,8 @@ This is an important mechanic that a lot of people overlook. During the building
 **In game time, you get 100 wood and 30 stone every 20 seconds.**
 
 Keep in mind that the materials stack, so if you were next to the tent for 60 seconds straight, you'd get 300 wood and 90 stone in game time. If you're staying in your base, it's good to constantly get resupplies -- it may not seem like much, but it adds up and you can eventually decently expand your base.
+
+[IMG of text - xx seconds until resupply]
 
 ## Your building menu
 
