@@ -12,8 +12,8 @@ As a builder in CTF, your role is to make defences for your flags and base, buil
 
 In this chapter we're going to explain all the structures you can place and items you can use as a builder, as well as talk a bit about building a good base and a tower. We'll also highlight some common mistakes that inexperienced builders can make.
 
-[IMG: smiling builder]
-
+ <img src="imgs/01-basic/smilingbob.png">
+ 
 ## Getting materials
 
 It has been mentioned in the in-game tutorial, but we'll mention it again. You can mine any blocks by holding the right mouse button.
