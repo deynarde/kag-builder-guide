@@ -50,7 +50,9 @@ Gold ore gives 4 gold per hit, can be hit up to 5 times -- 20 gold per gold ore.
 Keep in mind that **you can actually see gold ore** on the map -- press M and look for orange spots, like in the images below.
 
  <img src="imgs/01-basic/goldore1.png">
+ 
  <img src="imgs/01-basic/goldore2.png">
+ 
  <img src="imgs/01-basic/goldore3.png">
 
 ### Wood 
