@@ -49,9 +49,9 @@ Gold ore gives 4 gold per hit, can be hit up to 5 times -- 20 gold per gold ore.
 
 Keep in mind that **you can actually see gold ore** on the map -- press M and look for orange spots, like in the images below.
 
-[IMG example 1]
-[IMG example 2]
-[IMG example 3]
+ <img src="imgs/01-basic/goldore1.png">
+ <img src="imgs/01-basic/goldore2.png">
+ <img src="imgs/01-basic/goldore3.png">
 
 ### Wood 
 
@@ -71,13 +71,13 @@ This is an important mechanic that a lot of people overlook. During the building
 
 Keep in mind that the materials stack, so if you were next to the tent for 60 seconds straight, you'd get 300 wood and 90 stone in game time. If you're staying in your base, it's good to constantly get resupplies -- it may not seem like much, but it adds up and you can eventually decently expand your base.
 
-[IMG of text - xx seconds until resupply]
+ <img src="imgs/01-basic/resupply.png">
 
 ## Your building menu
 
 In this section we'll shortly describe each of the blocks in the builder menu, which you can access by pressing F. A builder's building menu consists of 11 blocks/structures, as you can see in the image below:
 
-[IMG: builder menu, enlarged]
+ <img src="imgs/01-basic/buildermenu.png">
 
 Blocks can cost either wood or stone.
 
@@ -85,7 +85,7 @@ Blocks can cost either wood or stone.
 
 ### Stone block
 
-[IMG: stone block]
+ <img src="imgs/01-basic/bstone.png">
 
 - Costs 10 stone.
 - Gives 4 coins when placed in game time, 1 coin in build time.
@@ -95,7 +95,7 @@ Blocks can cost either wood or stone.
 
 ### Stone backwall
 
-[IMG: stone backwall]
+ <img src="imgs/01-basic/bstonebackwall.png">
 
 - Costs 2 stone.
 - Doesn't give coins.
@@ -105,7 +105,7 @@ Blocks can cost either wood or stone.
 
 ### Stone door
 
-[IMG: stone door]
+ <img src="imgs/01-basic/bstonedoor.png">
 
 - Costs 50 stone.
 - Gives 4 coins when placed in game time, 1 coin in build time.
@@ -117,7 +117,7 @@ Blocks can cost either wood or stone.
 
 ### Wood block 
 
-[IMG: wood block]
+ <img src="imgs/01-basic/bwoodblock.png">
 
 - Costs 10 wood.
 - Gives 1 coin when placed in game time, 0 coins in build time.
@@ -129,7 +129,7 @@ Blocks can cost either wood or stone.
 
 ### Wood backwall
 
-[IMG: wood block]
+ <img src="imgs/01-basic/bwoodbackwall.png">
 
 - Costs 2 wood.
 - Doesn't give coins.
@@ -139,7 +139,7 @@ Blocks can cost either wood or stone.
 
 ### Wood door
 
-[IMG: wood block]
+ <img src="imgs/01-basic/bwooddoor.png">
 
 - Costs 30 wood.
 - Gives 1 coin when placed in game time, 0 coins in build time.
@@ -154,7 +154,7 @@ Blocks can cost either wood or stone.
 
 ### Trapblock
 
-[IMG: trapblock]
+ <img src="imgs/01-basic/btrapblock.png">
 
 - Costs 25 stone.
 - Gives 4 coins when placed in game time, 0 coins in build time.
@@ -164,7 +164,7 @@ Blocks can cost either wood or stone.
 
 ### Ladder
 
-[IMG: ladder]
+ <img src="imgs/01-basic/bladder.png">
 
 - Costs 10 wood.
 - Doesn't give coins.
@@ -174,7 +174,7 @@ Blocks can cost either wood or stone.
 - Can be climbed by holding W while on them
 - Ladders are 3x1. You can rotate them by pressing Space after selecting one.
 
-[IMG: ladders vertical and horizontal]
+ <img src="imgs/01-basic/bladders2.png">
 
 - Ladders can overlap. The center of a ladder is the team-coloured part. You don't have to place the centres next to each other -- if you want to build a few ladders on top of each other, there can be a 1 block gap between the centres. This saves some wood.
 
@@ -182,7 +182,7 @@ Blocks can cost either wood or stone.
 
 ### Platform
 
-[IMG: Platform]
+ <img src="imgs/01-basic/bplatform.png">
 
 - Costs 15 wood.
 - Gives 1 coin when placed in game time, 0 coins in build time.
@@ -197,7 +197,7 @@ Blocks can cost either wood or stone.
 
 ### Workshop
 
-[IMG: workshop]
+ <img src="imgs/01-basic/bworkshop.png">
 
 - Costs 150 wood.
 - Gives 10 coins when placed in game time, 3 coins in build time.
@@ -211,7 +211,7 @@ Blocks can cost either wood or stone.
 
 ### Spikes
 
-[IMG: spikes]
+ <img src="imgs/01-basic/bspikes.png">
 
 - Costs 30 stone.
 - Gives 4 coins when placed in game time, 1 coin in build time.
@@ -234,19 +234,19 @@ All enemies are also able to use your shops -- place them carefully.
 
 ### Builder shop
 
-[IMG: builder shop]
+ <img src="imgs/01-basic/buildershop.png">
 
 Costs 50 wood. One of the three class shops -- if you aren't the class of the shop (if you aren't a builder in this case), you have the option to change to builder on it. The second option (for all classes) is to open the shop.
 
-[IMG of 2 options]
+ <img src="imgs/01-basic/buildershopoptions.png">
 
-[IMG of buying menu]
+ <img src="imgs/01-basic/menu.png">
 
 Now, let's talk about the items you can buy:
 
 #### Lantern
 
-[IMG]
+ <img src="imgs/01-basic/lantern.png">
 
 - Costs 10 wood.
 - Generates light.
@@ -255,7 +255,7 @@ Now, let's talk about the items you can buy:
 
 #### Bucket (no water)
 
-[IMG]
+ <img src="imgs/01-basic/bucket.png">
 
 - Costs 10 wood.
 - 1x1 size in inventory.
@@ -263,7 +263,7 @@ Now, let's talk about the items you can buy:
 
 #### Bucket with water
 
-[IMG]
+ <img src="imgs/01-basic/bucketwater.png">
 
 - Costs 10 wood and 10 coins
 - 1x1 size in inventory.
@@ -276,7 +276,7 @@ Now, let's talk about the items you can buy:
 
 #### Sponge
 
-[IMG]
+ <img src="imgs/01-basic/sponge.png">
 
 - Costs 15 coins.
 - 1x1 size in inventory.
@@ -290,7 +290,7 @@ Now, let's talk about the items you can buy:
 
 #### Boulder
 
-[IMG]
+ <img src="imgs/01-basic/boulder.png">
 
 - Costs 35 stone.
 - Doesn't fit in inventory (3x3 size).
@@ -305,7 +305,7 @@ Now, let's talk about the items you can buy:
 
 #### Trampoline
 
-[IMG]
+ <img src="imgs/01-basic/trampoline.png">
 
 - Costs 150 wood.
 - Doesn't fit in inventory.
@@ -317,7 +317,7 @@ Now, let's talk about the items you can buy:
 
 #### Drill
 
-[IMG]
+ <img src="imgs/01-basic/drill.png">
 
 - Costs 100 stone and 25 coins.
 - 1x1 size in inventory.
@@ -351,7 +351,7 @@ Now, let's talk about the items you can buy:
 
 #### Saw
 
-[IMG]
+ <img src="imgs/01-basic/saw.png">
 
 - Costs 150 wood and 100 stone.
 - Doesn't fit in inventory.
@@ -376,7 +376,7 @@ Now, let's talk about the items you can buy:
 
 #### Crate
 
-[IMG]
+ <img src="imgs/01-basic/crate.png">
 
 - Costs either 150 wood or 20 coins.
 - Doesn't fit in inventory.
