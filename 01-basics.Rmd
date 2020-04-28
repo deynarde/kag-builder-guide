@@ -19,11 +19,11 @@ In this chapter we're going to explain all the structures you can place and item
 It has been mentioned in the in-game tutorial, but we'll mention it again. You can mine any blocks by holding the right mouse button.
 There are 2 natural blocks that don't give any materials:
 
-[IMG: bedrock] 
+ <img src="imgs/01-basic/bedrock.png">
 
 Bedrock can't be destroyed at all.
 
-[IMG: dirt] 
+ <img src="imgs/01-basic/dirt.png">
 
 Dirt does not give any materials.
 
@@ -33,17 +33,17 @@ You can have up to 500 stone, 500 wood or 100 gold in one slot in your inventory
 
 ### Stone 
 
-[IMG: stone] 
+ <img src="imgs/01-basic/stone.png">
 
 Stone ore gives 4 stone per hit. Normal stone ores can be hit up to 6 times, so 24 stone per stone ore.
 
-[IMG: thick stone]
+ <img src="imgs/01-basic/thickstone.png">
 
 Thick stone ore gives 6 stone per hit for 6 hits, then 4 stone per hit for remaining 5 hits. Gives a total of 56 stone after 11 hits.
 
 ### Gold 
 
-[IMG: gold] 
+ <img src="imgs/01-basic/gold.png">
 
 Gold ore gives 4 gold per hit, can be hit up to 5 times -- 20 gold per gold ore.
 
