@@ -670,7 +670,7 @@ Of course, if you want to, you can keep building the base after the build time e
 
 Besides having your flags be well protected, having a decent tower is also very important. A good way to start building a front tower in 40 seconds is to build some ladders up, add some stone backwall and then build a **builder shop** like in the image below. Make sure to not place more than 10 ladders so that you have enough materials for a builder shop.
 
-[IMG]
+<img src="imgs/01-basic/tower1.png">
 
 If you decide to focus on the tower for the entirety of the build time, you're most likely going to work around here. As mentioned earlier, the builder shop lets you get resupplies -- you should walk to one every 40 seconds (on around 140 seconds left, 100, 60 and 20) to get **free 100 stone and 300 wood.** 
 
@@ -686,39 +686,39 @@ After placing the doors we place stone walls. **Keep in mind you can actually pl
 
 First, the outer layer made out of stone only:
 
-[IMG]
+<img src="imgs/01-basic/tower2.png">
 
 After that, the middle layer is going to be wood:
 
-[IMG]
+<img src="imgs/01-basic/tower3.png">
 
 Replace every 4th or 5th wooden block with stone -- so that if the outer layer gets broken, the archers can't burn the entire middle layer at once:
 
-[IMG]
+<img src="imgs/01-basic/tower4.png">
 
 And then the inner layer, stone only:
 
-[IMG]
+<img src="imgs/01-basic/tower5.png">
 
 That's a solid front wall already. If you have some stone left, it'd be good to add some more backwalls so that the tower isn't too easy to collapse.
 
-[IMG]
+<img src="imgs/01-basic/tower6.png">
 
 Okay, so we have a builder shop and a basic front wall. However, a good tower obviously has more. 
 
-It'd be good to have the most basic shops in a tower + a tunnel. It's good to have a food shop above the builder shop, then a tunnel, then a knight shop (close to the tunnel, because majority of your team should be knights) then an archer shop (on top, because that's where defensive archers can shoot from).
+It'd be good to have the most basic shops in a tower + a tunnel. It's good to have a tunnel above the builder shop, then a knight shop (close to the tunnel, because majority of your team should be knights) then an archer shop (on top, because that's where defensive archers can shoot from). A food shop could be useful as well.
 
 Somewhat like this:
 
-[IMG]
+<img src="imgs/01-basic/tower7.png">
 
 It's good to have lots, **lots of doors** -- in case the enemies get into your tower, the enemy builders will usually not be able to block all the doors and your knights will be able to defeat them by using doors to their advantage. So it can look somewhat like this, with every shop having 6 sets of doors:
 
-[IMG]
+<img src="imgs/01-basic/tower8.png">
 
 Next, you want to replace majority of the wooden backwalls from the shops and doors with stone backwalls. **Fire spreads much slower and much less with stone backwalls than if there were wooden backwalls.**
 
-[IMG]
+[<img src="imgs/01-basic/tower9.png">
 
 Here's a comparison of using a fire arrow:
 
@@ -730,21 +730,21 @@ With wooden backwalls:
 
 [GIF]
 
-Obviously, you don't want the front wall to be so low. We build additional 3 layers of wooden doors next to every shop (again, the more doors there are -- the harder for enemy builders to block them all) and add stone.
+Obviously, you don't want the front wall to be thinner above. We build additional 3 layers of wooden doors next to every shop (again, the more doors there are -- the harder for enemy builders to block them all) and add stone.
 
-[IMG]
-
-This is already a pretty good tower. Another thing you could add is a trampoline on top -- like this:
-
-[IMG]
+<img src="imgs/01-basic/tower11.png">
 
 The bottom could use some work too. Add some more doors and stone blocks, so that if the enemies get through the first set of doors they don't have too much space to fight, and so that the tower is harder to collapse.
 
-[IMG]
+<img src="imgs/01-basic/tower12.png">
 
-Sometimes you can choose to add a bit of platforms somewhere too, for example on the top, so that defensive archers can be protected from enemy arrows.
+Sometimes you can choose to add a bit of platforms somewhere too, for example on the top, so that defensive archers can be protected from enemy arrows. Stone backwall is advised again.
 
-[IMG]
+<img src="imgs/01-basic/tower13.png">
+
+Adding a trampoline after the game starts (the red zone bounces it back) is also good.
+
+<img src="imgs/01-basic/tower14.png">
 
 ### Flag rooms
 
