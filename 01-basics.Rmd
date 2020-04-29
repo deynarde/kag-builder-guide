@@ -712,6 +712,8 @@ Somewhat like this:
 
 <img src="imgs/01-basic/tower7.png">
 
+The empty shop is going to be a tunnel later -- we need to find some gold first.
+
 It's good to have lots, **lots of doors** -- in case the enemies get into your tower, the enemy builders will usually not be able to block all the doors and your knights will be able to defeat them by using doors to their advantage. So it can look somewhat like this, with every shop having 6 sets of doors:
 
 <img src="imgs/01-basic/tower8.png">
@@ -745,6 +747,16 @@ Sometimes you can choose to add a bit of platforms somewhere too, for example on
 Adding a trampoline after the game starts (the red zone bounces it back) is also good.
 
 <img src="imgs/01-basic/tower14.png">
+
+If you have wood left, you can place doors pretty much everywhere. The more doors the better.
+
+Here's a 3 min video example of what you could do solely by yourself:
+
+[VID]
+
+And here's one for building a tower at a normal CTF match:
+
+[VID]
 
 ### Flag rooms
 
