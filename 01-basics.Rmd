@@ -358,6 +358,7 @@ Now, let's talk about the items you can buy:
  <img src="imgs/01-basic/saw.png">
 
 - Costs 150 wood and 100 stone.
+- 3 blocks wide, 2 blocks tall.
 - Doesn't fit in inventory.
 - You can press E on the saw to turn it off and on.
 - Players instantly die if they fall into a saw.
