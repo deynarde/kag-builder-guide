@@ -648,7 +648,7 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 
 ### Quarry
 
-<img src="imgs/01-basic/Quarry.png">
+<img src="imgs/01-basic/quarry.png">
 
 - Costs 150 stone and 100 gold.
 - There's a limit of only 1 per team.
