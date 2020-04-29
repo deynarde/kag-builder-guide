@@ -482,6 +482,8 @@ Costs 50 wood, is a class shop. Sells special arrows for archers.
 
 Costs 100 wood and 50 gold. Sells boats -- this shop is pretty much useful only on maps with lots of water.
 
+<img src="imgs/01-basic/navalshopmenu.png">
+
 All enemy boats are capturable if you stay on them for long enough.
 
 #### Dinghy
@@ -498,23 +500,23 @@ All enemy boats are capturable if you stay on them for long enough.
 
 #### Longboat
 
-[IMG]
+<img src="imgs/01-basic/longboat.png">
 
 - Costs 200 wood and 50 coins.
 - Comes in a crate when bought -- it must be unpacked in water.
-- Can be entered by 6 people.
+- Has 6 rowing spots (press S to enter one)
 - Fastest out of all the boats -- especially if rowed by 6 people.
 - Has a 12x5 storage.
 - Longboats crush enemies when fast enough.
 
 #### War Boat
 
-[IMG]
+<img src="imgs/01-basic/warboat.png">
 
 - Costs 250 coins.
 - Comes in a crate when bought -- it must be unpacked in water.
 - Slower than a longboat, but also the hardest to destroy.
-- Has 3 rowing spots.
+- Has 6 rowing spots.
 - Has one mounted bow on top which lets you shoot arrows (press S to get in).
 - Has a 12x6 storage.
 - You can change class on a war boat by holding E and selecting the "change class" button.
@@ -527,16 +529,15 @@ All enemy boats are capturable if you stay on them for long enough.
 
 Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballistas. They're quite useful, and gold is rare on some of the maps, so make sure you place a siege shop in a secure place.
 
+<img src="imgs/01-basic/vehicleshopmenu.png">
+
 #### Catapult
 
-[IMG]
+<img src="imgs/01-basic/catapult.png">
 
 - Costs 80 coins.
 - Comes in a crate when bought -- it must be unpacked in a spot with enough place.
 - It has 3 spots right after unpacking: the driving spot, the firing spot, and the spot in the bowl. You enter the spots by clicking S on them, obviously. For the upper spot in the bowl, you have to jump up first and then press S.
-
-[IMG of above - spots]
-
 - You can remove the wheels by pressing E and clicking the remove wheels button. You should do this pretty much every time if you plan the catapult to be a stationary one on top of your tower. This removes the driver spot and can't be undone.
 
 [GIF of removing driving spot]
@@ -547,7 +548,7 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 
 - If you want to put an item in a catapult, you must first have the item in your hand and then press E on the button next to the bowl.
 
-[GIF - put boudler and then launch]
+[GIF - put boulder and then launch]
 
 - Catapults can also fire rocks. Each catapult after unpacking has 100 stone. One rock launch costs 10 stone. They do some slight damage to structures, especially backwall
 
@@ -571,7 +572,7 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 
 #### Ballista
 
-[IMG]
+<img src="imgs/01-basic/ballista.png">
 
 - Costs 200 coins.
 - Comes in a crate when bought -- it must be unpacked in a spot with enough place.
