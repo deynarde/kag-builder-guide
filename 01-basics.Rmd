@@ -404,7 +404,7 @@ That's all of the items in the builder shop.
 
 ### Quarters
 
-[IMG]
+<img src="imgs/01-basic/quarters.png">
 
 Costs 50 wood. The shop has 2 features -- if you aren't at full health, you can select the sleep button and regain 0.25 heart per second.
 
@@ -412,7 +412,7 @@ Costs 50 wood. The shop has 2 features -- if you aren't at full health, you can 
 
 The other button is opening the shop menu, which contains 4 options -- a beer, a meal, an egg and a burger.
 
-[IMG]
+<img src="imgs/01-basic/quartermenu.png">
 
 #### Beer
 
@@ -443,15 +443,15 @@ The other button is opening the shop menu, which contains 4 options -- a beer, a
 
 ### Knight shop
 
-[IMG]
+<img src="imgs/01-basic/knightshop.png">
 
 Costs 50 wood, another class shop -- so you have the option to swap class to Knight or open the shop menu. Since this is a builder guide, we're focusing only on the items which you can use, which in this case would be the mine.
 
 #### Mine
 
-[IMG]
+<img src="imgs/01-basic/mine.png">
 
-- the 3rd item in the knight shop.
+- The 3rd item in the knight shop.
 - Costs 60 coins.
 - 1x1 inventory size.
 - When you put one on the ground, it deploys after being still for 1.5 a second.
@@ -466,16 +466,19 @@ Costs 50 wood, another class shop -- so you have the option to swap class to Kni
 [GIF] 
 
 - It's a good tactic to put mines in your flag rooms or next to enemy doors.
+- Sometimes people also put them behind bushes or trees.
+
+[GIF]
 
 ### Archer shop
 
-[IMG]
+<img src="imgs/01-basic/archershop.png">
 
 Costs 50 wood, is a class shop. Sells special arrows for archers.
 
 ### Naval shop
 
-[IMG]
+<img src="imgs/01-basic/navalshop.png">
 
 Costs 100 wood and 50 gold. Sells boats -- this shop is pretty much useful only on maps with lots of water.
 
@@ -483,9 +486,10 @@ All enemy boats are capturable if you stay on them for long enough.
 
 #### Dinghy
 
-[IMG]
+<img src="imgs/01-basic/dinghy.png">
 
 - Costs 150 wood.
+- 6 blocks tall, 1 block wide.
 - Two people can enter a dinghy.
 - Weakest out of all the boats.
 - You can enter a dinghy by pressing S on it. Row the boat by holding A or D.
@@ -519,7 +523,7 @@ All enemy boats are capturable if you stay on them for long enough.
 
 ### Siege shop
 
-[IMG]
+<img src="imgs/01-basic/vehicleshop.png">
 
 Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballistas. They're quite useful, and gold is rare on some of the maps, so make sure you place a siege shop in a secure place.
 
@@ -619,7 +623,7 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 
 ### Storage
 
-[IMG]
+<img src="imgs/01-basic/storage.png">
 
 - Costs 50 stone and 50 wood.
 - Has a 4x2 storage which lets a team store items.
@@ -630,7 +634,7 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 
 ### Tunnel 
 
-[IMG]
+<img src="imgs/01-basic/Tunnel.png">
 
 - Costs 50 gold, 100 stone and 50 wood.
 - If you have 2 or more tunnels, you can quickly travel between them.
@@ -644,7 +648,7 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 
 ### Quarry
 
-[IMG]
+<img src="imgs/01-basic/Quarry.png">
 
 - Costs 150 stone and 100 gold.
 - There's a limit of only 1 per team.
