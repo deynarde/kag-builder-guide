@@ -605,7 +605,7 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 
 #### Ballista bolts
 
-[IMG]
+<img src="imgs/01-basic/ballistabolts.png">
 
 - Costs 100 coins.
 - One stack of 12 ballista bolts.
@@ -615,7 +615,7 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 
 #### Bomb bolt upgrade
 
-[IMG]
+<img src="imgs/01-basic/ballistabombbolts.png">
 
 - Costs 100 gold.
 - When bought, it applies to any future ballistas bought by your team in the match, even if it's a different siege shop.
