@@ -762,7 +762,7 @@ And here's one for building a tower at a normal CTF match:
 
 Flag rooms should have at least 2 entrances, preferably 3, so that if one gets blocked you can still use the other ones -- one from the top and two from the sides, like this:
 
-[IMG]
+<img src="imgs/01-basic/flagroom.png">
 
 Keep in mind that stone doors like that are enough; wooden doors are pretty powerful. You don't need to overuse stone doors.
 
@@ -772,12 +772,9 @@ Of course, the thicker a flag room is, the better -- if you have lots of materia
 
 However, if you're making it thicker, it's good to have some additional doors for easier movement. 
 
-[IMG]
+<img src="imgs/01-basic/flagroom2.png">
 
 It's also good to put a mine in each flag room (or even 2!). If any enemies eventually come to the flag, they will have to destroy the mine first and often they will just walk into it accidentally.
-
-[IMG]
-
 
 ### Tunnels
 
@@ -785,7 +782,7 @@ As I mentioned earlier, there should be a tunnel in your tower for quick travel.
 
 The tunnel near your tent **should always have a sawtrap**. A sawtrap like this -- one trapblock, the tunnel on it and a saw below:
 
-[IMG]
+<img src="imgs/01-basic/tunneltent.png">
 
 Here's how to build one -- as you can see, you can put a trapblock before putting the saw -- if you want to put the saw in the hole, you can just jump on the trapblock, hold S and throw it downwards.
 
@@ -797,11 +794,11 @@ A tree farm is very useful to all the builders in your team -- it lets you get l
 
 The idea is to place trees next to each other with 1 tile gaps, and have them be seperated like this:
 
-[IMG]
+<img src="imgs/01-basic/treefarm.png">
 
 After that, you get a saw and put it like this.
 
-[IMG]
+<img src="imgs/01-basic/treefarm2.png">
 
 Destroying the trees will now make all of the logs fall downwards instead of the tree falling to the side. The logs, when destroyed by the saw, are converted to wood. This is much quicker than if you were chopping them manually.
 
@@ -817,13 +814,13 @@ Also, if you have a saw, it's actually faster to chop down trees as a knight tha
 
 Trees can grow on bedrock, dirt and stone, but they can't grow on man-made blocks like stone blocks or wood blocks.
 
-[IMG]
+<img src="imgs/01-basic/treegrow1.png">
 
 Also, sometimes it may bug out and the logs may not fall through and instead get stuck on the top. I believe this doesn't happen as often if there's more blocks vertically seperating the trees, like in the image below.
 
-[IMG]
+<img src="imgs/01-basic/tree3blocks.png">
 
-If for some reason the logs do not fall into a saw (or it was accidentally turned off), you can just throw a saw at the logs, like in the gif below.
+If for some reason the logs do not fall into the saw (or it was accidentally turned off), you can just throw the saw at the logs, like in the gif below.
 
 [GIF]
 
@@ -832,7 +829,7 @@ If for some reason the logs do not fall into a saw (or it was accidentally turne
 
 It's good to have some shops outside of the tower too, in case the ones in the tower get destroyed. Usually you should have some near the tent.
 
-[IMG]
+<img src="imgs/01-basic/shops.png">
 
 Make sure that you replace some of the wooden backwalls with stone backwalls so that it's not as easy to burn. Also, make sure they have good protection (doors) so that the enemies can't get in too easily.
 
