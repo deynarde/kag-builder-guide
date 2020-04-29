@@ -635,7 +635,7 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 
 ### Tunnel 
 
-<img src="imgs/01-basic/Tunnel.png">
+<img src="imgs/01-basic/tunnel.png">
 
 - Costs 50 gold, 100 stone and 50 wood.
 - If you have 2 or more tunnels, you can quickly travel between them.
@@ -645,7 +645,7 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 [GIF]
 
 - You are stunned for a second after using a tunnel.
-- Tunnels usually should connect the most important parts of the map for your team: there should be one next to the tent, one in the tower, one or more in mid (if you have control of it).
+- Tunnels usually should connect the most important parts of the map for your team: there should be one next to the tent, one in the tower, one or more in middle of the map (if you have control of it).
 
 ### Quarry
 
