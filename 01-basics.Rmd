@@ -29,7 +29,7 @@ Dirt does not give any materials.
 
 You can have up to 500 stone, 500 wood or 100 gold in one slot in your inventory (press F). You can take materials out of your inventory by pressing them with your inventory open (or closing the inventory while your cursor is on one of the slots). Wood and stone are taken out in stacks or 250 (or less if you have less than 250. The first taken out part is the full stack) -- so to throw out 500 wood, you'll need to throw 250 wood two times. Gold is taken out in stacks of 50.
 
-<video style="display:block; max-width:100%; height:auto;" src="webm/03-decent/matthrow.webm" controls loop="loop" preload></video><br>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/matthrow.webm" controls loop="loop" preload></video><br>
 
 ### Stone 
 
