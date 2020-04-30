@@ -27,9 +27,9 @@ Bedrock can't be destroyed at all.
 
 Dirt does not give any materials.
 
-You can have up to 500 stone, 500 wood or 100 gold in one slot in your inventory (press F). You can take materials out of your inventory by pressing them with your inventory open (or closing the inventory while your cursor is on one of the slots). Wood and stone are taken out in stacks or 250 (or less if you have less than 250) -- so to throw out 500 wood, you'll need to throw 250 wood two times. Gold is taken out in stacks of 50.
+You can have up to 500 stone, 500 wood or 100 gold in one slot in your inventory (press F). You can take materials out of your inventory by pressing them with your inventory open (or closing the inventory while your cursor is on one of the slots). Wood and stone are taken out in stacks or 250 (or less if you have less than 250. The first taken out part is the full stack) -- so to throw out 500 wood, you'll need to throw 250 wood two times. Gold is taken out in stacks of 50.
 
-[GIF illustrating above]
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-decent/matthrow.webm" controls loop="loop" preload></video><br>
 
 ### Stone 
 
@@ -851,9 +851,9 @@ There are lots of mistakes that can be made by beginner builders or just less ad
 
 Sometimes less experienced players build shops in the open. This is dangerous, because if any enemies get into your base (by bomb jumps or by catapult, for example) then they will be able to use them -- change class or buy items (e.g. kegs)
 
-[IMG]
+<img src="imgs/01-basic/shopsopen.png">
 
-If you see a shop (mostly knight and builder shops) like that, you should either destroy it if it's in a bad position or encase it with at least some doors and stone blocks.
+If you see a shop (mostly knight and builder shops) like that, you should either destroy it if it's in a bad position or encase it with at least some doors and stone blocks. However, if they shop is close to the flag, they're an even bigger danger so you should just destroy them.
 
 ### Overusing stone doors
 
@@ -913,7 +913,7 @@ You also shouldn't place knight shops near the flag room for similar reasons.
 
 [IMG]
 
-### Bad trapblock placement, bad traps
+### Bad trapblock placement, bad traps, dirt spikes
 
 Enemies can often use enemy trapblocks as doors. You should not use them too much -- they're only good for sawtraps.
 
@@ -935,11 +935,9 @@ Or better, just use a saw.
 
 This also applies for making a trap under a tunnel -- don't make a spike trap, because a builder could just use the tunnel and fall into the spike trap and destroy the spikes. Use a saw.
 
-### Dirt/wood spikes
+This is a classic example of a totally useless trap -- the trapblocks are a waste of stone, the spikes are on dirt, and there's no way for the team to go to the bottom part. Also, it's in the team area (before the flag), so it won't even kill any enemies.
 
-These spikes or traps like these are hardly effective and often hurt the teammates more than the enemy. 
-
-[IMG]
+<img src="imgs/01-basic/shittrap.png">
 
 ### Putting a saw in the flag room
 
