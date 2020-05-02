@@ -16,7 +16,7 @@ In this chapter we're going to explain all the structures you can place and item
  
 ## Getting materials
 
-It has been mentioned in the in-game tutorial, but we'll mention it again. You can mine any blocks by holding the right mouse button.
+It is mentioned in the in-game tutorial, but we'll mention it again. You can mine any blocks by holding the right mouse button.
 There are 2 natural blocks that don't give any materials -- bedrock and dirt.
 
 Bedrock can't be destroyed at all.
@@ -27,7 +27,7 @@ Dirt does not give any materials either.
 
 <img src="imgs/01-basic/dirt.png">
 
-You can have up to 500 stone, 500 wood or 100 gold in one slot in your inventory (press F). You can take materials out of your inventory by pressing them with your inventory open (or closing the inventory while your cursor is on one of the slots). Wood and stone are taken out in stacks or 250 (or less if you have less than 250. The first taken out part is the full stack) -- so to throw out 500 wood, you'll need to throw 250 wood two times. Gold is taken out in stacks of 50.
+You can have up to 500 stone, 500 wood or 100 gold in one slot in your inventory (press F). You can take materials out of your inventory by clicking on them with your inventory open (or closing the inventory while your cursor is on one of the slots). Wood and stone are taken out in stacks or 250 (or less if you have less than 250- the first part you take out is the full stack) -- so to throw out 500 wood, you'll need to throw 250 wood two times. Gold is taken out in stacks of 50.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/matthrow.webm" controls loop="loop" preload></video><br>
 
@@ -59,11 +59,11 @@ Keep in mind that **you can actually see gold ore** on the map -- press M and lo
 
 <img src="imgs/01-basic/tree.png">
 
-Trees need between 10 and 12 hits to fall down and drop logs. Trees have varying height, even when they reach their maximum height, but pine trees of maximum height drop 6 or 7 logs, while the smaller bushy trees drop 3, 4 or 5 logs. 
+Trees need between 10 and 12 hits to fall down and drop logs. Trees have varying height, even when they reach their maximum height, but pine trees of maximum height drop 6 or 7 logs, while the smaller, bushy, trees drop 3, 4 or 5 logs. 
 
 One log gives **10 wood per hit, 5 hits per log -- so up to 50 wood per a log.**
 
-Trees of course can regrow after being chopped down. Although it also varies, it's between 30 and 100 seconds, with bushy trees regrowing faster than pine trees.
+Trees of course can regrow after being chopped down. Although it also varies, it takes between 30 and 100 seconds, with bushy trees regrowing faster than pine trees.
 
 ### Resupplies
 
@@ -93,7 +93,7 @@ Blocks can cost either wood or stone.
 - Gives 4 coins when placed in game time, 1 coin in build time.
 - Can be destroyed by builders (7 hits), bombs (1 bomb if the bomb is next to the block) bomb arrows, kegs.
 - Gives 1 stone per hit (7 stone total).
-- The most basic block. Majority of your defences should consist of this block.
+- The most basic block. The majority of your defences should consist of this block.
 
 ### Stone backwall
 
@@ -113,7 +113,7 @@ Blocks can cost either wood or stone.
 - Gives 4 coins when placed in game time, 1 coin in build time.
 - Can be destroyed by builders (5 hits), explosives (5 bombs per 1 stone door!).
 - Gives 5 stone per hit (25 stone total).
-- Strong block, especially against enemy knights. However, quite expensive, so don't overuse it.
+- Strong block, especially against enemy knights. However, quite expensive, so don't overuse them.
 - Doors can only be opened by teammates.
 - Doors should be placed next to a solid block, or else they will fall off after some time.
 
@@ -127,7 +127,7 @@ Blocks can cost either wood or stone.
 - Flammable -- can be put on fire by fire arrows and spread fire to nearby wooden structures.
 - Destroyable by knights (5 slashes)
 - Gives 1 wood per hit (5 wood total).
-- You shouldn't overuse it -- burning wooden structures is extremely easy. However it's decent for some basic defences when you don't have stone.
+- You shouldn't overuse them -- burning wooden structures is extremely easy. However it's decent for some basic defences when you don't have stone.
 
 ### Wood backwall
 
