@@ -17,15 +17,15 @@ In this chapter we're going to explain all the structures you can place and item
 ## Getting materials
 
 It has been mentioned in the in-game tutorial, but we'll mention it again. You can mine any blocks by holding the right mouse button.
-There are 2 natural blocks that don't give any materials:
-
-<img src="imgs/01-basic/bedrock.png">
+There are 2 natural blocks that don't give any materials -- bedrock and dirt.
 
 Bedrock can't be destroyed at all.
 
-<img src="imgs/01-basic/dirt.png">
+<img src="imgs/01-basic/bedrock.png">
 
-Dirt does not give any materials.
+Dirt does not give any materials eithers.
+
+<img src="imgs/01-basic/dirt.png">
 
 You can have up to 500 stone, 500 wood or 100 gold in one slot in your inventory (press F). You can take materials out of your inventory by pressing them with your inventory open (or closing the inventory while your cursor is on one of the slots). Wood and stone are taken out in stacks or 250 (or less if you have less than 250. The first taken out part is the full stack) -- so to throw out 500 wood, you'll need to throw 250 wood two times. Gold is taken out in stacks of 50.
 
