@@ -729,7 +729,7 @@ If you have wood left, you can place doors pretty much everywhere. The more door
 
 Here's a 3 min video example of building a tower on public CTF along with some other people:
 
-<video style="display:block; max-width:100%; height:auto;" src="https://www.youtube.com/embed/gYyuslQfGtE" controls loop="loop" preload></video><br>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/gYyuslQfGtE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Flag rooms
 
