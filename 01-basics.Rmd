@@ -827,81 +827,73 @@ If you see a shop (mostly knight and builder shops) like that, you should either
 
 ### Overusing stone doors
 
-Sometimes people think that wooden doors are too weak and overuse stone doors, like in the image below.
+Some players think that wooden doors are too weak and overuse stone doors, like in the image below.
 
-[IMG]
+<img src="imgs/01-basic/stonedoor1.png">
 
-This is pointless and a total waste of mats. Destroying stone doors by builders takes only slightly longer than wooden doors. The stone should be rather used on additional layers to the tower rather than stone doors. Comparison with same amount of stone used as in image before:
+This is pointless and a total waste of mats. Destroying stone doors by builders takes only slightly longer than wooden doors. The stone should be rather used on additional layers to the tower rather than stone doors. There are 12 stone doors on this screenshot, which is 600 stone. Instead of building stone doors, you should rather make additional stone block layers to your tower.
 
-[IMG]
+This is how much you could expand your base by with 600 stone and a bit of wood:
+
+<img src="imgs/01-basic/stonedoor2.png">
 
 ### Overusing wood, not placing stone backwall
 
-If you overuse wood, structures are way too easy to burn. If you're putting lots of doors, put stone backwall behind all of them, same with shops. If you need to make some wooden defences due to lack of stone, you should still try to mix in at least some stone between wooden parts so that everything doesn't burn at once.
+As mentioned earlier, if you overuse wood, structures are way too easy to burn. If you're putting lots of doors, put stone backwall behind all of them, same with shops. If you need to make some wooden defences due to lack of stone, you should still try to mix in at least some stone between wooden parts so that everything doesn't burn at once.
 
-[IMG]
+Again, comparison of using a fire arrow against structures with wooden backwall vs stone backwall:
 
-[IMG 2]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/firecompar.webm" controls loop="loop" preload></video><br>
 
 ### Awkward top doors
 
 Sometimes there are doors like this:
 
-[IMG]
+<img src="imgs/01-basic/awkwarddoor.png">
 
 It's harder to go through doors like that because you need to jump up and fit properly. This is much easier when doors are to the side, like in the gif below -- in this case you can wallclimb by hugging the wall and it's much easier.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/climb.webm" controls loop="loop" preload></video><br>
 
+Another solution to make it a bit easier to use such doors would be to place a ladder.
+
+<img src="imgs/01-basic/awkwarddoor2.png">
+
 ### Awkward movement in general 
 
 It's important for your knights to be able to move fast in case of incoming enemies, and sometimes odd block placement can cause slower movement around the base. One example is doors not being on floor level when there's no reason to not put them like that:
 
-[IMG]
+<img src="imgs/01-basic/darenokoto.png">
 
 Another example is not having the tunnel in the tower be next to outside doors -- this causes knights to waste time to go to other doors, like this
 
-[IMG]
-
-One block gaps in the floor like this are a bit annoying too -- you can sometimes get slightly stuck in them and shield sliding through them as a knight is slower.
-
-[IMG]
+<img src="imgs/01-basic/worldogd.png">
 
 ### Not enough doors 
 
-Slightly related to above, not placing enough doors. There should be lots of doors on the top part of the tower so that enemy builders getting up the tower don't block them all easily. There should be enough doors near the shops too, for similar reasons.
+Slightly related to above, not placing enough doors (or in some cases, none at all...). There should be lots of doors on each section of of the tower so that enemy builders getting up the tower don't block them all easily. There should be enough doors near the shops too, for similar reasons.
 
-[IMG]
+<img src="imgs/01-basic/notdoors.png">
 
 ### Certain shops at the bottom of the tower
 
-The bottom of the tower is more easily accessed by enemies than the upper parts. You shouldn't place shops like knight shops there (the enemies could buy some kegs after getting there for example).
+The bottom of the tower is more easily accessed by enemies than the upper parts (for example, if one of your teammates accidentally lets in an enemy knight). You shouldn't place shops like knight shops there (the enemies could buy some kegs after getting there for example).
 
-[IMG]
+<img src="imgs/01-basic/shopatbottom.png">
 
 You also shouldn't place knight shops near the flag room for similar reasons.
-
-[IMG]
 
 ### Bad trapblock placement, bad traps, dirt spikes
 
 Enemies can often use enemy trapblocks as doors. You should not use them too much -- they're only good for sawtraps.
 
-For example, with a trapblock like this, the enemy builder could quickly build something like this and start drilling into your tower. Knights wouldn't be able to destroy the trapblock with bombs.
+A trap like this is pretty bad -- an enemy builder could just get in, destroy the spikes quickly and then again, he would be able to easily protect himself from knights.
 
-[IMG]
+<img src="imgs/01-basic/noobtrap.png">
 
-A trap like this is pretty bad too -- an enemy builder could just get in, destroy the spikes quickly and then again, he would be able to easily protect himself from knights.
+If you really want to make a trap, it's good to have some doors that lead to the spike part, as well as platforms that don't let the enemy get out. It's also much better to use a saw instead of spikes.
 
-[IMG]
-
-If you really want to make a trap, it's good to have some doors that lead to the spike part, like this:
-
-[IMG]
-
-Or better, just use a saw.
-
-[IMG]
+<img src="imgs/01-basic/gudtrap.png">
 
 This also applies for making a trap under a tunnel -- don't make a spike trap, because a builder could just use the tunnel and fall into the spike trap and destroy the spikes. Use a saw.
 
@@ -913,4 +905,4 @@ This is a classic example of a totally useless trap -- the trapblocks are a wast
 
 There's barely any reason to do this; it's better to have a top entrance so that you can protect the flag if there's enemies above rather than a saw. The saw can be easily avoided by placing ladders and often someone in your team will just accidentally kill themselves, disabling the saw (and also taking away coins from you -- you lose coins when teamkilling somebody).
 
-[IMG]
+<img src="imgs/01-basic/sawflag.png">
