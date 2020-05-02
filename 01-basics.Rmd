@@ -208,8 +208,9 @@ Blocks can cost either wood or stone.
 - Destroyable by knights (8 slashes)
 - Doesn't give wood on hit.
 - 3 blocks wide and 5 blocks tall.
-- Can be converted to one of the 9 CTF shops after being built. We'll talk more about them in the next section.
-- Places some wooden backwall behind one.
+- Can be converted to one of the 9 CTF shops after being built (requires additional materials). We'll talk more about them in the next section.
+- Shops that cost gold drop gold when destroyed.
+- Places some wooden backwall behind when placed.
 
 ### Spikes
 
@@ -472,7 +473,7 @@ Costs 50 wood, another class shop -- so you have the option to swap class to Kni
 - It's a good tactic to put mines in your flag rooms or next to enemy doors.
 - Hardly visible for enemies when put behind a bush.
 
-<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/blocksupport2.webm" controls loop="loop" preload></video><br>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/minebush.webm" controls loop="loop" preload></video><br>
 
 ### Archer shop
 
