@@ -371,7 +371,7 @@ When you use a water bucket on someone with a lit keg, they also drop the keg if
 - If a teammate falls into a team's saw, the saw turns off.
 - Saws change team depending on who last held the saw. You can't pick up enemy saws from above or from their side. You need to be at a lower level than them.
 
-<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sawgif1.webm" controls loop="loop" preload></video><br>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sawgif.webm" controls loop="loop" preload></video><br>
 
 - Another functionality of saws is that they convert logs into wood quickly. More about this will be mentioned later this chapter (building a "tree farm").
 
