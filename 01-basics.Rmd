@@ -12,18 +12,18 @@ As a builder in CTF, your role is to make defences for your flags and base, buil
 
 In this chapter we're going to explain all the structures you can place and items you can use as a builder, as well as talk a bit about building a good base and a tower. We'll also highlight some common mistakes that inexperienced builders can make.
 
- <img src="imgs/01-basic/smilingbob.png">
+<img src="imgs/01-basic/smilingbob.png">
  
 ## Getting materials
 
 It has been mentioned in the in-game tutorial, but we'll mention it again. You can mine any blocks by holding the right mouse button.
 There are 2 natural blocks that don't give any materials:
 
- <img src="imgs/01-basic/bedrock.png">
+<img src="imgs/01-basic/bedrock.png">
 
 Bedrock can't be destroyed at all.
 
- <img src="imgs/01-basic/dirt.png">
+<img src="imgs/01-basic/dirt.png">
 
 Dirt does not give any materials.
 
@@ -33,31 +33,31 @@ You can have up to 500 stone, 500 wood or 100 gold in one slot in your inventory
 
 ### Stone 
 
- <img src="imgs/01-basic/stone.png">
+<img src="imgs/01-basic/stone.png">
 
 Stone ore gives 4 stone per hit. Normal stone ores can be hit up to 6 times, so 24 stone per stone ore.
 
- <img src="imgs/01-basic/thickstone.png">
+<img src="imgs/01-basic/thickstone.png">
 
 Thick stone ore gives 6 stone per hit for 6 hits, then 4 stone per hit for remaining 5 hits. Gives a total of 56 stone after 11 hits.
 
 ### Gold 
 
- <img src="imgs/01-basic/gold.png">
+<img src="imgs/01-basic/gold.png">
 
 Gold ore gives 4 gold per hit, can be hit up to 5 times -- 20 gold per gold ore.
 
 Keep in mind that **you can actually see gold ore** on the map -- press M and look for orange spots, like in the images below.
 
- <img src="imgs/01-basic/goldore1.png">
+<img src="imgs/01-basic/goldore1.png">
  
- <img src="imgs/01-basic/goldore2.png">
+<img src="imgs/01-basic/goldore2.png">
  
- <img src="imgs/01-basic/goldore3.png">
+<img src="imgs/01-basic/goldore3.png">
 
 ### Wood 
 
- <img src="imgs/01-basic/tree.png">
+<img src="imgs/01-basic/tree.png">
 
 Trees need between 10 and 12 hits to fall down and drop logs. Trees have varying height, even when they reach their maximum height, but pine trees of maximum height drop 6 or 7 logs, while the smaller bushy trees drop 3, 4 or 5 logs. 
 
@@ -67,7 +67,7 @@ Trees of course can regrow after being chopped down. Although it also varies, it
 
 ### Resupplies
 
- <img src="imgs/01-basic/resupply.png">
+<img src="imgs/01-basic/resupply.png">
  
 This is an important mechanic that a lot of people overlook. During the building time (the first 180 seconds of a match), you can get free materials from the tent or a builder shop every 40 seconds. **You get 300 wood and 100 stone.**
 
@@ -79,7 +79,7 @@ Keep in mind that the materials stack, so if you were next to the tent for 60 se
 
 In this section we'll shortly describe each of the blocks in the builder menu, which you can access by pressing F. A builder's building menu consists of 11 blocks/structures, as you can see in the image below:
 
- <img src="imgs/01-basic/buildermenu.png">
+<img src="imgs/01-basic/buildermenu.png">
 
 Blocks can cost either wood or stone.
 
@@ -87,7 +87,7 @@ Blocks can cost either wood or stone.
 
 ### Stone block
 
- <img src="imgs/01-basic/bstone.png">
+<img src="imgs/01-basic/bstone.png">
 
 - Costs 10 stone.
 - Gives 4 coins when placed in game time, 1 coin in build time.
@@ -97,7 +97,7 @@ Blocks can cost either wood or stone.
 
 ### Stone backwall
 
- <img src="imgs/01-basic/bstonebackwall.png">
+<img src="imgs/01-basic/bstonebackwall.png">
 
 - Costs 2 stone.
 - Doesn't give coins.
@@ -107,7 +107,7 @@ Blocks can cost either wood or stone.
 
 ### Stone door
 
- <img src="imgs/01-basic/bstonedoor.png">
+<img src="imgs/01-basic/bstonedoor.png">
 
 - Costs 50 stone.
 - Gives 4 coins when placed in game time, 1 coin in build time.
@@ -119,7 +119,7 @@ Blocks can cost either wood or stone.
 
 ### Wood block 
 
- <img src="imgs/01-basic/bwoodblock.png">
+<img src="imgs/01-basic/bwoodblock.png">
 
 - Costs 10 wood.
 - Gives 1 coin when placed in game time, 0 coins in build time.
@@ -131,7 +131,7 @@ Blocks can cost either wood or stone.
 
 ### Wood backwall
 
- <img src="imgs/01-basic/bwoodbackwall.png">
+<img src="imgs/01-basic/bwoodbackwall.png">
 
 - Costs 2 wood.
 - Doesn't give coins.
@@ -141,7 +141,7 @@ Blocks can cost either wood or stone.
 
 ### Wood door
 
- <img src="imgs/01-basic/bwooddoor.png">
+<img src="imgs/01-basic/bwooddoor.png">
 
 - Costs 30 wood.
 - Gives 1 coin when placed in game time, 0 coins in build time.
@@ -152,11 +152,11 @@ Blocks can cost either wood or stone.
 - Doors can only be opened by teammates.
 - Doors should be placed next to a solid block, or else they will fall off after some time.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/doorsfall.webm" controls loop="loop" preload></video><br>
 
 ### Trapblock
 
- <img src="imgs/01-basic/btrapblock.png">
+<img src="imgs/01-basic/btrapblock.png">
 
 - Costs 25 stone.
 - Gives 4 coins when placed in game time, 0 coins in build time.
@@ -166,7 +166,7 @@ Blocks can cost either wood or stone.
 
 ### Ladder
 
- <img src="imgs/01-basic/bladder.png">
+<img src="imgs/01-basic/bladder.png">
 
 - Costs 10 wood.
 - Doesn't give coins.
@@ -176,7 +176,7 @@ Blocks can cost either wood or stone.
 - Can be climbed by holding W while on them
 - Ladders are 3x1. You can rotate them by pressing Space after selecting one.
 
- <img src="imgs/01-basic/bladders2.png">
+<img src="imgs/01-basic/bladders2.png">
 
 - Ladders can overlap. The center of a ladder is the team-coloured part. You don't have to place the centres next to each other -- if you want to build a few ladders on top of each other, there can be a 1 block gap between the centres. This saves some wood.
 
@@ -184,7 +184,7 @@ Blocks can cost either wood or stone.
 
 ### Platform
 
- <img src="imgs/01-basic/bplatform.png">
+<img src="imgs/01-basic/bplatform.png">
 
 - Costs 15 wood.
 - Gives 1 coin when placed in game time, 0 coins in build time.
@@ -199,7 +199,7 @@ Blocks can cost either wood or stone.
 
 ### Workshop
 
- <img src="imgs/01-basic/bworkshop.png">
+<img src="imgs/01-basic/bworkshop.png">
 
 - Costs 150 wood.
 - Gives 10 coins when placed in game time, 3 coins in build time.
@@ -213,7 +213,7 @@ Blocks can cost either wood or stone.
 
 ### Spikes
 
- <img src="imgs/01-basic/bspikes.png">
+<img src="imgs/01-basic/bspikes.png">
 
 - Costs 30 stone.
 - Gives 4 coins when placed in game time, 1 coin in build time.
@@ -236,19 +236,19 @@ All enemies are also able to use your shops -- place them carefully.
 
 ### Builder shop
 
- <img src="imgs/01-basic/buildershop.png">
+<img src="imgs/01-basic/buildershop.png">
 
 Costs 50 wood. One of the three class shops -- if you aren't the class of the shop (if you aren't a builder in this case), you have the option to change to builder on it. The second option (for all classes) is to open the shop.
 
- <img src="imgs/01-basic/buildershopoptions.png">
+<img src="imgs/01-basic/buildershopoptions.png">
 
- <img src="imgs/01-basic/menu.png">
+<img src="imgs/01-basic/menu.png">
 
 Now, let's talk about the items you can buy:
 
 #### Lantern
 
- <img src="imgs/01-basic/lantern.png">
+<img src="imgs/01-basic/lantern.png">
 
 - Costs 10 wood.
 - Generates light.
@@ -257,7 +257,7 @@ Now, let's talk about the items you can buy:
 
 #### Bucket (no water)
 
- <img src="imgs/01-basic/bucket.png">
+<img src="imgs/01-basic/bucket.png">
 
 - Costs 10 wood.
 - 1x1 size in inventory.
@@ -265,7 +265,7 @@ Now, let's talk about the items you can buy:
 
 #### Bucket with water
 
- <img src="imgs/01-basic/bucketwater.png">
+<img src="imgs/01-basic/bucketwater.png">
 
 - Costs 10 wood and 10 coins
 - 1x1 size in inventory.
@@ -274,29 +274,31 @@ Now, let's talk about the items you can buy:
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/extinguishfire.webm" controls loop="loop" preload></video><br>
 
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/waterkeg2.webm" controls loop="loop" preload></video><br>
+
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/extinguishkeg.webm" controls loop="loop" preload></video><br>
 
 When you use a water bucket on someone with a lit keg, they also drop the keg if they were holding it, which gives you some time to pick it up.
 
-[GIF - cool a drill]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/extinguishdrill.webm" controls loop="loop" preload></video><br>
 
 #### Sponge
 
- <img src="imgs/01-basic/sponge.png">
+<img src="imgs/01-basic/sponge.png">
 
 - Costs 15 coins.
 - 1x1 size in inventory.
 - You can use it to remove water blocks, like in gif below.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sponge.webm" controls loop="loop" preload></video><br>
 
 - If you have one in inventory and you get hit by a water bomb or a water arrow, the sponge will absorb the stun. This can happen up to 2 times before the sponge gets destroyed.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/spongebomb.webm" controls loop="loop" preload></video><br>
 
 #### Boulder
 
- <img src="imgs/01-basic/boulder.png">
+<img src="imgs/01-basic/boulder.png">
 
 - Costs 35 stone.
 - Around 2x2 size (2 blocks wide and tall)
@@ -304,28 +306,28 @@ When you use a water bucket on someone with a lit keg, they also drop the keg if
 - You can throw it at enemies to damage them.
 - The damage depends on the velocity of the boulder; for the most damage, you should throw the boulder from the top of your tower.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/boulder.webm" controls loop="loop" preload></video><br>
 
-- If you put a boulder in a catapult and then launch it, it has a new functionality -- it also goes through blocks. Some believe this is a bug, but it works like in the GIF below.
-  
-[GIF]
+- If you put a boulder in a catapult and then launch it, it has a new functionality -- it also goes through blocks. Some believe this is a bug, but it works like in the GIF below. This is especially good against thick towers -- it destroys a lot of backwalls and goes through all of the blocks, making a lot of damage.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/bouldercat.webm" controls loop="loop" preload></video><br>
 
 #### Trampoline
 
- <img src="imgs/01-basic/trampoline.png">
+<img src="imgs/01-basic/trampoline.png">
 
 - Costs 150 wood.
 - 3 blocks wide, 1 block tall.
 - Doesn't fit in inventory.
 - Lets players bounce of it.
 - When hold in your hand, you can rotate it to 3 directions so that it points up or diagonally.
-- Often put on top of the towers so that your knights can travel lots of distance.
+- Put on top of your tower for quicker travel for your knights.
  
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/tramptower.webm" controls loop="loop" preload></video><br>
 
 #### Drill
 
- <img src="imgs/01-basic/drill.png">
+<img src="imgs/01-basic/drill.png">
 
 - Costs 100 stone and 25 coins.
 - 1x1 size in inventory.
@@ -333,59 +335,56 @@ When you use a water bucket on someone with a lit keg, they also drop the keg if
 - Drills rotate depending on the position of your cursor.
 - The more blocks you destroy, the hotter the drill gets -- eventually it can overheat and deal you 0.25heart of damage and drop to the ground while releasing steam. If that happens, don't instantly try to pick it back up -- it will damage you and keep dropping to the ground. You have to wait a few seconds.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/drilloverheat.webm" controls loop="loop" preload></video><br>
 
-- Overheated drills emit light, so you can sometimes spot rats with drills.
+- Overheated drills emit light, so you can sometimes spot tunneling rats with drills.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/lightdrill.webm" controls loop="loop" preload></video><br>
 
 - Drills also deal 1 heart of damage to enemies per hit. When they are in a heated state (they have a red tint), they deal 1.5 heart of damage.
 - Drills deal half of the damage when shielded -- so 0.5 heart or 0.75 heart of damage to shielding knights.
 - They obviously also deal damage faster than pickaxe.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/combatdrill.webm" controls loop="loop" preload></video><br>
 
-- Drills can be cooled down by using any kind of water on it (water bomb, water arrow or water bucket). They also cool down naturally over time. They also cool down while in your inventory. You can speed up the cooling down slightly if you move around with your drill in hand. There's also a bar that shows you how heated a drill is.
+- As mentioned earlier, drills can be cooled down by using any kind of water on it (water bomb, water arrow or water bucket). They also cool down naturally over time (also while they're in your inventory). You can speed up the cooling down slightly if you move around with your drill in hand. There's also a bar that shows you how heated a drill is.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/extinguishdrill.webm" controls loop="loop" preload></video><br>
 
 - Drills overheat quicker on natural blocks (stone ore, dirt) than on man-made blocks (stone blocks, wooden blocks). They also overheat even quicker (the fastest) on blocks such as doors, platforms or shops, as well as on trees.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/drillkinds.webm" controls loop="loop" preload></video><br>
 
 - Drills have an odd angle, which allows you to damage enemies in a situation like in the gif below (pay attention to what is a door and what is a normal block), while the knights can't damage you. This is a bit more advanced and is related to doors having a slightly bigger hitbox -- we'll tell you more about it in another chapter in a combat-related section. 
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/angledrill.webm" controls loop="loop" preload></video><br>
 
 #### Saw
 
- <img src="imgs/01-basic/saw.png">
+<img src="imgs/01-basic/saw.png">
 
 - Costs 150 wood and 100 stone.
 - 3 blocks wide, 2 blocks tall.
 - Doesn't fit in inventory.
 - You can press E on the saw to turn it off and on.
 - Players instantly die if they fall into a saw.
-- If a teammate falls into a saw, the saw turns off.
-
-[GIF]
-
+- If a teammate falls into a team's saw, the saw turns off.
 - Saws change team depending on who last held the saw. You can't pick up enemy saws from above or from their side. You need to be at a lower level than them.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sawgif1.webm" controls loop="loop" preload></video><br>
 
 - Another functionality of saws is that they convert logs into wood quickly. More about this will be mentioned later this chapter (building a "tree farm").
 
-[GIF: throw saw at some logs]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sawlog.webm" controls loop="loop" preload></video><br>
 
 - Items like crates also get destroyed when thrown into a saw.
 - Lit bombs and kegs explode instantly when thrown into a saw.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sawgif2.webm" controls loop="loop" preload></video><br>
 
 #### Crate
 
- <img src="imgs/01-basic/crate.png">
+<img src="imgs/01-basic/crate.png">
 
 - Costs either 150 wood or 20 coins.
 - 3 blocks wide, 2 blocks tall.
@@ -393,16 +392,16 @@ When you use a water bucket on someone with a lit keg, they also drop the keg if
 - A crate has a 3x3 inventory -- you can put items in it. The crate should be on the ground, while you should hold the item you want to put in a crate in your inventory then press E on it.
 - If you hold a crate and walk over items such as materials or unlit bombs laying on the ground, the crate will pick them up. They can be removed out of the crate manually or by pressing Space while having it in your hand.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/cratepick.webm" controls loop="loop" preload></video><br>
 
 - Players can also get into crates -- you need to pick a crate up (so that it's your hand), and then press E on it. Other players can also pick up the crate. This is a good way for builders to be "delivered" to enemy territory safely by the knights in your team.
 - You can get out of a crate by pressing E again.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/crategetin.webm" controls loop="loop" preload></video><br>
 
 - You can remove enemies from enemy crates by pressing E on it, however, it will stun you for a short time.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/cratenemy.webm" controls loop="loop" preload></video><br>
 
 That's all of the items in the builder shop.
 
@@ -412,7 +411,7 @@ That's all of the items in the builder shop.
 
 Costs 50 wood. The shop has 2 features -- if you aren't at full health, you can select the sleep button and regain 0.25 heart per second.
 
-[gif - sleeping]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/rest.webm" controls loop="loop" preload></video><br>
 
 The other button is opening the shop menu, which contains 4 options -- a beer, a meal, an egg and a burger.
 
@@ -433,9 +432,10 @@ The other button is opening the shop menu, which contains 4 options -- a beer, a
 - Costs 30 coins.
 - 1x1 inventory size.
 - If you walk over an egg while damaged, you will eat the egg. However, it's not exactly a food item -- after some time a chicken hatches out of the egg. If you hold a chicken in your hand, you fall slower. If there are 2 or more chickens, they also breed and produce more eggs.
+- Chickens also have a 1x1 inventory size.
 - Chickens are pretty much only used if you want to travel more distance when being launched out of a catapult.
 
-[GIF - being launched out of catapult]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/catachick.webm" controls loop="loop" preload></video><br>
 
 #### Burger
 
@@ -462,17 +462,17 @@ Costs 50 wood, another class shop -- so you have the option to swap class to Kni
 - Instakills any enemies that walk into it and causes a small explosion.
 - Unshieldable by knights.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/mine.webm" controls loop="loop" preload></video><br>
 
 - If the person who placed the mine was next to it during the explosion, they also die.
 - You can pick up enemy mines if they haven't deployed yet. The mine changes to your team if you do that.
 
-[GIF] 
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/mineploy.webm" controls loop="loop" preload></video><br>
 
 - It's a good tactic to put mines in your flag rooms or next to enemy doors.
-- Sometimes people also put them behind bushes or trees.
+- Hardly visible for enemies when put behind a bush.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/blocksupport2.webm" controls loop="loop" preload></video><br>
 
 ### Archer shop
 
@@ -543,36 +543,21 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 - Comes in a crate when bought -- it must be unpacked in a spot with enough place.
 - It has 3 spots right after unpacking: the driving spot, the firing spot, and the spot in the bowl. You enter the spots by clicking S on them, obviously. For the upper spot in the bowl, you have to jump up first and then press S.
 - You can remove the wheels by pressing E and clicking the remove wheels button. You should do this pretty much every time if you plan the catapult to be a stationary one on top of your tower. This removes the driver spot and can't be undone.
+- Catapults can launch items, as well as players. When you enter the firing spot, you can launch by holding your left mouse button.
 
-[GIF of removing driving spot]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/catalaunch.webm" controls loop="loop" preload></video><br>
 
-- Catapults can launch items, as well as players. When you enter the firing spot, you can launch by holding your left mouse buttons.
+- If you want to put an item in a catapult, you must first have the item in your hand, hold E and then press the "load item" button next to the bowl.
 
-[GIF of launching a player]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/bouldercat.webm" controls loop="loop" preload></video><br>
 
-- If you want to put an item in a catapult, you must first have the item in your hand and then press E on the button next to the bowl.
+- Catapults can also fire rocks. Each catapult after unpacking has 100 stone. One rock launch costs 10 stone. They do some slight damage to structures, especially backwall, as well as do lots of damage to enemies.
 
-[GIF - put boulder and then launch]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/catarocks.webm" controls loop="loop" preload></video><br>
 
-- Catapults can also fire rocks. Each catapult after unpacking has 100 stone. One rock launch costs 10 stone. They do some slight damage to structures, especially backwall
-
-[GIF of above]
-
-- You can refill catapults with stone by clicking the "Load stone" button if you have stone in your inventory.
-
-[GIF of above]
-
-- You can shoot stuff through platforms too, obviously.
-
-[GIF of platforms]
-
+- You can refill catapults with stone by holding E and clicking the "Load stone" button if you have stone in your inventory.
 - Keep in mind that enemy archers can destroy your catapult with only a single bomb arrow.
-
-[GIF]
-
 - Also, if you haven't removed the wheels, archers can shoot the catapult and make it drive away. This can cause the catapult to fall off sometimes, which is why removing wheels is recommended.
-
-[GIF]
 
 #### Ballista
 
@@ -585,26 +570,22 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 - A ballista spawns with 12 bolts. More can be bought in the shop.
 - If you haven't upgraded the bolts in the vehicle shop (last option), the firing spot can shoot normal bolts that instakill enemies if they hit them.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/ballistabolt.webm" controls loop="loop" preload></video><br>
 
-- If the bolts are upgraded, the ballista fires explosive bolts instead that damage structures too. However, it consumes 2 bolts instead of one (so if a ballista has 12 bolts, it actually only has 6 explosive bolts)
+- If the bolts are upgraded, the ballista fires explosive bolts instead that damage structures too. However, it consumes 2 bolts instead of one (so if a ballista has 12 bolts, it actually only has 6 explosive bolts). Explosive bolts instantly kill enemies as well.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/bombbolts.webm" controls loop="loop" preload></video><br>
 
-- You can also change classes on ballistas -- hold E and select the "change class" option.
+- You can also change classes on ballistas (including enemy ones) -- hold E and select the "change class" option.
 
-[GIF]
-
-- Keep in mind you can change class on enemy ballistas too.
-
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/ballistaswap.webm" controls loop="loop" preload></video><br>
 
 - They also work as a respawn point, similar to war boats. If you die and your team has a ballista, you can select it to respawn on it.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/ballistarespawn.webm" controls loop="loop" preload></video><br>
 
 - You can't respawn on a ballista if it's being captured by the enemies (capturing any vehicle in KAG means standing on it for some amount of time).
-- Keep in mind that enemy archers can destroy your ballista with two bomb arrows.
+- Enemy archers can destroy your ballista with two bomb arrows.
 - Similar to catapults -- enemy archers can shoot arrows at a ballista with wheels and make it drive away. Removing wheels is recommended.
 
 #### Ballista bolts
@@ -615,8 +596,6 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 - One stack of 12 ballista bolts.
 - Put new ballista bolts in a ballista by holding them in your hand, holding E on a ballista and selecting the "load ballista bolts" option.
 
-[GIF]
-
 #### Bomb bolt upgrade
 
 <img src="imgs/01-basic/ballistabombbolts.png">
@@ -624,7 +603,7 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 - Costs 100 gold.
 - When bought, it applies to any future ballistas bought by your team in the match, even if it's a different siege shop.
 - Future ballistas will now fire explosive bolts, as mentioned earlier.
-- Keep in mind that this upgrade does not apply to ballistas you have bought before getting the upgrade.
+- Keep in mind that this upgrade does not apply to ballistas you have unpacked before getting the upgrade.
 
 ### Storage
 
@@ -646,7 +625,7 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 - If you have only 2 tunnels, just pressing E on the tunnel will let you travel to the other one.
 - If you have 3 or more tunnels, you will also have to select what tunnel you want to go to.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/tunneltravel.webm" controls loop="loop" preload></video><br>
 
 - You are stunned for a second after using a tunnel.
 - Tunnels usually should connect the most important parts of the map for your team: there should be one next to the tent, one in the tower, one or more in middle of the map (if you have control of it).
@@ -662,7 +641,7 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 - Converts 100 wood to 75 stone every 30 seconds.
 - The stone falls to the ground on the 2nd tile of the shop from the left. Since it falls like that, many people put quarries above a storage with a 1 tile gap so that the stone goes into the storage like in the gif below.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/quarry.webm" controls loop="loop" preload></video><br>
 
 ## Building a base
 
@@ -724,17 +703,11 @@ It's good to have lots, **lots of doors** -- in case the enemies get into your t
 
 Next, you want to replace majority of the wooden backwalls from the shops and doors with stone backwalls. **Fire spreads much slower and much less with stone backwalls than if there were wooden backwalls.**
 
-[<img src="imgs/01-basic/tower9.png">
+<img src="imgs/01-basic/tower9.png">
 
-Here's a comparison of using a fire arrow:
+Here's a comparison of using a fire arrow against a part of a tower, but one part has stone backwalls for doors and shops while one has wooden:
 
-With stone backwalls:
-
-[GIF]
-
-With wooden backwalls:
-
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/firecompar.webm" controls loop="loop" preload></video><br>
 
 Obviously, you don't want the front wall to be thinner above. We build additional 3 layers of wooden doors next to every shop (again, the more doors there are -- the harder for enemy builders to block them all) and add stone.
 
@@ -754,11 +727,7 @@ Adding a trampoline after the game starts (the red zone bounces it back) is also
 
 If you have wood left, you can place doors pretty much everywhere. The more doors the better.
 
-Here's a 3 min video example of what you could do solely by yourself:
-
-[VID]
-
-And here's one for building a tower at a normal CTF match:
+Here's a 3 min video example of building a tower on public CTF along with some other people:
 
 [VID]
 
@@ -782,7 +751,7 @@ It's also good to put a mine in each flag room (or even 2!). If any enemies even
 
 ### Tunnels
 
-As I mentioned earlier, there should be a tunnel in your tower for quick travel. The other tunnel should be next to your tent (or at least close to it).
+As I mentioned earlier, there should be a tunnel in your tower for quick travel. The first tunnel should be next to your tent (or at least close to it).
 
 The tunnel near your tent **should always have a sawtrap**. A sawtrap like this -- one trapblock, the tunnel on it and a saw below:
 
@@ -790,7 +759,7 @@ The tunnel near your tent **should always have a sawtrap**. A sawtrap like this 
 
 Here's how to build one -- as you can see, you can put a trapblock before putting the saw -- if you want to put the saw in the hole, you can just jump on the trapblock, hold S and throw it downwards.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/tunneltrap.webm" controls loop="loop" preload></video><br>
 
 ### Tree farm
 
@@ -806,15 +775,13 @@ After that, you get a saw and put it like this.
 
 Destroying the trees will now make all of the logs fall downwards instead of the tree falling to the side. The logs, when destroyed by the saw, are converted to wood. This is much quicker than if you were chopping them manually.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/treefarm1.webm" controls loop="loop" preload></video><br>
 
 If you have a bigger tree farm, you don't have to get another saw -- you can just move the saw around.
 
-[GIF]
-
 Also, if you have a saw, it's actually faster to chop down trees as a knight than as a builder -- a slash can damage 2 trees at once. So if the tree farm is near the tent you could quickly swap to knight to do that.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/treefarm2.webm" controls loop="loop" preload></video><br>
 
 Trees can grow on bedrock, dirt and stone, but they can't grow on man-made blocks like stone blocks or wood blocks.
 
@@ -826,8 +793,7 @@ Also, sometimes it may bug out and the logs may not fall through and instead get
 
 If for some reason the logs do not fall into the saw (or it was accidentally turned off), you can just throw the saw at the logs, like in the gif below.
 
-[GIF]
-
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/treefarm3.webm" controls loop="loop" preload></video><br>
 
 ### Shops
 
@@ -841,11 +807,11 @@ Make sure that you replace some of the wooden backwalls with stone backwalls so 
 
 For now you should also remember that wooden blocks (normal wood blocks, platforms, doors) require less support than stone blocks. For example, if you tried to build a bridge, a stone bridge from top of your tower would only be 5 blocks long, while a wooden one would be able to be 25 blocks long.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/blocksupport.webm" controls loop="loop" preload></video><br>
 
 This can often cause confusing situations when you can't place blocks somewhere -- there's not enough support. For example, if you replaced first half of a wooden bridge with stone, you wouldn't be able to build past the 5 blocks.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/blocksupport2.webm" controls loop="loop" preload></video><br>
 
 ## Common mistakes
 
@@ -883,9 +849,9 @@ Sometimes there are doors like this:
 
 [IMG]
 
-It's harder to go through doors like that because you need to jump up and fit properly. This is much easier when doors are to the side, like in the image below -- in this case you can wallclimb by hugging the wall and it's much easier.
+It's harder to go through doors like that because you need to jump up and fit properly. This is much easier when doors are to the side, like in the gif below -- in this case you can wallclimb by hugging the wall and it's much easier.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/climb.webm" controls loop="loop" preload></video><br>
 
 ### Awkward movement in general 
 
