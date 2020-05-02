@@ -660,7 +660,7 @@ If you decide to focus on the tower for the entirety of the build time, you're m
 
 Usually you end up using all the materials you have before the next resupply, so if that happens you should go dig some stone and return for the next batch of resupplies.
 
-Keep in mind you can't make everything by yourself in an actual CTF match of course -- this is a team game after all, so other players should help you and also build a bit. You should pretty much build what is missing or improve the parts that could be better. This part will just tell you how a good tower should look like.
+Keep in mind you can't make everything by yourself in an actual CTF match -- this is a team game after all, so other players should help you and also build a bit. You should pretty much build what is missing or improve the parts that could be better. This part will just tell you how a good tower should look like.
 
 After building a builder shop, it's good to make the front wall. Usually making a 3 block thick wall is enough.
 
