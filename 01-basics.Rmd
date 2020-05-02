@@ -666,7 +666,7 @@ After building a builder shop, it's good to make the front wall. Usually making 
 
 We start with placing 3 layers of doors at the bottom -- 5 wooden doors and 1 stone door. We don't want to place too many stone doors so that we have enough stone for the actual wall itself.
 
-After placing the doors we place stone walls. **Keep in mind you can actually place blocks in the red zone!** Usually I build it like this:
+After placing the doors we place stone walls. **Keep in mind you can actually place blocks in the red zone!** Usually we build it like this:
 
 First, the outer layer made out of stone only:
 
