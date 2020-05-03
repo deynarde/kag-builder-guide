@@ -907,3 +907,15 @@ This is a classic example of a totally useless trap -- the trapblocks are a wast
 There's barely any reason to do this; it's better to have a top entrance so that you can protect the flag if there's enemies above rather than a saw. The saw can be easily avoided by placing ladders and often someone in your team will just accidentally kill themselves, disabling the saw (and also taking away coins from you -- you lose coins when teamkilling somebody).
 
 <img src="imgs/01-basic/sawflag.png">
+
+## Progressing to victory
+
+While this chapter was mostly very basic stuff, in the next chapters we'll talk about everything you can do as a builder to help your team get closer to victory, as well as explain some stuff about combat as a builder.
+
+First of all, not every good builder plays the same. There are pretty much three builder playstyles, and which one you will use depends on what is the most fun to you (or if you just want to win -- which one would be the best for your team depending on the situation)
+
+**Defensive playstyle** is when you mostly stay in your base and defend your team's base from any enemies, constantly making improvements, mining resources, keeping your team's quarry running, repairing structures and protecting the tower. Some people in-game may find having a builder focusing on stuff like that to be pointless (you don't really help your team to capture the flag, after all), but such a builder is still very useful (especially if the tide turns and your team has to be on the defense) and easy to play for beginners.
+
+**Progressive/supportive playstyle** is when you focus on winning the game by doing long-term actions that help your team progress. This usually means ensuring you have a decent mid base with a tunnel, buying siege and gradually destroying the enemy tower, or saving up coins over a period of time so you could use them all at once (at explosives, for example). Also includes ratting/tunneling. It's the playstyle which is most likely to lead your team to victory.
+ 
+**Offensive playstyle** is when you prefer to rely on opportunities and basically keep pushing the enemy team, trying to get into the tower or the flag room by drilling or going up the enemy tower. This is heavily dependant on how your knights do -- so you often start pushing with them as soon as they kill a few enemies. Having good situational awareness and knowing how your team is doing, as well as what are the enemies' weaknesses is required. Besides that it's also the most combat-heavy playstyle, and for being the most effective at it you need to be familiar with blockspamming, using drills (the most powerful tool we have), dropping and mobility in general, as well as good reflexes.
