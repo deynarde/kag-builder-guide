@@ -53,7 +53,7 @@ However, eventually the wall will become so thick that if one of the doors will 
 
 Of course, you could also do 2 layers instead of 3 or add more doors instead of so many stone blocks if you have wood.
 
-[IMG
+[IMG]
 
 You can also expand by just building what I like to call "door lettuce". This is good especially if you have lots of wood. Basically, you keep building doors with stone blocks connecting each pair. Make sure to add some stone backwall too. This is even harder for enemy builders to block, as well as allowing good movement for your knights.
 
@@ -69,7 +69,7 @@ No matter what way of base expansion you're using, you'll eventually probably wa
 
 If you have decided to finish base expansion for now you should add downward facing platforms after the doors -- like this. This makes it harder for enemy builders to climb up your tower.
 
-[GIF]
+[IMG]
 
 The 1 block gaps are for spike dropping -- spikes can't drop through platforms at all.
 
