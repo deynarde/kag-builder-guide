@@ -83,7 +83,7 @@ The good thing about it is that drills overheat quicker on platforms (as well as
 
 Keep in mind that when drilling platforms like that, you also drill the blocks behind them at the same time.
 
-However, bomb arrows destroy the middle layer of platforms when they hit the outer stone layer as well. This is the con of using platforms. Doesn't matter which directions they're facing.
+Although protection from drills is good, the con here is that bomb arrows destroy the middle layer of platforms when they hit the outer stone layer as well. This is the con of using platforms. Doesn't matter which directions they're facing.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/02-defense/bombplatofrms.webm" controls loop="loop" preload></video><br>
 
@@ -211,7 +211,7 @@ Although you're a defensive builder, there are certain situations where it'd be 
 
 [GIF]
 
-Sometimes a good knight can catch the keg, so you can also suicide with it (jump and drop it right before falling to the ground)
+Sometimes a good knight can catch the keg, so if you don't want that to happen you can also suicide with it (jump and drop it right before falling to the ground while slashing for additional momentum).
 
 [GIF]
 
