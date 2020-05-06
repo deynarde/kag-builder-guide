@@ -47,21 +47,21 @@ First way -- keep adding doors+stone block layers, such as this:
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/02-defense/expand1.webm" controls loop="loop" preload></video><br>
 
-However, eventually the wall will become so thick that if one of the doors will be blocked, you will have to backtrack too much to get to the upper doors. To make movement a bit easier it's good to make doors for moving upwards. Generally we can build 3 additional layers + doors upwards + 3 additional layers and so on. Look at gif below.
+However, eventually the wall will become so thick that if one of the doors will be blocked, you will have to backtrack too much to get to the upper doors. To make movement a bit easier it's good to make doors for moving upwards. Generally we can build 3 additional layers + doors upwards + 3 additional layers and so on, like in the image below
 
-[GIF]
+<img src="imgs/02-defense/3layers.png">
 
 Of course, you could also do 2 layers instead of 3 or add more doors instead of so many stone blocks if you have wood.
 
-[IMG]
+<img src="imgs/02-defense/2layerspng">
 
 You can also expand by just building what I like to call "door lettuce". This is good especially if you have lots of wood. Basically, you keep building doors with stone blocks connecting each pair. Make sure to add some stone backwall too. This is even harder for enemy builders to block, as well as allowing good movement for your knights.
 
-[GIF]
+<img src="imgs/02-defense/doorlettuce.png">
 
 Second way is not directly expanding the tower, but making a wall 10-15 blocks away from the front tower and then connecting it, but without as many layers -- mostly some wood and backwall. This works well on maps that are a bit bigger.
 
-<img src="imgs/02-defense/seedgrow.png">
+<img src="imgs/02-defense/baseexpansion3.png">
 
 After that you can just pretty much make improvements -- make it taller, make the connection stronger, add aditional doors and so on.
 
@@ -69,7 +69,7 @@ No matter what way of base expansion you're using, you'll eventually probably wa
 
 If you have decided to finish base expansion for now you should add downward facing platforms after the doors -- like this. This makes it harder for enemy builders to climb up your tower.
 
-[IMG]
+<img src="imgs/02-defense/platforms5.png">
 
 The 1 block gaps are for spike dropping -- spikes can't drop through platforms at all.
 
@@ -97,11 +97,11 @@ Keep in mind that even if it's like in the gif below (additional stone layer), a
 
 So, as you can see -- although platforms are good against drills, they're not that good against bomb arrows in most of the situations. However, if you want to stop base expanding, then an outer layer consisting solely of platforms would be a good idea.
 
-[IMG]
+<img src="imgs/02-defense/ratplatforms.png">
 
 They're also viable for blocking tunnels -- it's very unlikely for enemy archers to use bomb arrows in tunnels, so you can block tunnels by using platforms between stone layers.
 
-[IMG]
+<img src="imgs/02-defense/outerplat.png">
 
 You can also use them on skybridges or ledges (when facing downwards), like in the gif below -- any bomb arrows that will hit the platforms from above will only damage a single platform and not do much damage to the ledge. 
 
@@ -119,7 +119,7 @@ It's good to have a ballista and a catapult on top of your tower. As mentioned i
 
 First, you want to make a small (or a bit bigger -- depends on how far you want it to be able to shoot) ledge on top of your tower. Put some wooden blocks, and then one or two layers of stone blocks on top of it (wooden blocks provide more support than stone blocks, letting you build further). Make sure to not build it too close to the sky border (if you build it too high, you may not be able to unpack siege or build additional protections for it)
 
-[GIF]
+<img src="imgs/02-defense/ledgecat.png">
 
 Generally, if you plan to shoot bolts from the ballista, or if you're placing a catapult you should build some platforms (and stone backwall!) like in the gif below:
 
