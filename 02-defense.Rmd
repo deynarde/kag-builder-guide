@@ -135,7 +135,7 @@ People will still be able to respawn and it'll be very hard for enemies to damag
 
 Knights are likely to make use of your catapult -- if you see any knight get into the bowl, you should launch them. This is one of the most useful things a defensive builder can do for their team -- constantly launch knights to the enemy side.
 
-Another thing you could do is set up a chicken farm -- make a small room like the image below, and put a few eggs there (buy them from a food shop). Make sure the eggs are in a seperate location than a food shop (preferably with only 1 door to them), so that your knights don't kill them acidentally. Chickens will eventually hatch from the eggs, and then breed and produce even more eggs. Knights (as well as offensive builders) will be able to fly even further from the catapult if they will hold chickens.
+Another thing you could do is set up a chicken farm -- make a small room like the image below, and put a few eggs there (buy them from a food shop). Make sure the eggs are in a separate location than a food shop (preferably with only 1 door to them), so that your knights don't kill them acidentally. Chickens will eventually hatch from the eggs, and then breed and produce even more eggs. Knights (as well as offensive builders) will be able to fly even further from the catapult if they will hold chickens.
 
 <img src="imgs/02-defense/chickens.png">
 
