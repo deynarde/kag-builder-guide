@@ -1,6 +1,6 @@
 # Builder Guides
 
-[![Build Status](https://travis-ci.com/deynarde/kag-builder-guide.svg?branch=master)](https://travis-ci.org/deynarde/kag-builder-guide)
+[![Build Status](https://travis-ci.com/deynarde/kag-builder-guide.svg?branch=master)](https://travis-ci.com/deynarde/kag-builder-guide)
 
 A KAG builder guide for both new and experienced players.
 
