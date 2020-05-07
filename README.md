@@ -1,4 +1,4 @@
-# Builder Guides
+# Builder Guide
 
 [![Build Status](https://travis-ci.com/deynarde/kag-builder-guide.svg?branch=master)](https://travis-ci.com/deynarde/kag-builder-guide)
 
