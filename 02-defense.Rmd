@@ -97,11 +97,11 @@ Keep in mind that even if it's like in the gif below (additional stone layer), a
 
 So, as you can see -- although platforms are good against drills, they're not that good against bomb arrows in most of the situations. However, if you want to stop base expanding, then an outer layer consisting solely of platforms would be a good idea.
 
-<img src="imgs/02-defense/ratplatforms.png">
+<img src="imgs/02-defense/outerplat.png">
 
 They're also viable for blocking tunnels -- it's very unlikely for enemy archers to use bomb arrows in tunnels, so you can block tunnels by using platforms between stone layers.
 
-<img src="imgs/02-defense/outerplat.png">
+<img src="imgs/02-defense/ratplatforms.png">
 
 You can also use them on skybridges or ledges (when facing downwards), like in the gif below -- any bomb arrows that will hit the platforms from above will only damage a single platform and not do much damage to the ledge. 
 
@@ -143,7 +143,7 @@ Another thing you could do is set up a chicken farm -- make a small room like th
 
 Although spikes are fairly expensive (30 stone) they're a good tool to protect your base from incoming enemies. The idea is to drop a spike if any enemies (especially a builder) get near your tower.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/02-defense/spikedrop.webm" controls loop="loop" preload></video><br>
 
 Remember that spikes can be dropped if they're placed on a backwall or next to doors or platforms. Keep in mind that spikes can't be dropped through platforms (which is why it's good for the tower downward-facing platforms mentioned earlier to have gaps).
 
@@ -185,47 +185,43 @@ Sometimes you can notice that there's an underground tunnel because the travelli
 
 Moreover, as you can see for a short while in the gif above, when you actually move your cursor on the enemy tunnel, it will say "travel tunnel". So if you suspect that the enemy has any tunnels anywhere, you could move your mouse around and check.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/02-defense/tunneltext.webm" controls loop="loop" preload></video><br>
 
-If you are fighting against rats at a horizontal level, you should keep spamming doors and hope that knights will be able to kill them.
+If you are fighting against rats at an even level, you should keep spamming doors and hope that knights will be able to kill them. It's good to take a lantern with you as well, in order to increase your knights' visibility.
 
-[GIF]
-
-It's good to take a lantern with you as well, in order to increase your knights' visibility.
-
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/02-defense/tunnelbiurza.webm" controls loop="loop" preload></video><br>
 
 After you've dealt with the rats, you should deal with the tunnel they dug. If the tunnel will be of any use to your team, put lots of doors in it as well as mines (if you don't have money -- get lanterns instead so that your team can see if any enemies will try to use it again).
+
+Keep in mind that in the example gif above, the enemies were ratting in water. Doors decay quickly when placed in water, so after we deal with the rats we want to block the tunnel with stone blocks and platforms (platforms don't decay in water, unlike doors).
 
 <img src="imgs/02-defense/minetunnelhehe.png">
 
 <img src="imgs/02-defense/lanterntunnel.png">
 
-If the tunnel won't be of use, you should block it with stone and platforms. Platforms are good for this because of the functionality mentioned earlier -- enemy builders' drills will overheat faster on them.
+If the tunnel won't be of use, you should block it with stone and platforms. Platforms are good for this because of the functionality mentioned earlier -- enemy builders' drills will overheat faster on them. Again, image of how you could do that is below.
 
-[GIF]
+<img src="imgs/02-defense/ratplatforms.png">
 
 ## Keg dropping
 
 Although you're a defensive builder, there are certain situations where it'd be better for you to change to knight and drop a keg to protect your tower. This is usually when enemies start getting into the bottom of your tower and they have placed protection from spikes (or if you're unable to spikedrop them for any other reason), as well as if there are no knights to kill them. Since building gives you a lot of coins, you can change to knight at a knight shop and buy a keg (120 coins), then light it and drop it at the enemies like in the gif below.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/02-defense/kegwave2.webm" controls loop="loop" preload></video><br>
 
-Sometimes a good knight can catch the keg, so if you don't want that to happen you can also suicide with it (jump and drop it right before falling to the ground while slashing for additional momentum).
+Sometimes a good knight can catch the keg, so if you don't want that to happen you should suicide with it (jump and drop it right before falling to the ground while slashing for additional momentum).
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/02-defense/kegwave.webm" controls loop="loop" preload></video><br>
 
 Remember that only knights can light kegs.
 
 ## Being under siege 
 
-If enemies are launching knights from catapults, it'd be good to make a wall that would stop the knights from getting over the tower, even if it's made from wood and only 1 block thick (although you should add some backwall to it as soon as possible).
+If enemies are launching knights from catapults, it'd be good to make a wall that would stop the knights from getting over the tower, even if it's temporary and made from wood and only 1 block thick (although you should add some backwall to it as soon as possible). Besides from that, try to constantly repair any part of your tower damaged by the enemies.
 
-[GIF]
+If there's no way to prevent the enemies from coming into your base, you should either change to knight and try to kill any incoming enemies. If you're able to reach the enemy catapult, change to archer and try to shoot a bomb arrow (50 coins, archer shop) at it.
 
-If there's no way to prevent the enemies from coming into your base, you should either change to knight and try to kill any incoming enemies, or change to archer and try to shoot a bomb arrow (50 coins, archer shop) at the enemy catapult.
-
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/02-defense/bombcata.webm" controls loop="loop" preload></video><br>
 
 Enemies usually will land on the same spot of the wall on full catapult power, so if you see where they land you can place a spike on a wooden block there to damage them and make them fall down. This is better against builders -- while knights will just hug the wall and fall down, builders would be able to place ladders, so the spikes kill them.
 
@@ -233,13 +229,11 @@ Enemies usually will land on the same spot of the wall on full catapult power, s
 
 It's good to have a water bucket or a builder shop near this, so that you can extinguish any fires in case enemies use fire arrows against this.
 
-If you're under siege from ballista explosive bolts, you can also try to shoot bomb arrows at it (keep in mind ballistas get destroyed after two bomb arrows, not one like catapults). If that's not possible, you should just constantly repair the part of your tower/base that is being hit by explosive bolts, even if only with wood. 
-
-[GIF]
+If you're under siege from ballista explosive bolts, you can also try to shoot bomb arrows at the ballista (keep in mind ballistas get destroyed after two bomb arrows, not one like catapults). If that's not possible, you should just constantly repair the part of your tower/base that is being hit by explosive bolts, even if only with wood. 
 
 Another thing you can do is change to knight and slash the ballista bolts, although this requires good timing to make sure you don't get hit.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/02-defense/slashbolt.webm" controls loop="loop" preload></video><br>
 
 ## What to spend money on
 
