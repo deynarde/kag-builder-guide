@@ -114,7 +114,7 @@ Comparison -- with platforms and without:
 Keep in mind this only provides protection from bomb arrows, not firearrows. As for fire, you should have a builder shop around if you're using lots of wood so you can buy water buckets to extinguish fire.
 
 ## Setting up siege on top of tower
-c
+
 It's good to have a ballista and a catapult on top of your tower. As mentioned in previous chapter, you can buy a ballista for 200 coins from the siege shop, and a catapult for 80 coins. Ballistas can shoot explosive bolts (if you bought the upgrade) and let people respawn on it when they die, catapults can launch teammates.
 
 First, you want to make a small (or a bit bigger -- depends on how far you want it to be able to shoot) ledge on top of your tower. Put some wooden blocks, and then one or two layers of stone blocks on top of it (wooden blocks provide more support than stone blocks, letting you build further). Make sure to not build it too close to the sky border (if you build it too high, you may not be able to unpack siege or build additional protections for it)
