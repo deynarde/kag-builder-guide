@@ -119,7 +119,7 @@ It's good to have a ballista and a catapult on top of your tower. As mentioned i
 
 First, you want to make a small (or a bit bigger -- depends on how far you want it to be able to shoot) ledge on top of your tower. Put some wooden blocks, and then one or two layers of stone blocks on top of it (wooden blocks provide more support than stone blocks, letting you build further). Make sure to not build it too close to the sky border (if you build it too high, you may not be able to unpack siege or build additional protections for it)
 
-<img src="imgs/02-defense/ledgecat.png">
+<img src="imgs/02-defense/ledgecata.png">
 
 Generally, if you plan to shoot bolts from the ballista, or if you're placing a catapult you should build some platforms (and stone backwall!) like in the gif below:
 
