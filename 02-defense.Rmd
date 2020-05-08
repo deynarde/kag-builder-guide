@@ -53,7 +53,7 @@ However, eventually the wall will become so thick that if one of the doors will 
 
 Of course, you could also do 2 layers instead of 3 or add more doors instead of so many stone blocks if you have wood.
 
-<img src="imgs/02-defense/2layerspng">
+<img src="imgs/02-defense/2layers.png">
 
 You can also expand by just building what I like to call "door lettuce". This is good especially if you have lots of wood. Basically, you keep building doors with stone blocks connecting each pair. Make sure to add some stone backwall too. This is even harder for enemy builders to block, as well as allowing good movement for your knights.
 
