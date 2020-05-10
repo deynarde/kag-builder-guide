@@ -1,5 +1,5 @@
 
-# Builder II: Progressive playstyle
+# Builder III: Progressive playstyle
 
 <p align="center">
   <img src="imgs/pikaks.png">
@@ -11,90 +11,71 @@ Progressive builders mainly focus on gaining and keeping control of the middle o
 
 ## Mid control
 
-### Start of the match
-
 Having control of the middle is very important for the team -- your team can attack the enemy tower better and quicker if they're able to quickly travel to mid with a tunnel.
+
+### Start of the match
 
 The first thing you want to do when the build time over is to get to mid as a builder and place a tunnel (make sure you have one next to your tent first! -- preferably with a sawtrap). Prepare some materials before the build time ends -- **at least 250 stone** (100 stone for the tunnel + defences) and some wood (**at least 400** -- 200 for tunnel and the rest for doors). The more mats -- the better. You can also take gold if you have some to be able to build it quicker (50 gold), and if not -- you will dig the gold out at mid. You can also take a drill if you'd like to mine out/dig out some parts of the mid faster.
 
-[GIF -- setting up mid]
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/startmid.webm" controls loop="loop" preload></video><br>
 
 As you can see in the gif above, first we want to quickly make a workshop somewhere in the middle of the map and then build defenses for it -- doors (with at least one stone door) and stone blocks. If the middle of the map has any underground spots, build the tunnel here -- dirt acts well as a natural defense against kegs and such. If the middle is flat, make sure there's enough stone blocks so that a good knight won't quickly get into the tunnel with explosives.
 
 ### Upkeep and further expansion
 
-Once the tunnel is built, you want to upkeep control of mid. Go back to your tent to get some materials from the storage (or just dig some more if there's none in the storage) You should turn your mid base into basically your second front tower -- add some shops (especially food shop and knight shop) and a front wall with lots of doors and maybe some platforms. Some images of decent mid bases are below.
+Once the tunnel is built, you want to upkeep control of mid. Go back to your tent to get some materials from the storage (or just dig some more if there's none in the storage) You should turn your mid base into basically your second front tower -- add some shops (especially food shop and knight shop) and a front wall with lots of doors and maybe some platforms. You should eventually buy a ballista for quicker respawn as well. Make sure it has lots of protection so that the enemies don't destroy or capture it easily. You can put it in the same spot as the tunnel (if you don't plan to fire it at the enemies). Ballistas need 5x5 blocks of space.
+
+Some mid base examples + weaknesses:
+
+<img src="imgs/03-progressive/mid1.png">
+
+As you can see, it's a solid mid base -- it has a respawn ballista, a tunnel and shops, as well as lots of doors. Moreover it's made in the middle of a hill, so there's lots of additional dirt protection as well. One thing that could be improved is making additional doors to the top, as well as additional defences on the top; as you can see, a blue builder could block just the top doors and then drill downwards through dirt to the ballista and tunnel (blue arrow).
 
 [IMG]
 
-[IMG]
+If the map is small enough, you could also just connect the mid base with your tower (similar to how defensive base expansion explained in previous chapter works). This will make it even harder for the enemies to take it back.
 
-You should eventually buy a ballista for quicker respawn as well. Make sure it has lots of protection so that the enemies don't destroy or capture it easily. You can put it in the same spot as the tunnel (if you don't plan to fire it at the enemies). Ballistas need 5x5 blocks of space.
+<img src="imgs/03-progressive/midconnection.png">
 
-[IMG]
-
-If the map is small enough, you could also just connect the mid base with your front tower (similar to how defensive base expansion explained in previous chapter works). This will make it even harder for the enemies to take it back.
-
-[IMG]
-
-Since mid is just pretty much your second front tower -- all of the stuff from the previous chapter applies here, including using spikes, keg dropping, base expansion and so on. One difference is that you're going to have to repair much more often and fight more enemies, and sometimes you probably should change to knight if your team isn't doing very well. Mine spam is advised as well.
+All of the stuff from the previous chapter applies to managing a mid base and making a good mid tower, including using spikes, keg dropping, base expansion and so on. One difference is that you're going to have to repair much more often and fight more enemies, and sometimes you probably should change to knight if your team isn't doing very well. Mine spam is advised as well.
 
 Depending on how big the map is, you may also want to have siege on top of your mid base -- ballista with explosive bolts and catapult for launching knights.
-
 
 ### Taking mid from the enemies 
 
 Sometimes the mid rush at the start of the game can fail and the enemy team could take mid. At that point, your goal as a progressive builder is to pretty much take control of mid. This will require you to be a bit aggressive, and even though combat is mostly going to be mentioned in the next chapter, it's good that you know some basics.
 
-First of all, the first step to taking control of mid is destroying or capturing the enemy's ballista (for respawn) or the tunnel (used for quick travel). You should look at what the mid base looks like -- what are its weaknesses, how many doors does it have, and what would be the easiest way to get into the tunnel.
+First of all, the first step to taking control of mid is destroying or capturing the enemy's ballista (for respawn) or the tunnel (used for quick travel). You should look at what the mid base looks like -- what are its weaknesses, how many doors does it have, and what would be the easiest way to get into the ballista/tunnel. One thing you should do is find a path to there which would require the least effort and would not require too many doorfights, which can get you easily killed -- start destroying enemy doors only if it's the fastest or the only way to get to your destination.
 
-Here's some analysises of a mid base:
-
-[IMG example 1]
-
-[analysis]
-
-[img example 2]
-
-[analysis]
-
-[img exmaple 3]
+[img example]
 
 [analysis]
 
 It's hard to take a mid base entirely by yourself -- the CTF mode is a team mode after all. First, you need to pay attention to how your knights are doing. Whenever some skirmishes near mid base happens, you should wait and see which team gains advantage. You should start pushing mid as soon as you see that your knights & archers are winning the fight. 
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/getmid.webm" controls loop="loop" preload></video><br>
 
-When pushing any enemy structure, speed is important. Unless the mid base is sparsely protected with only a few doors, you probably always want to have a drill for faster digging. This may require you to mine out some stone sometimes or make use of your quarry, or wait for more resupplies.
-
-Keep in mind that **you generally do not want to drill doors**. They overheat the drill too quickly -- you should destroy almost all doors by hand (unless you need to destroy them really quickly to avoid getting killed by the enemy). Same for platforms. However, you should drill out solid blocks.
-
-Try to select a path that will be the least dangerous (even if it means getting to enemy tunnel a bit slower). For example, if a tunnel is underground like in the image below -- in most cases you should not just go above it and try getting through all these enemy defenses. Going through the dirt by ratting, even if a bit slow, is more likely to get you success.
-
-Of course, you're not likely to instantly succeed after your first try. The point is to keep putting pressure on the enemies and not let them have too much time to repair, eventually letting you retake mid.
-
-When you finally get to the enemy ballista or tunnel, first you want to make doors for your knights. Spamming doors when taking any enemy structure is very important. They're very helpful to your knights. Of course, this also means that you **want to have lots of wood when pushing**. You should make the doors right next to the tunnel so that the enemies can't block them, like in the gif below.
-
-[GIF]
-
-You want to block all enemy doors. If you have knights with you, enemies that will travel by the tunnel will be quickly killed by them due to stun from travelling, and dead enemies won't be able to respawn on a ballista that is being captured. However, other enemy knights that are in other parts of mid may be able to still kill you. If there's some space between the tunnel itself and enemy doors -- just block them with stone blocks (don't use doors -- your knights may open them accidentally). In most cases there won't be any space between entrances and the tunnel, so you want to remove one door from each pair as fast as possible and quickly place a stone block. 
+When you finally get to the enemy ballista or tunnel, as you can see in the gif, you want to make lots of doors for your knights. Spamming doors when taking any enemy structure is very important. They're very helpful to your knights. Of course, this also means that you **want to have lots of wood when pushing**. You should make the doors right next to the tunnel so that the enemies can't block them. Also, you want to block all enemy doors. If you have knights with you, enemies that will travel by the tunnel will be quickly killed by them due to stun from travelling, and dead enemies won't be able to respawn on a ballista that is being captured. However, other enemy knights that are in other parts of mid may be able to still kill you. If there's some space between the tunnel itself and enemy doors -- just block them with stone blocks (generally try to not use doors -- your knights may open them accidentally). In most cases there won't be any space between entrances and the tunnel, so you want to remove one door from each pair as fast as possible and quickly place a stone block. 
 
 [GIF]
 
 If you see any enemy knights coming and you know that you won't be able to block them fast enough, you should retreat behind your own doors and let your knights handle the situation.
 
-Either way, you should help your knight with destroying the tunnel -- although slashes do a lot of damage to a tunnel, drilling a tunnel is still going to be very helpful.
+Either way, you should help your knight with destroying the tunnel -- although slashes do a lot of damage to a tunnel, drilling or just mining a tunnel is still going to be very helpful.
 
-[GIF]
+When pushing any enemy structure, speed is important too. Unless the mid base is sparsely protected with only a few doors, you probably always want to have a drill for faster digging. This may require you to mine out some stone sometimes or make use of your quarry, or wait for more resupplies.
+
+Keep in mind that **you generally do not want to drill doors**. They overheat the drill too quickly -- you should destroy almost all doors by hand (unless you need to destroy them really quickly to avoid getting killed by the enemy). Same for platforms. However, you should drill out solid blocks.
+
+Try to select a path that will be the least dangerous (even if it means getting to enemy tunnel a bit slower). For example, if a tunnel is underground like in the image below, in most cases you should not just go above it and try getting through all these enemy defenses. Going through the dirt by ratting, even if a bit slow, is more likely to get you success.
+
+[IMG]
+
+Of course, you're not likely to instantly succeed after your first try. The point is to keep putting pressure on the enemies and not let them have too much time to repair, eventually letting you retake mid.
 
 After the tunnel is destroyed, you have 2 options regarding what to do. If it's relatively safe around and you have protection, you can make your own tunnel in the place of the old enemy one, and then slowly retake the rest of the mid base. Of course, it depends on how big the mid base actually is -- if it's just a few layers of stone blocks and some doors, this shouldn't be hard to do.
 
 However, if the mid base is rather big and there are still lots of enemies around, making your own tunnel wouldn't be that good of an idea. In this case you may want to take the gold that the destroyed tunnel dropped and take it to your base's storage -- although gold isn't that rare on some maps, taking it away from the enemies will be an annoyance to them.
-
-Example video of taking control of mid base:
-
-[link to video]
 
 Of course, this may all seem a bit confusing to a less advanced builder. Don't worry -- playing offensive requires more practice than theory. Eventually you'll instinctually know how you should react to certain situations and what you should do -- you can treat this section as some good general advice that you should keep in mind when pushing. Keep practicing and don't give up.
 
@@ -154,7 +135,11 @@ Drilling makes making long rat tunnels much easier due to how much faster you ca
 
 [GIF]
 
-Despite making you easily noticable to enemies, this can make ratting a much more stronger tactic. I do this almost always whenever I decide to rat (although I mostly play as an offensive builder overground).
+There's also another trick regarding ratting wtih drills -- you can bring down some water if the map has some and place a stone door so that it only fills up the bottom layer. This will constantly cool down the drill so that it doesn't overheat. However, keep in mind that this will cause you to drill slower (drills work slower in water), so for maximum efficiency I recommend actually going one layer above it and cooling down the drill when needed, like in gif below.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/drillwater.webm" controls loop="loop" preload></video><br>
+
+Despite making you easily noticable to enemies, using drills can make ratting a much more stronger tactic. I do this almost always whenever I decide to rat (although I mostly play as an offensive builder overground).
 
 ### Doorfights
 
@@ -176,9 +161,9 @@ You can also place a mine in your door and then wait for enemies to get to it. S
 
 Getting to the flagroom can be quite tricky due to enemy knight slash angles.
 
-Basically, when you're ratting upwards like in the image below, and the flagroom has no doors on the part where you're ratting, you will have to destroy the two blocks in the red square in the image below to get to the flagroom.
+Basically, when you're ratting upwards like in the image below, and the flagroom has no doors on the part where you're ratting, you will have to destroy the four blocks in the red square in the image below to get to the flagroom.
 
-[IMG]
+<img src="imgs/03-progressive/ratproblem.png">
 
 However, this is quite problematic -- because after you destroy the first two blocks, place doors and go up, enemy knights in the flagroom would be able to slash you if you're in a place like this:
 
@@ -194,9 +179,9 @@ What you want to do is go slightly to the side so that you can replace enemy sto
 
 [GIF]
 
-Of course, sometimes flag rooms have entrances from both sides. That's a bit harder to rat to because it's easier for the enemies to kill you. In this case you need to mostly rely on your knights to kill the enemies. You can also try to damage enemy doors in between enemy slashes.
+Of course, sometimes flag rooms have entrances from both sides. That's a bit harder to rat to because it's easier for the enemies to kill you. In this case you need to mostly rely on your knights to kill the enemies (spam doors when possible as well).
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/relyknight.webm" controls loop="loop" preload></video><br>
 
 Sometimes when you try to drill through solid blocks (such as stone), the enemy may have a lot of materials and constantly repair it. There's a little "unintended feature" which will allow you to bypass that -- if you place horizontal ladders like in the gif below, they won't be able to repair the blocks anymore (and neither will you be able to damage the blocks by hand). You will still be able to drill through the blocks, though.
 
@@ -206,7 +191,6 @@ Sometimes when you try to drill through solid blocks (such as stone), the enemy 
 
 Similar to defensive builders, if you keep expanding your mid base, you will eventually get lots of coins. Again, you can decide to buy siege, ballista bolts or kegs for your team on mid. Some builders try to die as rarely as possible and try to gather 400 or more coins then use all of it at once by doing bomb arrow spam.
 
-You build an archer nest with some platforms like on the gif below, buy a lot of bomb arrows at once and then fire it at the enemy base. This is similar to spamming bomb arrows as a defensive builder, but as a builder that mostly sticks to mid you are able to actually be more precise and aim them at the flag defenses.
+You build an archer nest with some platforms like on the gif below, buy a lot of bomb arrows at once and then fire it at the enemy base. This is similar to spamming bomb arrows as a defensive builder, but as a builder that mostly sticks to mid you are able to actually be more precise and aim them to cause a bit more damage.
 
-[GIF]
-
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/bombarrowspam3.webm" controls loop="loop" preload></video><br>
