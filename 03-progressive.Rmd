@@ -1,4 +1,3 @@
-
 # Builder III: Progressive playstyle
 
 <p align="center">
@@ -25,15 +24,13 @@ As you can see in the gif above, first we want to quickly make a workshop somewh
 
 Once the tunnel is built, you want to upkeep control of mid. Go back to your tent to get some materials from the storage (or just dig some more if there's none in the storage) You should turn your mid base into basically your second front tower -- add some shops (especially food shop and knight shop) and a front wall with lots of doors and maybe some platforms. You should eventually buy a ballista for quicker respawn as well. Make sure it has lots of protection so that the enemies don't destroy or capture it easily. You can put it in the same spot as the tunnel (if you don't plan to fire it at the enemies). Ballistas need 5x5 blocks of space.
 
-Some mid base examples + weaknesses:
+Here's an example of a decent mid base:
 
 <img src="imgs/03-progressive/mid1.png">
 
-As you can see, it's a solid mid base -- it has a respawn ballista, a tunnel and shops, as well as lots of doors. Moreover it's made in the middle of a hill, so there's lots of additional dirt protection as well. One thing that could be improved is making additional doors to the top, as well as additional defences on the top; as you can see, a blue builder could block just the top doors and then drill downwards through dirt to the ballista and tunnel (blue arrow).
+As you can see, it's pretty solid -- it has a respawn ballista, a tunnel and shops, as well as lots of doors. Moreover it's made in the middle of a hill, so there's lots of additional dirt protection as well. One thing that could be improved is making additional doors to the top, as well as additional defences on the top in general; as you can see, a blue builder could block the only top doors and then drill downwards through dirt to the ballista and tunnel (blue arrow).
 
-[IMG]
-
-If the map is small enough, you could also just connect the mid base with your tower (similar to how defensive base expansion explained in previous chapter works). This will make it even harder for the enemies to take it back.
+If the map is small enough, you could also connect the mid base with your tower (similar to how defensive base expansion explained in previous chapter works). This will make it even harder for the enemies to take it back.
 
 <img src="imgs/03-progressive/midconnection.png">
 
@@ -47,17 +44,21 @@ Sometimes the mid rush at the start of the game can fail and the enemy team coul
 
 First of all, the first step to taking control of mid is destroying or capturing the enemy's ballista (for respawn) or the tunnel (used for quick travel). You should look at what the mid base looks like -- what are its weaknesses, how many doors does it have, and what would be the easiest way to get into the ballista/tunnel. One thing you should do is find a path to there which would require the least effort and would not require too many doorfights, which can get you easily killed -- start destroying enemy doors only if it's the fastest or the only way to get to your destination.
 
-[img example]
+For example, in the image below, you shouldn't try to go through the doors (red square) -- it will take a lot of time and enemy knights are likely to kill you. What you should do is block the doors with a stone block and then drill through the 1 layer of stone blocks above (green arrow) -- that would be the fastest way to get into the part with the tunnel.
 
-[analysis]
+<img src="imgs/03-progressive/midgoing.png">
 
 It's hard to take a mid base entirely by yourself -- the CTF mode is a team mode after all. First, you need to pay attention to how your knights are doing. Whenever some skirmishes near mid base happens, you should wait and see which team gains advantage. You should start pushing mid as soon as you see that your knights & archers are winning the fight. 
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/getmid.webm" controls loop="loop" preload></video><br>
 
-When you finally get to the enemy ballista or tunnel, as you can see in the gif, you want to make lots of doors for your knights. Spamming doors when taking any enemy structure is very important. They're very helpful to your knights. Of course, this also means that you **want to have lots of wood when pushing**. You should make the doors right next to the tunnel so that the enemies can't block them. Also, you want to block all enemy doors. If you have knights with you, enemies that will travel by the tunnel will be quickly killed by them due to stun from travelling, and dead enemies won't be able to respawn on a ballista that is being captured. However, other enemy knights that are in other parts of mid may be able to still kill you. If there's some space between the tunnel itself and enemy doors -- just block them with stone blocks (generally try to not use doors -- your knights may open them accidentally). In most cases there won't be any space between entrances and the tunnel, so you want to remove one door from each pair as fast as possible and quickly place a stone block. 
+When you finally get to the enemy ballista or tunnel, as you can see in the gif, you want to make lots of doors for your knights. Spamming doors when taking any enemy structure is very important. They're very helpful to your knights. Of course, this also means that you **want to have lots of wood when pushing**. You should make the doors right next to the tunnel so that the enemies can't block them. Also, you want to block all enemy doors. If you have knights with you, enemies that will travel by the tunnel will usually be quickly killed by them due to stun from travelling, and dead enemies won't be able to respawn on a ballista that is being captured. However, other enemy knights that are in other parts of mid may be able to still kill you. If there's some space between the tunnel itself and enemy doors -- just block them with stone blocks (generally try to not use doors -- your knights may open them accidentally).
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/tunnelblock3.webm" controls loop="loop" preload></video><br>
+
+In most cases there won't be any space between entrances and the tunnel, so you want to remove one door from each pair as fast as possible and quickly place a stone block. 
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/tunneldoors.webm" controls loop="loop" preload></video><br>
 
 If you see any enemy knights coming and you know that you won't be able to block them fast enough, you should retreat behind your own doors and let your knights handle the situation.
 
@@ -65,11 +66,11 @@ Either way, you should help your knight with destroying the tunnel -- although s
 
 When pushing any enemy structure, speed is important too. Unless the mid base is sparsely protected with only a few doors, you probably always want to have a drill for faster digging. This may require you to mine out some stone sometimes or make use of your quarry, or wait for more resupplies.
 
-Keep in mind that **you generally do not want to drill doors**. They overheat the drill too quickly -- you should destroy almost all doors by hand (unless you need to destroy them really quickly to avoid getting killed by the enemy). Same for platforms. However, you should drill out solid blocks.
+Keep in mind that **you generally do not want to drill doors**. They overheat the drill too quickly -- you should destroy almost all doors by hand (unless you need to destroy them really quickly to avoid getting killed by the enemy or if speed is important, or if there's no other way to getting to the tunnel). Same for platforms. However, you should drill out solid blocks.
 
-Try to select a path that will be the least dangerous (even if it means getting to enemy tunnel a bit slower). For example, if a tunnel is underground like in the image below, in most cases you should not just go above it and try getting through all these enemy defenses. Going through the dirt by ratting, even if a bit slow, is more likely to get you success.
+Try to select a path that will be the least dangerous (even if it means getting to enemy tunnel a bit slower). For example, if a tunnel is underground like in the image below, in most cases you shouldn't go on top of it and try getting through all these enemy defenses. Going through the dirt by ratting (green arrow), even if a bit slow, is more likely to be successful.
 
-[IMG]
+<img src="imgs/03-progressive/tunnelthrough.png">
 
 Of course, you're not likely to instantly succeed after your first try. The point is to keep putting pressure on the enemies and not let them have too much time to repair, eventually letting you retake mid.
 
@@ -107,23 +108,25 @@ If you want to be stealthy (at least for some time), there are obviously some th
 
 Although that's obvious, the question is if you even want to be stealthy. As mentioned in the previous chapter, you can easily see on the minimap if there's a rat tunnel. It's not that hard to notice enemy tunnels. Using a drill is also a massive advantage -- it speeds up the process a lot if done well (will be explained soon), but it also produces light and make the tunnel more noticable to enemies. 
 
-Moreover -- sometimes you actually want your ratting to be noticed. Using emotes and letting the entire enemy team know that you're ratting can cause a lot of enemies to focus on you and try to counter the tunneling, while not paying as much attention to the rest of their base. Diversive tunnels are a great tactic -- especially if you can keep defending the tunnel for as long as possible, getting as many enemies as possible to you.
+Moreover -- sometimes you actually want your ratting to be noticed. Using emotes and letting the entire enemy team know that you're ratting can cause a lot of enemies to focus on you and try to counter the tunneling, while not paying as much attention to the rest of their base. Diversive tunnels are a great tactic if your team can push well overground -- especially if you can keep defending the tunnel for as long as possible, getting as many enemies as possible to you.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/distraction.webm" controls loop="loop" preload></video><br>
 
 ### Managing your rat tunnel
 
 First, you want to place a builder shop at the bottom of the tunnel. You can return to it every 20 seconds to get resupplies. You may also want to place a knight shop. It's good to place a lot of mines in case the enemies take the tunnel. You should also obviously spam lots of doors -- the more wood you have the better. Remember to put stone backwall behind all doors.
 
-Tunnels are one of the only places where a trap could actually be effective as well (since it's dark). You could place a trap somewhere in there as well -- a saw and a trapblock.
+Tunnels are one of the only places where a trap could actually be effective as well (since it's dark). You could place a trap somewhere in there as well -- a saw and a trapblock. 
 
-[IMG]
+<img src="imgs/03-progressive/tunnelsaw.png">
+
+(Above image was brightened -- the saw is barely visible even to the blue team)
 
 ### Placing a tunnel
 
 Eventually, if you get closer to your destination -- for example, somewhere close to the flag, you should place a tunnel for faster travel. Of course, you need to have gold, stone and wood for it first, which is why you should prepare some materials (especially gold, you can eventually get 100 stone from resupplies on a builder shop but bringing some is good too) before starting ratting.
 
-[IMG]
+<img src="imgs/03-progressive/tunnelrat.png">
 
 This will let reinforcements arrive quickly (knights) as well as allow you to get to base quicker after you take the flag. Make sure to place lots of doors around the tunnel.
 
@@ -133,9 +136,9 @@ At that point the enemies will probably already have noticed you and will start 
 
 Drilling makes making long rat tunnels much easier due to how much faster you can dig through the ground, especially if it's 2 or more builders drilling. Drills obviously will overheat somewhat quickly, but that's not a problem. The other reason for why we want a builder shop near is so that we can constantly buy water buckets. One water bucket can produce 3 water splashes (as mentioned in first chapter, press left mouse button while holding one to do that) which will instantly cool down the drill. The idea is to get a drill and use a water bucket on it as soon as it overheats. If you have a knight with you, you should ask him to pick up water buckets after you buy them and use them. If you're ratting solo, you can do it yourself.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/drillrat.webm" controls loop="loop" preload></video><br>
 
-There's also another trick regarding ratting wtih drills -- you can bring down some water if the map has some and place a stone door so that it only fills up the bottom layer. This will constantly cool down the drill so that it doesn't overheat. However, keep in mind that this will cause you to drill slower (drills work slower in water), so for maximum efficiency I recommend actually going one layer above it and cooling down the drill when needed, like in gif below.
+There's also another trick regarding ratting with drills -- you can bring down some water if the map has some and place a stone door so that it only fills up the bottom layer. This will constantly cool down the drill so that it doesn't overheat. However, keep in mind that this will cause you to drill slower (drills work slower in water), so for maximum efficiency I recommend actually going one layer above it and cooling down the drill when needed, like in gif below.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/drillwater.webm" controls loop="loop" preload></video><br>
 
@@ -145,17 +148,17 @@ Despite making you easily noticable to enemies, using drills can make ratting a 
 
 As mentioned in the earlier chapter, doorfights can happen -- this is when both teams spam doors next to each other and try to destroy the opposing doors, as well as kill the enemies.
 
-When it gets to the point of a doorfight, you can't do that much besides relying on your knights. If there's a builder shop near you should get a lantern -- since the enemies already know you're here, it'll just increase your knights' visibility. You should also spam doors and be careful to not die -- if you see that any of your knights is going to open your doors and attempt to kill the enemies, you should back off to not die.
+When it gets to the point of a doorfight, you can't do that much besides relying on your knights. If it's a dark tunnel and there's a builder shop near, you should get a lantern -- since the enemies already know you're here, it'll just increase your knights' visibility. You should spam doors and be careful to not die -- if you see that any of your knights is going to open your doors and attempt to kill the enemies, you should back off to not die.
 
 [GIF]
 
-One thing you can do is going around. For example, in the image below you could drill two blocks up or down and then to the side. After that you could attempt to block the enemies and have your knights directly attack them or keep going to the enemy flag while defending from enemies at the same time.
+Another thing you can do is going around. You could drill two blocks up or down and then to the side. After that you could attempt to block the enemies and have your knights directly attack them or keep going to the enemy flag while defending from enemies at the same time. For example, in the gif below, we try go around the red doors because there's way too many of them (as well as a lot of enemies)
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/dooraround.webm" controls loop="loop" preload></video><br>
 
 You can also place a mine in your door and then wait for enemies to get to it. Sometimes they won't notice it and will walk into it, instantly dying.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/tunnelmine.webm" controls loop="loop" preload></video><br>
 
 ### Getting to the flagroom
 
@@ -167,25 +170,25 @@ Basically, when you're ratting upwards like in the image below, and the flagroom
 
 However, this is quite problematic -- because after you destroy the first two blocks, place doors and go up, enemy knights in the flagroom would be able to slash you if you're in a place like this:
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/slashflag.webm" controls loop="loop" preload></video><br>
 
-You could now say -- don't place the doors then and try to destroy the blocks from a distance where knights wouldn't be able to slash you, like in the gif below.
+You could consider not placing the doors then and try to destroy the blocks from a distance where knights wouldn't be able to slash you, like in the gif below.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/slashflag2.webm" controls loop="loop" preload></video><br>
 
 However, this is viable only if there are no enemy builders in the enemy flag room -- if you don't place doors they will just place stone blocks there or their own doors. 
 
 What you want to do is go slightly to the side so that you can replace enemy stone blocks with doors without getting damaged by the enemy knights, like in the gif below.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/sideflag.webm" controls loop="loop" preload></video><br>
 
 Of course, sometimes flag rooms have entrances from both sides. That's a bit harder to rat to because it's easier for the enemies to kill you. In this case you need to mostly rely on your knights to kill the enemies (spam doors when possible as well).
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/relyknight.webm" controls loop="loop" preload></video><br>
 
-Sometimes when you try to drill through solid blocks (such as stone), the enemy may have a lot of materials and constantly repair it. There's a little "unintended feature" which will allow you to bypass that -- if you place horizontal ladders like in the gif below, they won't be able to repair the blocks anymore (and neither will you be able to damage the blocks by hand). You will still be able to drill through the blocks, though.
+Sometimes when you try to drill through solid blocks (such as stone), the enemy may have a lot of materials and constantly repair it. There's a little "unintended feature" which will allow you to bypass that -- if you place horizontal ladders like in the gif below, they won't be able to repair the blocks anymore (and neither will you be able to damage the blocks by normal pickaxe). You will still be able to drill through the blocks, though. Keep in mind that knights howevver will be able to slash and destroy the ladders through the wall if there are any, so it may take a few tries.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/laddertrick.webm" controls loop="loop" preload></video><br>
 
 ## Coin farming (again)
 
