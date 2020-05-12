@@ -150,7 +150,7 @@ As mentioned in the earlier chapter, doorfights can happen -- this is when both 
 
 When it gets to the point of a doorfight, you can't do that much besides relying on your knights. If it's a dark tunnel and there's a builder shop near, you should get a lantern -- since the enemies already know you're here, it'll just increase your knights' visibility. You should spam doors and be careful to not die -- if you see that any of your knights is going to open your doors and attempt to kill the enemies, you should back off to not die.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/doorfite.webm" controls loop="loop" preload></video><br>
 
 Another thing you can do is going around. You could drill two blocks up or down and then to the side. After that you could attempt to block the enemies and have your knights directly attack them or keep going to the enemy flag while defending from enemies at the same time. For example, in the gif below, we try go around the red doors because there's way too many of them (as well as a lot of enemies)
 
