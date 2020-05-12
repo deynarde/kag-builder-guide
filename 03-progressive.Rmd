@@ -110,7 +110,7 @@ Although that's obvious, the question is if you even want to be stealthy. As men
 
 Moreover -- sometimes you actually want your ratting to be noticed. Using emotes and letting the entire enemy team know that you're ratting can cause a lot of enemies to focus on you and try to counter the tunneling, while not paying as much attention to the rest of their base. Diversive tunnels are a great tactic if your team can push well overground -- especially if you can keep defending the tunnel for as long as possible, getting as many enemies as possible to you.
 
-<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/distraction.webm" controls loop="loop" preload></video><br>
+<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/distract.webm" controls loop="loop" preload></video><br>
 
 ### Managing your rat tunnel
 
