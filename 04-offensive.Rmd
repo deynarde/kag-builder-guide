@@ -1,4 +1,3 @@
-
 # Builder IV: Offensive playstyle
 
 <p align="center">
@@ -7,7 +6,7 @@
 
 ## What you're going to focus on
 
-Offensive builders mainly focus on constantly pushing pressure on the enemy, pushing (both with knights and solo), with the goal of seriously damaging enemy structures or getting to the enemy flag, while trying to be as much of an annoyance to the enemies as possible.
+Offensive builders mainly focus on constantly putting pressure on the enemy, pushing (both with knights and solo), with the goal of seriously damaging enemy structures or getting to the enemy flag, while trying to be as much of an annoyance to the enemies as possible.
 
 ## Preparation before pushing
 
@@ -99,6 +98,8 @@ Your knights won't always succeed though; if they are defeated by enemy knights,
 
 [GIF]
 
+You should also watch out for bombs from the enemies -- they may decide to throw some at you and damage or kill you.
+
 ### Killing enemy builders for materials
 
 This applies pretty much any time, especially if you have a drill or you have knights with you -- try to kill the enemy builders and get their materials. The more materials you use, the more effective you can be at supporting your knights by spamming doors and spikes, as well as farming coins for buying kegs or making ledges.
@@ -127,11 +128,11 @@ This usually happens if you blocked enemy doors and then try building ladders ov
 
 [GIF]
 
-When you get to the upper parts of the tower by ladder placing, sometimes enemies will already come to the top and will want to jump down on you. In this case you want to build a ledge over your head with some doors for your knights, as well as some additional side defenses in case enemy knights still try to jump off and slash you.
+When you get to the upper parts of the tower by ladder placing, sometimes enemies will already come to the top and will try to jump down on you. In this case you want to build a ledge over your head with some doors for your knights, as well as some additional side defenses in case enemy knights still try to jump off and slash you.
 
 [GIF]
 
-After such a situation you can either wait for your knights to defeat the enemies or start mining/drilling into the side of the tower.
+In a situation like that you can either wait for your knights to defeat the enemies or start mining/drilling into the side of the tower.
 
 Sometimes after placing a few ladders, enemy knights may try to come to you from below. This is a good opportunity to drop a spike and kill them.
 
@@ -140,6 +141,18 @@ Sometimes after placing a few ladders, enemy knights may try to come to you from
 ### Scaling the enemy tower -- platforms 
 
 Some builders sometimes decide to use platforms facing upwards. This can provide some defense from enemy knights jumping down (as well as from spikes if you place two platforms for each time) and lets your knights climb the tower as well, but keep in mind that platforms are easily destroyable by enemy knights as well as that climbing them is slower than climbing ladders. Moreover, placing platforms is slightly slower than solid stone or wood blocks.
+
+[GIF]
+
+### Getting launched from a catapult
+
+You can sometimes get yourself launched from a catapult at your mid base or main tower. If you manage to get to the enemy wall, you should place ladders as soon as possible. Same advice as regarding scaling enemy tower with ladders applies here.
+
+[GIF]
+
+Sometimes you can even get launched to the top of the enemy tower.
+
+Another fun thing you can do is get into a crate (hold the crate and press E) and have it picked up by a knight, which is then launched from a catapult.
 
 [GIF]
 
@@ -198,7 +211,11 @@ Keep in mind that this only applies to doors. If you ever find yourself in a sit
 
 ### Buying kegs in enemy knight shop
 
-Although spamming kegs from top of the tower is good, in some situations buying them in the middle of the enemy base will be more effective. The idea is to get to the enemy knight shop and buy some kegs, then light one of them. One keg's explosion will light the other kegs and you will do a lot of damage to the enemy tower.
+Although spamming kegs from top of the tower is good, in some situations buying them in the middle of the enemy base will be more effective. The idea is to get to the enemy knight shop and buy some kegs, then light as many as you can. One keg's explosion will light the other kegs and you will do a lot of damage to the enemy tower.
+
+[GIF]
+
+However, enemies can buy a water bucket and extinguish the kegs (even through doors). If this happens, just light the keg again.
 
 [GIF]
 
@@ -206,7 +223,7 @@ Although spamming kegs from top of the tower is good, in some situations buying 
 
 Besides using kegs, you can try to collapse the tower in a different way. If you have a lot of knights with you, but getting to the flag at the current moment would be a bit tricky, you should definitely attempt to collapse the tower.
 
-The best way to collapse a tower is to try to notice the fastest way of destroying them and noticing kind of a line. 
+The best way to collapse a tower is to try to notice the fastest way of destroying its support and noticing kind of a line. 
 
 [IMG - line]
 
@@ -220,31 +237,186 @@ Comparison:
 
 [GIF]
 
+### Using enemy tunnels
+
+Not that strictly related to pushing, but sometimes you can use an enemy tunnel (for example their mid base one) to travel to another one (tent one or tower one). However, you should be careful and check earlier (for example when waiting for respawn) if the enemy tunnel you're travelling to has a sawtrap. You should be wary of enemy mines on the tunnels as well (they'll instantly kill you).
+
+[GIF]
+
+Actually, there's also a trick that can let you avoid sawtraps. The idea is to place a ladder in the room with the tunnel and while climbing both vertically and horizontally on the ladder (holding W + A/D) use the tunnel. This will make you move slightly after teleporting to the other tunnel and avoid the sawtrap. Other knights in your team can do this as well.
+
+[GIF]
+
+This however can also be countered if the spot with the sawtrap is as wide as the tunnel (5 blocks wide with a saw in the center). Doing the ladder trick will still make you bounce off the wall into the sawtrap.
+
+[GIF]
+
 ## Combat
 
-Although builder isn't a combat class, as an offensive builder you want to be as good at killing as people for maximum effectiveness (it's also quite fun).
+Although builder isn't a combat class, as an offensive builder you want to be somewhat good at killing people for maximum effectiveness as well (it's also quite fun).
 
+### Using doors at certain angles to damage knights 
 
+This is arguably the most powerful combat trick for builders; there's a certain angle which lets you damage knights by pickaxe without them being able to damage you by slashes. In the image below, the knight is unable to damage you by slashing (unless by a generally unknown trick that I'll mention later), while you're able to damage him by a pickaxe or drill.
 
-Chapter 3 plan:
+[IMG]
 
-    
-- combat:
-    - sometimes u actually want to catch bomb and quickly throw back
-    - builder pickaxe angle, pickaxe 1v1, using burger, dont engage if u have less hearts 
-    - pickaxing knights on low hp
-    - when enemy camp on door, getting out and pickaxing in between slashes
-    - spikes on background when escaping, placing ladders when escaping for spiking
-    - 2heart spikes
-    - spiking through gaps or in angles when enemy cant hit you
-    - placing spike on ground when enemies digging downwards towards u
-    - door angles for attacking (when knight cant hurt u). mention that knight can actually hurt u with new trick
-    - blocking knights on an angle like that by placing blocks behind them
-    - drilling enemy builders. hiding drill so that enemy builder attacks u
-    - when your opponent has drill, doorspam and trying to get his drill to overheat so that it drops so u can steal it. mention that u shouldnt instnatly pick it up because its hot
-    - mention that if enemy drill is slightly heated and yours isnt, you should get your heated for more dmg. you should do this even if enemy drill isnt heated too though so that you have an advantage.
-    - mention that you can actually use pickaxe at the same time as holding a drill for extra dmg
-    - stomping
-- making use of enemy tunnels. include watching out for sawtrap and ladder trick.
-- offensive catapult attack. place ladders when u get thrown on enemy tower. sometimes with u in crate and epic kneght.
-- playing as a knight+builder duo on pubs (maybe some people would want to play more with friends if they knew how to do it properly and well?)
+Basically, the way it works is that whenever a knight attack a door, the door absorbs the damage of the slash/jab and the slash/jab's arc (which starts from the top) doesn't continue past the door. In this situation, the knight can only attack the door. You can however still attack them.
+
+[GIF]
+
+You can often force yourself into such situations by being at a lower level than the enemy players and placing doors properly.
+
+[GIF]
+
+Knights will often think that they should be able to damage you and get closer to you. You can also place a block behind them when they get close so that they don't run away.
+
+[GIF]
+
+Make sure to not open the door accidentally -- the enemies can go through it and then be able to kill you.
+
+Now, the thing is, that the enemy knight is actually able to slash you by starting his slash so that it doesn't hit the door and then moving the slash arc to hit the enemy builder (starting the slash from the opposite side and quickly moving the direction he's pointing to by 180 degrees with his mouse downwards, not hitting the door at all)
+
+[GIF]
+
+However, barely anyone knows about this and you'll be able to kill a majority of the knights without getting any damage.
+
+This angle works similar in a situation like in the gif below as well, but if the knight doesn't aim directly at you and slashes slightly downwards then they will also damage you. It's also a bit more dangerous to try damaging them at this angle because you can accidentally open the door.
+
+[GIF - swap places]
+
+Keep in mind that enemy builders can attack you at both of these angles.
+
+[GIF]
+
+### Enemy knights glitching in the doors
+
+Sometimes if you open doors for a short moment for the enemy knights and they have slight lag, they will get stuck in a closed door and you will be able to damage them while they aren't able to damage you.
+
+[GIF]
+
+### Pickaxe 1v1 with other builders
+
+Whenever you're doing a 1v1 with other builders, you should try to spike them first somehow to get a heart advantage and then finish them with a pickaxe. If you don't have any way to do that, then the result of the 1v1 will depend on whoever damaged the enemy player first. To do that, you should start attacking them with your pickaxe as soon as they're in your range.
+
+[GIF]
+
+[GIF]
+
+Another way to win the 1v1 is if you have a burger -- eat it to heal yourself after losing some health.
+
+[GIF]
+
+Generally try to not engage in pickaxe 1v1s if you have fewer hearts than the enemy.
+
+Spamming the right mouse button instead of holding it makes no difference.
+
+### Heating drill before combat
+
+Since the drill does more damage when heated (with a red tint), before engaging in a 1v1 with a builder that has a drill (or any other fights) you should first make sure yours is slightly heated. You can do it by using it for a moment on any blocks.
+
+[GIF]
+
+### Hiding drill from enemy builder
+
+You can try to make the enemy builder think that you have no drill by keeping it in your inventory and provoke them to attack you, and then take it out and kill them.
+
+[GIF]
+
+### Using pickaxe + drill at the same time
+
+You can use a drill and a pickaxe at the same time for extra damage (hold both left and right mouse buttons).
+
+[GIF]
+
+You can do this when destroying blocks too.
+
+### Killing knights with low health
+
+You can easily kill knights that have half a heart or sometimes one heart, even with your pickaxe -- attack them in between their slashes.
+
+[GIF]
+
+[GIF 2 - door fuzzle meta]
+
+### Stealing enemy builder's drill
+
+Sometimes you may want to not fight against a builder with a drill -- especially if you don't have one yourself. The idea is to bait them and get them to drill doors in a doorfight -- spam lots of doors. They may overheat their drill on your doors. You will want to wait a short while (you can't pick up a drill right after it overheated) -- about 1 second -- and pick it up from the ground. You can also use the drill to kill the enemy (make sure to not just instantly overheat it again though).
+
+[GIF]
+
+### Offensive spiking
+
+You can drop spikes at enemies in a lot of situations due to the block placing range. You can make use of the door-related angle mentioned earlier as well. Some examples are in the gifs below.
+
+[GIF]
+
+### Dirt spikes against enemies digging down
+
+If the enemies are digging down towards you, you can place some spikes on dirt (or on wood) right before they fall down and damage them. This can of course be countered by placing ladders, but it still works sometimes.
+
+[GIF]
+
+### Escape spikes
+
+If you're escaping from a knight and there's some backwall around, you can drop spikes as the enemy is going towards you and even kill them.
+
+[GIF]
+
+You can also place some ladders and spike them as they get close.
+
+[GIF]
+
+### Double hit spikes
+
+Spikes can deal two hearts of damage by hitting the same enemy twice. If the enemy is jumping towards you, you should place a spike below them right as he starts falling down. They will fall through the spike and the spike will hit them again, like in the gifs below.
+
+[GIF]
+
+[GIF]
+
+### Stomping
+
+You can fall down on enemy builders (as well as knights, but that's a bit more dangerous) to stomp them while dealing some damage and stunning them. You can combine it with using a spike right after or drilling them.
+
+[GIF]
+
+### Crouching
+
+Crouching is when you hold down the S (move down) button. This causes your collision hitbox to disappear -- enemies will be able to go through you. You can't move for this to work (if you move, they'll collide with you even if you hold S). This can be used to avoid being stomped by enemies.
+
+[GIF]
+
+[GIF]
+
+### Dirt spike + crouch
+
+This doesn't work very often, but if enemies are digging downwards towards you, you can place dirtspikes below yourself and then crouch and have them fall down into the spikes.
+
+[GIF]
+
+### Catching and throwing back enemy bombs
+
+Enemy knights can sometimes throw a bomb too early and give you enough time to catch it and throw it somewhere else.
+
+[GIF]
+
+If you're being attacked by several enemies at once, you can catch an enemy bomb and suicide with it killing some enemy builders.
+
+[GIF]
+
+## Playing with a knight friend
+
+Playing as an offensive builder+knight duo in public CTF matches in my opinion is one of the best ways to experience KAG. Since you don't have to rely on random people you can actually teamwork much better and win stalemates, as long as your knight defends you and supports you as much as they can: follows you, catches enemy bombs, gives you materials from enemy builders and helps you during doorfights.
+
+[GIF]
+
+[GIF]
+
+Besides launching yourself from a catapult in a crate held by a knight, your knight friend can also bomb jump with you in a crate.
+
+[GIF]
+
+If your knight friend drops resupply materials when respawning (changes to builder and back to knight), you'll also have more materials and be more effective at pushing.
+
+[GIF]
