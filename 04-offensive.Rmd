@@ -18,11 +18,11 @@ For pushing, we usually want at least 600 wood (but you can as well go with 1000
 
 You're actually going to try to use as many of your materials as possible before getting killed (because that's how most pushes end up, and you want as many coins as possible). Since our materials are going to be used pretty fast, you want to scavenge any additional materials you can find on the map. Holding C will highlight all materials and other items useful to you on the map.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/matscav.webm" controls loop="loop" preload></video><br>
 
 If some materials are stuck in a 1 block wide gap, like in the gif below, sometimes you won't be able to pick it up. You can however use a trick to get it closer to you -- just place blocks until it goes up.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/mattrick.webm" controls loop="loop" preload></video><br>
 
 If you have too many materials and there are additional materials laying around, you can quickly use some of what you have -- you can do that by making simple improvements to the mid base or to the tower. This provides lots of coins which can eventually be used for some offensive tactics when you succeed in a push.
 
@@ -50,9 +50,10 @@ However, keep in mind that you don't always want to skip mid. If your team has p
 
 Sometimes you may want to quickly make wooden walls in order to skip enemy knights or just not get damaged by them. We're doing it with wood because as mentioned in the first chapter, wood doesn't need as much support from the ground as stone blocks, so we can make over 20 blocks long ledges. This is a great mobility trick that allows you to get past gaps with enemies.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ledgeover2.webm" controls loop="loop" preload></video><br>
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ledgeover.webm" controls loop="loop" preload></video><br>
+
 
 ### Building food shops
 
@@ -140,7 +141,7 @@ Sometimes after placing a few ladders, enemy knights may try to come to you from
 
 ### Scaling the enemy tower -- platforms 
 
-Some builders sometimes decide to use platforms facing upwards. This can provide some defense from enemy knights jumping down (as well as from spikes if you place two platforms for each time) and lets your knights climb the tower as well, but keep in mind that platforms are easily destroyable by enemy knights as well as that climbing them is slower than climbing ladders. Moreover, placing platforms is slightly slower than solid stone or wood blocks.
+Some builders sometimes decide to use platforms facing upwards. This can provide some defense from enemy knights jumping down (as well as from spikes if you place two platforms for each time) and lets your knights climb the tower as well, but keep in mind that platforms are easily destroyable by enemy knights as well as that climbing them is slower than climbing ladders. Moreover, placing platforms is slightly slower than solid stone or wood blocks. This isn't a very good tactic -- using ladders or stone blocks is more effective.
 
 [GIF]
 
@@ -149,6 +150,8 @@ Some builders sometimes decide to use platforms facing upwards. This can provide
 You can sometimes get yourself launched from a catapult at your mid base or main tower. If you manage to get to the enemy wall, you should place ladders as soon as possible. Same advice as regarding scaling enemy tower with ladders applies here.
 
 [GIF]
+
+You can hold a chicken for additional distance as well.
 
 Sometimes you can even get launched to the top of the enemy tower.
 
@@ -187,7 +190,7 @@ After getting to the top of the enemy tower, there are various things you can do
 
 [GIF]
 
-If you have lots of coins, now is a good moment to use them. What you can do is quickly build a tall wall and a knight shop on top of it, change to knight and then buy kegs and drop them down. Use up all your materials before changing to knight for as many coins as possible. If there are enemy knights that could collapse the wall, you should use stone instead of wood for the bottom part of it. You can use some additional backwalls too. Place some ladders for your knights as well.
+If you have lots of coins, now is a good moment to use them. What you can do is quickly build a tall wall and a knight shop on top of it, change to knight and then buy kegs and drop them down. Use up all your materials before changing to knight for as many coins as possible. If there are enemy knights that could collapse the wall, you should use stone instead of wood for the bottom part of it. You can use some additional backwalls too or place some ladders for your knights as well.
 
 [GIF]
 
@@ -197,15 +200,17 @@ Sometimes people will start building their tower by building one very high colum
 
 ### Destroying enemy tunnel
 
-Pretty much same advice here applies as regarding destroying mid base tunnel; however, there's one additional thing that you can do if the tunnel is on top of the enemy tower (although this can sometimes apply in other situations too). 
-
-Basically, collapsing blocks destroy doors and shops when they fall down. You can make a chunk of wood supported by one backwall and then collapse it like in the gif below to destroy enemy doors and shops.
+Pretty much same advice here applies as regarding destroying mid base tunnel; however, there's one additional thing that you can do if the tunnel is on top of the enemy tower. Basically, collapsing blocks destroy doors and shops when they fall down. You can make a chunk of wood supported by one backwall and then collapse it like in the gif below to destroy enemy doors and shops.
 
 [GIF]
+
+This can sometimes apply in other situations too -- for example for destroying a mid tunnel.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/midtunneldestroy.webm" controls loop="loop" preload></video><br>
 
 You can also do this when there are no doors, but this will require destroying a block like in the gif below.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/tunnelcollapse1.webm" controls loop="loop" preload></video><br>
 
 Keep in mind that this only applies to doors. If you ever find yourself in a situation like this but on the defense, you can counter it by just replacing your top doors with wood or stone blocks. 
 
@@ -247,9 +252,9 @@ Actually, there's also a trick that can let you avoid sawtraps. The idea is to p
 
 [GIF]
 
-This however can also be countered if the spot with the sawtrap is as wide as the tunnel (5 blocks wide with a saw in the center). Doing the ladder trick will still make you bounce off the wall into the sawtrap.
+This however can also be countered if the spot with the sawtrap is 6 blocks wide and has two sawtraps instead of only one.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/2saws.webm" controls loop="loop" preload></video><br>
 
 ## Combat
 
@@ -257,17 +262,17 @@ Although builder isn't a combat class, as an offensive builder you want to be so
 
 ### Using doors at certain angles to damage knights 
 
-This is arguably the most powerful combat trick for builders; there's a certain angle which lets you damage knights by pickaxe without them being able to damage you by slashes. In the image below, the knight is unable to damage you by slashing (unless by a generally unknown trick that I'll mention later), while you're able to damage him by a pickaxe or drill.
+This is arguably the most powerful combat trick for builders; there's a certain angle which lets you damage knights by pickaxe and drills without them being able to damage you by slashes. In the image below, the knight is unable to damage you by slashing (unless by a generally unknown trick that I'll mention later), while you're able to damage them by a pickaxe or drill.
 
-[IMG]
+<img src="imgs/04-offensive/angleimg.png">
 
 Basically, the way it works is that whenever a knight attack a door, the door absorbs the damage of the slash/jab and the slash/jab's arc (which starts from the top) doesn't continue past the door. In this situation, the knight can only attack the door. You can however still attack them.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/angledoor.webm" controls loop="loop" preload></video><br>
 
 You can often force yourself into such situations by being at a lower level than the enemy players and placing doors properly.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/angledrill2.webm" controls loop="loop" preload></video><br>
 
 Knights will often think that they should be able to damage you and get closer to you. You can also place a block behind them when they get close so that they don't run away.
 
@@ -277,7 +282,7 @@ Make sure to not open the door accidentally -- the enemies can go through it and
 
 Now, the thing is, that the enemy knight is actually able to slash you by starting his slash so that it doesn't hit the door and then moving the slash arc to hit the enemy builder (starting the slash from the opposite side and quickly moving the direction he's pointing to by 180 degrees with his mouse downwards, not hitting the door at all)
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/trickangle.webm" controls loop="loop" preload></video><br>
 
 However, barely anyone knows about this and you'll be able to kill a majority of the knights without getting any damage.
 
@@ -285,9 +290,7 @@ This angle works similar in a situation like in the gif below as well, but if th
 
 [GIF - swap places]
 
-Keep in mind that enemy builders can attack you at both of these angles.
-
-[GIF]
+Keep in mind that enemy builders can attack you at both of these angles -- it's just knights who can't.
 
 ### Enemy knights glitching in the doors
 
