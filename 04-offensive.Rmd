@@ -119,29 +119,29 @@ Of course, you can do it with wood blocks as well, but they're much easier to de
 
 Scaling the enemy tower with ladders is most effective if the enemy tower doesn't have many doors and if you have knight support with you. 
 
-[GIF]
-
-Keep in mind that in certain situations your vertically-placed ladders can fall off. This happens if you try to place them next to a single block; in order to not fall off, the bottom part of the ladder needs to be placed next to a block as well. 
-
-[GIF]
-
-This usually happens if you blocked enemy doors and then try building ladders over it. However, there's a simple solution -- you can just rotate the ladders and place them horizontally. They don't fall off in this situation.
-
-[GIF]
-
-When you get to the upper parts of the tower by ladder placing, sometimes enemies will already come to the top and will try to jump down on you. In this case you want to build a ledge over your head with some doors for your knights, as well as some additional side defenses in case enemy knights still try to jump off and slash you.
-
-[GIF]
-
-In a situation like that you can either wait for your knights to defeat the enemies or start mining/drilling into the side of the tower.
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ladderclimb.webm" controls loop="loop" preload></video><br>
 
 Sometimes after placing a few ladders, enemy knights may try to come to you from below. This is a good opportunity to drop a spike and kill them.
 
 [GIF]
 
+Keep in mind that in certain situations your vertically placed ladders can fall off. This happens if you try to place them next to a single block while there's no backwall either; in order to not fall off, the bottom part of the ladder needs to be placed next to a block as well.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ladderfall.webm" controls loop="loop" preload></video><br>
+
+This usually happens if you blocked enemy doors and then try building ladders over it. However, there's a simple solution -- you can just rotate the ladders and place them horizontally. They don't fall off in this situation.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/horizonladder.webm" controls loop="loop" preload></video><br>
+
+When you get to the upper parts of the tower by ladder placing, sometimes enemies wil come to the top and will may try to kill you. In this case you want to build a ledge over your head (so that they don't jump down on you) with some doors for your knights, as well as some additional side defenses in case enemy knights still try to jump off and slash you from the side.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ladderledge.webm" controls loop="loop" preload></video><br>
+
+In a situation like that you can either wait for your knights to defeat the enemies or start mining/drilling into the side of the tower.
+
 ### Scaling the enemy tower with blocks + ladders
 
-However, the best way to climb usually is combining the 2 ways -- blocking doors with stone blocks, but placing ladders as well.
+THe best way to climb usually is combining the 2 ways -- blocking doors with stone blocks, but placing ladders as well. As mentioned a few sentences ago, use vertical ladders for single blocks.
 
 [GIF]
 
@@ -163,7 +163,7 @@ Sometimes you can even get launched to the top of the enemy tower.
 
 Another fun thing you can do is get into a crate (hold the crate and press E) and have it picked up by a knight, which is then launched from a catapult.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/catacrate.webm" controls loop="loop" preload></video><br>
 
 ### Going into the bottom of the tower
 
@@ -200,13 +200,13 @@ If you have lots of coins, now is a good moment to use them. What you can do is 
 
 [GIF]
 
-Sometimes people will start building their tower by building one very high column of ladders. You can use this to your advantage by dropping a spike and killing a lot of people (Also, if your tower has that too, you should fix that).
+Sometimes people will have a very high column of ladders in their tower, without any additional doors. You can use this to your advantage by dropping a spike and killing a lot of people (Also, if your tower has that too, you should fix that).
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/towerspike.webm" controls loop="loop" preload></video><br>
 
-Of course you can just do that much more easily in situations like in the gif below.
+Of course you can do that much more easily if the enemy tower has lots of backwalls and not many solid blocks.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spikesimple.webm" controls loop="loop" preload></video><br>
 
 ### Destroying enemy tunnel
 
@@ -230,9 +230,7 @@ Although spamming kegs from top of the tower is good, in some situations buying 
 
 [GIF]
 
-However, enemies can buy a water bucket and extinguish the kegs (even through doors). If this happens, just light the keg again.
-
-[GIF]
+Sometimes enemies will buy a water bucket and extinguish the kegs (even through doors). If this happens, just light the keg again.
 
 There's one thing you should also know -- if a keg explodes near a shop, the shop is going to absorb some of the damage from the keg and the backwall behind the shop won't be damaged. This means that in some cases you will actually need at least 2 kegs for even a thin tower (unless you destroy the shops first)
 
@@ -248,7 +246,7 @@ The best way to collapse a tower is to try to notice the fastest way of destroyi
 
 You want to use a drill for solid blocks such as wood or stone (try to find a "line" with as many as possible -- of course if you have  a drill), avoid wasting time on destroying doors unless necessary and finish by destroying backwalls. If you don't have a drill, focus on backwalls only.
 
-[GIF - drill]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/drillcollapse.webm" controls loop="loop" preload></video><br>
 
 There's a trick which lets you destroy backwalls quicker: basically, if you hit a stone backwall one time with your pickaxe, you can replace it with a wooden backwall, which is then much easier to destroy than a slightly damaged stone backwall. 
 
@@ -268,13 +266,21 @@ Not that strictly related to pushing, but sometimes you can use an enemy tunnel 
 
 [GIF]
 
-Actually, there's also a trick that can let you avoid sawtraps. The idea is to place a ladder in the room with the tunnel and while climbing both vertically and horizontally on the ladder (holding W + A/D) use the tunnel. This will make you move slightly after teleporting to the other tunnel and avoid the sawtrap. Other knights in your team can do this as well.
+There's also a trick that can actually let you avoid sawtraps. The idea is to place a ladder in the room with the tunnel and while climbing both vertically and horizontally on the ladder (holding W + A/D) use the tunnel. This will make you move slightly after teleporting to the other tunnel and avoid the sawtrap. Other players in your team can do this as well.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/laddertrick.webm" controls loop="loop" preload></video><br>
+
+In the gif above, you would get killed in the saw if you used the tunnel without the ladder trick.
 
 This however can also be countered if the spot with the sawtrap is 6 blocks wide and has two sawtraps instead of only one.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/2saws.webm" controls loop="loop" preload></video><br>
+
+### Making a tunnel in the middle of the enemy base
+
+Sometimes you can end up destroying the tunnel in the enemy tower and may have gold. If you have other mats, you can try building a tunnel for your own team. This is a bit risky, but if done well it can cause a quick victory.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/enemybasetunnel.webm" controls loop="loop" preload></video><br>
 
 ## Combat
 
@@ -356,9 +362,9 @@ You can do this when destroying blocks too.
 
 ### Killing knights with low health
 
-You can easily kill knights that have half a heart or sometimes one heart, even with your pickaxe -- attack them in between their slashes.
+You can easily kill knights that have low health (1 heart), even with your pickaxe -- attack them in between their slashes (wait for them to miss a slash, then attack).
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/lowhpknight.webm" controls loop="loop" preload></video><br>
 
 [GIF 2 - door fuzzle meta]
 
@@ -400,7 +406,9 @@ Spikes can deal two hearts of damage by hitting the same enemy twice. If the ene
 
 ### Stomping
 
-You can fall down on enemy builders (as well as knights, but that's a bit more dangerous) to stomp them while dealing some damage and stunning them. You can combine it with using a spike right after or drilling them.
+You can fall down on enemy builders (as well as knights, but that's a bit more dangerous) to stomp them while dealing some damage and stunning them. You can combine it with using a spike right after, drilling them or hitting them with your pickaxe.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/stomp1.webm" controls loop="loop" preload></video><br>
 
 [GIF]
 
@@ -430,16 +438,14 @@ If you're being attacked by several enemies at once, you can catch an enemy bomb
 
 ## Playing with a knight friend
 
-Playing as an offensive builder+knight duo in public CTF matches in my opinion is one of the best ways to experience KAG. Since you don't have to rely on random people you can actually teamwork much better and win stalemates, as long as your knight defends you and supports you as much as they can: follows you, catches enemy bombs, gives you materials from enemy builders and helps you during doorfights.
+Playing as an offensive builder+knight duo in public CTF matches in my opinion is one of the best ways to experience KAG. Since you don't have to rely on random people you can play much better and win stalemates by teamwork, as long as your knight defends you and supports you as much as they can: follows you, catches enemy bombs, gives you materials from enemy builders and helps you during doorfights.
 
 [GIF]
 
-[GIF]
-
-Besides launching yourself from a catapult in a crate held by a knight, your knight friend can also bomb jump with you in a crate.
+Besides launching yourself from a catapult in a crate held by a knight, as mentioned earlier, your knight friend can also bomb jump with you in a crate.
 
 [GIF]
 
 If your knight friend drops resupply materials when respawning (changes to builder and back to knight), you'll also have more materials and be more effective at pushing.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/matdrop.webm" controls loop="loop" preload></video><br>
