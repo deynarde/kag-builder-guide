@@ -40,7 +40,7 @@ Sometimes the enemy may have control of mid, and that can in certain situations 
 
 The idea is that you want to go through mid and ignore the enemy ballista or tunnel while not getting too much attention (unless you want to get attention and distract the enemies so that your team can regain control of mid). There's a lot that can happen -- sometimes nobody will even go after you, most of the time only two or three knights will try to get to you, while sometimes it'll be the entire enemy team. However, if the enemy team doesn't chase after you or if it's a single person, that's a big opportunity for you. As with any other push, you should focus on doing as much damage as possible or maybe even try to get the flag -- and if that fails, just survive the longest and distract as many enemies as possible.
 
-[videos? gifs?]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/skipmid.webm" controls loop="loop" preload></video><br>
 
 Sometimes you can skip mid by getting launched from a catapult at the top of your tower -- if that's possible, you could even get gold and attempt to build a tunnel in the enemy base.
 
@@ -139,6 +139,12 @@ Sometimes after placing a few ladders, enemy knights may try to come to you from
 
 [GIF]
 
+### Scaling the enemy tower with blocks + ladders
+
+However, the best way to climb usually is combining the 2 ways -- blocking doors with stone blocks, but placing ladders as well.
+
+[GIF]
+
 ### Scaling the enemy tower -- platforms 
 
 Some builders sometimes decide to use platforms facing upwards. This can provide some defense from enemy knights jumping down (as well as from spikes if you place two platforms for each time) and lets your knights climb the tower as well, but keep in mind that platforms are easily destroyable by enemy knights as well as that climbing them is slower than climbing ladders. Moreover, placing platforms is slightly slower than solid stone or wood blocks. This isn't a very good tactic -- using ladders or stone blocks is more effective.
@@ -198,6 +204,10 @@ Sometimes people will start building their tower by building one very high colum
 
 [GIF]
 
+Of course you can just do that much more easily in situations like in the gif below.
+
+[GIF]
+
 ### Destroying enemy tunnel
 
 Pretty much same advice here applies as regarding destroying mid base tunnel; however, there's one additional thing that you can do if the tunnel is on top of the enemy tower. Basically, collapsing blocks destroy doors and shops when they fall down. You can make a chunk of wood supported by one backwall and then collapse it like in the gif below to destroy enemy doors and shops.
@@ -224,23 +234,33 @@ However, enemies can buy a water bucket and extinguish the kegs (even through do
 
 [GIF]
 
+There's one thing you should also know -- if a keg explodes near a shop, the shop is going to absorb some of the damage from the keg and the backwall behind the shop won't be damaged. This means that in some cases you will actually need at least 2 kegs for even a thin tower (unless you destroy the shops first)
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/absorbshop.webm" controls loop="loop" preload></video><br>
+
 ### Collapsing the tower
 
 Besides using kegs, you can try to collapse the tower in a different way. If you have a lot of knights with you, but getting to the flag at the current moment would be a bit tricky, you should definitely attempt to collapse the tower.
 
-The best way to collapse a tower is to try to notice the fastest way of destroying its support and noticing kind of a line. 
+The best way to collapse a tower is to try to notice the fastest way of destroying its support and noticing kind of a line. Example "line" is the highlighted blocks in the image below -- destroying these blocks (if you don't have a drill for solid blocks) would be the fastest way to collapse.
 
-[IMG - line]
+<img src="imgs/04-offensive/line.png">
 
-You want to use a drill for solid blocks such as wood or stone (try to find a "line" with as many as possible), avoid wasting time on destroying doors unless necessary and finish by destroying backwalls.
+You want to use a drill for solid blocks such as wood or stone (try to find a "line" with as many as possible -- of course if you have  a drill), avoid wasting time on destroying doors unless necessary and finish by destroying backwalls. If you don't have a drill, focus on backwalls only.
 
-There's a trick which lets you destroy backwalls quicker: basically, if you hit a stone backwall one time with your pickaxe, you can replace it with a wooden backwall, which is much easier to destroy than a slightly damaged stone backwall. 
+[GIF - drill]
 
-[GIF]
+There's a trick which lets you destroy backwalls quicker: basically, if you hit a stone backwall one time with your pickaxe, you can replace it with a wooden backwall, which is then much easier to destroy than a slightly damaged stone backwall. 
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/backwallreplace.webm" controls loop="loop" preload></video><br>
 
 Comparison:
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/replacecomparison.webm" controls loop="loop" preload></video><br>
+
+With replacement, one stone backwall takes 1 hit, replacement, 2 more hits to destroy
+
+Without replacement, one stone backwall takes 5 hits to destroy
 
 ### Using enemy tunnels
 
@@ -404,7 +424,7 @@ Enemy knights can sometimes throw a bomb too early and give you enough time to c
 
 [GIF]
 
-If you're being attacked by several enemies at once, you can catch an enemy bomb and suicide with it killing some enemy builders.
+If you're being attacked by several enemies at once, you can catch an enemy bomb and suicide with it and kill some enemy builders.
 
 [GIF]
 
