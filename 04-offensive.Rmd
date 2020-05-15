@@ -444,7 +444,7 @@ Playing as an offensive builder+knight duo in public CTF matches in my opinion i
 
 Besides launching yourself from a catapult in a crate held by a knight, as mentioned earlier, your knight friend can also bomb jump with you in a crate.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/cratejump.webm" controls loop="loop" preload></video><br>
 
 If your knight friend drops resupply materials when respawning (changes to builder and back to knight), you'll also have more materials and be more effective at pushing.
 
