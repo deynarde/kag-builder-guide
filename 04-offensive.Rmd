@@ -59,7 +59,7 @@ Sometimes you may want to quickly make wooden walls in order to skip enemy knigh
 
 As we mentioned earlier, we want lots of wood for pushing. If you have lots of wood and you get damaged -- by a slash or any enemy arrow -- you should make a food shop and quickly heal. Doesn't matter where you place the food shop -- you can as well place it as soon as you get damaged. You can also make some quick defenses around it if enemy archers are constantly shooting at you. The point is that you should try to not die until you use up all your materials (to get coins, but to not feed the materials to the enemy as well), so there's no point in saving the wood.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/foodshop.webm" controls loop="loop" preload></video><br>
 
 ### Analysing enemy tower and making a plan
 
@@ -378,6 +378,10 @@ Sometimes you may want to not fight against a builder with a drill -- especially
 
 You can drop spikes at enemies in a lot of situations due to the block placing range. You can make use of the door-related angle mentioned earlier as well. Some examples are in the gifs below.
 
+Waiting for enemy to open door before dropping spike (spikes go through opened doors):
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spikedoor.webm" controls loop="loop" preload></video><br>
+
 [GIF]
 
 ### Dirt spikes against enemies digging down
@@ -404,6 +408,12 @@ Spikes can deal two hearts of damage by hitting the same enemy twice. If the ene
 
 [GIF]
 
+### Collapsing blocks on enemies
+
+Collapsing blocks do a lot of damage, even to shielding knights. A good trick is to make some ladders and then some wood blocks -- the enemy knights will likely destroy the ladders and cause the wood blocks to collapse on themselves.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/collapsekill.webm" controls loop="loop" preload></video><br>
+
 ### Stomping
 
 You can fall down on enemy builders (as well as knights, but that's a bit more dangerous) to stomp them while dealing some damage and stunning them. You can combine it with using a spike right after, drilling them or hitting them with your pickaxe.
@@ -422,15 +432,21 @@ Crouching is when you hold down the S (move down) button. This causes your colli
 
 ### Dirt spike + crouch
 
-This doesn't work very often, but if enemies are digging downwards towards you, you can place dirtspikes below yourself and then crouch and have them fall down into the spikes.
+This doesn't work very often, but if enemies are digging downwards towards you, you can place dirtspikes (spikes on dirt/bedrock/wood etc.) below yourself and then crouch and have them fall down into the spikes. You can then jump out right after they get damaged and block them.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/crouchspike.webm" controls loop="loop" preload></video><br>
 
 ### Catching and throwing back enemy bombs
 
-Enemy knights can sometimes throw a bomb too early and give you enough time to catch it and throw it somewhere else.
+Enemy knights can sometimes throw a bomb too early or die right after lighting a bomb and give you enough time to catch it and throw it somewhere else.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/bombthrow.webm" controls loop="loop" preload></video><br>
+
+In the gif below, I've quickly caught the bomb and threw it at a distance so that it would only do 1.5 hearts of damage instead of instantly killing me.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/bombthrow2.webm" controls loop="loop" preload></video><br>
+
+(Unrelated, but you can also notice crouching to not get stomped by enemy)
 
 If you're being attacked by several enemies at once, you can catch an enemy bomb and suicide with it and kill some enemy builders.
 
