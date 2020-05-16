@@ -106,9 +106,11 @@ You should also watch out for bombs from the enemies -- they may decide to throw
 
 ### Killing enemy builders for materials
 
-This applies pretty much any time, especially if you have a drill or you have knights with you -- try to kill the enemy builders and get their materials. The more materials you use, the more effective you can be at supporting your knights by spamming doors and spikes, as well as farming coins for buying kegs or making ledges.
+This applies pretty much every time, especially if you have a drill or you have knights with you -- try to kill the enemy builders and get their materials. The more materials you use, the more effective you can be at supporting your knights by spamming doors and spikes, as well as farming coins for buying kegs or making ledges.
 
-[GIF]
+For example, in the gif below I was missing wood to build a knight shop, so I killed a builder which had some wood.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/scavenge.webm" controls loop="loop" preload></video><br>
 
 ### Scaling the enemy tower -- wallclimbing with stone blocks
 
@@ -283,7 +285,7 @@ This however can also be countered if the spot with the sawtrap is 6 blocks wide
 
 If you're on a ledge high over the ground, sometimes you may want to go to the bottom. You can collapse 2-3 wooden blocks and then fall down on them slowly to not get any fall damage.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/falldown.webm" controls loop="loop" preload></video><br>
 
 ### Making a tunnel in the middle of the enemy base
 
