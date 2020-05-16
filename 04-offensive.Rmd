@@ -75,9 +75,13 @@ These are all viable options and we will talk about them in the next sections. W
 
 Here are some examples of towers (I tried to pick somewhat good ones, but it's still public CTF) I spotted on random matches on public CTF and what I would do against them as an offensive builder:
 
-[IMG]
+<img src="imgs/04-offensive/img1.png">
 
-[anal]
+This is a pretty good tower -- it's not worth trying to go to the top with your team because there's way too many doors, and even if you managed to get there you can't do much damage. It's also not that easy to collapse. Howver, there's an obvious weakness -- the bottom is very sparsely protected and has no doors. What I would do is make some defenses for myself at the bottom (stone or wooden blocks + doors -- yellow and dark blue colours), then drill through (the arrow) and then quickly block all the enemy doors with stone blocks (light blue colour) then drill into the flag. 
+
+If you have an opportunity and there are no enemy knights, you could also attempt to get the enemy keg to do some damage to the tower (and buy more kegs if you have coins). 
+
+<img src="imgs/04-offensive/plan1.png">
 
 [IMG]
 
@@ -155,7 +159,7 @@ Some builders sometimes decide to use platforms facing upwards. This can provide
 
 You can sometimes get yourself launched from a catapult at your mid base or main tower. If you manage to get to the enemy wall, you should place ladders as soon as possible. Same advice as regarding scaling enemy tower with ladders applies here.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/catalad.webm" controls loop="loop" preload></video><br>
 
 You can hold a chicken for additional distance as well.
 
@@ -172,7 +176,7 @@ Sometimes if the bottom of the tower is sparsely defended you can try going in t
 
 A good way is to make some small defences at the bottom of the tower and then start mining/drilling towards it, like in the gif below.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/towerbot.webm" controls loop="loop" preload></video><br>
 
 Let's analyse this structure a bit:
 
@@ -182,7 +186,7 @@ As you can see, we're only making one entrance from the side  -- this is because
 
 However, if there was only one layer of stone blocks, an enemy knight could kill you with a bomb. This is because **bombs can kill you through one layer of solid blocks**. This doesn't happen with platforms or with doors (the doors get damaged and absorb all the damage -- keep in mind that a bomb doesn't even destroy the door fully, it just damages it to around 20% health).
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/through.webm" controls loop="loop" preload></video><br>
 
 This is why we make at least two layers -- this requires the enemy knight to use 2 bombs and gives us some more time to get a bit further into the tower.
 
@@ -264,7 +268,7 @@ Without replacement, one stone backwall takes 5 hits to destroy
 
 Not that strictly related to pushing, but sometimes you can use an enemy tunnel (for example their mid base one) to travel to another one (tent one or tower one). However, you should be careful and check earlier (for example when waiting for respawn) if the enemy tunnel you're travelling to has a sawtrap. You should be wary of enemy mines on the tunnels as well (they'll instantly kill you).
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/tunneluse.webm" controls loop="loop" preload></video><br>
 
 There's also a trick that can actually let you avoid sawtraps. The idea is to place a ladder in the room with the tunnel and while climbing both vertically and horizontally on the ladder (holding W + A/D) use the tunnel. This will make you move slightly after teleporting to the other tunnel and avoid the sawtrap. Other players in your team can do this as well.
 
@@ -402,11 +406,9 @@ You can also place some ladders and spike them as they get close.
 
 ### Double hit spikes
 
-Spikes can deal two hearts of damage by hitting the same enemy twice. If the enemy is jumping towards you, you should place a spike below them right as he starts falling down. They will fall through the spike and the spike will hit them again, like in the gifs below.
+Spikes can deal two hearts of damage by hitting the same enemy twice. If the enemy is jumping towards you, you should place a spike below them slightly to the side right as they fall down. They will be hit by the spike from the side and then the spike will hit them again, like in the gif below.
 
-[GIF]
-
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/doublehitspike.webm" controls loop="loop" preload></video><br>
 
 ### Collapsing blocks on enemies
 
