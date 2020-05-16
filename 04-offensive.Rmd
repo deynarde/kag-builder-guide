@@ -146,9 +146,9 @@ In a situation like that you can either wait for your knights to defeat the enem
 
 ### Scaling the enemy tower with blocks + ladders
 
-THe best way to climb usually is combining the 2 ways -- blocking doors with stone blocks, but placing ladders as well. As mentioned a few sentences ago, use vertical ladders for single blocks.
+The best way to climb usually is combining the 2 ways -- blocking doors with stone blocks, but placing ladders as well. As mentioned a few sentences ago, use vertical ladders for single blocks.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/blockladder.webm" controls loop="loop" preload></video><br>
 
 ### Scaling the enemy tower -- platforms 
 
