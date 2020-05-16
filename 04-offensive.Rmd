@@ -54,7 +54,6 @@ Sometimes you may want to quickly make wooden walls in order to skip enemy knigh
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ledgeover.webm" controls loop="loop" preload></video><br>
 
-
 ### Building food shops
 
 As we mentioned earlier, we want lots of wood for pushing. If you have lots of wood and you get damaged -- by a slash or any enemy arrow -- you should make a food shop and quickly heal. Doesn't matter where you place the food shop -- you can as well place it as soon as you get damaged. You can also make some quick defenses around it if enemy archers are constantly shooting at you. The point is that you should try to not die until you use up all your materials (to get coins, but to not feed the materials to the enemy as well), so there's no point in saving the wood.
@@ -280,17 +279,25 @@ This however can also be countered if the spot with the sawtrap is 6 blocks wide
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/2saws.webm" controls loop="loop" preload></video><br>
 
+### Falling down on collapsing blocks
+
+If you're on a ledge high over the ground, sometimes you may want to go to the bottom. You can collapse 2-3 wooden blocks and then fall down on them slowly to not get any fall damage.
+
+[GIF]
+
 ### Making a tunnel in the middle of the enemy base
 
 Sometimes you can end up destroying the tunnel in the enemy tower and may have gold. If you have other mats, you can try building a tunnel for your own team. This is a bit risky, but if done well it can cause a quick victory.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/enemybasetunnel.webm" controls loop="loop" preload></video><br>
 
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/tunnelbuild.webm" controls loop="loop" preload></video><br>
+
 ## Combat
 
 Although builder isn't a combat class, as an offensive builder you want to be somewhat good at killing people for maximum effectiveness as well (it's also quite fun).
 
-### Using doors at certain angles to damage knights 
+### Using doors at certain corner angles to damage knights 
 
 This is arguably the most powerful combat trick for builders; there's a certain angle which lets you damage knights by pickaxe and drills without them being able to damage you by slashes. In the image below, the knight is unable to damage you by slashing (unless by a generally unknown trick that I'll mention later), while you're able to damage them by a pickaxe or drill.
 
@@ -306,7 +313,7 @@ You can often force yourself into such situations by being at a lower level than
 
 Knights will often think that they should be able to damage you and get closer to you. You can also place a block behind them when they get close so that they don't run away.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/angleblock.webm" controls loop="loop" preload></video><br>
 
 Make sure to not open the door accidentally -- the enemies can go through it and then be able to kill you.
 
@@ -316,9 +323,9 @@ Now, the thing is, that the enemy knight is actually able to slash you by starti
 
 However, barely anyone knows about this and you'll be able to kill a majority of the knights without getting any damage.
 
-This angle works similar in a situation like in the gif below as well, but if the knight doesn't aim directly at you and slashes slightly downwards then they will also damage you. It's also a bit more dangerous to try damaging them at this angle because you can accidentally open the door.
+This angle works similar in a situation like in the gif below as well, but if the knight doesn't aim directly at you they may sometimes damage you. It's also a bit more dangerous to try damaging them at this angle because it's easier to accidentally open the door.
 
-[GIF - swap places]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/swapplace.webm" controls loop="loop" preload></video><br>
 
 Keep in mind that enemy builders can attack you at both of these angles -- it's just knights who can't.
 
@@ -380,13 +387,15 @@ Sometimes you may want to not fight against a builder with a drill -- especially
 
 ### Offensive spiking
 
-You can drop spikes at enemies in a lot of situations due to the block placing range. You can make use of the door-related angle mentioned earlier as well. Some examples are in the gifs below.
+You can drop spikes at enemies in a lot of situations. You can make use of the door-related corner angle mentioned earlier as well. Some examples are in the gifs below
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/combatspike.webm" controls loop="loop" preload></video><br>
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/combatspike2.webm" controls loop="loop" preload></video><br>
 
 Waiting for enemy to open door before dropping spike (spikes go through opened doors):
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spikedoor.webm" controls loop="loop" preload></video><br>
-
-[GIF]
 
 ### Dirt spikes against enemies digging down
 
@@ -396,9 +405,9 @@ If the enemies are digging down towards you, you can place some spikes on dirt (
 
 ### Escape spikes
 
-If you're escaping from a knight and there's some backwall around, you can drop spikes as the enemy is going towards you and even kill them.
+If you're escaping from a knight and there's some backwall around, you can drop spikes as the enemy is going towards you and damage them or even kill them.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/escapespike.webm" controls loop="loop" preload></video><br>
 
 You can also place some ladders and spike them as they get close.
 
@@ -418,7 +427,7 @@ Collapsing blocks do a lot of damage, even to shielding knights. A good trick is
 
 ### Stomping
 
-You can fall down on enemy builders (as well as knights, but that's a bit more dangerous) to stomp them while dealing some damage and stunning them. You can combine it with using a spike right after, drilling them or hitting them with your pickaxe.
+You can fall down on enemy builders (as well as knights, but that's a bit more dangerous) to stomp them while dealing some damage and stunning them. You can combine it with using a spike right after (if there's backwall), drilling them or hitting them with your pickaxe.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/stomp1.webm" controls loop="loop" preload></video><br>
 
