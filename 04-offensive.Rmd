@@ -76,7 +76,7 @@ Here are some examples of towers (I tried to pick somewhat good ones, but it's s
 
 <img src="imgs/04-offensive/img1.png">
 
-This is a pretty good tower -- it's not worth trying to go to the top with your team because there's way too many doors, and even if you managed to get there you can't do much damage. It's also not that easy to collapse. Howver, there's an obvious weakness -- the bottom is very sparsely protected and has no doors. What I would do is make some defenses for myself at the bottom (stone or wooden blocks + doors -- yellow and dark blue colours), then drill through (the arrow) and then quickly block all the enemy doors with stone blocks (light blue colour) then drill into the flag. 
+This is a pretty good tower -- it's not worth trying to go to the top with your team because there's way too many doors, and even if you managed to get there you can't do much damage. It's also not that easy to collapse. Howver, there's an obvious weakness -- the bottom is very sparsely protected and has no doors. What I would do is make some defenses for myself at the bottom (stone blocks + doors -- yellow colour), then drill through (the arrow) and then quickly block all the enemy doors with stone blocks then drill into the flag. 
 
 If you have an opportunity and there are no enemy knights, you could also attempt to get the enemy keg to do some damage to the tower (and buy more kegs if you have coins). 
 
@@ -100,14 +100,13 @@ It's good to also look at the enemy tower and try to analyse its weaknesses when
 
 ### Observing knight fights
 
-Similarly to taking mid, the best way to damage enemy tower is teamwork -- so you need to know when your knights are succeeding in skirmishes. You should watch how your knights are doing when fighting under the enemy tower; check if good knights from your team are there. As soon as they kill the enemies and the opposing team's defense is somewhat weakened, you should start pushing with them. Try to be fast -- the defeated enemies will eventually respawn and get back there.
+Similarly to taking mid, the best way to damage enemy tower or get the enemy flag is teamwork -- so you need to know when your knights are succeeding in skirmishes. You should watch how your knights are doing when fighting under the enemy tower or on enemy terrain; check if good knights from your team are there. As soon as they kill the enemies and the opposing team's defense is somewhat weakened, you should start pushing with them. Try to be fast -- the defeated enemies will eventually respawn and get back there.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/observe2.webm" controls loop="loop" preload></video><br>
 
-Your knights won't always succeed though; if they are defeated by enemy knights, you will have to find a less direct way to get to the enemy tower. Sometimes it's better to just retreat and wait for your knights to come back, and sometimes you could try building a ledge and getting over the enemies.
+Your knights won't always succeed though; if they are defeated by enemy knights, you will have to find a less direct way to get to the enemy structures. Sometimes it's better to just retreat and wait for your knights to come back.
 
-[GIF]
-
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/observe1.webm" controls loop="loop" preload></video><br>
 You should also watch out for bombs from the enemies -- they may decide to throw some at you and damage or kill you.
 
 ### Killing enemy builders for materials
@@ -203,7 +202,7 @@ This is why we make at least two layers -- this requires the enemy knight to use
 
 When we're inside the tower, standard doorfight tactics apply -- just spam doors and rely on your knights. However, don't trust your knights too much in some cases -- for example, you should block top doors with stone blocks instead of doors if you're going to the side, because your knights could open them accidentally and get you killed.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/blockstone.webm" controls loop="loop" preload></video><br>
 
 ### Being on top of tower
 
@@ -373,15 +372,23 @@ Since the drill does more damage when heated (with a red tint), before engaging 
 
 You can try to make the enemy builder think that you have no drill by keeping it in your inventory and provoke them to attack you, and then take it out and kill them.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/drillhide.webm" controls loop="loop" preload></video><br>
 
 ### Using pickaxe + drill at the same time
 
-You can use a drill and a pickaxe at the same time for extra damage (hold both left and right mouse buttons).
+You can use a drill and a pickaxe at the same time on enemies for extra damage (hold both left and right mouse buttons).
 
 [GIF]
 
-You can do this when destroying blocks too.
+You however can't do this against blocks -- only enemies.
+
+### Pickaxe vs drill in water
+
+Due to drills being slower in water, people with pickaxe win against people with drills in water fights.
+
+[GIF]
+
+However, if you have a drill, then you should just use both pickaxe and drill at the same time as mentioned in the above section -- in that case the person with the drill will obviously win.
 
 ### Spamming overheated drill
 
@@ -477,7 +484,7 @@ In the gif below, I've quickly caught the bomb and threw it at a distance so tha
 
 (Unrelated, but you can also notice crouching to not get stomped by enemy)
 
-If you're being attacked by several enemies at once, you can catch an enemy bomb and suicide with it and kill some enemy builders.
+If you're being attacked by several enemies at once, you can catch an enemy bomb and suicide with it to try to kill some enemies.
 
 [GIF]
 
