@@ -82,13 +82,19 @@ If you have an opportunity and there are no enemy knights, you could also attemp
 
 <img src="imgs/04-offensive/plan1.png">
 
-[IMG]
+<img src="imgs/04-offensive/img2.png">
 
-[anal]
+It's a decent tower with lots of doors, a ballista and a tunnel, but yet again the bottom doesn't have much protection. What I would do is get through to the bottom part, block all doors with stone blocks (yellow colour) and try to get to the flag (green arrows)
 
-[IMG]
+<img src="imgs/04-offensive/plan2.png">
 
-[anal]
+<img src="imgs/04-offensive/img3.png">
+
+For this tower we have 2 things we could do. For the first variant, if there are not many enemies, you could try climbing up with ladders (green lines) and then get to the ballista (green arrow) while blocking all enemy doors with stone blocks (yellow colour). You can capture the ballista or destroy it. After that, you can drill down to the flag while blocking all enemy doors as well and go back the same way you got in.
+
+The 2nd option is if there are lots of enemies on top that would most likely kill you -- in this case, we place one ladder on the wall, then make some defences around us (2 layers from top -- see 4.5.12) as well as a door from bottom, and then drill to the flag while trying to make use of the corner trick (see 4.6.1) and blocking enemy doors
+
+<img src="imgs/04-offensive/plan3.png">
 
 It's good to also look at the enemy tower and try to analyse its weaknesses whenever you die and wait for respawn.
 
@@ -112,7 +118,7 @@ For example, in the gif below I was missing wood to build a knight shop, so I ki
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/scavenge.webm" controls loop="loop" preload></video><br>
 
-### Scaling the enemy tower -- wallclimbing with stone blocks
+### Scaling the enemy tower -- wallclimbing with stone or wood blocks
 
 You can spam stone blocks below you while constantly jumping and wallclimb the enemy tower. This is usually done when you're pushing solo or there are lots of enemy knights; you also block lots of doors by doing this.
 
@@ -120,13 +126,17 @@ You can spam stone blocks below you while constantly jumping and wallclimb the e
 
 Of course, you can do it with wood blocks as well, but they're much easier to destroy for the enemy builders (as well as knights), so they're less effective. If your goal is just to get to the top of the tower however, then feel free to do it.
 
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/blockspam.webm" controls loop="loop" preload></video><br>
+
 ### Scaling the enemy tower -- ladders 
 
 Scaling the enemy tower with ladders is most effective if the enemy tower doesn't have many doors and if you have knight support with you. 
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ladderclimb.webm" controls loop="loop" preload></video><br>
 
-Sometimes after placing a few ladders, enemy knights may try to come to you from below. This is a good opportunity to drop a spike and kill them.
+Sometimes after placing a few ladders, enemy knights may try to come to you from below. This is a good opportunity to drop spikes and kill them.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/climbspike.webm" controls loop="loop" preload></video><br>
 
 [GIF]
 
@@ -373,6 +383,12 @@ You can use a drill and a pickaxe at the same time for extra damage (hold both l
 
 You can do this when destroying blocks too.
 
+### Spamming overheated drill
+
+If you get stuck in a place with enemies but there's an overheated drill on the ground, you should hold right mouse button (to damage enemies with pickaxe) while spamming C and left mouse button at the same time to quickly damage enemies with the steaming drill before it falls down again. Keep in mind that picking up a steaming overheated drill does 0.25 heart of damage, so don't do this if you don't have enough health.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spamdrill.webm" controls loop="loop" preload></video><br>
+
 ### Killing knights with low health
 
 You can easily kill knights that have low health (1 heart), even with your pickaxe -- attack them in between their slashes (wait for them to miss a slash, then attack).
@@ -441,7 +457,7 @@ Crouching is when you hold down the S (move down) button. This causes your colli
 
 [GIF]
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/crouchdrill.webm" controls loop="loop" preload></video><br>
 
 ### Dirt spike + crouch
 
