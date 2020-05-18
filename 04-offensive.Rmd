@@ -226,7 +226,7 @@ Of course you can do that much more easily if the enemy tower has lots of backwa
 
 Pretty much same advice here applies as regarding destroying mid base tunnel; however, there's one additional thing that you can do if the tunnel is on top of the enemy tower. Basically, collapsing blocks destroy doors and shops when they fall down. You can make a chunk of wood supported by one backwall and then collapse it like in the gif below to destroy enemy doors and shops.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/tunneldie.webm" controls loop="loop" preload></video><br>
 
 This can sometimes apply in other situations too -- for example for destroying a mid tunnel.
 
