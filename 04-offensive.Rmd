@@ -137,8 +137,6 @@ Sometimes after placing a few ladders, enemy knights may try to come to you from
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/climbspike.webm" controls loop="loop" preload></video><br>
 
-[GIF]
-
 Keep in mind that in certain situations your vertically placed ladders can fall off. This happens if you try to place them next to a single block while there's no backwall either; in order to not fall off, the bottom part of the ladder needs to be placed next to a block as well.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ladderfall.webm" controls loop="loop" preload></video><br>
@@ -150,6 +148,8 @@ This usually happens if you blocked enemy doors and then try building ladders ov
 When you get to the upper parts of the tower by ladder placing, sometimes enemies wil come to the top and will may try to kill you. In this case you want to build a ledge over your head (so that they don't jump down on you) with some doors for your knights, as well as some additional side defenses in case enemy knights still try to jump off and slash you from the side.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ladderledge.webm" controls loop="loop" preload></video><br>
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/climbdefense.webm" controls loop="loop" preload></video><br>
 
 In a situation like that you can either wait for your knights to defeat the enemies or start mining/drilling into the side of the tower.
 
@@ -304,6 +304,10 @@ Sometimes you can end up destroying the tunnel in the enemy tower and may have g
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/tunnelbuild.webm" controls loop="loop" preload></video><br>
 
+You can combine it with the ladder trick from "Using enemy tunnels" section as well. In the gif below, first I travelled to it by using the ladder trick, then destroyed it and used the gold to make my own.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/anothertunnel.webm" controls loop="loop" preload></video><br>
+
 ## Combat
 
 Although builder isn't a combat class, as an offensive builder you want to be somewhat good at killing people for maximum effectiveness as well (it's also quite fun).
@@ -421,6 +425,8 @@ You can drop spikes at enemies in a lot of situations. You can make use of the d
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/combatspike.webm" controls loop="loop" preload></video><br>
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/combatspike2.webm" controls loop="loop" preload></video><br>
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/combatspike3.webm" controls loop="loop" preload></video><br>
 
 Waiting for enemy to open door before dropping spike (spikes go through opened doors):
 
