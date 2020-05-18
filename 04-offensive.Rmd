@@ -352,9 +352,9 @@ Whenever you're doing a 1v1 with other builders, you should try to spike them fi
 
 [GIF]
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/1v1.webm" controls loop="loop" preload></video><br>
 
-Another way to win the 1v1 is if you have a burger -- eat it to heal yourself after losing some health.
+Another way to win the 1v1 is to heal yourself -- eat a burger, a fish or use a heart to heal yourself after losing some health.
 
 [GIF]
 
@@ -430,7 +430,7 @@ Waiting for enemy to open door before dropping spike (spikes go through opened d
 
 If the enemies are digging down towards you, you can place some spikes on dirt (or on wood) right before they fall down and damage them. This can of course be countered by placing ladders, but it still works sometimes.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spikedirt.webm" controls loop="loop" preload></video><br>
 
 ### Escape spikes
 
@@ -440,7 +440,7 @@ If you're escaping from a knight and there's some backwall around, you can drop 
 
 You can also place some ladders and spike them as they get close.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/escapeladder.webm" controls loop="loop" preload></video><br>
 
 ### Double hit spikes
 
@@ -460,7 +460,7 @@ You can fall down on enemy builders (as well as knights, but that's a bit more d
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/stomp1.webm" controls loop="loop" preload></video><br>
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/stomp2.webm" controls loop="loop" preload></video><br>
 
 ### Crouching
 
