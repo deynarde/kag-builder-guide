@@ -212,7 +212,7 @@ After getting to the top of the enemy tower, there are various things you can do
 
 If you have lots of coins, now is a good moment to use them. What you can do is quickly build a tall wall and a knight shop on top of it, change to knight and then buy kegs and drop them down. Use up all your materials before changing to knight for as many coins as possible. If there are enemy knights that could collapse the wall, you should use stone instead of wood for the bottom part of it. You can use some additional backwalls too or place some ladders for your knights as well.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spamkeg.webm" controls loop="loop" preload></video><br>
 
 Sometimes people will have a very high column of ladders in their tower, without any additional doors. You can use this to your advantage by dropping a spike and killing a lot of people (Also, if your tower has that too, you should fix that).
 
@@ -342,9 +342,9 @@ Keep in mind that enemy builders can attack you at both of these angles -- it's 
 
 ### Enemy knights glitching in the doors
 
-Sometimes if you open doors for a short moment for the enemy knights and they have slight lag, they will get stuck in a closed door and you will be able to damage them while they aren't able to damage you.
+Sometimes if you open doors for a short moment for the enemy knights and they have slight lag, they will get stuck in a closed door and you will be able to damage them while they won't be able to.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/glitch.webm" controls loop="loop" preload></video><br>
 
 ### Pickaxe 1v1 with other builders
 
@@ -390,6 +390,16 @@ Due to drills being slower in water, people with pickaxe win against people with
 
 However, if you have a drill, then you should just use both pickaxe and drill at the same time as mentioned in the above section -- in that case the person with the drill will obviously win.
 
+### Overheating enemy builder's drill
+
+Sometimes you may want to not fight against a builder with a drill -- especially if you don't have one yourself. The idea is to bait them and get them to drill doors in a doorfight -- spam lots of doors. They may overheat their drill on your doors. If you don't have a drill yourself, you will want to wait a short while (you can't pick up a drill right after it overheated) -- about 1 second -- and pick it up from the ground. You can also use the drill to kill the enemy (make sure to not just instantly overheat it again though).
+
+[GIF]
+
+If you already had a drill, you can just attack the enemy right after their drill got overheated.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/baitenemi.webm" controls loop="loop" preload></video><br>
+
 ### Spamming overheated drill
 
 If you get stuck in a place with enemies but there's an overheated drill on the ground, you should hold right mouse button (to damage enemies with pickaxe) while spamming C and left mouse button at the same time to quickly damage enemies with the steaming drill before it falls down again. Keep in mind that picking up a steaming overheated drill does 0.25 heart of damage, so don't do this if you don't have enough health.
@@ -403,12 +413,6 @@ You can easily kill knights that have low health (1 heart), even with your picka
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/lowhpknight.webm" controls loop="loop" preload></video><br>
 
 [GIF 2 - door fuzzle meta]
-
-### Stealing enemy builder's drill
-
-Sometimes you may want to not fight against a builder with a drill -- especially if you don't have one yourself. The idea is to bait them and get them to drill doors in a doorfight -- spam lots of doors. They may overheat their drill on your doors. You will want to wait a short while (you can't pick up a drill right after it overheated) -- about 1 second -- and pick it up from the ground. You can also use the drill to kill the enemy (make sure to not just instantly overheat it again though).
-
-[GIF]
 
 ### Offensive spiking
 
@@ -477,6 +481,8 @@ This doesn't work very often, but if enemies are digging downwards towards you, 
 Enemy knights can sometimes throw a bomb too early or die right after lighting a bomb and give you enough time to catch it and throw it somewhere else.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/bombthrow.webm" controls loop="loop" preload></video><br>
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/bombcatch.webm" controls loop="loop" preload></video><br>
 
 In the gif below, I've quickly caught the bomb and threw it at a distance so that it would only do 1.5 hearts of damage instead of instantly killing me.
 
