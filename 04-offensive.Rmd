@@ -121,7 +121,7 @@ For example, in the gif below I was missing wood to build a knight shop, so I ki
 
 You can spam stone blocks below you while constantly jumping and wallclimb the enemy tower. This is usually done when you're pushing solo or there are lots of enemy knights; you also block lots of doors by doing this.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/blockspam2.webm" controls loop="loop" preload></video><br>
 
 Of course, you can do it with wood blocks as well, but they're much easier to destroy for the enemy builders (as well as knights), so they're less effective. If your goal is just to get to the top of the tower however, then feel free to do it.
 
@@ -242,7 +242,7 @@ Keep in mind that this only applies to doors. If you ever find yourself in a sit
 
 Although spamming kegs from top of the tower is good, in some situations buying them in the middle of the enemy base will be more effective. The idea is to get to the enemy knight shop and buy some kegs, then light as many as you can. One keg's explosion will light the other kegs and you will do a lot of damage to the enemy tower.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/kegspam.webm" controls loop="loop" preload></video><br>
 
 Sometimes enemies will buy a water bucket and extinguish the kegs (even through doors). If this happens, just light the keg again.
 
