@@ -204,6 +204,16 @@ When we're inside the tower, standard doorfight tactics apply -- just spam doors
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/blockstone.webm" controls loop="loop" preload></video><br>
 
+### Destroying mines
+
+You should also watch out for mines and destroy any you see. It takes two pickaxe hits to destroy every mine. However, there's one bug you should watch out for -- if a mine is stuck in a 1 block wide hole, like in the gif below, hitting it from below will cause it to go through the hole somehow.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/mina1.webm" controls loop="loop" preload></video><br>
+
+What you want to do in situations like this is either block or ignore the mine (if you have knights near you that could accidentally die on the mine), or if possible -- hit the mine, quickly move away, then hit it again, like in the gif below.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/mina2.webm" controls loop="loop" preload></video><br>
+
 ### Being on top of tower
 
 After getting to the top of the enemy tower, there are various things you can do. First thing you want to do is block all the enemy doors. Make sure to build a ledge with doors from the side you came from as well so that the enemies don't get to you from there either.
@@ -386,13 +396,7 @@ You can use a drill and a pickaxe at the same time on enemies for extra damage (
 
 You however can't do this against blocks -- only enemies.
 
-### Pickaxe vs drill in water
-
-Due to drills being slower in water, people with pickaxe win against people with drills in water fights.
-
-[GIF]
-
-However, if you have a drill, then you should just use both pickaxe and drill at the same time as mentioned in the above section -- in that case the person with the drill will obviously win.
+You should do this especially in underwater fights, where drills are slower and the enemy can damage you more with a pickaxe.
 
 ### Overheating enemy builder's drill
 
@@ -415,8 +419,6 @@ If you get stuck in a place with enemies but there's an overheated drill on the 
 You can easily kill knights that have low health (1 heart), even with your pickaxe -- attack them in between their slashes (wait for them to miss a slash, then attack).
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/lowhpknight.webm" controls loop="loop" preload></video><br>
-
-[GIF 2 - door fuzzle meta]
 
 ### Offensive spiking
 
