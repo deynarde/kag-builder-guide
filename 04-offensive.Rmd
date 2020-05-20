@@ -218,7 +218,7 @@ What you want to do in situations like this is either block or ignore the mine (
 
 After getting to the top of the enemy tower, there are various things you can do. First thing you want to do is block all the enemy doors. Make sure to build a ledge with doors from the side you came from as well so that the enemies don't get to you from there either.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/climbtower.webm" controls loop="loop" preload></video><br>
 
 If you have lots of coins, now is a good moment to use them. What you can do is quickly build a tall wall and a knight shop on top of it, change to knight and then buy kegs and drop them down. Use up all your materials before changing to knight for as many coins as possible. If there are enemy knights that could collapse the wall, you should use stone instead of wood for the bottom part of it. You can use some additional backwalls too or place some ladders for your knights as well.
 
@@ -504,7 +504,7 @@ If you're being attacked by several enemies at once, you can catch an enemy bomb
 
 ## Playing with a knight friend
 
-Playing as an offensive builder+knight duo in public CTF matches in my opinion is one of the best ways to experience KAG. Since you don't have to rely on random people you can play much better and win stalemates by teamwork, as long as your knight defends you and supports you as much as they can: follows you, catches enemy bombs, gives you materials from enemy builders and helps you during doorfights.
+Playing as an offensive builder+knight duo in public CTF matches in my opinion is one of the best ways to experience KAG. Since you don't have to rely on random people you can play much better and win stalemates by teamwork, as long as your knight defends you and supports you as much as they can: follows you, catches enemy bombs so that they don't damage you, gives you materials from enemy builders and helps you during doorfights.
 
 [GIF]
 
