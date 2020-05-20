@@ -464,7 +464,7 @@ Costs 50 wood, another class shop -- so you have the option to swap class to Kni
 - Costs 60 coins.
 - 1x1 inventory size.
 - When you put one on the ground, it deploys after being still for 1.5 a second.
-- Instakills any enemies that walk into it and causes a small explosion.
+- Instantly kills any enemies that walk into it and causes a small explosion (which also instantly kills enemies nearby).
 - Unshieldable by knights.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/mine.webm" controls loop="loop" preload></video><br>
