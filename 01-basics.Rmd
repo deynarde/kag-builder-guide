@@ -342,7 +342,7 @@ When you use a water bucket on someone with a lit keg, they also drop the keg if
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/lightdrill.webm" controls loop="loop" preload></video><br>
 
-- Drills also deal 1 heart of damage to enemies per hit. When they are in a heated state (they have a red tint), they deal 1.5 heart of damage.
+- Drills also deal 1 heart of damage to enemies per hit. When they're 50% heated (at least half of the bar), they deal 1.5 heart of damage.
 - Drills deal half of the damage when shielded -- so 0.5 heart or 0.75 heart of damage to shielding knights.
 - They obviously also deal damage faster than pickaxe.
 
