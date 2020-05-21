@@ -161,9 +161,11 @@ The best way to climb usually is combining the 2 ways -- blocking doors with sto
 
 ### Scaling the enemy tower -- platforms 
 
-Some builders sometimes decide to use platforms facing upwards. This can provide some defense from enemy knights jumping down (as well as from spikes if you place two platforms for each time) and lets your knights climb the tower as well, but keep in mind that platforms are easily destroyable by enemy knights as well as that climbing them is slower than climbing ladders. Moreover, placing platforms is slightly slower than solid stone or wood blocks. This isn't a very good tactic -- using ladders or stone blocks is more effective.
+Some builders sometimes decide to use platforms facing upwards. This can provide some defense from enemy knights jumping down (as well as from spikes if you place two platforms for each time) and lets your knights climb the tower as well, but keep in mind that platforms are easily destroyable by enemy knights (and sometimes they're able to slash through them as well) and that climbing them is slower than climbing ladders. Moreover, placing platforms is slightly slower than solid stone or wood blocks.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/platformspam.webm" controls loop="loop" preload></video><br>
+
+Keep in mind this is mostly a tactic to annoy the enemies, rather than actually climbing the tower.
 
 ### Getting launched from a catapult
 
@@ -368,9 +370,9 @@ Whenever you're doing a 1v1 with other builders, you should try to spike them fi
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/1v1.webm" controls loop="loop" preload></video><br>
 
-Another way to win the 1v1 is to heal yourself -- eat a burger, a fish or use a heart to heal yourself after losing some health.
+Another way to win the 1v1 is to heal yourself -- eat a burger, a fish or use a heart to heal yourself after losing some health. You can eat it by using the Eat Food bind (V key by default). Try to use food at as low health as possible, because the enemy may have food too. In the gif below, I eat a burger with the V key right after getting hit 5 times (so one hit away from death -- half a heart).
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/eat.webm" controls loop="loop" preload></video><br>
 
 Generally try to not engage in pickaxe 1v1s if you have fewer hearts than the enemy.
 
@@ -378,9 +380,11 @@ Spamming the right mouse button instead of holding it makes no difference.
 
 ### Heating drill before combat
 
-Since the drill does more damage when heated (with a red tint), before engaging in a 1v1 with a builder that has a drill (or any other fights) you should first make sure yours is slightly heated. You can do it by using it for a moment on any blocks.
+Since the drill does more damage when at least 50% heated, sometimes before engaging in a 1v1 with a builder that has a drill you may want to heat your own drill slightly for more damage (1.5 heart of damage instead of 1). You can do it by using it for a moment on any blocks.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/heatdrill.webm" controls loop="loop" preload></video><br>
+
+Keep in mind that the drill usually overheats after that (if it was heated to the point of doing more damage) and will drop to the ground, so don't do this if there are more than one enemy builder around.
 
 ### Hiding drill from enemy builder
 
@@ -472,9 +476,9 @@ You can fall down on enemy builders (as well as knights, but that's a bit more d
 
 ### Crouching
 
-Crouching is when you hold down the S (move down) button. This causes your collision hitbox to disappear -- enemies will be able to go through you. You can't move for this to work (if you move, they'll collide with you even if you hold S). This can be used to avoid being stomped by enemies.
+Crouching is when you hold down the S (move down) button. This causes your collision hitbox to disappear -- enemies will be able to go through you. You can't move for this to work (if you move, they'll collide with you even if you hold S), but you can still attack (by pickaxe or by using  a drill). This can be used to avoid being stomped by enemies. You can also attack enemies that get stunned from fall damage right after crouching.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/crouch2.webm" controls loop="loop" preload></video><br>
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/crouchdrill.webm" controls loop="loop" preload></video><br>
 
