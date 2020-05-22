@@ -190,17 +190,17 @@ A good way is to make some small defences at the bottom of the tower and then st
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/towerbot.webm" controls loop="loop" preload></video><br>
 
-Let's analyse this structure a bit:
+Let's look at this defense:
 
-[IMG]
+<img src="imgs/04-offensive/botom.png">
 
 As you can see, we're only making one entrance from the side  -- this is because enemy builders will often try to drop a spike from above and kill you; if there were doors, some knight in your team could open it on accident and get you killed.
 
-However, if there was only one layer of stone blocks, an enemy knight could kill you with a bomb. This is because **bombs can kill you through one layer of solid blocks**. This doesn't happen with platforms or with doors (the doors get damaged and absorb all the damage -- keep in mind that a bomb doesn't even destroy the door fully, it just damages it to around 20% health).
+Why do we want two layers of stone blocks from the top? -- If there was only one layer, an enemy knight could kill you with a bomb. This is because **bombs can kill you through one layer of solid blocks**. This doesn't happen with platforms or with doors (the doors get damaged and absorb all the damage -- keep in mind that a bomb doesn't even destroy the door fully, it just damages it to around 20% health).
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/through.webm" controls loop="loop" preload></video><br>
 
-This is why we make at least two layers -- this requires the enemy knight to use 2 bombs and gives us some more time to get a bit further into the tower.
+Making 2 layers of solid block defenses in any situation when we're surrounded by enemies requires the enemy knights to use at least 2 bombs and greatly increases our chance of survival, giving us some more time to reposition ourselves or get a bit further into the tower.
 
 When we're inside the tower, standard doorfight tactics apply -- just spam doors and rely on your knights. However, don't trust your knights too much in some cases -- for example, you should block top doors with stone blocks instead of doors if you're going to the side, because your knights could open them accidentally and get you killed.
 
