@@ -394,17 +394,13 @@ You can try to make the enemy builder think that you have no drill by keeping it
 
 ### Using pickaxe + drill at the same time
 
-You can use a drill and a pickaxe at the same time on enemies for extra damage (hold both left and right mouse buttons).
+In rare situations, you can use a drill and a pickaxe at the same time on enemies for extra damage (hold both left and right mouse buttons). Most of the time the damage from the drill will be enough, but you should use your pickaxe in underwater fights when the enemy builder also has a drill (due to drills being slower in water, the damage from the pickaxe will actually matter).
 
 [GIF]
 
-You however can't do this against blocks -- only enemies.
+### Baiting and overheating enemy builder's drill
 
-You should do this especially in underwater fights, where drills are slower and the enemy can damage you more with a pickaxe.
-
-### Overheating enemy builder's drill
-
-Sometimes you may want to not fight against a builder with a drill -- especially if you don't have one yourself. The idea is to bait them and get them to drill doors in a doorfight -- spam lots of doors. They may overheat their drill on your doors. If you don't have a drill yourself, you will want to wait a short while (you can't pick up a drill right after it overheated) -- about 1 second -- and pick it up from the ground. You can also use the drill to kill the enemy (make sure to not just instantly overheat it again though).
+Sometimes you may want to not fight against a builder with a drill -- especially if you don't have one yourself. The idea is to bait them and get them to drill doors in a doorfight -- spam lots of doors. They may overheat their drill on your doors. If you don't have a drill yourself, you will want to wait a short while (you can't pick up a drill right after it overheated and dropped to the ground) -- about 1 second -- and pick it up from the ground. You can also try to use the drill to kill the enemy right after (try to not just instantly overheat it again though).
 
 [GIF]
 
