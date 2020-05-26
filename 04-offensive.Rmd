@@ -392,17 +392,13 @@ You can try to make the enemy builder think that you have no drill by keeping it
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/drillhide.webm" controls loop="loop" preload></video><br>
 
-### Using pickaxe + drill at the same time
-
-In rare situations, you can use a drill and a pickaxe at the same time on enemies for extra damage (hold both left and right mouse buttons). Most of the time the damage from the drill will be enough, but you should use your pickaxe in underwater fights when the enemy builder also has a drill (due to drills being slower in water, the damage from the pickaxe will actually matter).
-
-[GIF]
-
 ### Baiting and overheating enemy builder's drill
 
-Sometimes you may want to not fight against a builder with a drill -- especially if you don't have one yourself. The idea is to bait them and get them to drill doors in a doorfight -- spam lots of doors. They may overheat their drill on your doors. If you don't have a drill yourself, you will want to wait a short while (you can't pick up a drill right after it overheated and dropped to the ground) -- about 1 second -- and pick it up from the ground. You can also try to use the drill to kill the enemy right after (try to not just instantly overheat it again though).
+Sometimes you may want to not fight against a builder with a drill -- especially if you don't have one yourself. The idea is to bait them and get them to drill doors in a doorfight -- spam lots of doors. They may overheat their drill on your doors. You want to wait a short while (you can't pick up a drill right after it overheated and dropped to the ground) -- about half a second -- and pick it up from the ground. You can also try to use the drill to kill the enemy right after. However, in most cases it'll overheat again right after using it. Try to pick it up and press the left mouse button once as quickly as possible, and then finish the enemy with normal pickaxe hits.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/bait.webm" controls loop="loop" preload></video><br>
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/overheat2.webm" controls loop="loop" preload></video><br>
 
 If you already had a drill, you can just attack the enemy right after their drill got overheated.
 
@@ -506,7 +502,7 @@ If you're being attacked by several enemies at once, you can catch an enemy bomb
 
 Playing as an offensive builder+knight duo in public CTF matches in my opinion is one of the best ways to experience KAG. Since you don't have to rely on random people you can play much better and win stalemates by teamwork, as long as your knight defends you and supports you as much as they can: follows you, catches enemy bombs so that they don't damage you, gives you materials from enemy builders and helps you during doorfights.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/bombacatch2.webm" controls loop="loop" preload></video><br>
 
 Besides launching yourself from a catapult in a crate held by a knight, as mentioned earlier, your knight friend can also bomb jump with you in a crate.
 
