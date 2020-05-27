@@ -410,6 +410,8 @@ If you get stuck in a place with enemies but there's an overheated drill on the 
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spamdrill.webm" controls loop="loop" preload></video><br>
 
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spamdrill4.webm" controls loop="loop" preload></video><br>
+
 ### Killing knights with low health
 
 You can easily kill knights that have low health (1 heart), even with your pickaxe -- attack them in between their slashes (wait for them to miss a slash, then attack).
