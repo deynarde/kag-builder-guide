@@ -366,7 +366,7 @@ Sometimes if you open doors for a short moment for the enemy knights and they ha
 
 Whenever you're doing a 1v1 with other builders, you should try to spike them first somehow to get a heart advantage and then finish them with a pickaxe. If you don't have any way to do that, then the result of the 1v1 will depend on whoever damaged the enemy player first. To do that, you should start attacking them with your pickaxe as soon as they're in your range.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spike1val.webm" controls loop="loop" preload></video><br>
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/1v1.webm" controls loop="loop" preload></video><br>
 
@@ -377,6 +377,16 @@ Another way to win the 1v1 is to heal yourself -- eat a burger, a fish or use a 
 Generally try to not engage in pickaxe 1v1s if you have fewer hearts than the enemy.
 
 Spamming the right mouse button instead of holding it makes no difference.
+
+### Pickaxe through door corners
+
+You're able to hit the enemy in situations like in the gif below with your pickaxe if you aim at the right spot and position yourself properly.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/doorhit2.webm" controls loop="loop" preload></video><br>
+
+Example of how it can be used in actual gameplay:
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/doorhit.webm" controls loop="loop" preload></video><br>
 
 ### Heating drill before combat
 
