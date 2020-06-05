@@ -365,7 +365,7 @@ Now, let's talk about the items you can buy:
 
 - Although drills can be cooled down in water, drilling in water (both enemies and blocks) is much slower.
 
-[GIF]
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/drillwater.webm" controls loop="loop" preload></video><br>
 
 #### Saw
 
