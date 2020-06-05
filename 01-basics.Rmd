@@ -400,7 +400,7 @@ Now, let's talk about the items you can buy:
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/cratepick.webm" controls loop="loop" preload></video><br>
 
-- Players can also get into crates -- you need to pick a crate up (so that it's your hand), and then press E on it. Other players can also pick up the crate. This is a good way for builders to be "delivered" to enemy territory safely by the knights in your team.
+- Players can also get into crates -- you need to pick a crate up (so that it's in your hand), and then press E on it. Other players can also pick up the crate. This is a good way for builders to be "delivered" to enemy territory safely by the knights in your team.
 - You can get out of a crate by pressing E again.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/crategetin.webm" controls loop="loop" preload></video><br>
