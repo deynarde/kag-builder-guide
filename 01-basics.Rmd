@@ -23,7 +23,7 @@ Bedrock can't be destroyed at all.
 
 <img src="imgs/01-basic/bedrock.png">
 
-Dirt does not give any materials either.
+Dirt can be dug, but doesn't give any materials.
 
 <img src="imgs/01-basic/dirt.png">
 
