@@ -273,7 +273,7 @@ Now, let's talk about the items you can buy:
 
 - Costs 10 wood and 10 coins
 - 1x1 size in inventory.
-- You can press left mouse button while you have one in your hand to splash water. The water can extinguish fires, as well as extinguish a lit keg (which is unique for the water bucket -- water bombs or water arrows can't do that). You can make up to 3 water splashes before the bucket becomes empty and requires refilling.
+- You can press left mouse button while you have one in your hand to splash water. The water can extinguish fires, as well as extinguish a lit keg (which is unique for the water bucket -- water bombs or water arrows can't do that). Water buckets extinguish through walls as well. You can make up to 3 water splashes before the bucket becomes empty and requires refilling.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/extinguishfire.webm" controls loop="loop" preload></video><br>
 
