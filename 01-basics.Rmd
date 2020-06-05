@@ -59,7 +59,7 @@ Keep in mind that **you can actually see gold ore** on the map -- press M and lo
 
 <img src="imgs/01-basic/tree.png">
 
-Trees need between 10 and 12 hits to fall down and drop logs. Trees have varying height, even when they reach their maximum height, but pine trees of maximum height drop 6 or 7 logs, while the smaller, bushy, trees drop 3, 4 or 5 logs. 
+Trees need between 10 and 12 hits to fall down and drop logs. Trees have varying height, even when they reach their maximum height, but pine trees of maximum height drop 6 or 7 logs, while the smaller, bushy trees drop 3, 4 or 5 logs. 
 
 One log gives **10 wood per hit, 5 hits per log -- so up to 50 wood per a log.**
 
@@ -271,15 +271,16 @@ Now, let's talk about the items you can buy:
 - Costs 10 wood and 10 coins
 - 1x1 size in inventory.
 - You can press left mouse button while you have one in your hand to splash water. The water can extinguish fires, as well as extinguish a lit keg (which is unique for the water bucket -- water bombs or water arrows can't do that). You can make up to 3 water splashes before the bucket becomes empty and requires refilling.
-- Can also cool a heated drill
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/extinguishfire.webm" controls loop="loop" preload></video><br>
+
+- When you use a water bucket on someone with a lit keg, besides extinguishing the fuse, they also drop the keg if they were holding it, which gives you some time to pick it up.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/waterkeg2.webm" controls loop="loop" preload></video><br>
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/extinguishkeg.webm" controls loop="loop" preload></video><br>
 
-When you use a water bucket on someone with a lit keg, they also drop the keg if they were holding it, which gives you some time to pick it up.
+- Can also cool a heated drill
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/extinguishdrill.webm" controls loop="loop" preload></video><br>
 
