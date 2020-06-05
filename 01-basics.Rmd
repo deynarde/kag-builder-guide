@@ -357,7 +357,7 @@ Now, let's talk about the items you can buy:
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/drillkinds.webm" controls loop="loop" preload></video><br>
 
-- Drills have an odd angle, which allows you to damage enemies in a situation like in the gif below (pay attention to what is a door and what is a normal block), while the knights can't damage you. This is a bit more advanced and is related to doors having a slightly bigger hitbox -- we'll tell you more about it in another chapter in a combat-related section. 
+- Drills can be used to damage enemies in a situation like in the gif below (pay attention to what is a door and what is a normal block), while the knights can't damage you. This is a bit more advanced and is related to doors having an odd functionality -- we'll tell you more about it in the 4th chapter in the combat-related section. 
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/angledrill.webm" controls loop="loop" preload></video><br>
 
