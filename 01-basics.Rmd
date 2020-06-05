@@ -222,7 +222,7 @@ Blocks can cost either wood or stone.
 - Gives 4 coins when placed in game time, 1 coin in build time.
 - Can be destroyed by builders (2 hits), explosives.
 - Doesn't give stone on hit.
-- Can be placed on any solid blocks. Does damage to all players -- including teammates -- when they walk into one.
+- Can be placed on any solid blocks. Does damage to all players -- including teammates -- when they jump on one.
 - If placed on a stone block, the spike retracts and only activates when there's an enemy near it (it's not instant, though, which lets enemies just walk over before they get damaged)
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/retractspikes.webm" controls loop="loop" preload></video><br>
