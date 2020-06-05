@@ -194,7 +194,7 @@ Blocks can cost either wood or stone.
 - Flammable.
 - Destroyable by knights (10 slashes)
 - Gives 2 wood on hit (10 wood total).
-- You can only go through one way of them.
+- You can't go through them if they're facing against you.
 - You can rotate them with space if you want different directions.
 - Also places a wooden backwall behind when you build one.
 - Even though enemies can't go through their solid side, they can still attack you through it -- make sure to not get too close.
