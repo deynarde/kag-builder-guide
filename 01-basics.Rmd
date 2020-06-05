@@ -338,7 +338,7 @@ Now, let's talk about the items you can buy:
 - 1x1 size in inventory.
 - Builders (but not knights and archers) can use a drill by holding left mouse button while you have one in your hand. It destroys blocks much more quicker than if you were destroying them using pickaxe. The drill destroys 2 blocks in front of it. 
 - Drills are aimed in the direction of your cursor.
-- The more blocks you destroy, the hotter the drill gets -- eventually it can overheat and deal you 0.25heart of damage and drop to the ground while releasing steam. If that happens, don't instantly try to pick it back up -- it will damage you and keep dropping to the ground. You have to wait a few seconds.
+- The more blocks you destroy, the hotter the drill gets -- eventually it can overheat and deal you 0.25heart of damage and drop to the ground while releasing steam. If that happens, don't instantly try to pick it back up -- it will keep damaging you and dropping to the ground. You have to wait a few seconds.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/drilloverheat.webm" controls loop="loop" preload></video><br>
 
