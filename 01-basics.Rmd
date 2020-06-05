@@ -115,7 +115,9 @@ Blocks can cost either wood or stone.
 - Gives 5 stone per hit (25 stone total).
 - Strong block, especially against enemy knights. However, quite expensive, so don't overuse them.
 - Doors can only be opened by teammates.
-- Doors should be placed next to a solid block, or else they will fall off after some time.
+- Doors (both stone and wooden ones) should be placed next to a solid block, or else they will fall off after some time.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/doorsfall.webm" controls loop="loop" preload></video><br>
 
 ### Wood block 
 
