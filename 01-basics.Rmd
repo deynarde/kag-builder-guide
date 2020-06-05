@@ -91,7 +91,7 @@ Blocks can cost either wood or stone.
 
 - Costs 10 stone.
 - Gives 4 coins when placed in game time, 1 coin in build time.
-- Can be destroyed by builders (7 hits), bombs (1 bomb if the bomb is next to the block) bomb arrows, kegs.
+- Can be destroyed by builders (7 hits), bombs (1 bomb if the bomb is next to the block) bomb arrows, kegs, mines.
 - Gives 1 stone per hit (7 stone total).
 - The most basic block. The majority of your defences should consist of this block.
 
