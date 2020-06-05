@@ -376,8 +376,8 @@ Now, let's talk about the items you can buy:
 - 3 blocks wide, 2 blocks tall.
 - Doesn't fit in inventory.
 - You can press E on the saw to turn it off and on.
-- Players instantly die if they fall into a saw.
-- If a teammate falls into a team's saw, the saw turns off.
+- Players (both enemies and teammates) instantly die if they fall into a saw.
+- If a teammate falls into a team's saw, the saw turns off after killing the teammate.
 - Saws change team depending on who last held the saw. You can't pick up enemy saws from above or from their side. You need to be at a lower level than them.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sawgif.webm" controls loop="loop" preload></video><br>
