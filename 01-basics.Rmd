@@ -364,7 +364,7 @@ Now, let's talk about the items you can buy:
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/angledrill.webm" controls loop="loop" preload></video><br>
 
-- Although drills can be cooled down in water, drilling in water (both enemies and blocks) is much slower.
+- Although drills cool down in water, drilling in water (both enemies and blocks) is much slower.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/drillwater.webm" controls loop="loop" preload></video><br>
 
