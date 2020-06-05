@@ -470,6 +470,10 @@ Collapsing blocks do a lot of damage, even to shielding knights. A good trick is
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/collapsekill.webm" controls loop="loop" preload></video><br>
 
+One collapsing block does 1.5 heart of damage. 3 blocks are enough to kill a knight. A horizontal collapsing platform also kills knights because in most cases the knight will get hit by 3 blocks.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/collapsecomp.webm" controls loop="loop" preload></video><br>
+
 ### Stomping
 
 You can fall down on enemy builders (as well as knights, but that's a bit more dangerous) to stomp them while dealing some damage and stunning them. You can combine it with using a spike right after (if there's backwall), drilling them or hitting them with your pickaxe.
