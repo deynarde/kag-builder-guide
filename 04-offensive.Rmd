@@ -508,7 +508,13 @@ In the gif below, I've quickly caught the bomb and threw it at a distance so tha
 
 If you're being attacked by several enemies at once, you can catch an enemy bomb and suicide with it to try to kill some enemies.
 
-[GIF]
+In the gif below, I pick up the enemy bomb at the last moment and kill the enemy builder.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/bombpickup1.webm" controls loop="loop" preload></video><br>
+
+In the gif below, blue builder picks up my knight teammate's bomb and kills me and the knight.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/bombpickup2.webm" controls loop="loop" preload></video><br>
 
 ## Playing with a knight friend
 
