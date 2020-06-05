@@ -379,7 +379,7 @@ Now, let's talk about the items you can buy:
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sawgif.webm" controls loop="loop" preload></video><br>
 
-- Another functionality of saws is that they convert logs into wood quickly. More about this will be mentioned later this chapter (building a "tree farm").
+- Another functionality of saws is that they convert logs into wood quickly. More about this will be mentioned next chapter (building a "tree farm").
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sawlog.webm" controls loop="loop" preload></video><br>
 
