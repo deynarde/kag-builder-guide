@@ -339,7 +339,7 @@ Now, let's talk about the items you can buy:
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/drilloverheat.webm" controls loop="loop" preload></video><br>
 
-- Overheated drills emit light, so you can sometimes spot tunneling rats with drills.
+- Heated drills emit light, so you can sometimes spot tunneling rats with drills.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/lightdrill.webm" controls loop="loop" preload></video><br>
 
