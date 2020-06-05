@@ -233,7 +233,7 @@ Blocks can cost either wood or stone.
 
 ## Workshops, items, siege
 
-After you place a workshop (150 wood), you can convert it to one of the 9 different shops. Most of them also cost wood, but some cost stone and gold as well. In this section we'll talk about all the different shops and builder-related items and vehicles you can buy in them.
+After you place a workshop (150 wood), you can convert it to one of the 9 different shops. Most of them cost additional wood (converting an empty workshop to a new shop costs wood), but some cost stone and gold as well. In this section we'll talk about all the different shops and builder-related items and vehicles you can buy in them.
 
 All enemies are also able to use your shops -- place them carefully.
 
