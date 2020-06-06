@@ -504,7 +504,7 @@ All enemy boats can be captured by staying on them for long enough.
 <img src="imgs/01-basic/dinghy.png">
 
 - Costs 150 wood.
-- 6 blocks tall, 1 block wide.
+- 6 blocks wide, 1 block tall.
 - Two people can enter a dinghy.
 - Weakest out of all the boats.
 - You can enter a dinghy by pressing S on it. Row the boat by holding A or D.
