@@ -530,7 +530,7 @@ All enemy boats can be captured by staying on them for long enough.
 - Comes in a crate when bought -- it must be unpacked in water.
 - Slower than a longboat, but also the hardest to destroy.
 - Has 6 rowing spots.
-- Has one mounted bow on top which lets you shoot arrows (press S to get in).
+- Has one mounted bow on top which lets you shoot arrows (press S to get in). If it runs out of arrows, press E with arrows in your hand to refill it.
 - Has a 12x6 storage.
 - You can change class on a war boat by holding E and selecting the "change class" button.
 - War boats are also respawn points (if you die, you can respawn at a war boat). You can't respawn on a war boat if there are enemies on it, though.
