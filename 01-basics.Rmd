@@ -625,7 +625,7 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 - Has a 4x2 storage which lets a team store items.
 - Holding E and clicking the "Store" button will put all the items in your inventory into the storage.
 - If you want to put a single item into the storage, you must first hold it in your hand, then select the other "Storage" button.
-- Harder to destroy than other shops.
+- Harder to destroy than other shops (12 pickaxe hits needed to destroy one; wooden shops require 4 hits).
 - Good for storing gold, as well as excess wood and stone that you don't currently need.
 
 ### Tunnel 
@@ -640,6 +640,7 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/tunneltravel.webm" controls loop="loop" preload></video><br>
 
 - You are stunned for a second after using a tunnel.
+- Tunnel is even more durable than a storage (16 pickaxe hit needed to destroy one)
 - Tunnels usually should connect the most important parts of the map for your team: there should be one next to the tent, one in the tower, one or more in middle of the map (if you have control of it).
 
 ### Quarry
