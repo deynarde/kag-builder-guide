@@ -192,7 +192,7 @@ A good way is to make some small defences at the bottom of the tower and then st
 
 Let's look at this defense:
 
-<img src="imgs/04-offensive/botom.png">
+<img src="imgs/04-offensive/bottom.png">
 
 As you can see, we're only making one entrance from the side  -- this is because enemy builders will often try to drop a spike from above and kill you; if there were doors, some knight in your team could open it on accident and get you killed.
 
