@@ -380,6 +380,10 @@ Now, let's talk about the items you can buy:
 - You can press E on the saw to turn it off and on.
 - Players (both enemies and teammates) instantly die if they fall into a saw.
 - If a teammate falls into a team's saw, the saw turns off after killing them.
+- If a corpse of a player of the same team as the saw falls into it, the saw also turns off.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sawcorpse.webm" controls loop="loop" preload></video><br>
+
 - Saws change team depending on who last held the saw. You can't pick up enemy saws from above or from their side. You need to be at a lower level than them.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sawgif.webm" controls loop="loop" preload></video><br>
