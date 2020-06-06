@@ -386,8 +386,8 @@ Now, let's talk about the items you can buy:
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sawlog.webm" controls loop="loop" preload></video><br>
 
-- Items like crates also get destroyed when thrown into a saw (also if thrown at the side of the saw).
-- Lit bombs and kegs explode instantly when thrown into a saw (also if thrown at the side of the saw).
+- Items like crates also get destroyed when thrown into a saw (also if thrown at the side or bottom of the saw).
+- Lit bombs and kegs explode instantly when thrown into a saw (also if thrown at the side or bottom of the saw).
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sawgif2.webm" controls loop="loop" preload></video><br>
 
