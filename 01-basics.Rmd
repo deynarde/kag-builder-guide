@@ -497,7 +497,7 @@ Costs 100 wood and 50 gold. Sells boats -- this shop is pretty much useful only 
 
 <img src="imgs/01-basic/navalshopmenu.png">
 
-All enemy boats are capturable if you stay on them for long enough.
+All enemy boats can be captured by staying on them for long enough.
 
 #### Dinghy
 
