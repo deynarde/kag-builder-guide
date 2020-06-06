@@ -450,9 +450,9 @@ The other button is opening the shop menu, which contains 4 options -- a beer, a
 
 - Costs 20 coins.
 - 1x1 inventory size.
-- It's an item which you can carry around, unlike the first 2 options. It refills your health to full. You can also give burgers to others.
-- If you have a burger in your inventory (this also applies if you have a heart in your inventory), and you don't have full health, you can press V to quickly heal.
-- When two builders have a 1v1 pickaxe fight, the deciding factor is usually if someone has a heart or a burger. If you have some free space in inventory you could carry a burger for such situations. It's also useful when you get slightly damaged by a bomb.
+- It's an item which you can carry around. It refills your health to full. You can also give burgers to others.
+- If you have a burger in your inventory (this also applies if you have a heart or any other food item in your inventory), and you don't have full health, you can press V to quickly heal.
+- When two builders have a 1v1 pickaxe fight, the deciding factor is usually if someone has a heart or a burger. If you have some free space in inventory you could carry a burger for such situations. It's also useful for when you get slightly damaged by a bomb.
 
 ### Knight shop
 
