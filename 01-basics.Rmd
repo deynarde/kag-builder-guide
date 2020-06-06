@@ -440,7 +440,7 @@ The other button is opening the shop menu, which contains 4 options -- a beer, a
 
 - Costs 30 coins.
 - 1x1 inventory size.
-- If you walk over an egg while damaged, you will eat the egg. However, it's not exactly a food item -- after some time a chicken hatches out of the egg. If you hold a chicken in your hand, you fall slower. If there are 2 or more chickens, they also breed and produce more eggs.
+- If you walk over an egg while damaged, you will eat the egg. However, it's not just a food item -- after some time a chicken hatches out of the egg. If you hold a chicken in your hand, you fall slower. If there are 2 or more chickens, they also breed and produce more eggs.
 - Chickens also have a 1x1 inventory size.
 - Chickens are pretty much only used if you want to travel more distance when being launched out of a catapult.
 
