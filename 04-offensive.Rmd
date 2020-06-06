@@ -422,6 +422,14 @@ If you get stuck in a place with enemies but there's an overheated drill on the 
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spamdrill4.webm" controls loop="loop" preload></video><br>
 
+### Using ladders against encased builder
+
+Often there will be an enemy builder encasing themselves with lots of mats. Getting to them even with a drill may take some time -- they can just constantly repair the blocks. However, as mentioned in the section [3.3.8 -- Getting to the flagroom](https://deynarde.github.io/kag-builder-guide/builder-iii-progressive-playstyle.html#getting-to-the-flagroom), you can place ladders next to the blocks, which prevents them from repairing it, but still letting you drill through.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ratcase.webm" controls loop="loop" preload></video><br>
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ratcase2.webm" controls loop="loop" preload></video><br>
+
 ### Killing knights with low health
 
 You can easily kill knights that have low health (1 heart), even with your pickaxe -- attack them in between their slashes (wait for them to miss a slash, then attack).
