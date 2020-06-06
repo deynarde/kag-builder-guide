@@ -31,6 +31,8 @@ You can have up to 500 stone, 500 wood or 100 gold in one slot in your inventory
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/matthrow.webm" controls loop="loop" preload></video><br>
 
+Materials such as stone and wood decay when outside of somebody's inventory or outside of a storage (just laying on the ground) after a few minutes. Gold does not.
+
 ### Stone 
 
 <img src="imgs/01-basic/stone.png">
@@ -576,12 +578,12 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 - Comes in a crate when bought -- it must be unpacked in a spot with enough place.
 - Has a driving spot and a firing spot.
 - You can remove the wheels (same as in catapult). Press E and select the "immobilise" option.
-- A ballista spawns with 12 bolts. More can be bought in the shop.
+- A ballista spawns with 12 bolts. More can be bought in the siege shop.
 - If you haven't upgraded the bolts in the vehicle shop (last option), the firing spot can shoot normal bolts that instakill enemies if they hit them.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/ballistabolt.webm" controls loop="loop" preload></video><br>
 
-- If the bolts are upgraded, the ballista fires explosive bolts instead that damage structures too. However, it consumes 2 bolts instead of one (so if a ballista has 12 bolts, it actually only has 6 explosive bolts). Explosive bolts instantly kill enemies as well.
+- If the bolts are upgraded, the ballista fires explosive bolts instead that damage structures too. However, it consumes 2 bolts instead of one (so if a ballista has 12 bolts, it actually only will shoot 6 explosive bolts). Explosive bolts instantly kill enemies as well.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/bombbolts.webm" controls loop="loop" preload></video><br>
 
@@ -593,9 +595,10 @@ Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballist
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/ballistarespawn.webm" controls loop="loop" preload></video><br>
 
-- You can't respawn on a ballista if it's being captured by the enemies (capturing any vehicle in KAG means standing on it for some amount of time).
+- You can't respawn on a ballista if it's being captured by the enemies (capturing any vehicle in KAG means standing near it for some amount of time).
 - Enemy archers can destroy your ballista with two bomb arrows.
 - Similar to catapults -- enemy archers can shoot arrows at a ballista with wheels and make it drive away. Removing wheels is recommended.
+- If a ballista is flipped over due to a collapse or being driven away, it will be damaged and destroy itself after a few seconds. To prevent that, as soon as it flips over you should spam the "Flip vehicle" button that appears when you hold E, which should flip it back.
 
 #### Ballista bolts
 
