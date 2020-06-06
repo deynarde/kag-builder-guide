@@ -504,11 +504,11 @@ All enemy boats can be captured by staying on them for long enough.
 <img src="imgs/01-basic/dinghy.png">
 
 - Costs 150 wood.
-- 6 blocks wide, 1 block tall.
+- 6 blocks wide, about 1 block tall.
 - Two people can enter a dinghy.
 - Weakest out of all the boats.
 - You can enter a dinghy by pressing S on it. Row the boat by holding A or D.
-- The more people that row the boat, the faster it goes.
+- The more people that row the boat, the faster it goes. However they have to row in the same direction -- if they row in the opposite direction, the dinghy won't move.
 - Has a 6x5 storage (press E to open it. As mentioned earlier, in order to put something in a storage, you must have an item in your hand and then press E on the storage button.)
 
 #### Longboat
@@ -520,7 +520,7 @@ All enemy boats can be captured by staying on them for long enough.
 - Has 6 rowing spots (press S to enter one)
 - Fastest out of all the boats -- especially if rowed by 6 people.
 - Has a 12x5 storage.
-- Longboats crush enemies when fast enough.
+- Longboats crush enemies and structures when fast enough.
 
 #### War Boat
 
@@ -534,7 +534,7 @@ All enemy boats can be captured by staying on them for long enough.
 - Has a 12x6 storage.
 - You can change class on a war boat by holding E and selecting the "change class" button.
 - War boats are also respawn points (if you die, you can respawn at a war boat). You can't respawn on a war boat if there are enemies on it, though.
-- They also crush enemies when fast enough.
+- They also crush enemies and structures when fast enough.
 
 ### Siege shop
 
