@@ -1,0 +1,69 @@
+# Builder V: Miscellaneous
+
+<p align="center">
+  <img src="imgs/pikaks.png">
+</p>
+
+## Videos
+
+Some useful builder gameplay videos:
+
+**The_Osz**
+
+[Mid Control](https://www.youtube.com/watch?v=oPE31PJZdTs)
+
+Decent video with useful information regarding controlling mid (mostly stuff mentioned in chapter 3). You can also check out his other videos, but the older ones may be slightly outdated. 
+
+[Builder Gameplay #1](https://www.youtube.com/watch?v=dg5U205jNsM)
+
+He also has some decent "funny moments" montages which also have some builder gameplay.
+
+**Bunnie**
+
+I've also made some builder gameplay videos. They also have some text explanation of what I'm doing.
+
+[King Arthur's Gold | Builder Gameplay with text analysis #1](https://www.youtube.com/watch?v=IcW9HjIoNyk)
+[King Arthur's Gold | Builder Gameplay with text analysis #2 - skipping mid](https://www.youtube.com/watch?v=ufn-vvJ4dW8)
+[King Arthur's Gold | Builder Gameplay with text analysis #3 - mid control](https://www.youtube.com/watch?v=ifUbBrrLRnM) (this one was inspired by The_Osz's mid control video)
+
+## Miscellanous mechanics
+
+### Using number keys to buy items in menus
+
+You can use number buttons (`1-9`) to buy an item in a shop instead of clicking on it with your mouse. The number depends on the position of an item's in the shop. For example, you can buy mines in the knight shop by just opening the menu and pressing `3`, you can buy a drill from the builder shop by pressing `7`, you can buy a burger from food shop by pressing `4`, etc. This can be faster than clicking the items with your cursor, so I recommend learning this. You can also use number keys to convert empty workshop to specific buildings.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/05-misc/quicksel.webm" controls loop="loop" preload></video><br>
+
+### Using bind modifier key + number keys to select blocks faster
+
+You can use the binding modifier key in controls (`Left Shift` by default) + `1-9` keys (press both at once) to select blocks faster. You can edit the block on each key in the `Esc > Bindings > Bind Builder Blocks` menu.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/05-misc/quickpl.webm" controls loop="loop" preload></video><br>
+
+### Picking up sharks
+
+If you want to pick up a shark, you first need to get the shark out of water, then sit on it (crouch on it) and then press W to pick it up.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/05-misc/shark.webm" controls loop="loop" preload></video><br>
+
+### Ladders in flag room
+
+As mentioned in the section [3.3.8 -- Getting to the flagroom](https://deynarde.github.io/kag-builder-guide/builder-iii-progressive-playstyle.html#getting-to-the-flagroom), placing ladders prevents a block from being repaired. However, it also makes it hard to hit the block with the pickaxe. You can put ladders in your flag room like in the gif below. If the enemies don't have a drill, they will have trouble with destroying the blocks.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/05-misc/oddladder.webm" controls loop="loop" preload></video><br>
+
+Keep in mind that if the enemies WILL have a drill, they'll be able to easily drill through and you won't be able to repair the blocks.
+
+### Saw + crate trap
+
+Putting a saw and then a crate in front of it makes the saw not visible. Try to place the crate after the saw -- if you place a saw after placing the crate, the crate may get destroyed. 
+
+Enemies may try to get on the crate but will die in the saw instead.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/05-misc/cratsaw.webm" controls loop="loop" preload></video><br>
+
+### Pressing C while having a block selected
+
+Pressing C with a block in your hand deselects the block -- you need to select it again. You're also not able to build at all when having any item in your hand.
+
+<video style="display:block; max-width:100%; height:auto;" src="webm/05-misc/clickc.webm" controls loop="loop" preload></video><br>
