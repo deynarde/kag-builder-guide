@@ -752,7 +752,7 @@ Flag rooms should have at least 2 entrances, preferably 3, so that if one gets b
 
 Keep in mind that stone doors like that are enough; wooden doors are pretty powerful. You don't need to overuse stone doors.
 
-The doors from the tent's side should be on floor level so that knights can quickly get there. However, the one on the right side -- from the enemy's side -- shouldn't be placed like that; worse players can sometimes open the entrance accidentally and die, letting enemies get into the flag room. Making the entrance not on floor level usually prevents this.
+The doors from the tent's side should be on floor level so that knights can quickly get there. However, the one on the right side -- from the enemy's side -- shouldn't be placed like that; worse players can sometimes open the entrance accidentally and die, letting enemies get into the flag room. Making the entrance not on floor level partially prevents this.
 
 Of course, the thicker a flag room is, the better -- if you have lots of materials, you can make it as thick as you want. If you lose the flags you lose the game, after all.
 
