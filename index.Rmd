@@ -25,6 +25,10 @@ Although this guide is for everyone -- from newbies to players with some experie
 
 The guide has a few chapters, which you can see and browse on the left part of the website.
 
+> For a tutorial on playing as archer see: [Archer Guide](https://deynarde.github.io/kag-archer-guide/).
+
+> For a tutorial on playing as knight see: [Knight Guide](https://deynarde.github.io/kag-knight-guide/).
+
 > If you have any questions about the builder class, you can contact me at the [KAG Discord] (https://discord.gg/kag) - my tag is `bunnie#8553`.
->
+
 > Big thanks to all members of the HOMEK clan which I am the leader of -- especially deynarde for setting this website up, as well as all the people regularly playing Captains which helped me learn Builder.
