@@ -160,13 +160,17 @@ Blocks can cost either wood or stone.
 
 ### Trapblock
 
-<img src="imgs/01-basic/btrapblock.png">
+<img src="imgs/01-basic/bredg.png">
 
-- Costs 25 stone.
-- Gives 4 coins when placed in game time, 0 coins in build time.
+- Costs 30 wood
+- Gives 1 coin when placed in game time, 0 coins in build time.
 - Can be destroyed by builders (5 hits), explosives
-- Gives 2 stone per hit (10 stone total).
-- Only enemies can pass through it -- commonly used to create traps.
+- Gives 2 wood per hit (10 wood total).
+- Enemies fall through when trying to walk on it. Players of same colour as team bridge are able to go down team bridges by pressing S.
+
+Keep in mind that this is a new addition which replaces the old stone trapblock, which was completely unpassable by teammates. Some gifs in the guide may still have gifs with it. It looked like this:
+
+<img src="imgs/01-basic/btrapblock.png">
 
 ### Ladder
 
@@ -906,24 +910,6 @@ The bottom of the tower is more easily accessed by enemies than the upper parts 
 <img src="imgs/01-basic/shopatbottom.png">
 
 You also shouldn't place knight shops near the flag room for similar reasons.
-
-### Bad trapblock placement, bad traps, dirt spikes
-
-Enemies can often use enemy trapblocks as doors. You should not use them too much -- they're only good for sawtraps.
-
-A trap like this is pretty bad -- an enemy builder could just get in, destroy the spikes quickly and then again, he would be able to easily protect himself from knights.
-
-<img src="imgs/01-basic/noobtrap.png">
-
-If you really want to make a trap, it's good to have some doors that lead to the spike part, as well as platforms that don't let the enemy get out. It's also much better to use a saw instead of spikes.
-
-<img src="imgs/01-basic/gudtrap.png">
-
-This also applies for making a trap under a tunnel -- don't make a spike trap, because a builder could just use the tunnel and fall into the spike trap and destroy the spikes. Use a saw.
-
-This is a classic example of a totally useless trap -- the trapblocks are a waste of stone, the spikes are on dirt, and there's no way for the team to go to the bottom part. Also, it's in the team area (before the flag), so it won't even kill any enemies.
-
-<img src="imgs/01-basic/shittrap.png">
 
 ### Putting a saw in the flag room
 
