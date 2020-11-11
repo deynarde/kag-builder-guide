@@ -172,11 +172,7 @@ However, this is quite problematic -- because after you destroy the first two bl
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/slashflag.webm" controls loop="loop" preload></video><br>
 
-You could consider not placing the doors then and try to destroy the blocks from a distance where knights wouldn't be able to slash you, like in the gif below.
-
-<video style="display:block; max-width:100%; height:auto;" src="webm/03-progressive/slashflag2.webm" controls loop="loop" preload></video><br>
-
-However, this is viable only if there are no enemy builders in the enemy flag room -- if you don't place doors they will just place stone blocks there or their own doors. 
+You could consider not placing the doors then and try to destroy the blocks from a distance where knights wouldn't be able to slash you. However, this is viable only if there are no enemy builders in the enemy flag room -- if you don't place doors they will just place stone blocks there or their own doors. 
 
 What you want to do is go slightly to the side so that you can replace enemy stone blocks with doors without getting damaged by the enemy knights, like in the gif below.
 
