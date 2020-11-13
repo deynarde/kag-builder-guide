@@ -116,11 +116,11 @@ Moreover -- sometimes you actually want your ratting to be noticed. Using emotes
 
 First, you want to place a builder shop at the bottom of the tunnel. You can return to it every 20 seconds to get resupplies. You may also want to place a knight shop. It's good to place a lot of mines in case the enemies take the tunnel. You should also obviously spam lots of doors -- the more wood you have the better. Remember to put stone backwall behind all doors.
 
-Tunnels are one of the only places where a trap could actually be effective as well (since it's dark). You could place a trap somewhere in there as well -- a saw and a trapblock. 
+Tunnels are one of the only places where a trap could actually be effective as well (since it's dark). You could place a trap somewhere in there as well -- a saw and some teambridges.
 
-<img src="imgs/03-progressive/tunnelsaw.png">
+<img src="imgs/03-progressive/gaidcomp.png">
 
-(Above image was brightened -- the saw is barely visible even to the blue team)
+(Left side is how it looks naturally in-game, right side is brightened)
 
 ### Placing a tunnel
 
