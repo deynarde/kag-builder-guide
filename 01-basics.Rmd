@@ -837,7 +837,7 @@ This can often cause confusing situations when you can't place blocks somewhere 
 
 ## Block repairing
 
-When blocks such as stone blocks, wooden blocks or backwalls get damaged, you can repair them by picking that block from the menu and then building over them. Same amount of materials will be used as if you would be placing a new block (so if you're constantly repairing blocks that are being damaged by enemy builders, you should wait a bit for them to get damaged until they're almost destroyed to buy more time). However, you can't do the same for blocks like doors, platforms or trapblocks -- whenever they're being damaged, they need to be fully destroyed before you can build them again in their place.
+When blocks such as stone blocks, wooden blocks or backwalls get damaged, you can repair them by picking that block from the menu and then building over them. Same amount of materials will be used as if you would be placing a new block (so if you're constantly repairing blocks that are being damaged by enemy builders, you should wait a bit for them to get damaged until they're almost destroyed to buy more time). However, you can't do the same for blocks like doors, platforms or team bridges -- whenever they're being damaged, they need to be fully destroyed before you can build them again in their place.
 
 <video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/repair.webm" controls loop="loop" preload></video><br>
 
