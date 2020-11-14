@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 1 Builder I: The Basics | Builder Guide</title>
+  <meta name="description" content="A KAG builder guide for both new and experienced players." />
+  <meta name="generator" content="bookdown 0.21.4 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 1 Builder I: The Basics | Builder Guide" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="A KAG builder guide for both new and experienced players." />
+  <meta name="github-repo" content="deynarde/kag-builder-guide" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 1 Builder I: The Basics | Builder Guide" />
+  
+  <meta name="twitter:description" content="A KAG builder guide for both new and experienced players." />
+  
+
+<meta name="author" content="by Bunnie" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="builder-ii-defensive-playstyle.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Builder Guide</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html"><i class="fa fa-check"></i><b>1</b> Builder I: The Basics</a><ul>
+<li class="chapter" data-level="1.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#the-builder-class"><i class="fa fa-check"></i><b>1.1</b> The builder class</a></li>
+<li class="chapter" data-level="1.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#getting-materials"><i class="fa fa-check"></i><b>1.2</b> Getting materials</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone"><i class="fa fa-check"></i><b>1.2.1</b> Stone</a></li>
+<li class="chapter" data-level="1.2.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#gold"><i class="fa fa-check"></i><b>1.2.2</b> Gold</a></li>
+<li class="chapter" data-level="1.2.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood"><i class="fa fa-check"></i><b>1.2.3</b> Wood</a></li>
+<li class="chapter" data-level="1.2.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#resupplies"><i class="fa fa-check"></i><b>1.2.4</b> Resupplies</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#your-building-menu"><i class="fa fa-check"></i><b>1.3</b> Your building menu</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone-block"><i class="fa fa-check"></i><b>1.3.1</b> Stone block</a></li>
+<li class="chapter" data-level="1.3.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone-backwall"><i class="fa fa-check"></i><b>1.3.2</b> Stone backwall</a></li>
+<li class="chapter" data-level="1.3.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone-door"><i class="fa fa-check"></i><b>1.3.3</b> Stone door</a></li>
+<li class="chapter" data-level="1.3.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood-block"><i class="fa fa-check"></i><b>1.3.4</b> Wood block</a></li>
+<li class="chapter" data-level="1.3.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood-backwall"><i class="fa fa-check"></i><b>1.3.5</b> Wood backwall</a></li>
+<li class="chapter" data-level="1.3.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood-door"><i class="fa fa-check"></i><b>1.3.6</b> Wood door</a></li>
+<li class="chapter" data-level="1.3.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#trapblock"><i class="fa fa-check"></i><b>1.3.7</b> Trapblock</a></li>
+<li class="chapter" data-level="1.3.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#ladder"><i class="fa fa-check"></i><b>1.3.8</b> Ladder</a></li>
+<li class="chapter" data-level="1.3.9" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#platform"><i class="fa fa-check"></i><b>1.3.9</b> Platform</a></li>
+<li class="chapter" data-level="1.3.10" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#workshop"><i class="fa fa-check"></i><b>1.3.10</b> Workshop</a></li>
+<li class="chapter" data-level="1.3.11" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#spikes"><i class="fa fa-check"></i><b>1.3.11</b> Spikes</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#workshops-items-siege"><i class="fa fa-check"></i><b>1.4</b> Workshops, items, siege</a><ul>
+<li class="chapter" data-level="1.4.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#builder-shop"><i class="fa fa-check"></i><b>1.4.1</b> Builder shop</a></li>
+<li class="chapter" data-level="1.4.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#quarters"><i class="fa fa-check"></i><b>1.4.2</b> Quarters</a></li>
+<li class="chapter" data-level="1.4.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#knight-shop"><i class="fa fa-check"></i><b>1.4.3</b> Knight shop</a></li>
+<li class="chapter" data-level="1.4.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#archer-shop"><i class="fa fa-check"></i><b>1.4.4</b> Archer shop</a></li>
+<li class="chapter" data-level="1.4.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#naval-shop"><i class="fa fa-check"></i><b>1.4.5</b> Naval shop</a></li>
+<li class="chapter" data-level="1.4.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#siege-shop"><i class="fa fa-check"></i><b>1.4.6</b> Siege shop</a></li>
+<li class="chapter" data-level="1.4.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#storage"><i class="fa fa-check"></i><b>1.4.7</b> Storage</a></li>
+<li class="chapter" data-level="1.4.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#tunnel"><i class="fa fa-check"></i><b>1.4.8</b> Tunnel</a></li>
+<li class="chapter" data-level="1.4.9" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#quarry"><i class="fa fa-check"></i><b>1.4.9</b> Quarry</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#building-a-base"><i class="fa fa-check"></i><b>1.5</b> Building a base</a><ul>
+<li class="chapter" data-level="1.5.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#a-front-tower"><i class="fa fa-check"></i><b>1.5.1</b> A front tower</a></li>
+<li class="chapter" data-level="1.5.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#flag-rooms"><i class="fa fa-check"></i><b>1.5.2</b> Flag rooms</a></li>
+<li class="chapter" data-level="1.5.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#tunnels"><i class="fa fa-check"></i><b>1.5.3</b> Tunnels</a></li>
+<li class="chapter" data-level="1.5.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#tree-farm"><i class="fa fa-check"></i><b>1.5.4</b> Tree farm</a></li>
+<li class="chapter" data-level="1.5.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#shops"><i class="fa fa-check"></i><b>1.5.5</b> Shops</a></li>
+</ul></li>
+<li class="chapter" data-level="1.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#block-support----wood-and-stone-blocks"><i class="fa fa-check"></i><b>1.6</b> Block support -- wood and stone blocks</a></li>
+<li class="chapter" data-level="1.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#block-repairing"><i class="fa fa-check"></i><b>1.7</b> Block repairing</a></li>
+<li class="chapter" data-level="1.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#common-mistakes"><i class="fa fa-check"></i><b>1.8</b> Common mistakes</a><ul>
+<li class="chapter" data-level="1.8.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#leaving-shops-in-the-open"><i class="fa fa-check"></i><b>1.8.1</b> Leaving shops in the open</a></li>
+<li class="chapter" data-level="1.8.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#overusing-stone-doors"><i class="fa fa-check"></i><b>1.8.2</b> Overusing stone doors</a></li>
+<li class="chapter" data-level="1.8.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#overusing-wood-not-placing-stone-backwall"><i class="fa fa-check"></i><b>1.8.3</b> Overusing wood, not placing stone backwall</a></li>
+<li class="chapter" data-level="1.8.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#awkward-top-doors"><i class="fa fa-check"></i><b>1.8.4</b> Awkward top doors</a></li>
+<li class="chapter" data-level="1.8.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#awkward-movement-in-general"><i class="fa fa-check"></i><b>1.8.5</b> Awkward movement in general</a></li>
+<li class="chapter" data-level="1.8.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#not-enough-doors"><i class="fa fa-check"></i><b>1.8.6</b> Not enough doors</a></li>
+<li class="chapter" data-level="1.8.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#certain-shops-at-the-bottom-of-the-tower"><i class="fa fa-check"></i><b>1.8.7</b> Certain shops at the bottom of the tower</a></li>
+<li class="chapter" data-level="1.8.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#putting-a-saw-in-the-flag-room"><i class="fa fa-check"></i><b>1.8.8</b> Putting a saw in the flag room</a></li>
+</ul></li>
+<li class="chapter" data-level="1.9" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#progressing-to-victory"><i class="fa fa-check"></i><b>1.9</b> Progressing to victory</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html"><i class="fa fa-check"></i><b>2</b> Builder II: Defensive playstyle</a><ul>
+<li class="chapter" data-level="2.1" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#what-youre-going-to-focus-on"><i class="fa fa-check"></i><b>2.1</b> What you're going to focus on</a></li>
+<li class="chapter" data-level="2.2" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#resource-management"><i class="fa fa-check"></i><b>2.2</b> Resource management</a></li>
+<li class="chapter" data-level="2.3" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#base-expansion"><i class="fa fa-check"></i><b>2.3</b> Base expansion</a></li>
+<li class="chapter" data-level="2.4" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#different-functionality-of-platforms"><i class="fa fa-check"></i><b>2.4</b> Different functionality of platforms</a></li>
+<li class="chapter" data-level="2.5" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#setting-up-siege-on-top-of-tower"><i class="fa fa-check"></i><b>2.5</b> Setting up siege on top of tower</a></li>
+<li class="chapter" data-level="2.6" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#spike-dropping"><i class="fa fa-check"></i><b>2.6</b> Spike dropping</a></li>
+<li class="chapter" data-level="2.7" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#defending-from-rats"><i class="fa fa-check"></i><b>2.7</b> Defending from rats</a></li>
+<li class="chapter" data-level="2.8" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#keg-dropping"><i class="fa fa-check"></i><b>2.8</b> Keg dropping</a></li>
+<li class="chapter" data-level="2.9" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#being-under-siege"><i class="fa fa-check"></i><b>2.9</b> Being under siege</a></li>
+<li class="chapter" data-level="2.10" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#what-to-spend-money-on"><i class="fa fa-check"></i><b>2.10</b> What to spend money on</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html"><i class="fa fa-check"></i><b>3</b> Builder III: Progressive playstyle</a><ul>
+<li class="chapter" data-level="3.1" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#what-youre-going-to-focus-on-1"><i class="fa fa-check"></i><b>3.1</b> What you're going to focus on</a></li>
+<li class="chapter" data-level="3.2" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#mid-control"><i class="fa fa-check"></i><b>3.2</b> Mid control</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#start-of-the-match"><i class="fa fa-check"></i><b>3.2.1</b> Start of the match</a></li>
+<li class="chapter" data-level="3.2.2" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#upkeep-and-further-expansion"><i class="fa fa-check"></i><b>3.2.2</b> Upkeep and further expansion</a></li>
+<li class="chapter" data-level="3.2.3" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#taking-mid-from-the-enemies"><i class="fa fa-check"></i><b>3.2.3</b> Taking mid from the enemies</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#ratting"><i class="fa fa-check"></i><b>3.3</b> Ratting</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#where-to-start-making-your-rat-tunnel-and-how-deep-should-it-be"><i class="fa fa-check"></i><b>3.3.1</b> Where to start making your rat tunnel and how deep should it be</a></li>
+<li class="chapter" data-level="3.3.2" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#when-to-rat"><i class="fa fa-check"></i><b>3.3.2</b> When to rat</a></li>
+<li class="chapter" data-level="3.3.3" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#stealthy-ratting-or-not"><i class="fa fa-check"></i><b>3.3.3</b> Stealthy ratting or not?</a></li>
+<li class="chapter" data-level="3.3.4" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#managing-your-rat-tunnel"><i class="fa fa-check"></i><b>3.3.4</b> Managing your rat tunnel</a></li>
+<li class="chapter" data-level="3.3.5" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#placing-a-tunnel"><i class="fa fa-check"></i><b>3.3.5</b> Placing a tunnel</a></li>
+<li class="chapter" data-level="3.3.6" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#using-a-drill"><i class="fa fa-check"></i><b>3.3.6</b> Using a drill</a></li>
+<li class="chapter" data-level="3.3.7" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#doorfights"><i class="fa fa-check"></i><b>3.3.7</b> Doorfights</a></li>
+<li class="chapter" data-level="3.3.8" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#getting-to-the-flagroom"><i class="fa fa-check"></i><b>3.3.8</b> Getting to the flagroom</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#coin-farming-again"><i class="fa fa-check"></i><b>3.4</b> Coin farming (again)</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html"><i class="fa fa-check"></i><b>4</b> Builder IV: Offensive playstyle</a><ul>
+<li class="chapter" data-level="4.1" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#what-youre-going-to-focus-on-2"><i class="fa fa-check"></i><b>4.1</b> What you're going to focus on</a></li>
+<li class="chapter" data-level="4.2" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#preparation-before-pushing"><i class="fa fa-check"></i><b>4.2</b> Preparation before pushing</a></li>
+<li class="chapter" data-level="4.3" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#material-scavenging"><i class="fa fa-check"></i><b>4.3</b> Material scavenging</a></li>
+<li class="chapter" data-level="4.4" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#observing-other-players"><i class="fa fa-check"></i><b>4.4</b> Observing other players</a></li>
+<li class="chapter" data-level="4.5" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#pushing"><i class="fa fa-check"></i><b>4.5</b> Pushing</a><ul>
+<li class="chapter" data-level="4.5.1" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#skipping-mid-or-not"><i class="fa fa-check"></i><b>4.5.1</b> Skipping mid or not?</a></li>
+<li class="chapter" data-level="4.5.2" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#building-quick-wooden-walls-ledges"><i class="fa fa-check"></i><b>4.5.2</b> Building quick wooden walls, ledges</a></li>
+<li class="chapter" data-level="4.5.3" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#building-food-shops"><i class="fa fa-check"></i><b>4.5.3</b> Building food shops</a></li>
+<li class="chapter" data-level="4.5.4" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#analysing-enemy-tower-and-making-a-plan"><i class="fa fa-check"></i><b>4.5.4</b> Analysing enemy tower and making a plan</a></li>
+<li class="chapter" data-level="4.5.5" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#observing-knight-fights"><i class="fa fa-check"></i><b>4.5.5</b> Observing knight fights</a></li>
+<li class="chapter" data-level="4.5.6" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#killing-enemy-builders-for-materials"><i class="fa fa-check"></i><b>4.5.6</b> Killing enemy builders for materials</a></li>
+<li class="chapter" data-level="4.5.7" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#scaling-the-enemy-tower----wallclimbing-with-stone-or-wood-blocks"><i class="fa fa-check"></i><b>4.5.7</b> Scaling the enemy tower -- wallclimbing with stone or wood blocks</a></li>
+<li class="chapter" data-level="4.5.8" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#scaling-the-enemy-tower----ladders"><i class="fa fa-check"></i><b>4.5.8</b> Scaling the enemy tower -- ladders</a></li>
+<li class="chapter" data-level="4.5.9" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#scaling-the-enemy-tower-with-blocks-ladders"><i class="fa fa-check"></i><b>4.5.9</b> Scaling the enemy tower with blocks + ladders</a></li>
+<li class="chapter" data-level="4.5.10" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#scaling-the-enemy-tower----platforms"><i class="fa fa-check"></i><b>4.5.10</b> Scaling the enemy tower -- platforms</a></li>
+<li class="chapter" data-level="4.5.11" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#getting-launched-from-a-catapult"><i class="fa fa-check"></i><b>4.5.11</b> Getting launched from a catapult</a></li>
+<li class="chapter" data-level="4.5.12" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#going-into-the-bottom-of-the-tower"><i class="fa fa-check"></i><b>4.5.12</b> Going into the bottom of the tower</a></li>
+<li class="chapter" data-level="4.5.13" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#destroying-mines"><i class="fa fa-check"></i><b>4.5.13</b> Destroying mines</a></li>
+<li class="chapter" data-level="4.5.14" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#being-on-top-of-tower"><i class="fa fa-check"></i><b>4.5.14</b> Being on top of tower</a></li>
+<li class="chapter" data-level="4.5.15" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#destroying-enemy-tunnel"><i class="fa fa-check"></i><b>4.5.15</b> Destroying enemy tunnel</a></li>
+<li class="chapter" data-level="4.5.16" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#buying-kegs-in-enemy-knight-shop"><i class="fa fa-check"></i><b>4.5.16</b> Buying kegs in enemy knight shop</a></li>
+<li class="chapter" data-level="4.5.17" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#collapsing-the-tower"><i class="fa fa-check"></i><b>4.5.17</b> Collapsing the tower</a></li>
+<li class="chapter" data-level="4.5.18" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#using-enemy-tunnels"><i class="fa fa-check"></i><b>4.5.18</b> Using enemy tunnels</a></li>
+<li class="chapter" data-level="4.5.19" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#falling-down-on-collapsing-blocks"><i class="fa fa-check"></i><b>4.5.19</b> Falling down on collapsing blocks</a></li>
+<li class="chapter" data-level="4.5.20" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#making-a-tunnel-in-the-middle-of-the-enemy-base"><i class="fa fa-check"></i><b>4.5.20</b> Making a tunnel in the middle of the enemy base</a></li>
+</ul></li>
+<li class="chapter" data-level="4.6" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#combat"><i class="fa fa-check"></i><b>4.6</b> Combat</a><ul>
+<li class="chapter" data-level="4.6.1" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#using-doors-at-certain-corner-angles-to-damage-knights"><i class="fa fa-check"></i><b>4.6.1</b> Using doors at certain corner angles to damage knights</a></li>
+<li class="chapter" data-level="4.6.2" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#enemy-knights-glitching-in-the-doors"><i class="fa fa-check"></i><b>4.6.2</b> Enemy knights glitching in the doors</a></li>
+<li class="chapter" data-level="4.6.3" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#pickaxe-1v1-with-other-builders"><i class="fa fa-check"></i><b>4.6.3</b> Pickaxe 1v1 with other builders</a></li>
+<li class="chapter" data-level="4.6.4" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#pickaxe-through-door-corners"><i class="fa fa-check"></i><b>4.6.4</b> Pickaxe through door corners</a></li>
+<li class="chapter" data-level="4.6.5" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#heating-drill-before-combat"><i class="fa fa-check"></i><b>4.6.5</b> Heating drill before combat</a></li>
+<li class="chapter" data-level="4.6.6" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#hiding-drill-from-enemy-builder"><i class="fa fa-check"></i><b>4.6.6</b> Hiding drill from enemy builder</a></li>
+<li class="chapter" data-level="4.6.7" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#baiting-and-overheating-enemy-builders-drill"><i class="fa fa-check"></i><b>4.6.7</b> Baiting and overheating enemy builder's drill</a></li>
+<li class="chapter" data-level="4.6.8" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#spamming-overheated-drill"><i class="fa fa-check"></i><b>4.6.8</b> Spamming overheated drill</a></li>
+<li class="chapter" data-level="4.6.9" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#using-ladders-against-encased-builder"><i class="fa fa-check"></i><b>4.6.9</b> Using ladders against encased builder</a></li>
+<li class="chapter" data-level="4.6.10" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#killing-knights-with-low-health"><i class="fa fa-check"></i><b>4.6.10</b> Killing knights with low health</a></li>
+<li class="chapter" data-level="4.6.11" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#offensive-spiking"><i class="fa fa-check"></i><b>4.6.11</b> Offensive spiking</a></li>
+<li class="chapter" data-level="4.6.12" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#dirt-spikes-against-enemies-digging-down"><i class="fa fa-check"></i><b>4.6.12</b> Dirt spikes against enemies digging down</a></li>
+<li class="chapter" data-level="4.6.13" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#escape-spikes"><i class="fa fa-check"></i><b>4.6.13</b> Escape spikes</a></li>
+<li class="chapter" data-level="4.6.14" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#double-hit-spikes"><i class="fa fa-check"></i><b>4.6.14</b> Double hit spikes</a></li>
+<li class="chapter" data-level="4.6.15" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#collapsing-blocks-on-enemies"><i class="fa fa-check"></i><b>4.6.15</b> Collapsing blocks on enemies</a></li>
+<li class="chapter" data-level="4.6.16" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#stomping"><i class="fa fa-check"></i><b>4.6.16</b> Stomping</a></li>
+<li class="chapter" data-level="4.6.17" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#crouching"><i class="fa fa-check"></i><b>4.6.17</b> Crouching</a></li>
+<li class="chapter" data-level="4.6.18" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#dirt-spike-crouch"><i class="fa fa-check"></i><b>4.6.18</b> Dirt spike + crouch</a></li>
+<li class="chapter" data-level="4.6.19" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#catching-and-throwing-back-enemy-bombs"><i class="fa fa-check"></i><b>4.6.19</b> Catching and throwing back enemy bombs</a></li>
+</ul></li>
+<li class="chapter" data-level="4.7" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#playing-with-a-knight-friend"><i class="fa fa-check"></i><b>4.7</b> Playing with a knight friend</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html"><i class="fa fa-check"></i><b>5</b> Builder V: Miscellaneous</a><ul>
+<li class="chapter" data-level="5.1" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#videos"><i class="fa fa-check"></i><b>5.1</b> Videos</a></li>
+<li class="chapter" data-level="5.2" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#miscellanous-mechanics"><i class="fa fa-check"></i><b>5.2</b> Miscellanous mechanics</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#using-number-keys-to-buy-items-in-menus"><i class="fa fa-check"></i><b>5.2.1</b> Using number keys to buy items in menus</a></li>
+<li class="chapter" data-level="5.2.2" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#using-bind-modifier-key-number-keys-to-select-blocks-faster"><i class="fa fa-check"></i><b>5.2.2</b> Using bind modifier key + number keys to select blocks faster</a></li>
+<li class="chapter" data-level="5.2.3" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#picking-up-sharks"><i class="fa fa-check"></i><b>5.2.3</b> Picking up sharks</a></li>
+<li class="chapter" data-level="5.2.4" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#ladders-in-flag-room"><i class="fa fa-check"></i><b>5.2.4</b> Ladders in flag room</a></li>
+<li class="chapter" data-level="5.2.5" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#saw-crate-trap"><i class="fa fa-check"></i><b>5.2.5</b> Saw + crate trap</a></li>
+<li class="chapter" data-level="5.2.6" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#pressing-c-while-having-a-block-selected"><i class="fa fa-check"></i><b>5.2.6</b> Pressing C while having a block selected</a></li>
+</ul></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Builder Guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="builder-i-the-basics" class="section level1">
+<h1><span class="header-section-number">Chapter 1</span> Builder I: The Basics</h1>
+<p align="center">
+<img src="imgs/pikaks.png">
+</p>
+<div id="the-builder-class" class="section level2">
+<h2><span class="header-section-number">1.1</span> The builder class</h2>
+<p>There are three classes in KAG: the archer, the knight and the builder. Although a good team in Capture The Flag (CTF) should be mostly composed of knights, it's the builders who lead the team to victory. Out of 12 people in a full team, at least 3-4 should be builders.</p>
+<p>As a builder in CTF, your role is to make defences for your flags and base, build shops for your teammates, as well as set up siege and help your team advance and destroy the opposing team's structures, and finally -- capture the enemy flag. You have plenty of tools for that, and winning the game by leading your team is basically your main focus as a builder.</p>
+<p>In this chapter we're going to explain all the structures you can place and items you can use as a builder, as well as talk a bit about building a good base and a tower. We'll also highlight some common mistakes that inexperienced builders can make.</p>
+<p><img src="imgs/01-basic/smilingbob.png"></p>
+</div>
+<div id="getting-materials" class="section level2">
+<h2><span class="header-section-number">1.2</span> Getting materials</h2>
+<p>It is mentioned in the in-game tutorial, but we'll mention it again. You can mine any blocks by holding the right mouse button. There are 2 natural blocks that don't give any materials -- bedrock and dirt.</p>
+<p>Bedrock can't be destroyed at all.</p>
+<p><img src="imgs/01-basic/bedrock.png"></p>
+<p>Dirt can be dug, but doesn't give any materials.</p>
+<p><img src="imgs/01-basic/dirt.png"></p>
+<p>You can have up to 500 stone, 500 wood or 100 gold in one slot in your inventory (press F). You can take materials out of your inventory by clicking on them with your inventory open (or closing the inventory while your cursor is on one of the slots). Wood and stone are taken out in stacks or 250 (or less if you have less than 250- the first part you take out is the full stack) -- so to throw out 500 wood, you'll need to throw 250 wood two times. Gold is taken out in stacks of 50.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/matthrow.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Materials such as stone and wood decay when outside of somebody's inventory or outside of a storage (just laying on the ground) after a few minutes. Gold does not.</p>
+<div id="stone" class="section level3">
+<h3><span class="header-section-number">1.2.1</span> Stone</h3>
+<p><img src="imgs/01-basic/stone.png"></p>
+<p>Stone ore gives 4 stone per hit. Normal stone ores can be hit up to 6 times, so 24 stone per stone ore.</p>
+<p><img src="imgs/01-basic/thickstone.png"></p>
+<p>Thick stone ore gives 6 stone per hit for 6 hits, then 4 stone per hit for remaining 5 hits. Gives a total of 56 stone after 11 hits.</p>
+</div>
+<div id="gold" class="section level3">
+<h3><span class="header-section-number">1.2.2</span> Gold</h3>
+<p><img src="imgs/01-basic/gold.png"></p>
+<p>Gold ore gives 4 gold per hit, can be hit up to 5 times -- 20 gold per gold ore.</p>
+<p>Keep in mind that <strong>you can actually see gold ore</strong> on the map -- press M and look for orange spots, like in the images below.</p>
+<p><img src="imgs/01-basic/goldore1.png"></p>
+<p><img src="imgs/01-basic/goldore2.png"></p>
+<p><img src="imgs/01-basic/goldore3.png"></p>
+</div>
+<div id="wood" class="section level3">
+<h3><span class="header-section-number">1.2.3</span> Wood</h3>
+<p><img src="imgs/01-basic/tree.png"></p>
+<p>Trees need between 10 and 12 hits to fall down and drop logs. Trees have varying height, even when they reach their maximum height, but pine trees of maximum height drop 6 or 7 logs, while the smaller, bushy trees drop 3, 4 or 5 logs.</p>
+<p>One log gives <strong>10 wood per hit, 5 hits per log -- so up to 50 wood per a log.</strong></p>
+<p>Trees of course can regrow after being chopped down. Although it also varies, it takes between 30 and 100 seconds, with bushy trees regrowing faster than pine trees.</p>
+</div>
+<div id="resupplies" class="section level3">
+<h3><span class="header-section-number">1.2.4</span> Resupplies</h3>
+<p><img src="imgs/01-basic/resupply.png"></p>
+<p>This is an important mechanic that a lot of people overlook. During the building time (the first 180 seconds of a standard CTF match), you can get free materials from the tent or a builder shop every 40 seconds. <strong>You get 300 wood and 100 stone.</strong></p>
+<p><strong>In game time, you get 100 wood and 30 stone every 20 seconds.</strong></p>
+<p>Keep in mind that the materials stack, so if you were next to the tent for 60 seconds straight, you'd get 300 wood and 90 stone in game time. If you're staying in your base, it's good to constantly get resupplies -- it may not seem like much, but it adds up and you can eventually decently expand your base.</p>
+</div>
+</div>
+<div id="your-building-menu" class="section level2">
+<h2><span class="header-section-number">1.3</span> Your building menu</h2>
+<p>In this section we'll shortly describe each of the blocks in the builder menu, which you can access by pressing F. A builder's building menu consists of 11 blocks/structures, as you can see in the image below:</p>
+<p><img src="imgs/01-basic/buildermenu.png"></p>
+<p>Blocks can cost either wood or stone.</p>
+<p><strong>Placing blocks gives you coins</strong> - depending on what you're placing and if you're placing it during build time (the first 180 seconds where teams build their bases) or game time.</p>
+<div id="stone-block" class="section level3">
+<h3><span class="header-section-number">1.3.1</span> Stone block</h3>
+<p><img src="imgs/01-basic/bstone.png"></p>
+<ul>
+<li>Costs 10 stone.</li>
+<li>Gives 4 coins when placed in game time, 1 coin in build time.</li>
+<li>Can be destroyed by builders (7 hits), bombs (1 bomb if the bomb is next to the block) bomb arrows, kegs, mines.</li>
+<li>Gives 1 stone per hit (7 stone total).</li>
+<li>The most basic block. The majority of your defences should consist of this block.</li>
+</ul>
+</div>
+<div id="stone-backwall" class="section level3">
+<h3><span class="header-section-number">1.3.2</span> Stone backwall</h3>
+<p><img src="imgs/01-basic/bstonebackwall.png"></p>
+<ul>
+<li>Costs 2 stone.</li>
+<li>Doesn't give coins.</li>
+<li>Can be destroyed by builders (5 hits), explosives.</li>
+<li>Doesn't give stone on hit.</li>
+<li>You should support your stone block walls with stone backwalls.</li>
+</ul>
+</div>
+<div id="stone-door" class="section level3">
+<h3><span class="header-section-number">1.3.3</span> Stone door</h3>
+<p><img src="imgs/01-basic/bstonedoor.png"></p>
+<ul>
+<li>Costs 50 stone.</li>
+<li>Gives 4 coins when placed in game time, 1 coin in build time.</li>
+<li>Can be destroyed by builders (5 hits), explosives (5 bombs per 1 stone door!).</li>
+<li>Gives 5 stone per hit (25 stone total).</li>
+<li>Strong block, especially against enemy knights. However, quite expensive, so don't overuse them.</li>
+<li>Doors can only be opened by teammates.</li>
+<li>Doors (both stone and wooden ones) should be placed next to a solid block, or else they will fall off after some time.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/doorsfall.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="wood-block" class="section level3">
+<h3><span class="header-section-number">1.3.4</span> Wood block</h3>
+<p><img src="imgs/01-basic/bwoodblock.png"></p>
+<ul>
+<li>Costs 10 wood.</li>
+<li>Gives 1 coin when placed in game time, 0 coins in build time.</li>
+<li>Can be destroyed by builders (5 hits), explosives.</li>
+<li>Flammable -- can be put on fire by fire arrows and spread fire to nearby wooden structures.</li>
+<li>Destroyable by knights (5 slashes)</li>
+<li>Gives 1 wood per hit (5 wood total).</li>
+<li>You shouldn't overuse them -- burning wooden structures is extremely easy. However it's decent for some basic defences when you don't have stone.</li>
+</ul>
+</div>
+<div id="wood-backwall" class="section level3">
+<h3><span class="header-section-number">1.3.5</span> Wood backwall</h3>
+<p><img src="imgs/01-basic/bwoodbackwall.png"></p>
+<ul>
+<li>Costs 2 wood.</li>
+<li>Doesn't give coins.</li>
+<li>Can be destroyed by builders (2 hits), explosives.</li>
+<li>Flammable.</li>
+<li>Doesn't give wood on hit.</li>
+</ul>
+</div>
+<div id="wood-door" class="section level3">
+<h3><span class="header-section-number">1.3.6</span> Wood door</h3>
+<p><img src="imgs/01-basic/bwooddoor.png"></p>
+<ul>
+<li>Costs 30 wood.</li>
+<li>Gives 1 coin when placed in game time, 0 coins in build time.</li>
+<li>Can be destroyed by builders (4 hits), explosives.</li>
+<li>Flammable.</li>
+<li>Destroyable by knights (14 slashes)</li>
+<li>Gives 5 wood on hit (20 wood total).</li>
+<li>Doors can only be opened by teammates.</li>
+<li>Doors should be placed next to a solid block, or else they will fall off after some time.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/doorsfall.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="trapblock" class="section level3">
+<h3><span class="header-section-number">1.3.7</span> Trapblock</h3>
+<p><img src="imgs/01-basic/bredg.png"></p>
+<ul>
+<li>Costs 30 wood</li>
+<li>Gives 1 coin when placed in game time, 0 coins in build time.</li>
+<li>Can be destroyed by builders (5 hits), explosives</li>
+<li>Gives 2 wood per hit (10 wood total).</li>
+<li>Enemies fall through when trying to walk on it. Players of same colour as team bridge are able to go down team bridges by pressing S.</li>
+</ul>
+<p>Keep in mind that this is a new addition which replaces the old stone trapblock, which was completely unpassable by teammates. Some gifs in the guide may still have gifs with it. It looked like this:</p>
+<p><img src="imgs/01-basic/btrapblock.png"></p>
+</div>
+<div id="ladder" class="section level3">
+<h3><span class="header-section-number">1.3.8</span> Ladder</h3>
+<p><img src="imgs/01-basic/bladder.png"></p>
+<ul>
+<li>Costs 10 wood.</li>
+<li>Doesn't give coins.</li>
+<li>Can be destroyed by builders (2 hits), explosives</li>
+<li>Destroyable by knights (2 slashes)</li>
+<li>Gives 3 wood per hit (6 wood total).</li>
+<li>Can be climbed by holding W while on them</li>
+<li>Ladders are 3x1. You can rotate them by pressing Space after selecting one.</li>
+</ul>
+<p><img src="imgs/01-basic/bladders2.png"></p>
+<ul>
+<li>Ladders can overlap. The center of a ladder is the team-coloured part. You don't have to place the centres next to each other -- if you want to build a few ladders on top of each other, there can be a 1 block gap between the centres. This saves some wood.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/lappladders.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="platform" class="section level3">
+<h3><span class="header-section-number">1.3.9</span> Platform</h3>
+<p><img src="imgs/01-basic/bplatform.png"></p>
+<ul>
+<li>Costs 15 wood.</li>
+<li>Gives 1 coin when placed in game time, 0 coins in build time.</li>
+<li>Can be destroyed by builders (5 hits), explosives.</li>
+<li>Flammable.</li>
+<li>Destroyable by knights (10 slashes)</li>
+<li>Gives 2 wood on hit (10 wood total).</li>
+<li>You can't go through them if they're facing against you.</li>
+<li>You can rotate them with space if you want different directions.</li>
+<li>Also places a wooden backwall behind when you build one.</li>
+<li>Even though enemies can't go through their solid side, knights can still attack you through it with slashes -- make sure to not get too close.</li>
+</ul>
+</div>
+<div id="workshop" class="section level3">
+<h3><span class="header-section-number">1.3.10</span> Workshop</h3>
+<p><img src="imgs/01-basic/bworkshop.png"></p>
+<ul>
+<li>Costs 150 wood.</li>
+<li>Gives 10 coins when placed in game time, 3 coins in build time.</li>
+<li>Can be destroyed by builders (4 hits), explosives.</li>
+<li>Flammable.</li>
+<li>Destroyable by knights (8 slashes)</li>
+<li>Doesn't give wood on hit.</li>
+<li>3 blocks wide and 5 blocks tall.</li>
+<li>Can be converted to one of the 9 CTF shops after being built (requires additional materials). We'll talk more about them in the next section.</li>
+<li>Shops that cost gold drop gold when destroyed.</li>
+<li>Places some wooden backwall behind when placed.</li>
+</ul>
+</div>
+<div id="spikes" class="section level3">
+<h3><span class="header-section-number">1.3.11</span> Spikes</h3>
+<p><img src="imgs/01-basic/bspikes.png"></p>
+<ul>
+<li>Costs 30 stone.</li>
+<li>Gives 4 coins when placed in game time, 1 coin in build time.</li>
+<li>Can be destroyed by builders (2 hits), explosives.</li>
+<li>Doesn't give stone on hit.</li>
+<li>Can be placed on any solid blocks. Does damage to all players -- including teammates -- when they jump on one, as well as stunning them for a short while.</li>
+<li>If placed on a stone block, the spike retracts and only activates when there's an enemy near it (it's not instant, though, which lets enemies just walk over before they get damaged)</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/retractspikes.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>If not placed on a solid block (for example, on backwall or next to a door or platform), the spike falls and damages the players it falls on. The spike deals damage depending on how much distance it fell from. For 1 heart of damage you can just place a spike right above somebody (0 tiles of distance), for 2 hearts -- 2 tiles, 3 hearts -- at least 4 tiles and for 4 hearts you need at least 7 tiles.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/fallingspikes.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+</div>
+<div id="workshops-items-siege" class="section level2">
+<h2><span class="header-section-number">1.4</span> Workshops, items, siege</h2>
+<p>After you place a workshop (150 wood), you can convert it to one of the 9 different shops. Most of them cost additional wood (converting an empty workshop to a new shop costs wood), but some cost stone and gold as well. In this section we'll talk about all the different shops and builder-related items and vehicles you can buy in them.</p>
+<p>All enemies are also able to use your shops -- place them carefully.</p>
+<div id="builder-shop" class="section level3">
+<h3><span class="header-section-number">1.4.1</span> Builder shop</h3>
+<p><img src="imgs/01-basic/buildershop.png"></p>
+<p>Costs 50 wood. One of the three class shops -- if you aren't the class of the shop (if you aren't a builder in this case), you have the option to change to builder on it. The second option (for all classes) is to open the shop.</p>
+<p><img src="imgs/01-basic/buildershopoptions.png"></p>
+<p><img src="imgs/01-basic/menu.png"></p>
+<p>Now, let's talk about the items you can buy:</p>
+<div id="lantern" class="section level4">
+<h4><span class="header-section-number">1.4.1.1</span> Lantern</h4>
+<p><img src="imgs/01-basic/lantern.png"></p>
+<ul>
+<li>Costs 10 wood.</li>
+<li>Generates light.</li>
+<li>1x1 size in inventory.</li>
+<li>Can be turned on and off with Space button.</li>
+<li>Lanterns don't work in water (they turn off by themselves), unless they're in your inventory.</li>
+<li>If you have several lanterns in inventory, there's slightly more light, but not much.</li>
+</ul>
+</div>
+<div id="bucket-no-water" class="section level4">
+<h4><span class="header-section-number">1.4.1.2</span> Bucket (no water)</h4>
+<p><img src="imgs/01-basic/bucket.png"></p>
+<ul>
+<li>Costs 10 wood.</li>
+<li>1x1 size in inventory.</li>
+<li>Fills with water if you put it in water.</li>
+</ul>
+</div>
+<div id="bucket-with-water" class="section level4">
+<h4><span class="header-section-number">1.4.1.3</span> Bucket with water</h4>
+<p><img src="imgs/01-basic/bucketwater.png"></p>
+<ul>
+<li>Costs 10 wood and 10 coins</li>
+<li>1x1 size in inventory.</li>
+<li>You can press left mouse button while you have one in your hand to splash water. The water can extinguish fires, as well as extinguish a lit keg (which is unique for the water bucket -- water bombs or water arrows can't do that). Water buckets extinguish through walls as well. You can make up to 3 water splashes before the bucket becomes empty and requires refilling.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/extinguishfire.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>When you use a water bucket on someone with a lit keg, besides extinguishing the fuse, they also drop the keg if they were holding it, which gives you some time to pick it up.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/waterkeg2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/extinguishkeg.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>Can also cool a heated drill</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/extinguishdrill.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="sponge" class="section level4">
+<h4><span class="header-section-number">1.4.1.4</span> Sponge</h4>
+<p><img src="imgs/01-basic/sponge.png"></p>
+<ul>
+<li>Costs 15 coins.</li>
+<li>1x1 size in inventory.</li>
+<li>You can use it to remove water blocks, like in gif below.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sponge.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>If you have one in inventory and you get hit by a water bomb or a water arrow, the sponge will absorb the stun. This can happen up to 2 times before the sponge gets destroyed.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/spongebomb.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="boulder" class="section level4">
+<h4><span class="header-section-number">1.4.1.5</span> Boulder</h4>
+<p><img src="imgs/01-basic/boulder.png"></p>
+<ul>
+<li>Costs 35 stone.</li>
+<li>Around 2x2 size (2 blocks wide and tall)</li>
+<li>Doesn't fit in inventory (3x3 size, so it fits in storage).</li>
+<li>You can throw it at enemies to damage them.</li>
+<li>The damage depends on the velocity of the boulder; for the most damage, you should throw the boulder from the top of your tower.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/boulder.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>If you put a boulder in a catapult and then launch it, it has a new functionality -- it also goes through blocks. Some believe this is a bug, but it works like in the GIF below. This is especially good against thick towers -- it destroys a lot of backwalls and goes through all of the blocks, making a lot of damage.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/bouldercat.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="trampoline" class="section level4">
+<h4><span class="header-section-number">1.4.1.6</span> Trampoline</h4>
+<p><img src="imgs/01-basic/trampoline.png"></p>
+<ul>
+<li>Costs 150 wood.</li>
+<li>3 blocks wide, 1 block tall.</li>
+<li>Doesn't fit in inventory.</li>
+<li>Lets players bounce of it.</li>
+<li>When held in your hand, you can rotate it to 3 directions so that it points up or diagonally.</li>
+<li>Put on top of your tower for quicker travel for your knights.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/tramptower.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="drill" class="section level4">
+<h4><span class="header-section-number">1.4.1.7</span> Drill</h4>
+<p><img src="imgs/01-basic/drill.png"></p>
+<ul>
+<li>Costs 100 stone and 25 coins.</li>
+<li>1x1 size in inventory.</li>
+<li>Builders (but not knights and archers) can use a drill by holding left mouse button while you have one in your hand. It destroys blocks much more quicker than if you were destroying them using pickaxe. The drill destroys 2 blocks in front of it.</li>
+<li>Drills are aimed in the direction of your cursor.</li>
+<li>The more blocks you destroy, the hotter the drill gets -- eventually it can overheat and deal you 0.25heart of damage and drop to the ground while releasing steam. If that happens, don't instantly try to pick it back up -- it will keep damaging you and dropping to the ground. You have to wait a few seconds.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/drilloverheat.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>Heated drills emit light, so you can sometimes spot tunneling rats with drills.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/lightdrill.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>Drills also deal 1 heart of damage to enemies per hit. When they're 50% heated (at least half of the bar), they deal 1.5 heart of damage.</li>
+<li>Drills deal half of the damage when shielded -- so 0.5 heart or 0.75 heart of damage to shielding knights.</li>
+<li>They obviously also deal damage faster than pickaxe.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/combatdrill.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>As mentioned earlier, drills can be cooled down by using any kind of water on it (water bomb, water arrow or water bucket). They also cool down naturally over time (also while they're in your inventory). You can speed up the cooling down slightly if you move around with your drill in hand. There's also a bar that shows you how heated a drill is.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/extinguishdrill.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>Drills overheat quicker on natural blocks (stone ore, dirt) than on man-made blocks (stone blocks, wooden blocks). They also overheat even quicker (the fastest) on blocks such as doors, platforms or shops, as well as on trees.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/drillkinds.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>Drills can be used to damage enemies in a situation like in the gif below (pay attention to what is a door and what is a normal block), while the knights can't damage you. This is a bit more advanced and is related to doors having an odd functionality -- we'll tell you more about it in the 4th chapter in the combat-related section.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/angledrill.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>Although drills cool down in water, drilling in water (both enemies and blocks) is much slower.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/drillwater.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="saw" class="section level4">
+<h4><span class="header-section-number">1.4.1.8</span> Saw</h4>
+<p><img src="imgs/01-basic/saw.png"></p>
+<ul>
+<li>Costs 150 wood and 100 stone.</li>
+<li>3 blocks wide, 2 blocks tall.</li>
+<li>Doesn't fit in inventory.</li>
+<li>You can press E on the saw to turn it off and on.</li>
+<li>Players (both enemies and teammates) instantly die if they fall into a saw.</li>
+<li>If a teammate falls into a team's saw, the saw turns off after killing them.</li>
+<li>If a corpse of a player of the same team as the saw falls into it, the saw also turns off.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sawcorpse.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>Saws change team depending on who last held the saw. You can't pick up enemy saws from above or from their side. You need to be at a lower level than them.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sawgif.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>Another functionality of saws is that they convert logs into wood quickly. More about this will be mentioned next chapter (building a &quot;tree farm&quot;).</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sawlog.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>Items like crates also get destroyed when thrown into a saw (also if thrown at the side or bottom of the saw).</li>
+<li>Lit bombs and kegs explode instantly when thrown into a saw (also if thrown at the side or bottom of the saw).</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/sawgif2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="crate" class="section level4">
+<h4><span class="header-section-number">1.4.1.9</span> Crate</h4>
+<p><img src="imgs/01-basic/crate.png"></p>
+<ul>
+<li>Costs either 150 wood or 20 coins.</li>
+<li>3 blocks wide, 2 blocks tall.</li>
+<li>Doesn't fit in inventory.</li>
+<li>A crate has a 3x3 inventory -- you can put items in it. The crate should be on the ground, while you should hold the item you want to put in a crate in your inventory then press E on it.</li>
+<li>If you hold a crate and walk over items such as materials or unlit bombs laying on the ground, the crate will pick them up. They can be removed out of the crate manually or by pressing Space while having it in your hand.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/cratepick.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>Players can also get into crates -- you need to pick a crate up (so that it's in your hand), and then press E on it. Other players can also pick up the crate. This is a good way for builders to be &quot;delivered&quot; to enemy territory safely by the knights in your team.</li>
+<li>You can get out of a crate by pressing E again.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/crategetin.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>You can remove enemies from enemy crates by pressing E on it, however, it will stun you for a short time.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/cratenemy.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>That's all of the items in the builder shop.</p>
+</div>
+</div>
+<div id="quarters" class="section level3">
+<h3><span class="header-section-number">1.4.2</span> Quarters</h3>
+<p><img src="imgs/01-basic/quarters.png"></p>
+<p>Costs 50 wood. The shop has 2 features -- if you aren't at full health, you can select the sleep button and regain 0.25 heart per second.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/rest.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>The other button is opening the shop menu, which contains 4 options -- a beer, a meal, an egg and a burger.</p>
+<p><img src="imgs/01-basic/quartermenu.png"></p>
+<div id="beer" class="section level4">
+<h4><span class="header-section-number">1.4.2.1</span> Beer</h4>
+<ul>
+<li>Costs 5 coins.</li>
+<li>Gives you 1 heart of health -- it's worth buying only if you need 1 heart to full health.</li>
+</ul>
+</div>
+<div id="meal" class="section level4">
+<h4><span class="header-section-number">1.4.2.2</span> Meal</h4>
+<ul>
+<li>Costs 10 coins.</li>
+<li>Refills your health to full.</li>
+</ul>
+</div>
+<div id="egg" class="section level4">
+<h4><span class="header-section-number">1.4.2.3</span> Egg</h4>
+<ul>
+<li>Costs 30 coins.</li>
+<li>1x1 inventory size.</li>
+<li>If you walk over an egg while damaged, you will eat the egg. However, it's not just a food item -- after some time a chicken hatches out of the egg. If you hold a chicken in your hand, you fall slower. If there are 2 or more chickens, they also breed and produce more eggs.</li>
+<li>Chickens also have a 1x1 inventory size.</li>
+<li>Chickens are pretty much only used if you want to travel more distance when being launched out of a catapult.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/catachick.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="burger" class="section level4">
+<h4><span class="header-section-number">1.4.2.4</span> Burger</h4>
+<ul>
+<li>Costs 20 coins.</li>
+<li>1x1 inventory size.</li>
+<li>It's an item which you can carry around. It refills your health to full. You can also give burgers to others.</li>
+<li>If you have a burger in your inventory (this also applies if you have a heart or any other food item in your inventory), and you don't have full health, you can press V to quickly heal.</li>
+<li>When two builders have a 1v1 pickaxe fight, the deciding factor is usually if someone has a heart or a burger. If you have some free space in inventory you could carry a burger for such situations. It's also useful for when you get slightly damaged by a bomb.</li>
+</ul>
+</div>
+</div>
+<div id="knight-shop" class="section level3">
+<h3><span class="header-section-number">1.4.3</span> Knight shop</h3>
+<p><img src="imgs/01-basic/knightshop.png"></p>
+<p>Costs 50 wood, another class shop -- so you have the option to swap class to Knight or open the shop menu. Since this is a builder guide, we're focusing only on the items which you can use, which in this case would be the mine.</p>
+<div id="mine" class="section level4">
+<h4><span class="header-section-number">1.4.3.1</span> Mine</h4>
+<p><img src="imgs/01-basic/mine.png"></p>
+<ul>
+<li>The 3rd item in the knight shop.</li>
+<li>Costs 60 coins.</li>
+<li>1x1 inventory size.</li>
+<li>When you put one on the ground, it deploys after being still for 1.5 a second.</li>
+<li>Instantly kills any enemies that walk into it and causes a small explosion (which also instantly kills enemies nearby).</li>
+<li>Unshieldable by knights.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/mine.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>If the person who placed the mine was next to it during the explosion, they also die.</li>
+<li>You can pick up enemy mines if they haven't deployed yet. The mine changes to your team if you do that.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/mineploy.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>It's a good tactic to put mines in your flag rooms or next to enemy doors.</li>
+<li>Hardly visible for enemies when put behind a bush.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/minebush.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+</div>
+<div id="archer-shop" class="section level3">
+<h3><span class="header-section-number">1.4.4</span> Archer shop</h3>
+<p><img src="imgs/01-basic/archershop.png"></p>
+<p>Costs 50 wood, is a class shop. Sells special arrows for archers.</p>
+</div>
+<div id="naval-shop" class="section level3">
+<h3><span class="header-section-number">1.4.5</span> Naval shop</h3>
+<p><img src="imgs/01-basic/navalshop.png"></p>
+<p>Costs 100 wood and 50 gold. Sells boats -- this shop is pretty much useful only on maps with lots of water.</p>
+<p><img src="imgs/01-basic/navalshopmenu.png"></p>
+<p>All enemy boats can be captured by staying on them for long enough.</p>
+<div id="dinghy" class="section level4">
+<h4><span class="header-section-number">1.4.5.1</span> Dinghy</h4>
+<p><img src="imgs/01-basic/dinghy.png"></p>
+<ul>
+<li>Costs 150 wood.</li>
+<li>6 blocks wide, about 1 block tall.</li>
+<li>Two people can enter a dinghy.</li>
+<li>Weakest out of all the boats.</li>
+<li>You can enter a dinghy by pressing S on it. Row the boat by holding A or D.</li>
+<li>The more people that row the boat, the faster it goes. However they have to row in the same direction -- if they row in the opposite direction, the dinghy won't move.</li>
+<li>Has a 6x5 storage (press E to open it. As mentioned earlier, in order to put something in a storage, you must have an item in your hand and then press E on the storage button.)</li>
+</ul>
+</div>
+<div id="longboat" class="section level4">
+<h4><span class="header-section-number">1.4.5.2</span> Longboat</h4>
+<p><img src="imgs/01-basic/longboat.png"></p>
+<ul>
+<li>Costs 200 wood and 50 coins.</li>
+<li>Comes in a crate when bought -- it must be unpacked in water.</li>
+<li>Has 6 rowing spots (press S to enter one)</li>
+<li>Fastest out of all the boats -- especially if rowed by 6 people.</li>
+<li>Has a 12x5 storage.</li>
+<li>Longboats crush enemies and structures when fast enough.</li>
+</ul>
+</div>
+<div id="war-boat" class="section level4">
+<h4><span class="header-section-number">1.4.5.3</span> War Boat</h4>
+<p><img src="imgs/01-basic/warboat.png"></p>
+<ul>
+<li>Costs 250 coins.</li>
+<li>Comes in a crate when bought -- it must be unpacked in water.</li>
+<li>Slower than a longboat, but also the hardest to destroy.</li>
+<li>Has 6 rowing spots.</li>
+<li>Has one mounted bow on top which lets you shoot arrows (press S to get in). If it runs out of arrows, press E with arrows in your hand to refill it.</li>
+<li>Has a 12x6 storage.</li>
+<li>You can change class on a war boat by holding E and selecting the &quot;change class&quot; button.</li>
+<li>War boats are also respawn points (if you die, you can respawn at a war boat). You can't respawn on a war boat if there are enemies on it, though.</li>
+<li>They also crush enemies and structures when fast enough.</li>
+</ul>
+</div>
+</div>
+<div id="siege-shop" class="section level3">
+<h3><span class="header-section-number">1.4.6</span> Siege shop</h3>
+<p><img src="imgs/01-basic/vehicleshop.png"></p>
+<p>Costs 100 wood and 50 gold. Lets you buy siege vehicles -- catapults and ballistas. They're quite useful, and gold is rare on some of the maps, so make sure you place a siege shop in a secure place.</p>
+<p><img src="imgs/01-basic/vehicleshopmenu.png"></p>
+<div id="catapult" class="section level4">
+<h4><span class="header-section-number">1.4.6.1</span> Catapult</h4>
+<p><img src="imgs/01-basic/catapult.png"></p>
+<ul>
+<li>Costs 80 coins.</li>
+<li>Comes in a crate when bought -- it must be unpacked in a spot with enough place.</li>
+<li>It has 3 spots right after unpacking: the driving spot, the firing spot, and the spot in the bowl. You enter the spots by clicking S on them, obviously. For the upper spot in the bowl, you have to jump up first and then press S.</li>
+<li>You can remove the wheels by pressing E and clicking the remove wheels button. You should do this pretty much every time if you plan the catapult to be a stationary one on top of your tower. This removes the driver spot and can't be undone.</li>
+<li>Catapults can launch items, as well as players. When you enter the firing spot, you can launch by holding your left mouse button.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/catalaunch.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>If you want to put an item in a catapult, you must first have the item in your hand, hold E and then press the &quot;load item&quot; button next to the bowl.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/bouldercat.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>Catapults can also fire rocks. Each catapult after unpacking has 100 stone. One rock launch costs 10 stone. They do some slight damage to structures, especially backwall, as well as do lots of damage to enemies.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/catarocks.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>You can refill catapults with stone by holding E and clicking the &quot;Load stone&quot; button if you have stone in your inventory.</li>
+<li>Keep in mind that enemy archers can destroy your catapult with only a single bomb arrow.</li>
+<li>Also, if you haven't removed the wheels, archers can shoot the catapult and make it drive away. This can cause the catapult to fall off sometimes, which is why removing wheels is recommended.</li>
+</ul>
+</div>
+<div id="ballista" class="section level4">
+<h4><span class="header-section-number">1.4.6.2</span> Ballista</h4>
+<p><img src="imgs/01-basic/ballista.png"></p>
+<ul>
+<li>Costs 200 coins.</li>
+<li>Comes in a crate when bought -- it must be unpacked in a spot with enough place.</li>
+<li>Has a driving spot and a firing spot.</li>
+<li>You can remove the wheels (same as in catapult). Press E and select the &quot;immobilise&quot; option.</li>
+<li>A ballista spawns with 12 bolts. More can be bought in the siege shop.</li>
+<li>If you haven't upgraded the bolts in the vehicle shop (last option), the firing spot can shoot normal bolts that instakill enemies if they hit them.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/ballistabolt.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>If the bolts are upgraded, the ballista fires explosive bolts instead that damage structures too. However, it consumes 2 bolts instead of one (so if a ballista has 12 bolts, it actually only will shoot 6 explosive bolts). Explosive bolts instantly kill enemies as well.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/bombbolts.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>You can also change classes on ballistas (including enemy ones) -- hold E and select the &quot;change class&quot; option.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/ballistaswap.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>They also work as a respawn point, similar to war boats. If you die and your team has a ballista, you can select it to respawn on it.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/ballistarespawn.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>You can't respawn on a ballista if it's being captured by the enemies (capturing any vehicle in KAG means standing near it for some amount of time).</li>
+<li>Enemy archers can destroy your ballista with two bomb arrows.</li>
+<li>Similar to catapults -- enemy archers can shoot arrows at a ballista with wheels and make it drive away. Removing wheels is recommended.</li>
+<li>If a ballista is flipped over due to a collapse or being driven away, it will be damaged and destroy itself after a few seconds. To prevent that, as soon as it flips over you should spam the &quot;Flip vehicle&quot; button that appears when you hold E, which should flip it back.</li>
+</ul>
+</div>
+<div id="ballista-bolts" class="section level4">
+<h4><span class="header-section-number">1.4.6.3</span> Ballista bolts</h4>
+<p><img src="imgs/01-basic/ballistabolts.png"></p>
+<ul>
+<li>Costs 100 coins.</li>
+<li>One stack of 12 ballista bolts.</li>
+<li>Put new ballista bolts in a ballista by holding them in your hand, holding E on a ballista and selecting the &quot;load ballista bolts&quot; option.</li>
+</ul>
+</div>
+<div id="bomb-bolt-upgrade" class="section level4">
+<h4><span class="header-section-number">1.4.6.4</span> Bomb bolt upgrade</h4>
+<p><img src="imgs/01-basic/ballistabombbolts.png"></p>
+<ul>
+<li>Costs 100 gold.</li>
+<li>When bought, it applies to any future ballistas bought by your team in the match, even if it's a different siege shop.</li>
+<li>Future ballistas will now fire explosive bolts, as mentioned earlier.</li>
+<li>Keep in mind that this upgrade does not apply to ballistas you have unpacked before getting the upgrade.</li>
+</ul>
+</div>
+</div>
+<div id="storage" class="section level3">
+<h3><span class="header-section-number">1.4.7</span> Storage</h3>
+<p><img src="imgs/01-basic/storage.png"></p>
+<ul>
+<li>Costs 50 stone and 50 wood.</li>
+<li>Has a 4x2 storage which lets a team store items.</li>
+<li>Holding E and clicking the &quot;Store&quot; button will put all the items in your inventory into the storage.</li>
+<li>If you want to put a single item into the storage, you must first hold it in your hand, then select the other &quot;Storage&quot; button.</li>
+<li>Harder to destroy than other shops (12 pickaxe hits needed to destroy one; wooden shops require 4 hits).</li>
+<li>Good for storing gold, as well as excess wood and stone that you don't currently need.</li>
+</ul>
+</div>
+<div id="tunnel" class="section level3">
+<h3><span class="header-section-number">1.4.8</span> Tunnel</h3>
+<p><img src="imgs/01-basic/tunnel.png"></p>
+<ul>
+<li>Costs 50 gold, 100 stone and 50 wood.</li>
+<li>If you have 2 or more tunnels, you can quickly travel between them.</li>
+<li>If you have only 2 tunnels, just pressing E on the tunnel will let you travel to the other one.</li>
+<li>If you have 3 or more tunnels, you will also have to select what tunnel you want to go to.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/tunneltravel.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<ul>
+<li>You are stunned for a second after using a tunnel.</li>
+<li>Tunnel is even more durable than a storage (16 pickaxe hit needed to destroy one)</li>
+<li>Tunnels usually should connect the most important parts of the map for your team: there should be one next to the tent, one in the tower, one or more in middle of the map (if you have control of it).</li>
+</ul>
+</div>
+<div id="quarry" class="section level3">
+<h3><span class="header-section-number">1.4.9</span> Quarry</h3>
+<p><img src="imgs/01-basic/quarry.png"></p>
+<ul>
+<li>Costs 150 stone and 100 gold.</li>
+<li>There's a limit of only 1 per team.</li>
+<li>You can put wood into a quarry in order to convert it to stone. If you have wood, just hold E and press the &quot;add fuel&quot; button.</li>
+<li>Can hold up to 500 wood.</li>
+<li>Converts 100 wood to 75 stone every 30 seconds.</li>
+<li>The stone falls to the ground on the 2nd tile of the shop from the left. Since it falls like that, many people put quarries above a storage with a 1 tile gap so that the stone goes into the storage like in the gif below.</li>
+</ul>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/quarry.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+</div>
+<div id="building-a-base" class="section level2">
+<h2><span class="header-section-number">1.5</span> Building a base</h2>
+<p>The build time is the <strong>first 180 seconds of the match</strong> with an uncrossable red zone in the middle. The point is to obviously build a decent base before you start fighting with the opposing teams. The more builders in a team know how to make good defences, the more likely it is that you're going to win (or at least lose slower).</p>
+<p>Of course, if you want to, you can keep building the base after the build time ends. Often there's still lots of materials left, so you can keep improving the base.</p>
+<div id="a-front-tower" class="section level3">
+<h3><span class="header-section-number">1.5.1</span> A front tower</h3>
+<p>Besides having your flags be well protected, having a decent tower is also very important. A good way to start building a front tower in 40 seconds is to build some ladders up, add some stone backwall and then build a <strong>builder shop</strong> like in the image below. Make sure to not place more than 10 ladders so that you have enough materials for a builder shop.</p>
+<p><img src="imgs/01-basic/tower1.png"></p>
+<p>If you decide to focus on the tower for the entirety of the build time, you're most likely going to work around here. As mentioned earlier, the builder shop lets you get resupplies -- you should walk to one every 40 seconds (on around 140 seconds left, 100, 60 and 20) to get <strong>free 100 stone and 300 wood.</strong></p>
+<p>Usually you end up using all the materials you have before the next resupply, so if that happens you should go dig some stone and return for the next batch of resupplies.</p>
+<p>Keep in mind you can't make everything by yourself in an actual CTF match -- this is a team game after all, so other players should help you and also build a bit. You should pretty much build what is missing or improve the parts that could be better. This part will just tell you how a good tower should look like.</p>
+<p>After building a builder shop, it's good to make the front wall. Usually making a 3 block thick wall is enough.</p>
+<p>We start with placing 3 layers of doors at the bottom -- 5 wooden doors and 1 stone door. We don't want to place too many stone doors so that we have enough stone for the actual wall itself.</p>
+<p>After placing the doors we place stone walls. <strong>Keep in mind you can actually place blocks in the red zone!</strong> Usually we build it like this:</p>
+<p>First, the outer layer made out of stone only:</p>
+<p><img src="imgs/01-basic/tower2.png"></p>
+<p>After that, the middle layer is going to be wood:</p>
+<p><img src="imgs/01-basic/tower3.png"></p>
+<p>Replace every 4th or 5th wooden block with stone -- so that if the outer layer gets broken, the archers can't burn the entire middle layer at once:</p>
+<p><img src="imgs/01-basic/tower4.png"></p>
+<p>And then the inner layer, stone only:</p>
+<p><img src="imgs/01-basic/tower5.png"></p>
+<p>That's a solid front wall already. If you have some stone left, it'd be good to add some more backwalls so that the tower isn't too easy to collapse.</p>
+<p><img src="imgs/01-basic/tower6.png"></p>
+<p>Okay, so we have a builder shop and a basic front wall. However, a good tower obviously has more.</p>
+<p>It'd be good to have the most basic shops in a tower + a tunnel. It's good to have a tunnel above the builder shop, then a knight shop (close to the tunnel, because majority of your team should be knights) then an archer shop (on top, because that's where defensive archers can shoot from). A food shop could be useful as well.</p>
+<p>Somewhat like this:</p>
+<p><img src="imgs/01-basic/tower7.png"></p>
+<p>The empty shop is going to be a tunnel later -- we need to find some gold first.</p>
+<p>It's good to have lots, <strong>lots of doors</strong> -- in case the enemies get into your tower, the enemy builders will usually not be able to block all the doors and your knights will be able to defeat them by using doors to their advantage. So it can look somewhat like this, with every shop having 6 sets of doors:</p>
+<p><img src="imgs/01-basic/tower8.png"></p>
+<p>Next, you want to replace majority of the wooden backwalls from the shops and doors with stone backwalls. <strong>Fire spreads much slower and much less with stone backwalls than if there were wooden backwalls.</strong></p>
+<p><img src="imgs/01-basic/tower9.png"></p>
+<p>Here's a comparison of using a fire arrow against a part of a tower, but one part has stone backwalls for doors and shops while one has wooden:</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/firecompar.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Obviously, you don't want the front wall to be thinner above. We build additional 3 layers of wooden doors next to every shop (again, the more doors there are -- the harder for enemy builders to block them all) and add stone.</p>
+<p><img src="imgs/01-basic/tower11.png"></p>
+<p>The bottom could use some work too. Add some more doors and stone blocks, so that if the enemies get through the first set of doors they don't have too much space to fight, and so that the tower is harder to collapse.</p>
+<p><img src="imgs/01-basic/tower12.png"></p>
+<p>Sometimes you can choose to add a bit of platforms somewhere too, for example on the top, so that defensive archers can be protected from enemy arrows. Stone backwall is advised again.</p>
+<p><img src="imgs/01-basic/tower13.png"></p>
+<p>Adding a trampoline after the game starts (the red zone bounces it back) is also good.</p>
+<p><img src="imgs/01-basic/tower14.png"></p>
+<p>If you have wood left, you can place doors pretty much everywhere. The more doors the better.</p>
+<p>Here's a 3 min video example of building a tower on public CTF along with some other people:</p>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/gYyuslQfGtE" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+<div id="flag-rooms" class="section level3">
+<h3><span class="header-section-number">1.5.2</span> Flag rooms</h3>
+<p>Flag rooms should have at least 2 entrances, preferably 3, so that if one gets blocked you can still use the other ones -- one from the top and two from the sides, like this:</p>
+<p><img src="imgs/01-basic/flagroom.png"></p>
+<p>Keep in mind that stone doors like that are enough; wooden doors are pretty powerful. You don't need to overuse stone doors.</p>
+<p>The doors from the tent's side should be on floor level so that knights can quickly get there. However, the one on the right side -- from the enemy's side -- shouldn't be placed like that; worse players can sometimes open the entrance accidentally and die, letting enemies get into the flag room. Making the entrance not on floor level partially prevents this.</p>
+<p>Of course, the thicker a flag room is, the better -- if you have lots of materials, you can make it as thick as you want. If you lose the flags you lose the game, after all.</p>
+<p>However, if you're making it thicker, it's good to have some additional doors for easier movement.</p>
+<p><img src="imgs/01-basic/flagroom2.png"></p>
+<p>It's also good to put a mine in each flag room (or even 2!). If any enemies eventually come to the flag, they will have to destroy the mine first and often they will just walk into it accidentally.</p>
+</div>
+<div id="tunnels" class="section level3">
+<h3><span class="header-section-number">1.5.3</span> Tunnels</h3>
+<p>As I mentioned earlier, there should be a tunnel in your tower for quick travel. The first tunnel should be next to your tent (or at least close to it).</p>
+<p>The tunnel near your tent <strong>should always have a sawtrap</strong>. A sawtrap like this -- team bridges, the tunnel on it and the saw under the team bridges.</p>
+<p><img src="imgs/01-basic/imog.png"></p>
+<p>Here's how to build one:</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/giffod.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="tree-farm" class="section level3">
+<h3><span class="header-section-number">1.5.4</span> Tree farm</h3>
+<p>A tree farm is very useful to all the builders in your team -- it lets you get lots of wood easily, which also lets you get stone from quarries.</p>
+<p>The idea is to place trees next to each other with 1 tile gaps, and have them be seperated like this:</p>
+<p><img src="imgs/01-basic/treefarm.png"></p>
+<p>After that, you get a saw and put it like this.</p>
+<p><img src="imgs/01-basic/treefarm2.png"></p>
+<p>Destroying the trees will now make all of the logs fall downwards instead of the tree falling to the side. The logs, when destroyed by the saw, are converted to wood. This is much quicker than if you were chopping them manually.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/treefarm1.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>If you have a bigger tree farm, you don't have to get another saw -- you can just move the saw around.</p>
+<p>Also, if you have a saw, it's actually faster to chop down trees as a knight than as a builder -- a slash can damage 2 trees at once. So if the tree farm is near the tent you could quickly swap to knight to do that.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/treefarm2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Trees can grow on bedrock, dirt and stone, but they can't grow on man-made blocks like stone blocks or wood blocks.</p>
+<p><img src="imgs/01-basic/treegrow1.png"></p>
+<p>Also, sometimes it may bug out and the logs may not fall through and instead get stuck on the top. I believe this doesn't happen as often if there's more blocks vertically seperating the trees, like in the image below.</p>
+<p><img src="imgs/01-basic/tree3blocks.png"></p>
+<p>If for some reason the logs do not fall into the saw (or it was accidentally turned off), you can just throw the saw at the logs, like in the gif below.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/treefarm3.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="shops" class="section level3">
+<h3><span class="header-section-number">1.5.5</span> Shops</h3>
+<p>It's good to have some shops outside of the tower too, in case the ones in the tower get destroyed. Usually you should have some near the tent.</p>
+<p><img src="imgs/01-basic/shops.png"></p>
+<p>Make sure that you replace some of the wooden backwalls with stone backwalls so that it's not as easy to burn. Also, make sure they have good protection (doors) so that the enemies can't get in too easily.</p>
+</div>
+</div>
+<div id="block-support----wood-and-stone-blocks" class="section level2">
+<h2><span class="header-section-number">1.6</span> Block support -- wood and stone blocks</h2>
+<p>For now you should also remember that wooden blocks (normal wood blocks, platforms, doors) require less support than stone blocks. For example, if you tried to build a bridge, a stone bridge from top of your tower would only be 5 blocks long, while a wooden one would be able to be 25 blocks long.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/blocksupport.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>This can often cause confusing situations when you can't place blocks somewhere -- there's not enough support. For example, if you replaced first half of a wooden bridge with stone, you wouldn't be able to build past the 5 blocks.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/blocksupport2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="block-repairing" class="section level2">
+<h2><span class="header-section-number">1.7</span> Block repairing</h2>
+<p>When blocks such as stone blocks, wooden blocks or backwalls get damaged, you can repair them by picking that block from the menu and then building over them. Same amount of materials will be used as if you would be placing a new block (so if you're constantly repairing blocks that are being damaged by enemy builders, you should wait a bit for them to get damaged until they're almost destroyed to buy more time). However, you can't do the same for blocks like doors, platforms or team bridges -- whenever they're being damaged, they need to be fully destroyed before you can build them again in their place.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/repair.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="common-mistakes" class="section level2">
+<h2><span class="header-section-number">1.8</span> Common mistakes</h2>
+<p>There are lots of mistakes that can be made by beginner builders or just less advanced players. Here are some of the most common ones.</p>
+<div id="leaving-shops-in-the-open" class="section level3">
+<h3><span class="header-section-number">1.8.1</span> Leaving shops in the open</h3>
+<p>Sometimes less experienced players build shops in the open. This is dangerous, because if any enemies get into your base (by bomb jumps or by catapult, for example) then they will be able to use them -- change class or buy items (e.g. kegs)</p>
+<p><img src="imgs/01-basic/shopsopen.png"></p>
+<p>If you see a shop (mostly knight and builder shops) like that, you should either destroy it if it's in a bad position or encase it with at least some doors and stone blocks. However, if they shop is close to the flag, they're an even bigger danger so you should just destroy them.</p>
+</div>
+<div id="overusing-stone-doors" class="section level3">
+<h3><span class="header-section-number">1.8.2</span> Overusing stone doors</h3>
+<p>Some players think that wooden doors are too weak and overuse stone doors, like in the image below.</p>
+<p><img src="imgs/01-basic/stonedoor1.png"></p>
+<p>This is pointless and a total waste of mats. Destroying stone doors by builders takes only slightly longer than wooden doors. The stone should be rather used on additional layers to the tower rather than stone doors. There are 12 stone doors on this screenshot, which is 600 stone. Instead of building stone doors, you should rather make additional stone block layers to your tower.</p>
+<p>This is how much you could expand your base by with 600 stone and a bit of wood:</p>
+<p><img src="imgs/01-basic/stonedoor2.png"></p>
+</div>
+<div id="overusing-wood-not-placing-stone-backwall" class="section level3">
+<h3><span class="header-section-number">1.8.3</span> Overusing wood, not placing stone backwall</h3>
+<p>As mentioned earlier, if you overuse wood, structures are way too easy to burn. If you're putting lots of doors, put stone backwall behind all of them, same with shops. If you need to make some wooden defences due to lack of stone, you should still try to mix in at least some stone between wooden parts so that everything doesn't burn at once.</p>
+<p>Again, comparison of using a fire arrow against structures with wooden backwall vs stone backwall:</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/firecompar.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="awkward-top-doors" class="section level3">
+<h3><span class="header-section-number">1.8.4</span> Awkward top doors</h3>
+<p>Sometimes there are doors like this:</p>
+<p><img src="imgs/01-basic/awkwarddoor.png"></p>
+<p>It's harder to go through doors like that because you need to jump up and fit properly. This is much easier when doors are to the side, like in the gif below -- in this case you can wallclimb by hugging the wall and it's much easier.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/climb.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Another solution to make it a bit easier to use such doors would be to place a ladder.</p>
+<p><img src="imgs/01-basic/awkwarddoor2.png"></p>
+</div>
+<div id="awkward-movement-in-general" class="section level3">
+<h3><span class="header-section-number">1.8.5</span> Awkward movement in general</h3>
+<p>It's important for your knights to be able to move fast in case of incoming enemies, and sometimes odd block placement can cause slower movement around the base. One example is doors not being on floor level when there's no reason to not put them like that:</p>
+<p><img src="imgs/01-basic/darenokoto.png"></p>
+<p>Another example is not having the tunnel in the tower be next to outside doors -- this causes knights to waste time to go to other doors, like this</p>
+<p><img src="imgs/01-basic/worldogd.png"></p>
+</div>
+<div id="not-enough-doors" class="section level3">
+<h3><span class="header-section-number">1.8.6</span> Not enough doors</h3>
+<p>Slightly related to above, not placing enough doors (or in some cases, none at all...). There should be lots of doors on each section of of the tower so that enemy builders getting up the tower don't block them all easily. There should be enough doors near the shops too, for similar reasons.</p>
+<p><img src="imgs/01-basic/notdoors.png"></p>
+</div>
+<div id="certain-shops-at-the-bottom-of-the-tower" class="section level3">
+<h3><span class="header-section-number">1.8.7</span> Certain shops at the bottom of the tower</h3>
+<p>The bottom of the tower is more easily accessed by enemies than the upper parts (for example, if one of your teammates accidentally lets in an enemy knight). You shouldn't place shops like knight shops there (the enemies could buy some kegs after getting there for example).</p>
+<p><img src="imgs/01-basic/shopatbottom.png"></p>
+<p>You also shouldn't place knight shops near the flag room for similar reasons.</p>
+</div>
+<div id="putting-a-saw-in-the-flag-room" class="section level3">
+<h3><span class="header-section-number">1.8.8</span> Putting a saw in the flag room</h3>
+<p>There's barely any reason to do this; it's better to have a top entrance so that you can protect the flag if there's enemies above rather than a saw. The saw can be easily avoided by placing ladders and often someone in your team will just accidentally kill themselves, disabling the saw (and also taking away coins from you -- you lose coins when teamkilling somebody).</p>
+<p><img src="imgs/01-basic/sawflag.png"></p>
+</div>
+</div>
+<div id="progressing-to-victory" class="section level2">
+<h2><span class="header-section-number">1.9</span> Progressing to victory</h2>
+<p>While this chapter was mostly very basic stuff, in the next chapters we'll talk about everything you can do as a builder to help your team get closer to victory, as well as explain some stuff about combat as a builder.</p>
+<p>First of all, not every good builder plays the same. There are pretty much three builder playstyles, and which one you will use depends on what is the most fun to you (or if you just want to win -- which one would be the best for your team depending on the situation)</p>
+<p><strong>Defensive playstyle</strong> is when you mostly stay in your base and defend your team's base from any enemies, constantly making improvements, mining resources, keeping your team's quarry running, repairing structures and protecting the tower. Some people in-game may find having a builder focusing on stuff like that to be pointless (you don't really help your team to capture the flag, after all), but such a builder is still very useful (especially if the tide turns and your team has to be on the defense) and easy to play for beginners.</p>
+<p><strong>Progressive/supportive playstyle</strong> is when you focus on winning the game by doing long-term actions that help your team progress. This usually means ensuring you have a decent mid base with a tunnel, buying siege and gradually destroying the enemy tower, or saving up coins over a period of time so you could use them all at once (at explosives, for example). Also includes ratting/tunneling. It's the playstyle which is most likely to lead your team to victory.</p>
+<p><strong>Offensive playstyle</strong> is when you prefer to rely on opportunities and basically keep pushing the enemy team, trying to get into the tower or the flag room by drilling or going up the enemy tower. This is heavily dependant on how your knights do -- so you often start pushing with them as soon as they kill a few enemies. Having good situational awareness and knowing how your team is doing, as well as what are the enemies' weaknesses is required. Besides that it's also the most combat-heavy playstyle, and for being the most effective at it you need to be familiar with blockspamming, using drills (the most powerful tool we have), dropping and mobility in general, as well as good reflexes.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="builder-ii-defensive-playstyle.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "night",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/deynarde/kag-builder-guide/blob/master/01-basics.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

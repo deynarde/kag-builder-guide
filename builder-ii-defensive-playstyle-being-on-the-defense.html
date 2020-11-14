@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 Builder II: Defensive playstyle / being on the defense | Builder Guide</title>
+  <meta name="description" content="A KAG builder guide for both new and experienced players." />
+  <meta name="generator" content="bookdown 0.18.1 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 Builder II: Defensive playstyle / being on the defense | Builder Guide" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="A KAG builder guide for both new and experienced players." />
+  <meta name="github-repo" content="deynarde/kag-builder-guide" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 Builder II: Defensive playstyle / being on the defense | Builder Guide" />
+  
+  <meta name="twitter:description" content="A KAG builder guide for both new and experienced players." />
+  
+
+<meta name="author" content="by Bunnie" />
+
+
+<meta name="date" content="2020-04-05" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="builder-i-the-basics.html"/>
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Builder Guides</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html"><i class="fa fa-check"></i><b>1</b> Builder I: The Basics</a><ul>
+<li class="chapter" data-level="1.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#the-builder-class"><i class="fa fa-check"></i><b>1.1</b> The builder class</a></li>
+<li class="chapter" data-level="1.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#getting-materials"><i class="fa fa-check"></i><b>1.2</b> Getting materials</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone"><i class="fa fa-check"></i><b>1.2.1</b> Stone</a></li>
+<li class="chapter" data-level="1.2.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#gold"><i class="fa fa-check"></i><b>1.2.2</b> Gold</a></li>
+<li class="chapter" data-level="1.2.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood"><i class="fa fa-check"></i><b>1.2.3</b> Wood</a></li>
+<li class="chapter" data-level="1.2.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#resupplies"><i class="fa fa-check"></i><b>1.2.4</b> Resupplies</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#your-building-menu"><i class="fa fa-check"></i><b>1.3</b> Your building menu</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone-block"><i class="fa fa-check"></i><b>1.3.1</b> Stone block</a></li>
+<li class="chapter" data-level="1.3.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone-backwall"><i class="fa fa-check"></i><b>1.3.2</b> Stone backwall</a></li>
+<li class="chapter" data-level="1.3.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone-door"><i class="fa fa-check"></i><b>1.3.3</b> Stone door</a></li>
+<li class="chapter" data-level="1.3.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood-block"><i class="fa fa-check"></i><b>1.3.4</b> Wood block</a></li>
+<li class="chapter" data-level="1.3.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood-backwall"><i class="fa fa-check"></i><b>1.3.5</b> Wood backwall</a></li>
+<li class="chapter" data-level="1.3.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood-door"><i class="fa fa-check"></i><b>1.3.6</b> Wood door</a></li>
+<li class="chapter" data-level="1.3.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#trapblock"><i class="fa fa-check"></i><b>1.3.7</b> Trapblock</a></li>
+<li class="chapter" data-level="1.3.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#ladder"><i class="fa fa-check"></i><b>1.3.8</b> Ladder</a></li>
+<li class="chapter" data-level="1.3.9" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#platform"><i class="fa fa-check"></i><b>1.3.9</b> Platform</a></li>
+<li class="chapter" data-level="1.3.10" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#workshop"><i class="fa fa-check"></i><b>1.3.10</b> Workshop</a></li>
+<li class="chapter" data-level="1.3.11" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#spikes"><i class="fa fa-check"></i><b>1.3.11</b> Spikes</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#workshops-items-siege"><i class="fa fa-check"></i><b>1.4</b> Workshops, items, siege</a><ul>
+<li class="chapter" data-level="1.4.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#builder-shop"><i class="fa fa-check"></i><b>1.4.1</b> Builder shop</a></li>
+<li class="chapter" data-level="1.4.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#quarters"><i class="fa fa-check"></i><b>1.4.2</b> Quarters</a></li>
+<li class="chapter" data-level="1.4.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#knight-shop"><i class="fa fa-check"></i><b>1.4.3</b> Knight shop</a></li>
+<li class="chapter" data-level="1.4.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#archer-shop"><i class="fa fa-check"></i><b>1.4.4</b> Archer shop</a></li>
+<li class="chapter" data-level="1.4.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#naval-shop"><i class="fa fa-check"></i><b>1.4.5</b> Naval shop</a></li>
+<li class="chapter" data-level="1.4.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#siege-shop"><i class="fa fa-check"></i><b>1.4.6</b> Siege shop</a></li>
+<li class="chapter" data-level="1.4.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#storage"><i class="fa fa-check"></i><b>1.4.7</b> Storage</a></li>
+<li class="chapter" data-level="1.4.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#tunnel"><i class="fa fa-check"></i><b>1.4.8</b> Tunnel</a></li>
+<li class="chapter" data-level="1.4.9" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#quarry"><i class="fa fa-check"></i><b>1.4.9</b> Quarry</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#building-a-base"><i class="fa fa-check"></i><b>1.5</b> Building a base</a><ul>
+<li class="chapter" data-level="1.5.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#a-front-tower"><i class="fa fa-check"></i><b>1.5.1</b> A front tower</a></li>
+<li class="chapter" data-level="1.5.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#flag-rooms"><i class="fa fa-check"></i><b>1.5.2</b> Flag rooms</a></li>
+<li class="chapter" data-level="1.5.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#tunnels"><i class="fa fa-check"></i><b>1.5.3</b> Tunnels</a></li>
+<li class="chapter" data-level="1.5.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#tree-farm"><i class="fa fa-check"></i><b>1.5.4</b> Tree farm</a></li>
+<li class="chapter" data-level="1.5.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#shops"><i class="fa fa-check"></i><b>1.5.5</b> Shops</a></li>
+</ul></li>
+<li class="chapter" data-level="1.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#block-support-wood-and-stone-blocks"><i class="fa fa-check"></i><b>1.6</b> Block support – wood and stone blocks</a></li>
+<li class="chapter" data-level="1.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#common-mistakes"><i class="fa fa-check"></i><b>1.7</b> Common mistakes</a><ul>
+<li class="chapter" data-level="1.7.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#leaving-shops-in-the-open"><i class="fa fa-check"></i><b>1.7.1</b> Leaving shops in the open</a></li>
+<li class="chapter" data-level="1.7.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#overusing-stone-doors"><i class="fa fa-check"></i><b>1.7.2</b> Overusing stone doors</a></li>
+<li class="chapter" data-level="1.7.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#overusing-wood-not-placing-stone-backwall"><i class="fa fa-check"></i><b>1.7.3</b> Overusing wood, not placing stone backwall</a></li>
+<li class="chapter" data-level="1.7.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#awkward-top-doors"><i class="fa fa-check"></i><b>1.7.4</b> Awkward top doors</a></li>
+<li class="chapter" data-level="1.7.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#awkward-movement-in-general"><i class="fa fa-check"></i><b>1.7.5</b> Awkward movement in general</a></li>
+<li class="chapter" data-level="1.7.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#not-enough-doors"><i class="fa fa-check"></i><b>1.7.6</b> Not enough doors</a></li>
+<li class="chapter" data-level="1.7.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#certain-shops-at-the-bottom-of-the-tower"><i class="fa fa-check"></i><b>1.7.7</b> Certain shops at the bottom of the tower</a></li>
+<li class="chapter" data-level="1.7.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#bad-trapblock-placement-bad-traps-dirt-spikes"><i class="fa fa-check"></i><b>1.7.8</b> Bad trapblock placement, bad traps, dirt spikes</a></li>
+<li class="chapter" data-level="1.7.9" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#putting-a-saw-in-the-flag-room"><i class="fa fa-check"></i><b>1.7.9</b> Putting a saw in the flag room</a></li>
+</ul></li>
+<li class="chapter" data-level="1.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#progressing-to-victory"><i class="fa fa-check"></i><b>1.8</b> Progressing to victory</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="builder-ii-defensive-playstyle-being-on-the-defense.html"><a href="builder-ii-defensive-playstyle-being-on-the-defense.html"><i class="fa fa-check"></i><b>2</b> Builder II: Defensive playstyle / being on the defense</a><ul>
+<li class="chapter" data-level="2.1" data-path="builder-ii-defensive-playstyle-being-on-the-defense.html"><a href="builder-ii-defensive-playstyle-being-on-the-defense.html#what-youre-going-to-focus-on"><i class="fa fa-check"></i><b>2.1</b> What you’re going to focus on</a></li>
+<li class="chapter" data-level="2.2" data-path="builder-ii-defensive-playstyle-being-on-the-defense.html"><a href="builder-ii-defensive-playstyle-being-on-the-defense.html#resource-management"><i class="fa fa-check"></i><b>2.2</b> Resource management</a></li>
+<li class="chapter" data-level="2.3" data-path="builder-ii-defensive-playstyle-being-on-the-defense.html"><a href="builder-ii-defensive-playstyle-being-on-the-defense.html#base-expansion"><i class="fa fa-check"></i><b>2.3</b> Base expansion</a></li>
+<li class="chapter" data-level="2.4" data-path="builder-ii-defensive-playstyle-being-on-the-defense.html"><a href="builder-ii-defensive-playstyle-being-on-the-defense.html#different-functionality-of-platforms"><i class="fa fa-check"></i><b>2.4</b> Different functionality of platforms</a></li>
+<li class="chapter" data-level="2.5" data-path="builder-ii-defensive-playstyle-being-on-the-defense.html"><a href="builder-ii-defensive-playstyle-being-on-the-defense.html#setting-up-siege-on-top-of-tower"><i class="fa fa-check"></i><b>2.5</b> Setting up siege on top of tower</a></li>
+<li class="chapter" data-level="2.6" data-path="builder-ii-defensive-playstyle-being-on-the-defense.html"><a href="builder-ii-defensive-playstyle-being-on-the-defense.html#spike-dropping"><i class="fa fa-check"></i><b>2.6</b> Spike dropping</a></li>
+<li class="chapter" data-level="2.7" data-path="builder-ii-defensive-playstyle-being-on-the-defense.html"><a href="builder-ii-defensive-playstyle-being-on-the-defense.html#defending-from-rats"><i class="fa fa-check"></i><b>2.7</b> Defending from rats</a></li>
+<li class="chapter" data-level="2.8" data-path="builder-ii-defensive-playstyle-being-on-the-defense.html"><a href="builder-ii-defensive-playstyle-being-on-the-defense.html#keg-dropping"><i class="fa fa-check"></i><b>2.8</b> Keg dropping</a></li>
+<li class="chapter" data-level="2.9" data-path="builder-ii-defensive-playstyle-being-on-the-defense.html"><a href="builder-ii-defensive-playstyle-being-on-the-defense.html#being-under-siege"><i class="fa fa-check"></i><b>2.9</b> Being under siege</a></li>
+<li class="chapter" data-level="2.10" data-path="builder-ii-defensive-playstyle-being-on-the-defense.html"><a href="builder-ii-defensive-playstyle-being-on-the-defense.html#what-to-spend-money-on"><i class="fa fa-check"></i><b>2.10</b> What to spend money on</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Builder Guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="builder-ii-defensive-playstyle-being-on-the-defense" class="section level1">
+<h1><span class="header-section-number">Chapter 2</span> Builder II: Defensive playstyle / being on the defense</h1>
+<p align="center">
+<img src="imgs/pikaks.png">
+</p>
+<div id="what-youre-going-to-focus-on" class="section level2">
+<h2><span class="header-section-number">2.1</span> What you’re going to focus on</h2>
+<p>As we mentioned in the chapter earlier – defensive builders mainly stay in their base and focus on constantly making improvements, mining resources, keeping your team’s quarry running, repairing structures and protecting the tower. In this chapter we’ll mention some stuff you could do as a defensive builder.</p>
+</div>
+<div id="resource-management" class="section level2">
+<h2><span class="header-section-number">2.2</span> Resource management</h2>
+<p>As a builder, you always need materials to do something – even in a progressive or offensive playstyle. Some of your time should be spent on getting such materials.</p>
+<p>Of course, you want to have a tree farm (preferably with at least 3 trees, but the more the better) with a saw and a quarry – this will let you both get wood and stone easily. You should always cut down trees when they reach maximum height, and make sure quarries are running – you should refill them every 2 minutes (100 wood gets converted to 75 stone every 30 seconds; a quarry has a limit of 500 wood).</p>
+<p>If your tree farm doesn’t have enough trees, you should get some trees from the middle of the map – cut them down and take the seed. Small thing to keep in mind here: you’ll usually have problems with picking up and you will pick up logs instead of the seed. Hold C and move your mouse around until it says that you’re actually selecting a seed. Second small thing – a seed changes into a tree after a relatively short time, but it still shows a seed. You can’t pick it up, so you need to hit the “seed” a few times again until you can pick it up again.</p>
+<p>[GIF]</p>
+<p>Another thing to keep in mind: trees can’t grow next to each other, like in the image below. There needs to be at least 1 block gap between the seeds.</p>
+<p>[IMG]</p>
+<p>It’s good to have a storage under a quarry as mentioned in the previous chapter – if stone lays on the ground, it can decay after some time.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/quarry.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Besides quarries, you should make use of the resupplies in game time. Remember – every 20 seconds you can get additional 100 wood and 30 stone from a builder shop or a tent just by standing on it.</p>
+<p>Of course, if you want even more stone, you can just go and mine stone ore. Most of the maps have quite a bit of it, so if you don’t see any you could try digging around.</p>
+</div>
+<div id="base-expansion" class="section level2">
+<h2><span class="header-section-number">2.3</span> Base expansion</h2>
+<p>As a defensive builder, what you want to do most of the time is usually expand your base. There are different ways to expand your base.</p>
+<p>Before starting expansion, make sure that there’s a tunnel (the workshop) connecting the tent and the tower. Saves a lot of time for your teammates – it’s a must.</p>
+<p>The easiest way to base expand is to constantly add layers to your tower (the one you make in build time). There are a few ways to do it as well.</p>
+<p>First way – keep adding doors+stone block layers, such as this:</p>
+<p>[GIF]</p>
+<p>However, eventually the wall will become so thick that if one of the doors will be blocked, you will have to backtrack too much to get to the upper doors. To make movement a bit easier it’s good to make doors for moving upwards. Generally we can build 3 additional layers + doors upwards + 3 additional layers and so on. Look at gif below.</p>
+<p>[GIF]</p>
+<p>You could also do it differently and add even more doors – making it even harder for enemy builders to block them all.</p>
+<p>[GIF]</p>
+<p>You can also expand by just building what I like to call “door lettuce”. This is good especially if you have lots of wood. Basically, you keep building doors with stone blocks connecting each pair. Make sure to add some stone backwall too. This is even harder for enemy builders to block, as well as allowing good movement for your knights.</p>
+<p>[GIF]</p>
+<p>Second way is not directly expanding the tower, but making a simple wall 10-15 blocks away from the front tower and then connecting it, but without as many layers – mostly some wood and backwall. This works good on maps that are a bit bigger.</p>
+<p>[GIF] [or maybe some IMGs]</p>
+<p>After that you can just pretty much make improvements – make it taller, make the connection stronger, add aditional doors and so on.</p>
+<p>No matter what way of base expansion you’re using, you’ll eventually probably want to move the tunnel forward (to save time for your teammates), as well as place additional shops.</p>
+<p>[GIF] [or IMG?]</p>
+<p>If you have decided to finish base expansion for now you should add downward facing platforms after the doors – like this. This makes it harder for enemy builders to climb up your tower.</p>
+<p>[GIF]</p>
+<p>The 1 block gaps are for spike dropping – spikes can’t drop through platforms at all.</p>
+</div>
+<div id="different-functionality-of-platforms" class="section level2">
+<h2><span class="header-section-number">2.4</span> Different functionality of platforms</h2>
+<p>Now, one additional thing that is not really related to base expansion, but to building defences in general – using additional platforms between stone layers. As mentioned in the first chapter, when making 3-block thick walls you can put wood blocks in between to not use as much stone. However, some people put platforms, and this is kind of bad.</p>
+<p>The good thing about it is that drills overheat quicker on platforms than on normal blocks:</p>
+<p>[GIF]</p>
+<p>However, bomb arrows destroy the middle layer of platforms when they hit the outer stone layer as well. This is the con of using platforms. Doesn’t matter which directions they’re facing.</p>
+<p>[GIF - both directions]</p>
+<p>However, they can provide protection to bomb arrows in certain situations: when they’re facing away from the enemy side, like this, a bomb arrow will only damage a single platform and nothing else.</p>
+<p>[GIF]</p>
+<p>Keep in mind that even if it’s like in the gif below, a single bomb arrow still damages the platforms.</p>
+<p>[GIF]</p>
+<p>So, as you can see – although platforms are good against drills, they’re not that good against bomb arrows in most of the situations. However, if you want to stop base expanding, then an outer layer consisting solely of platforms would be a good idea.</p>
+<p>[IMG]</p>
+<p>They’re also viable for blocking tunnels – it’s very unlikely for enemy archers to use bomb arrows in tunnels, so you can block tunnels by using platforms between stone layers.</p>
+<p>[IMG]</p>
+<p>You can also use them on skybridges or ledges (when facing downwards), like in the image below – any bomb arrows that will hit the platforms will only damage a single platform and not do much damage to the ledge.</p>
+<p>[IMG]</p>
+<p>Comparison – with platforms and without:</p>
+<p>[GIF]</p>
+</div>
+<div id="setting-up-siege-on-top-of-tower" class="section level2">
+<h2><span class="header-section-number">2.5</span> Setting up siege on top of tower</h2>
+<p>It’s good to have a ballista on top of your tower. As mentioned in previous chapter, you can buy one for 200 coins from the siege shop. Ballistas can shoot explosive bolts (if you bought the upgrade) and let people respawn on it when they die.</p>
+<p>First, you want to make a small (or a bit bigger – depends on how far you want it to be able to shoot) ledge on top of your tower. Put some wooden blocks, and then 2 layers of stone blocks on top of it (wooden blocks provide more support than stone blocks, letting you build further)</p>
+<p>[GIF]</p>
+<p>Generally, if you plan to shoot bolts from the ballista, you should encase it with platforms (and stone backwall!) like in the gif below:</p>
+<p>[GIF]</p>
+<p>This provides some defence from enemy bomb arrows, as well as from enemy knights that may bomb jump to your tower.</p>
+<p>However, if you do not have explosive bolts or the bolts wouldn’t do any damage to enemy structures, you want to encase your ballista in some thicker stone block defences, such as in the image below. Also, it’s better to just do it on top of your tower instead of on a ledge – because a ledge can be collapsed.</p>
+<p>[IMG]</p>
+<p>People will still be able to respawn and it’ll be very hard for enemies to damage a ballista like this.</p>
+<p>Next, you want a catapult (80 coins, siege shop). Same thing applies – make a ledge, use platforms for defense from enemy bomb arrows or knights.</p>
+<p>[IMG]</p>
+<p>Knights are likely to make use of your catapult – if you see any knight get into the bowl, you should launch them. This is one of the most useful things a defensive builder can do for their team – constantly launch knights to the enemy side.</p>
+<p>Another thing you could do is set up a chicken farm – make a small room like the image below, and put a few eggs there (buy them from a food shop). Make sure the eggs are in a seperate location than a food shop (preferably with only 1 door to them), so that your knights don’t kill them acidentally. Chickens will eventually hatch from the eggs, and then breed and produce even more eggs. Knights (as well as offensive builders) will be able to fly even further from the catapult if they will hold chickens.</p>
+<p>[IMG]</p>
+</div>
+<div id="spike-dropping" class="section level2">
+<h2><span class="header-section-number">2.6</span> Spike dropping</h2>
+<p>Although spikes are fairly expensive (30 stone) they’re a good tool to protect your base from incoming enemies. The idea is to drop a spike if any enemies (especially a builder) get near your tower.</p>
+<p>[GIF]</p>
+<p>Remember that spikes can be dropped if they’re placed on a backwall or next to doors or platforms. Keep in mind that spikes can’t be dropped through platforms (which is why the tower downward-facing platforms mentioned earlier have gaps).</p>
+<p>[GIF]</p>
+<p>Another thing you can do is set up a spike trampoline. Spikes bounce off trampolines as well, like in the gif below.</p>
+<p>[GIF]</p>
+<p>The idea is setting up a trampoline on top of your tower at an angle so that the spikes would be bounced off to mid or enemy territory. The spikes will instakill any player – both teammates and enemies.</p>
+<p>[GIF]</p>
+<p>This is a pretty fun way to kill people, but not that useful – the stone would probably be better used for some base expansion, although if you find it fun then go ahead (just don’t waste 300 stone in 10 seconds please!, especially if you’re not the builder keeping your quarry running)</p>
+</div>
+<div id="defending-from-rats" class="section level2">
+<h2><span class="header-section-number">2.7</span> Defending from rats</h2>
+<p>Rats (underground tunneling builders) can be unexpected and can cause your team to quickly lose, even if your team was doing fine and had control of mid. As a defensive builder you should always pay attention to the minimap and see if there are any suspicious tunnels being made under the mid or your base.</p>
+<p>[GIF of minimap – someone ratting]</p>
+<p>Firstly, if you notice any rats coming near your base you should alert your team in the chat – it’s much safer to have some knight support.</p>
+<p>Secondly, buy a drill and a mine (or more than one). The best way to deal with rats is to have lots of mines in your base – even if the enemies destroy them, mines will slow them down.</p>
+<p>If the rats start ratting upwards towards your flag or part of your base, you can kill them with a mine. The idea is to place it on the ground and wait for the mine to deploy, then start drilling downwards to the enemies with the mine falling down, like in the gif below.</p>
+<p>[GIF]</p>
+<p>It’s also a good tactic against underground tunnels (the building) – drilling down to them with a mine.</p>
+<p>[GIF]</p>
+<p>Sometimes you can notice that there’s an underground tunnel because the travelling enemy’s character appears on your screen for a very short while, even if it’s in a dark spot.</p>
+<p>[GIF]</p>
+<p>If you are fighting against rats at a horizontal level, you should keep spamming doors and hope that knights will be able to kill them.</p>
+<p>[GIF]</p>
+<p>It’s good to take a lantern with you as well, in order to increase your knights’ visibility.</p>
+<p>[GIF]</p>
+<p>After you’ve dealt with the rats, you should deal with the tunnel they dug. If the tunnel will be of any use to your team, put lots of doors in it as well as mines (if you don’t have money – get lanterns instead so that you can see if any enemies will try to use it again).</p>
+<p>[IMG]</p>
+<p>[IMG 2]</p>
+<p>If the tunnel won’t be of use, you should block it with stone and platforms. Platforms are good for this because of the functionality mentioned earlier – enemy builders’ drills will overheat faster on them.</p>
+<p>[GIF]</p>
+</div>
+<div id="keg-dropping" class="section level2">
+<h2><span class="header-section-number">2.8</span> Keg dropping</h2>
+<p>Although you’re a defensive builder, there are certain situations where it’d be better for you to change to knight and drop a keg to protect your tower. This is usually when enemies start getting into the bottom of your tower and they have placed protection from spikes (or if you’re unable to spikedrop them for any other reason), as well as if there are no knights to kill them. Since building gives you a lot of coins, you can change to knight at a knight shop and buy a keg (120 coins), then light it and drop it at the enemies like in the gif below.</p>
+<p>[GIF]</p>
+<p>Sometimes a good knight can catch the keg, so you can also suicide with it (jump and drop it right before falling to the ground)</p>
+<p>[GIF]</p>
+<p>Remember that only knights can light kegs.</p>
+</div>
+<div id="being-under-siege" class="section level2">
+<h2><span class="header-section-number">2.9</span> Being under siege</h2>
+<p>If enemies are launching knights from catapults, it’d be good to make a wall that would stop the knights from getting over the tower, even if it’s made from wood and only 1 block thick (although you should add some backwall to it as soon as possible).</p>
+<p>[GIF]</p>
+<p>If there’s no way to prevent the enemies from coming into your base, you should either change to knight and try to kill any incoming enemies, or change to archer and try to shoot a bomb arrow (50 coins, archer shop) at the enemy catapult.</p>
+<p>[GIF]</p>
+<p>Knights usually will land on the same spot of the wall on full catapult power, so if you see where they land you can place a spike on a wooden block there to damage them and make them fall down.</p>
+<p>If you’re under siege from ballista explosive bolts, you can also try to shoot bomb arrows at it (keep in mind ballistas get destroyed after two bomb arrows, not one like catapults). If that’s not possible, you should just constantly repair the part of your tower/base that is being hit by explosive bolts, even if only with wood.</p>
+<p>[GIF]</p>
+<p>Another thing you can do is change to knight and slash the ballista bolts, although this requires good timing to make sure you don’t get hit.</p>
+<p>[GIF]</p>
+</div>
+<div id="what-to-spend-money-on" class="section level2">
+<h2><span class="header-section-number">2.10</span> What to spend money on</h2>
+<p>Since you’re playing as a defensive builder, you’re likely to not die often and get a lot of coins for building. There are a few ways on how to spend the money.</p>
+<p>The first thing you want to buy is siege – a catapult and a ballista. As mentioned earlier, you could also spend coins to buy a lot of eggs and set up a chicken farm for launching your knights from the catapult further.</p>
+<p>If you have upgraded ballista bolts and they actually hit the enemy tower, you could keep buying additional bolts to fire from the ballista (100 coins for 6 explosive bolts in the siege shop – one explosive bolt needs 2 standard bolts)</p>
+<p>After you buy these, you can pretty much only buy items for other players if you want to keep playing as a defensive builder. A good tactic is buying a lot of kegs at once next to your catapult and then launch your knights with them.</p>
+<p>If there’s not that much space between your tower and the enemy tower, you could also make an archer shop and spam some bomb arrows at the opposing team’s structures.</p>
+<p>[GIF]</p>
+<p>You can also buy mines and then ask your teammates to take them and put them somewhere near enemy structures.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="builder-i-the-basics.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "night",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/deynarde/kag-builder-guide/blob/master/02-defense.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

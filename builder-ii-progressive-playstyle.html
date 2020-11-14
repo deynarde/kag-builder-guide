@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 3 Builder II: Progressive playstyle | Builder Guide</title>
+  <meta name="description" content="A KAG builder guide for both new and experienced players." />
+  <meta name="generator" content="bookdown 0.18.3 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 3 Builder II: Progressive playstyle | Builder Guide" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="A KAG builder guide for both new and experienced players." />
+  <meta name="github-repo" content="deynarde/kag-builder-guide" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 3 Builder II: Progressive playstyle | Builder Guide" />
+  
+  <meta name="twitter:description" content="A KAG builder guide for both new and experienced players." />
+  
+
+<meta name="author" content="by Bunnie" />
+
+
+<meta name="date" content="2020-09-05" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="builder-ii-defensive-playstyle.html"/>
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Builder Guide</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html"><i class="fa fa-check"></i><b>1</b> Builder I: The Basics</a><ul>
+<li class="chapter" data-level="1.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#the-builder-class"><i class="fa fa-check"></i><b>1.1</b> The builder class</a></li>
+<li class="chapter" data-level="1.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#getting-materials"><i class="fa fa-check"></i><b>1.2</b> Getting materials</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone"><i class="fa fa-check"></i><b>1.2.1</b> Stone</a></li>
+<li class="chapter" data-level="1.2.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#gold"><i class="fa fa-check"></i><b>1.2.2</b> Gold</a></li>
+<li class="chapter" data-level="1.2.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood"><i class="fa fa-check"></i><b>1.2.3</b> Wood</a></li>
+<li class="chapter" data-level="1.2.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#resupplies"><i class="fa fa-check"></i><b>1.2.4</b> Resupplies</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#your-building-menu"><i class="fa fa-check"></i><b>1.3</b> Your building menu</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone-block"><i class="fa fa-check"></i><b>1.3.1</b> Stone block</a></li>
+<li class="chapter" data-level="1.3.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone-backwall"><i class="fa fa-check"></i><b>1.3.2</b> Stone backwall</a></li>
+<li class="chapter" data-level="1.3.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone-door"><i class="fa fa-check"></i><b>1.3.3</b> Stone door</a></li>
+<li class="chapter" data-level="1.3.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood-block"><i class="fa fa-check"></i><b>1.3.4</b> Wood block</a></li>
+<li class="chapter" data-level="1.3.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood-backwall"><i class="fa fa-check"></i><b>1.3.5</b> Wood backwall</a></li>
+<li class="chapter" data-level="1.3.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood-door"><i class="fa fa-check"></i><b>1.3.6</b> Wood door</a></li>
+<li class="chapter" data-level="1.3.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#trapblock"><i class="fa fa-check"></i><b>1.3.7</b> Trapblock</a></li>
+<li class="chapter" data-level="1.3.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#ladder"><i class="fa fa-check"></i><b>1.3.8</b> Ladder</a></li>
+<li class="chapter" data-level="1.3.9" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#platform"><i class="fa fa-check"></i><b>1.3.9</b> Platform</a></li>
+<li class="chapter" data-level="1.3.10" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#workshop"><i class="fa fa-check"></i><b>1.3.10</b> Workshop</a></li>
+<li class="chapter" data-level="1.3.11" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#spikes"><i class="fa fa-check"></i><b>1.3.11</b> Spikes</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#workshops-items-siege"><i class="fa fa-check"></i><b>1.4</b> Workshops, items, siege</a><ul>
+<li class="chapter" data-level="1.4.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#builder-shop"><i class="fa fa-check"></i><b>1.4.1</b> Builder shop</a></li>
+<li class="chapter" data-level="1.4.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#quarters"><i class="fa fa-check"></i><b>1.4.2</b> Quarters</a></li>
+<li class="chapter" data-level="1.4.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#knight-shop"><i class="fa fa-check"></i><b>1.4.3</b> Knight shop</a></li>
+<li class="chapter" data-level="1.4.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#archer-shop"><i class="fa fa-check"></i><b>1.4.4</b> Archer shop</a></li>
+<li class="chapter" data-level="1.4.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#naval-shop"><i class="fa fa-check"></i><b>1.4.5</b> Naval shop</a></li>
+<li class="chapter" data-level="1.4.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#siege-shop"><i class="fa fa-check"></i><b>1.4.6</b> Siege shop</a></li>
+<li class="chapter" data-level="1.4.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#storage"><i class="fa fa-check"></i><b>1.4.7</b> Storage</a></li>
+<li class="chapter" data-level="1.4.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#tunnel"><i class="fa fa-check"></i><b>1.4.8</b> Tunnel</a></li>
+<li class="chapter" data-level="1.4.9" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#quarry"><i class="fa fa-check"></i><b>1.4.9</b> Quarry</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#building-a-base"><i class="fa fa-check"></i><b>1.5</b> Building a base</a><ul>
+<li class="chapter" data-level="1.5.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#a-front-tower"><i class="fa fa-check"></i><b>1.5.1</b> A front tower</a></li>
+<li class="chapter" data-level="1.5.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#flag-rooms"><i class="fa fa-check"></i><b>1.5.2</b> Flag rooms</a></li>
+<li class="chapter" data-level="1.5.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#tunnels"><i class="fa fa-check"></i><b>1.5.3</b> Tunnels</a></li>
+<li class="chapter" data-level="1.5.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#tree-farm"><i class="fa fa-check"></i><b>1.5.4</b> Tree farm</a></li>
+<li class="chapter" data-level="1.5.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#shops"><i class="fa fa-check"></i><b>1.5.5</b> Shops</a></li>
+</ul></li>
+<li class="chapter" data-level="1.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#block-support-wood-and-stone-blocks"><i class="fa fa-check"></i><b>1.6</b> Block support – wood and stone blocks</a></li>
+<li class="chapter" data-level="1.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#common-mistakes"><i class="fa fa-check"></i><b>1.7</b> Common mistakes</a><ul>
+<li class="chapter" data-level="1.7.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#leaving-shops-in-the-open"><i class="fa fa-check"></i><b>1.7.1</b> Leaving shops in the open</a></li>
+<li class="chapter" data-level="1.7.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#overusing-stone-doors"><i class="fa fa-check"></i><b>1.7.2</b> Overusing stone doors</a></li>
+<li class="chapter" data-level="1.7.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#overusing-wood-not-placing-stone-backwall"><i class="fa fa-check"></i><b>1.7.3</b> Overusing wood, not placing stone backwall</a></li>
+<li class="chapter" data-level="1.7.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#awkward-top-doors"><i class="fa fa-check"></i><b>1.7.4</b> Awkward top doors</a></li>
+<li class="chapter" data-level="1.7.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#awkward-movement-in-general"><i class="fa fa-check"></i><b>1.7.5</b> Awkward movement in general</a></li>
+<li class="chapter" data-level="1.7.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#not-enough-doors"><i class="fa fa-check"></i><b>1.7.6</b> Not enough doors</a></li>
+<li class="chapter" data-level="1.7.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#certain-shops-at-the-bottom-of-the-tower"><i class="fa fa-check"></i><b>1.7.7</b> Certain shops at the bottom of the tower</a></li>
+<li class="chapter" data-level="1.7.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#bad-trapblock-placement-bad-traps-dirt-spikes"><i class="fa fa-check"></i><b>1.7.8</b> Bad trapblock placement, bad traps, dirt spikes</a></li>
+<li class="chapter" data-level="1.7.9" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#putting-a-saw-in-the-flag-room"><i class="fa fa-check"></i><b>1.7.9</b> Putting a saw in the flag room</a></li>
+</ul></li>
+<li class="chapter" data-level="1.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#progressing-to-victory"><i class="fa fa-check"></i><b>1.8</b> Progressing to victory</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html"><i class="fa fa-check"></i><b>2</b> Builder II: Defensive playstyle</a><ul>
+<li class="chapter" data-level="2.1" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#what-youre-going-to-focus-on"><i class="fa fa-check"></i><b>2.1</b> What you’re going to focus on</a></li>
+<li class="chapter" data-level="2.2" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#resource-management"><i class="fa fa-check"></i><b>2.2</b> Resource management</a></li>
+<li class="chapter" data-level="2.3" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#base-expansion"><i class="fa fa-check"></i><b>2.3</b> Base expansion</a></li>
+<li class="chapter" data-level="2.4" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#different-functionality-of-platforms"><i class="fa fa-check"></i><b>2.4</b> Different functionality of platforms</a></li>
+<li class="chapter" data-level="2.5" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#setting-up-siege-on-top-of-tower"><i class="fa fa-check"></i><b>2.5</b> Setting up siege on top of tower</a></li>
+<li class="chapter" data-level="2.6" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#spike-dropping"><i class="fa fa-check"></i><b>2.6</b> Spike dropping</a></li>
+<li class="chapter" data-level="2.7" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#defending-from-rats"><i class="fa fa-check"></i><b>2.7</b> Defending from rats</a></li>
+<li class="chapter" data-level="2.8" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#keg-dropping"><i class="fa fa-check"></i><b>2.8</b> Keg dropping</a></li>
+<li class="chapter" data-level="2.9" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#being-under-siege"><i class="fa fa-check"></i><b>2.9</b> Being under siege</a></li>
+<li class="chapter" data-level="2.10" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#what-to-spend-money-on"><i class="fa fa-check"></i><b>2.10</b> What to spend money on</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="builder-ii-progressive-playstyle.html"><a href="builder-ii-progressive-playstyle.html"><i class="fa fa-check"></i><b>3</b> Builder II: Progressive playstyle</a><ul>
+<li class="chapter" data-level="3.1" data-path="builder-ii-progressive-playstyle.html"><a href="builder-ii-progressive-playstyle.html#what-youre-going-to-focus-on-1"><i class="fa fa-check"></i><b>3.1</b> What you’re going to focus on</a></li>
+<li class="chapter" data-level="3.2" data-path="builder-ii-progressive-playstyle.html"><a href="builder-ii-progressive-playstyle.html#mid-control"><i class="fa fa-check"></i><b>3.2</b> Mid control</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="builder-ii-progressive-playstyle.html"><a href="builder-ii-progressive-playstyle.html#start-of-the-match"><i class="fa fa-check"></i><b>3.2.1</b> Start of the match</a></li>
+<li class="chapter" data-level="3.2.2" data-path="builder-ii-progressive-playstyle.html"><a href="builder-ii-progressive-playstyle.html#upkeep-and-further-expansion"><i class="fa fa-check"></i><b>3.2.2</b> Upkeep and further expansion</a></li>
+<li class="chapter" data-level="3.2.3" data-path="builder-ii-progressive-playstyle.html"><a href="builder-ii-progressive-playstyle.html#taking-mid-from-the-enemies"><i class="fa fa-check"></i><b>3.2.3</b> Taking mid from the enemies</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="builder-ii-progressive-playstyle.html"><a href="builder-ii-progressive-playstyle.html#ratting"><i class="fa fa-check"></i><b>3.3</b> Ratting</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="builder-ii-progressive-playstyle.html"><a href="builder-ii-progressive-playstyle.html#where-to-start-making-your-rat-tunnel-and-how-deep-should-it-be"><i class="fa fa-check"></i><b>3.3.1</b> Where to start making your rat tunnel and how deep should it be</a></li>
+<li class="chapter" data-level="3.3.2" data-path="builder-ii-progressive-playstyle.html"><a href="builder-ii-progressive-playstyle.html#when-to-rat"><i class="fa fa-check"></i><b>3.3.2</b> When to rat</a></li>
+<li class="chapter" data-level="3.3.3" data-path="builder-ii-progressive-playstyle.html"><a href="builder-ii-progressive-playstyle.html#stealthy-ratting-or-not"><i class="fa fa-check"></i><b>3.3.3</b> Stealthy ratting or not?</a></li>
+<li class="chapter" data-level="3.3.4" data-path="builder-ii-progressive-playstyle.html"><a href="builder-ii-progressive-playstyle.html#managing-your-rat-tunnel"><i class="fa fa-check"></i><b>3.3.4</b> Managing your rat tunnel</a></li>
+<li class="chapter" data-level="3.3.5" data-path="builder-ii-progressive-playstyle.html"><a href="builder-ii-progressive-playstyle.html#placing-a-tunnel"><i class="fa fa-check"></i><b>3.3.5</b> Placing a tunnel</a></li>
+<li class="chapter" data-level="3.3.6" data-path="builder-ii-progressive-playstyle.html"><a href="builder-ii-progressive-playstyle.html#using-a-drill"><i class="fa fa-check"></i><b>3.3.6</b> Using a drill</a></li>
+<li class="chapter" data-level="3.3.7" data-path="builder-ii-progressive-playstyle.html"><a href="builder-ii-progressive-playstyle.html#doorfights"><i class="fa fa-check"></i><b>3.3.7</b> Doorfights</a></li>
+<li class="chapter" data-level="3.3.8" data-path="builder-ii-progressive-playstyle.html"><a href="builder-ii-progressive-playstyle.html#getting-to-the-flagroom"><i class="fa fa-check"></i><b>3.3.8</b> Getting to the flagroom</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="builder-ii-progressive-playstyle.html"><a href="builder-ii-progressive-playstyle.html#coin-farming-again"><i class="fa fa-check"></i><b>3.4</b> Coin farming (again)</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Builder Guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="builder-ii-progressive-playstyle" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> Builder II: Progressive playstyle</h1>
+<p align="center">
+<img src="imgs/pikaks.png">
+</p>
+<div id="what-youre-going-to-focus-on-1" class="section level2">
+<h2><span class="header-section-number">3.1</span> What you’re going to focus on</h2>
+<p>Progressive builders mainly focus on gaining and keeping control of the middle of the map, and then on helping their team damage enemy structures. You can also think of coin-farmers and rats as progressive builders – unlike offensive opportunistic builders, they plan their actions over time.</p>
+</div>
+<div id="mid-control" class="section level2">
+<h2><span class="header-section-number">3.2</span> Mid control</h2>
+<div id="start-of-the-match" class="section level3">
+<h3><span class="header-section-number">3.2.1</span> Start of the match</h3>
+<p>Having control of the middle is very important for the team – your team can attack the enemy tower better and quicker if they’re able to quickly travel to mid with a tunnel.</p>
+<p>The first thing you want to do when the build time over is to get to mid as a builder and place a tunnel (make sure you have one next to your tent first! – preferably with a sawtrap). Prepare some materials before the build time ends – <strong>at least 250 stone</strong> (100 stone for the tunnel + defences) and some wood (<strong>at least 400</strong> – 200 for tunnel and the rest for doors). The more mats – the better. You can also take gold if you have some to be able to build it quicker (50 gold), and if not – you will dig the gold out at mid. You can also take a drill if you’d like to mine out/dig out some parts of the mid faster.</p>
+<p>[GIF – setting up mid]</p>
+<p>As you can see in the gif above, first we want to quickly make a workshop somewhere in the middle of the map and then build defenses for it – doors (with at least one stone door) and stone blocks. If the middle of the map has any underground spots, build the tunnel here – dirt acts well as a natural defense against kegs and such. If the middle is flat, make sure there’s enough stone blocks so that a good knight won’t quickly get into the tunnel with explosives.</p>
+</div>
+<div id="upkeep-and-further-expansion" class="section level3">
+<h3><span class="header-section-number">3.2.2</span> Upkeep and further expansion</h3>
+<p>Once the tunnel is built, you want to upkeep control of mid. Go back to your tent to get some materials from the storage (or just dig some more if there’s none in the storage) You should turn your mid base into basically your second front tower – add some shops (especially food shop and knight shop) and a front wall with lots of doors and maybe some platforms. Some images of decent mid bases are below.</p>
+<p>[IMG]</p>
+<p>[IMG]</p>
+<p>You should eventually buy a ballista for quicker respawn as well. Make sure it has lots of protection so that the enemies don’t destroy or capture it easily. You can put it in the same spot as the tunnel (if you don’t plan to fire it at the enemies). Ballistas need 5x5 blocks of space.</p>
+<p>[IMG]</p>
+<p>If the map is small enough, you could also just connect the mid base with your front tower (similar to how defensive base expansion explained in previous chapter works). This will make it even harder for the enemies to take it back.</p>
+<p>[IMG]</p>
+<p>Since mid is just pretty much your second front tower – all of the stuff from the previous chapter applies here, including using spikes, keg dropping, base expansion and so on. One difference is that you’re going to have to repair much more often and fight more enemies, and sometimes you probably should change to knight if your team isn’t doing very well. Mine spam is advised as well.</p>
+<p>Depending on how big the map is, you may also want to have siege on top of your mid base – ballista with explosive bolts and catapult for launching knights.</p>
+</div>
+<div id="taking-mid-from-the-enemies" class="section level3">
+<h3><span class="header-section-number">3.2.3</span> Taking mid from the enemies</h3>
+<p>Sometimes the mid rush at the start of the game can fail and the enemy team could take mid. At that point, your goal as a progressive builder is to pretty much take control of mid. This will require you to be a bit aggressive, and even though combat is mostly going to be mentioned in the next chapter, it’s good that you know some basics.</p>
+<p>First of all, the first step to taking control of mid is destroying or capturing the enemy’s ballista (for respawn) or the tunnel (used for quick travel). You should look at what the mid base looks like – what are its weaknesses, how many doors does it have, and what would be the easiest way to get into the tunnel.</p>
+<p>Here’s some analysises of a mid base:</p>
+<p>[IMG example 1]</p>
+<p>[analysis]</p>
+<p>[img example 2]</p>
+<p>[analysis]</p>
+<p>[img exmaple 3]</p>
+<p>[analysis]</p>
+<p>It’s hard to take a mid base entirely by yourself – the CTF mode is a team mode after all. First, you need to pay attention to how your knights are doing. Whenever some skirmishes near mid base happens, you should wait and see which team gains advantage. You should start pushing mid as soon as you see that your knights &amp; archers are winning the fight.</p>
+<p>[GIF]</p>
+<p>When pushing any enemy structure, speed is important. Unless the mid base is sparsely protected with only a few doors, you probably always want to have a drill for faster digging. This may require you to mine out some stone sometimes or make use of your quarry, or wait for more resupplies.</p>
+<p>Keep in mind that <strong>you generally do not want to drill doors</strong>. They overheat the drill too quickly – you should destroy almost all doors by hand (unless you need to destroy them really quickly to avoid getting killed by the enemy). Same for platforms. However, you should drill out solid blocks.</p>
+<p>Try to select a path that will be the least dangerous (even if it means getting to enemy tunnel a bit slower). For example, if a tunnel is underground like in the image below – in most cases you should not just go above it and try getting through all these enemy defenses. Going through the dirt by ratting, even if a bit slow, is more likely to get you success.</p>
+<p>Of course, you’re not likely to instantly succeed after your first try. The point is to keep putting pressure on the enemies and not let them have too much time to repair, eventually letting you retake mid.</p>
+<p>When you finally get to the enemy ballista or tunnel, first you want to make doors for your knights. Spamming doors when taking any enemy structure is very important. They’re very helpful to your knights. Of course, this also means that you <strong>want to have lots of wood when pushing</strong>. You should make the doors right next to the tunnel so that the enemies can’t block them, like in the gif below.</p>
+<p>[GIF]</p>
+<p>You want to block all enemy doors. If you have knights with you, enemies that will travel by the tunnel will be quickly killed by them due to stun from travelling, and dead enemies won’t be able to respawn on a ballista that is being captured. However, other enemy knights that are in other parts of mid may be able to still kill you. If there’s some space between the tunnel itself and enemy doors – just block them with stone blocks (don’t use doors – your knights may open them accidentally). In most cases there won’t be any space between entrances and the tunnel, so you want to remove one door from each pair as fast as possible and quickly place a stone block.</p>
+<p>[GIF]</p>
+<p>If you see any enemy knights coming and you know that you won’t be able to block them fast enough, you should retreat behind your own doors and let your knights handle the situation.</p>
+<p>Either way, you should help your knight with destroying the tunnel – although slashes do a lot of damage to a tunnel, drilling a tunnel is still going to be very helpful.</p>
+<p>[GIF]</p>
+<p>After the tunnel is destroyed, you have 2 options regarding what to do. If it’s relatively safe around and you have protection, you can make your own tunnel in the place of the old enemy one, and then slowly retake the rest of the mid base. Of course, it depends on how big the mid base actually is – if it’s just a few layers of stone blocks and some doors, this shouldn’t be hard to do.</p>
+<p>However, if the mid base is rather big and there are still lots of enemies around, making your own tunnel wouldn’t be that good of an idea. In this case you may want to take the gold that the destroyed tunnel dropped and take it to your base’s storage – although gold isn’t that rare on some maps, taking it away from the enemies will be an annoyance to them.</p>
+<p>Example video of taking control of mid base:</p>
+<p>[link to video]</p>
+<p>Of course, this may all seem a bit confusing to a less advanced builder. Don’t worry – playing offensive requires more practice than theory. Eventually you’ll instinctually know how you should react to certain situations and what you should do – you can treat this section as some good general advice that you should keep in mind when pushing. Keep practicing and don’t give up.</p>
+</div>
+</div>
+<div id="ratting" class="section level2">
+<h2><span class="header-section-number">3.3</span> Ratting</h2>
+<p>Ratting – tunneling underground as a builder – is a major tactic in KAG, viable on almost all the maps. Although some consider it a cheesy tactic, if done well a proper rat attempt can end an hour-long stalemate, even if your team was losing. It’s time-consuming, but also hard to counter.</p>
+<div id="where-to-start-making-your-rat-tunnel-and-how-deep-should-it-be" class="section level3">
+<h3><span class="header-section-number">3.3.1</span> Where to start making your rat tunnel and how deep should it be</h3>
+<p>It’s important to pick a good spot for starting your rat tunnel. First, it depends on where you want to rat to and if you control mid. If you want to rat to the enemy flag + you have control of mid, then starting the tunnel from under your own tower would be pointless.</p>
+<p>Moreover, if your tunneling attempt fails, enemies will be able to take the tunnel and use it against you. Which means that you don’t want to start it next to a flag. Starting it next to your tent is also pointless – you’re going to waste time on digging through an area that entirely belongs to your team.</p>
+<p>If you have mid, you should start making your tunnel somewhere there. It depends on how much you plan to be ratting for and if you’d rather be safer than faster, as well as on the amount of blocks you’ll need to dig out to get to enemy territory. Still, be careful – if the enemies will take the tunnel, they’ll gain access to middle of the map.</p>
+<p>Generally, if you’re not going to be ratting that far (on small maps), you don’t need to go that deep. However, for bigger maps, you could choose to go as deep as possible – so that the enemies have a harder time countering you from above. Ratting only 4-5 blocks deep is also viable, and if successful you will get to your destination faster, but it’s also easier to counter.</p>
+</div>
+<div id="when-to-rat" class="section level3">
+<h3><span class="header-section-number">3.3.2</span> When to rat</h3>
+<p>You don’t really need to rat on every map every time – especially if your team is doing very well overground. Keep in mind that ratting can split your team – if other builders start coming with you, and eventually also knights, there will be less people to attack the enemy tower above the ground as well as less people to protect your mid base. Sometimes it’s better to keep putting on pressure rather than start ratting. Ratting can take a long time as well, especially if your first attempt fails and you want to keep going on.</p>
+</div>
+<div id="stealthy-ratting-or-not" class="section level3">
+<h3><span class="header-section-number">3.3.3</span> Stealthy ratting or not?</h3>
+<p>If you want to be stealthy (at least for some time), there are obviously some things you shouldn’t do that will make you visible for the enemies, for example:</p>
+<ul>
+<li>Using a lantern – makes you visible to pretty much everyone</li>
+<li>Using emotes</li>
+<li>Typing outside of team chat – typing in general chat by pressing T makes a chat bubble. This does not happen if you use team chat instead (clicking Y instead).</li>
+</ul>
+<p>Although that’s obvious, the question is if you even want to be stealthy. As mentioned in the previous chapter, you can easily see on the minimap if there’s a rat tunnel. It’s not that hard to notice enemy tunnels. Using a drill is also a massive advantage – it speeds up the process a lot if done well (will be explained soon), but it also produces light and make the tunnel more noticable to enemies.</p>
+<p>Moreover – sometimes you actually want your ratting to be noticed. Using emotes and letting the entire enemy team know that you’re ratting can cause a lot of enemies to focus on you and try to counter the tunneling, while not paying as much attention to the rest of their base. Diversive tunnels are a great tactic – especially if you can keep defending the tunnel for as long as possible, getting as many enemies as possible to you.</p>
+<p>[GIF]</p>
+</div>
+<div id="managing-your-rat-tunnel" class="section level3">
+<h3><span class="header-section-number">3.3.4</span> Managing your rat tunnel</h3>
+<p>First, you want to place a builder shop at the bottom of the tunnel. You can return to it every 20 seconds to get resupplies. You may also want to place a knight shop. It’s good to place a lot of mines in case the enemies take the tunnel. You should also obviously spam lots of doors – the more wood you have the better. Remember to put stone backwall behind all doors.</p>
+<p>Tunnels are one of the only places where a trap could actually be effective as well (since it’s dark). You could place a trap somewhere in there as well – a saw and a trapblock.</p>
+<p>[IMG]</p>
+</div>
+<div id="placing-a-tunnel" class="section level3">
+<h3><span class="header-section-number">3.3.5</span> Placing a tunnel</h3>
+<p>Eventually, if you get closer to your destination – for example, somewhere close to the flag, you should place a tunnel for faster travel. Of course, you need to have gold, stone and wood for it first, which is why you should prepare some materials (especially gold, you can eventually get 100 stone from resupplies on a builder shop but bringing some is good too) before starting ratting.</p>
+<p>[IMG]</p>
+<p>This will let reinforcements arrive quickly (knights) as well as allow you to get to base quicker after you take the flag. Make sure to place lots of doors around the tunnel.</p>
+<p>At that point the enemies will probably already have noticed you and will start anti-ratting efforts. If you’re lacking knight support, you should definitely mention that in the chat (preferably in team chat).</p>
+</div>
+<div id="using-a-drill" class="section level3">
+<h3><span class="header-section-number">3.3.6</span> Using a drill</h3>
+<p>Drilling makes making long rat tunnels much easier due to how much faster you can dig through the ground, especially if it’s 2 or more builders drilling. Drills obviously will overheat somewhat quickly, but that’s not a problem. The other reason for why we want a builder shop near is so that we can constantly buy water buckets. One water bucket can produce 3 water splashes (as mentioned in first chapter, press left mouse button while holding one to do that) which will instantly cool down the drill. The idea is to get a drill and use a water bucket on it as soon as it overheats. If you have a knight with you, you should ask him to pick up water buckets after you buy them and use them. If you’re ratting solo, you can do it yourself.</p>
+<p>[GIF]</p>
+<p>Despite making you easily noticable to enemies, this can make ratting a much more stronger tactic. I do this almost always whenever I decide to rat (although I mostly play as an offensive builder overground).</p>
+</div>
+<div id="doorfights" class="section level3">
+<h3><span class="header-section-number">3.3.7</span> Doorfights</h3>
+<p>As mentioned in the earlier chapter, doorfights can happen – this is when both teams spam doors next to each other and try to destroy the opposing doors, as well as kill the enemies.</p>
+<p>When it gets to the point of a doorfight, you can’t do that much besides relying on your knights. If there’s a builder shop near you should get a lantern – since the enemies already know you’re here, it’ll just increase your knights’ visibility. You should also spam doors and be careful to not die – if you see that any of your knights is going to open your doors and attempt to kill the enemies, you should back off to not die.</p>
+<p>[GIF]</p>
+<p>One thing you can do is going around. For example, in the image below you could drill two blocks up or down and then to the side. After that you could attempt to block the enemies and have your knights directly attack them or keep going to the enemy flag while defending from enemies at the same time.</p>
+<p>[GIF]</p>
+<p>You can also place a mine in your door and then wait for enemies to get to it. Sometimes they won’t notice it and will walk into it, instantly dying.</p>
+<p>[GIF]</p>
+</div>
+<div id="getting-to-the-flagroom" class="section level3">
+<h3><span class="header-section-number">3.3.8</span> Getting to the flagroom</h3>
+<p>Getting to the flagroom can be quite tricky due to enemy knight slash angles.</p>
+<p>Basically, when you’re ratting upwards like in the image below, and the flagroom has no doors on the part where you’re ratting, you will have to destroy the two blocks in the red square in the image below to get to the flagroom.</p>
+<p>[IMG]</p>
+<p>However, this is quite problematic – because after you destroy the first two blocks, place doors and go up, enemy knights in the flagroom would be able to slash you if you’re in a place like this:</p>
+<p>[GIF]</p>
+<p>You could now say – don’t place the doors then and try to destroy the blocks from a distance where knights wouldn’t be able to slash you, like in the gif below.</p>
+<p>[GIF]</p>
+<p>However, this is viable only if there are no enemy builders in the enemy flag room – if you don’t place doors they will just place stone blocks there or their own doors.</p>
+<p>What you want to do is go slightly to the side so that you can replace enemy stone blocks with doors without getting damaged by the enemy knights, like in the gif below.</p>
+<p>[GIF]</p>
+<p>Of course, sometimes flag rooms have entrances from both sides. That’s a bit harder to rat to because it’s easier for the enemies to kill you. In this case you need to mostly rely on your knights to kill the enemies. You can also try to damage enemy doors in between enemy slashes.</p>
+<p>[GIF]</p>
+<p>Sometimes when you try to drill through solid blocks (such as stone), the enemy may have a lot of materials and constantly repair it. There’s a little “unintended feature” which will allow you to bypass that – if you place horizontal ladders like in the gif below, they won’t be able to repair the blocks anymore (and neither will you be able to damage the blocks by hand). You will still be able to drill through the blocks, though.</p>
+<p>[GIF]</p>
+</div>
+</div>
+<div id="coin-farming-again" class="section level2">
+<h2><span class="header-section-number">3.4</span> Coin farming (again)</h2>
+<p>Similar to defensive builders, if you keep expanding your mid base, you will eventually get lots of coins. Again, you can decide to buy siege, ballista bolts or kegs for your team on mid. Some builders try to die as rarely as possible and try to gather 400 or more coins then use all of it at once by doing bomb arrow spam.</p>
+<p>You build an archer nest with some platforms like on the gif below, buy a lot of bomb arrows at once and then fire it at the enemy base. This is similar to spamming bomb arrows as a defensive builder, but as a builder that mostly sticks to mid you are able to actually be more precise and aim them at the flag defenses.</p>
+<p>[GIF]</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="builder-ii-defensive-playstyle.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "night",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/deynarde/kag-builder-guide/blob/master/03-progressive.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 4 Builder IV: Offensive playstyle | Builder Guide</title>
+  <meta name="description" content="A KAG builder guide for both new and experienced players." />
+  <meta name="generator" content="bookdown 0.21.4 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 4 Builder IV: Offensive playstyle | Builder Guide" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="A KAG builder guide for both new and experienced players." />
+  <meta name="github-repo" content="deynarde/kag-builder-guide" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 Builder IV: Offensive playstyle | Builder Guide" />
+  
+  <meta name="twitter:description" content="A KAG builder guide for both new and experienced players." />
+  
+
+<meta name="author" content="by Bunnie" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="builder-iii-progressive-playstyle.html"/>
+<link rel="next" href="builder-v-miscellaneous.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Builder Guide</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html"><i class="fa fa-check"></i><b>1</b> Builder I: The Basics</a><ul>
+<li class="chapter" data-level="1.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#the-builder-class"><i class="fa fa-check"></i><b>1.1</b> The builder class</a></li>
+<li class="chapter" data-level="1.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#getting-materials"><i class="fa fa-check"></i><b>1.2</b> Getting materials</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone"><i class="fa fa-check"></i><b>1.2.1</b> Stone</a></li>
+<li class="chapter" data-level="1.2.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#gold"><i class="fa fa-check"></i><b>1.2.2</b> Gold</a></li>
+<li class="chapter" data-level="1.2.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood"><i class="fa fa-check"></i><b>1.2.3</b> Wood</a></li>
+<li class="chapter" data-level="1.2.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#resupplies"><i class="fa fa-check"></i><b>1.2.4</b> Resupplies</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#your-building-menu"><i class="fa fa-check"></i><b>1.3</b> Your building menu</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone-block"><i class="fa fa-check"></i><b>1.3.1</b> Stone block</a></li>
+<li class="chapter" data-level="1.3.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone-backwall"><i class="fa fa-check"></i><b>1.3.2</b> Stone backwall</a></li>
+<li class="chapter" data-level="1.3.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone-door"><i class="fa fa-check"></i><b>1.3.3</b> Stone door</a></li>
+<li class="chapter" data-level="1.3.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood-block"><i class="fa fa-check"></i><b>1.3.4</b> Wood block</a></li>
+<li class="chapter" data-level="1.3.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood-backwall"><i class="fa fa-check"></i><b>1.3.5</b> Wood backwall</a></li>
+<li class="chapter" data-level="1.3.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood-door"><i class="fa fa-check"></i><b>1.3.6</b> Wood door</a></li>
+<li class="chapter" data-level="1.3.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#trapblock"><i class="fa fa-check"></i><b>1.3.7</b> Trapblock</a></li>
+<li class="chapter" data-level="1.3.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#ladder"><i class="fa fa-check"></i><b>1.3.8</b> Ladder</a></li>
+<li class="chapter" data-level="1.3.9" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#platform"><i class="fa fa-check"></i><b>1.3.9</b> Platform</a></li>
+<li class="chapter" data-level="1.3.10" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#workshop"><i class="fa fa-check"></i><b>1.3.10</b> Workshop</a></li>
+<li class="chapter" data-level="1.3.11" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#spikes"><i class="fa fa-check"></i><b>1.3.11</b> Spikes</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#workshops-items-siege"><i class="fa fa-check"></i><b>1.4</b> Workshops, items, siege</a><ul>
+<li class="chapter" data-level="1.4.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#builder-shop"><i class="fa fa-check"></i><b>1.4.1</b> Builder shop</a></li>
+<li class="chapter" data-level="1.4.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#quarters"><i class="fa fa-check"></i><b>1.4.2</b> Quarters</a></li>
+<li class="chapter" data-level="1.4.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#knight-shop"><i class="fa fa-check"></i><b>1.4.3</b> Knight shop</a></li>
+<li class="chapter" data-level="1.4.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#archer-shop"><i class="fa fa-check"></i><b>1.4.4</b> Archer shop</a></li>
+<li class="chapter" data-level="1.4.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#naval-shop"><i class="fa fa-check"></i><b>1.4.5</b> Naval shop</a></li>
+<li class="chapter" data-level="1.4.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#siege-shop"><i class="fa fa-check"></i><b>1.4.6</b> Siege shop</a></li>
+<li class="chapter" data-level="1.4.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#storage"><i class="fa fa-check"></i><b>1.4.7</b> Storage</a></li>
+<li class="chapter" data-level="1.4.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#tunnel"><i class="fa fa-check"></i><b>1.4.8</b> Tunnel</a></li>
+<li class="chapter" data-level="1.4.9" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#quarry"><i class="fa fa-check"></i><b>1.4.9</b> Quarry</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#building-a-base"><i class="fa fa-check"></i><b>1.5</b> Building a base</a><ul>
+<li class="chapter" data-level="1.5.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#a-front-tower"><i class="fa fa-check"></i><b>1.5.1</b> A front tower</a></li>
+<li class="chapter" data-level="1.5.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#flag-rooms"><i class="fa fa-check"></i><b>1.5.2</b> Flag rooms</a></li>
+<li class="chapter" data-level="1.5.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#tunnels"><i class="fa fa-check"></i><b>1.5.3</b> Tunnels</a></li>
+<li class="chapter" data-level="1.5.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#tree-farm"><i class="fa fa-check"></i><b>1.5.4</b> Tree farm</a></li>
+<li class="chapter" data-level="1.5.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#shops"><i class="fa fa-check"></i><b>1.5.5</b> Shops</a></li>
+</ul></li>
+<li class="chapter" data-level="1.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#block-support----wood-and-stone-blocks"><i class="fa fa-check"></i><b>1.6</b> Block support -- wood and stone blocks</a></li>
+<li class="chapter" data-level="1.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#block-repairing"><i class="fa fa-check"></i><b>1.7</b> Block repairing</a></li>
+<li class="chapter" data-level="1.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#common-mistakes"><i class="fa fa-check"></i><b>1.8</b> Common mistakes</a><ul>
+<li class="chapter" data-level="1.8.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#leaving-shops-in-the-open"><i class="fa fa-check"></i><b>1.8.1</b> Leaving shops in the open</a></li>
+<li class="chapter" data-level="1.8.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#overusing-stone-doors"><i class="fa fa-check"></i><b>1.8.2</b> Overusing stone doors</a></li>
+<li class="chapter" data-level="1.8.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#overusing-wood-not-placing-stone-backwall"><i class="fa fa-check"></i><b>1.8.3</b> Overusing wood, not placing stone backwall</a></li>
+<li class="chapter" data-level="1.8.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#awkward-top-doors"><i class="fa fa-check"></i><b>1.8.4</b> Awkward top doors</a></li>
+<li class="chapter" data-level="1.8.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#awkward-movement-in-general"><i class="fa fa-check"></i><b>1.8.5</b> Awkward movement in general</a></li>
+<li class="chapter" data-level="1.8.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#not-enough-doors"><i class="fa fa-check"></i><b>1.8.6</b> Not enough doors</a></li>
+<li class="chapter" data-level="1.8.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#certain-shops-at-the-bottom-of-the-tower"><i class="fa fa-check"></i><b>1.8.7</b> Certain shops at the bottom of the tower</a></li>
+<li class="chapter" data-level="1.8.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#putting-a-saw-in-the-flag-room"><i class="fa fa-check"></i><b>1.8.8</b> Putting a saw in the flag room</a></li>
+</ul></li>
+<li class="chapter" data-level="1.9" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#progressing-to-victory"><i class="fa fa-check"></i><b>1.9</b> Progressing to victory</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html"><i class="fa fa-check"></i><b>2</b> Builder II: Defensive playstyle</a><ul>
+<li class="chapter" data-level="2.1" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#what-youre-going-to-focus-on"><i class="fa fa-check"></i><b>2.1</b> What you're going to focus on</a></li>
+<li class="chapter" data-level="2.2" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#resource-management"><i class="fa fa-check"></i><b>2.2</b> Resource management</a></li>
+<li class="chapter" data-level="2.3" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#base-expansion"><i class="fa fa-check"></i><b>2.3</b> Base expansion</a></li>
+<li class="chapter" data-level="2.4" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#different-functionality-of-platforms"><i class="fa fa-check"></i><b>2.4</b> Different functionality of platforms</a></li>
+<li class="chapter" data-level="2.5" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#setting-up-siege-on-top-of-tower"><i class="fa fa-check"></i><b>2.5</b> Setting up siege on top of tower</a></li>
+<li class="chapter" data-level="2.6" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#spike-dropping"><i class="fa fa-check"></i><b>2.6</b> Spike dropping</a></li>
+<li class="chapter" data-level="2.7" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#defending-from-rats"><i class="fa fa-check"></i><b>2.7</b> Defending from rats</a></li>
+<li class="chapter" data-level="2.8" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#keg-dropping"><i class="fa fa-check"></i><b>2.8</b> Keg dropping</a></li>
+<li class="chapter" data-level="2.9" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#being-under-siege"><i class="fa fa-check"></i><b>2.9</b> Being under siege</a></li>
+<li class="chapter" data-level="2.10" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#what-to-spend-money-on"><i class="fa fa-check"></i><b>2.10</b> What to spend money on</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html"><i class="fa fa-check"></i><b>3</b> Builder III: Progressive playstyle</a><ul>
+<li class="chapter" data-level="3.1" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#what-youre-going-to-focus-on-1"><i class="fa fa-check"></i><b>3.1</b> What you're going to focus on</a></li>
+<li class="chapter" data-level="3.2" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#mid-control"><i class="fa fa-check"></i><b>3.2</b> Mid control</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#start-of-the-match"><i class="fa fa-check"></i><b>3.2.1</b> Start of the match</a></li>
+<li class="chapter" data-level="3.2.2" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#upkeep-and-further-expansion"><i class="fa fa-check"></i><b>3.2.2</b> Upkeep and further expansion</a></li>
+<li class="chapter" data-level="3.2.3" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#taking-mid-from-the-enemies"><i class="fa fa-check"></i><b>3.2.3</b> Taking mid from the enemies</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#ratting"><i class="fa fa-check"></i><b>3.3</b> Ratting</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#where-to-start-making-your-rat-tunnel-and-how-deep-should-it-be"><i class="fa fa-check"></i><b>3.3.1</b> Where to start making your rat tunnel and how deep should it be</a></li>
+<li class="chapter" data-level="3.3.2" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#when-to-rat"><i class="fa fa-check"></i><b>3.3.2</b> When to rat</a></li>
+<li class="chapter" data-level="3.3.3" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#stealthy-ratting-or-not"><i class="fa fa-check"></i><b>3.3.3</b> Stealthy ratting or not?</a></li>
+<li class="chapter" data-level="3.3.4" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#managing-your-rat-tunnel"><i class="fa fa-check"></i><b>3.3.4</b> Managing your rat tunnel</a></li>
+<li class="chapter" data-level="3.3.5" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#placing-a-tunnel"><i class="fa fa-check"></i><b>3.3.5</b> Placing a tunnel</a></li>
+<li class="chapter" data-level="3.3.6" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#using-a-drill"><i class="fa fa-check"></i><b>3.3.6</b> Using a drill</a></li>
+<li class="chapter" data-level="3.3.7" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#doorfights"><i class="fa fa-check"></i><b>3.3.7</b> Doorfights</a></li>
+<li class="chapter" data-level="3.3.8" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#getting-to-the-flagroom"><i class="fa fa-check"></i><b>3.3.8</b> Getting to the flagroom</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#coin-farming-again"><i class="fa fa-check"></i><b>3.4</b> Coin farming (again)</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html"><i class="fa fa-check"></i><b>4</b> Builder IV: Offensive playstyle</a><ul>
+<li class="chapter" data-level="4.1" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#what-youre-going-to-focus-on-2"><i class="fa fa-check"></i><b>4.1</b> What you're going to focus on</a></li>
+<li class="chapter" data-level="4.2" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#preparation-before-pushing"><i class="fa fa-check"></i><b>4.2</b> Preparation before pushing</a></li>
+<li class="chapter" data-level="4.3" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#material-scavenging"><i class="fa fa-check"></i><b>4.3</b> Material scavenging</a></li>
+<li class="chapter" data-level="4.4" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#observing-other-players"><i class="fa fa-check"></i><b>4.4</b> Observing other players</a></li>
+<li class="chapter" data-level="4.5" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#pushing"><i class="fa fa-check"></i><b>4.5</b> Pushing</a><ul>
+<li class="chapter" data-level="4.5.1" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#skipping-mid-or-not"><i class="fa fa-check"></i><b>4.5.1</b> Skipping mid or not?</a></li>
+<li class="chapter" data-level="4.5.2" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#building-quick-wooden-walls-ledges"><i class="fa fa-check"></i><b>4.5.2</b> Building quick wooden walls, ledges</a></li>
+<li class="chapter" data-level="4.5.3" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#building-food-shops"><i class="fa fa-check"></i><b>4.5.3</b> Building food shops</a></li>
+<li class="chapter" data-level="4.5.4" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#analysing-enemy-tower-and-making-a-plan"><i class="fa fa-check"></i><b>4.5.4</b> Analysing enemy tower and making a plan</a></li>
+<li class="chapter" data-level="4.5.5" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#observing-knight-fights"><i class="fa fa-check"></i><b>4.5.5</b> Observing knight fights</a></li>
+<li class="chapter" data-level="4.5.6" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#killing-enemy-builders-for-materials"><i class="fa fa-check"></i><b>4.5.6</b> Killing enemy builders for materials</a></li>
+<li class="chapter" data-level="4.5.7" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#scaling-the-enemy-tower----wallclimbing-with-stone-or-wood-blocks"><i class="fa fa-check"></i><b>4.5.7</b> Scaling the enemy tower -- wallclimbing with stone or wood blocks</a></li>
+<li class="chapter" data-level="4.5.8" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#scaling-the-enemy-tower----ladders"><i class="fa fa-check"></i><b>4.5.8</b> Scaling the enemy tower -- ladders</a></li>
+<li class="chapter" data-level="4.5.9" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#scaling-the-enemy-tower-with-blocks-ladders"><i class="fa fa-check"></i><b>4.5.9</b> Scaling the enemy tower with blocks + ladders</a></li>
+<li class="chapter" data-level="4.5.10" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#scaling-the-enemy-tower----platforms"><i class="fa fa-check"></i><b>4.5.10</b> Scaling the enemy tower -- platforms</a></li>
+<li class="chapter" data-level="4.5.11" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#getting-launched-from-a-catapult"><i class="fa fa-check"></i><b>4.5.11</b> Getting launched from a catapult</a></li>
+<li class="chapter" data-level="4.5.12" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#going-into-the-bottom-of-the-tower"><i class="fa fa-check"></i><b>4.5.12</b> Going into the bottom of the tower</a></li>
+<li class="chapter" data-level="4.5.13" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#destroying-mines"><i class="fa fa-check"></i><b>4.5.13</b> Destroying mines</a></li>
+<li class="chapter" data-level="4.5.14" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#being-on-top-of-tower"><i class="fa fa-check"></i><b>4.5.14</b> Being on top of tower</a></li>
+<li class="chapter" data-level="4.5.15" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#destroying-enemy-tunnel"><i class="fa fa-check"></i><b>4.5.15</b> Destroying enemy tunnel</a></li>
+<li class="chapter" data-level="4.5.16" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#buying-kegs-in-enemy-knight-shop"><i class="fa fa-check"></i><b>4.5.16</b> Buying kegs in enemy knight shop</a></li>
+<li class="chapter" data-level="4.5.17" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#collapsing-the-tower"><i class="fa fa-check"></i><b>4.5.17</b> Collapsing the tower</a></li>
+<li class="chapter" data-level="4.5.18" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#using-enemy-tunnels"><i class="fa fa-check"></i><b>4.5.18</b> Using enemy tunnels</a></li>
+<li class="chapter" data-level="4.5.19" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#falling-down-on-collapsing-blocks"><i class="fa fa-check"></i><b>4.5.19</b> Falling down on collapsing blocks</a></li>
+<li class="chapter" data-level="4.5.20" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#making-a-tunnel-in-the-middle-of-the-enemy-base"><i class="fa fa-check"></i><b>4.5.20</b> Making a tunnel in the middle of the enemy base</a></li>
+</ul></li>
+<li class="chapter" data-level="4.6" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#combat"><i class="fa fa-check"></i><b>4.6</b> Combat</a><ul>
+<li class="chapter" data-level="4.6.1" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#using-doors-at-certain-corner-angles-to-damage-knights"><i class="fa fa-check"></i><b>4.6.1</b> Using doors at certain corner angles to damage knights</a></li>
+<li class="chapter" data-level="4.6.2" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#enemy-knights-glitching-in-the-doors"><i class="fa fa-check"></i><b>4.6.2</b> Enemy knights glitching in the doors</a></li>
+<li class="chapter" data-level="4.6.3" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#pickaxe-1v1-with-other-builders"><i class="fa fa-check"></i><b>4.6.3</b> Pickaxe 1v1 with other builders</a></li>
+<li class="chapter" data-level="4.6.4" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#pickaxe-through-door-corners"><i class="fa fa-check"></i><b>4.6.4</b> Pickaxe through door corners</a></li>
+<li class="chapter" data-level="4.6.5" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#heating-drill-before-combat"><i class="fa fa-check"></i><b>4.6.5</b> Heating drill before combat</a></li>
+<li class="chapter" data-level="4.6.6" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#hiding-drill-from-enemy-builder"><i class="fa fa-check"></i><b>4.6.6</b> Hiding drill from enemy builder</a></li>
+<li class="chapter" data-level="4.6.7" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#baiting-and-overheating-enemy-builders-drill"><i class="fa fa-check"></i><b>4.6.7</b> Baiting and overheating enemy builder's drill</a></li>
+<li class="chapter" data-level="4.6.8" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#spamming-overheated-drill"><i class="fa fa-check"></i><b>4.6.8</b> Spamming overheated drill</a></li>
+<li class="chapter" data-level="4.6.9" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#using-ladders-against-encased-builder"><i class="fa fa-check"></i><b>4.6.9</b> Using ladders against encased builder</a></li>
+<li class="chapter" data-level="4.6.10" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#killing-knights-with-low-health"><i class="fa fa-check"></i><b>4.6.10</b> Killing knights with low health</a></li>
+<li class="chapter" data-level="4.6.11" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#offensive-spiking"><i class="fa fa-check"></i><b>4.6.11</b> Offensive spiking</a></li>
+<li class="chapter" data-level="4.6.12" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#dirt-spikes-against-enemies-digging-down"><i class="fa fa-check"></i><b>4.6.12</b> Dirt spikes against enemies digging down</a></li>
+<li class="chapter" data-level="4.6.13" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#escape-spikes"><i class="fa fa-check"></i><b>4.6.13</b> Escape spikes</a></li>
+<li class="chapter" data-level="4.6.14" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#double-hit-spikes"><i class="fa fa-check"></i><b>4.6.14</b> Double hit spikes</a></li>
+<li class="chapter" data-level="4.6.15" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#collapsing-blocks-on-enemies"><i class="fa fa-check"></i><b>4.6.15</b> Collapsing blocks on enemies</a></li>
+<li class="chapter" data-level="4.6.16" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#stomping"><i class="fa fa-check"></i><b>4.6.16</b> Stomping</a></li>
+<li class="chapter" data-level="4.6.17" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#crouching"><i class="fa fa-check"></i><b>4.6.17</b> Crouching</a></li>
+<li class="chapter" data-level="4.6.18" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#dirt-spike-crouch"><i class="fa fa-check"></i><b>4.6.18</b> Dirt spike + crouch</a></li>
+<li class="chapter" data-level="4.6.19" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#catching-and-throwing-back-enemy-bombs"><i class="fa fa-check"></i><b>4.6.19</b> Catching and throwing back enemy bombs</a></li>
+</ul></li>
+<li class="chapter" data-level="4.7" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#playing-with-a-knight-friend"><i class="fa fa-check"></i><b>4.7</b> Playing with a knight friend</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html"><i class="fa fa-check"></i><b>5</b> Builder V: Miscellaneous</a><ul>
+<li class="chapter" data-level="5.1" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#videos"><i class="fa fa-check"></i><b>5.1</b> Videos</a></li>
+<li class="chapter" data-level="5.2" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#miscellanous-mechanics"><i class="fa fa-check"></i><b>5.2</b> Miscellanous mechanics</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#using-number-keys-to-buy-items-in-menus"><i class="fa fa-check"></i><b>5.2.1</b> Using number keys to buy items in menus</a></li>
+<li class="chapter" data-level="5.2.2" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#using-bind-modifier-key-number-keys-to-select-blocks-faster"><i class="fa fa-check"></i><b>5.2.2</b> Using bind modifier key + number keys to select blocks faster</a></li>
+<li class="chapter" data-level="5.2.3" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#picking-up-sharks"><i class="fa fa-check"></i><b>5.2.3</b> Picking up sharks</a></li>
+<li class="chapter" data-level="5.2.4" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#ladders-in-flag-room"><i class="fa fa-check"></i><b>5.2.4</b> Ladders in flag room</a></li>
+<li class="chapter" data-level="5.2.5" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#saw-crate-trap"><i class="fa fa-check"></i><b>5.2.5</b> Saw + crate trap</a></li>
+<li class="chapter" data-level="5.2.6" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#pressing-c-while-having-a-block-selected"><i class="fa fa-check"></i><b>5.2.6</b> Pressing C while having a block selected</a></li>
+</ul></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Builder Guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="builder-iv-offensive-playstyle" class="section level1">
+<h1><span class="header-section-number">Chapter 4</span> Builder IV: Offensive playstyle</h1>
+<p align="center">
+<img src="imgs/pikaks.png">
+</p>
+<div id="what-youre-going-to-focus-on-2" class="section level2">
+<h2><span class="header-section-number">4.1</span> What you're going to focus on</h2>
+<p>Offensive builders mainly focus on constantly putting pressure on the enemy, pushing (both with knights and solo), with the goal of seriously damaging enemy structures or getting to the enemy flag, while trying to be as much of an annoyance to the enemies as possible.</p>
+</div>
+<div id="preparation-before-pushing" class="section level2">
+<h2><span class="header-section-number">4.2</span> Preparation before pushing</h2>
+<p>Like all builders, offensive builders also need a lot of materials to push. Unlike other kinds of builders, you're likely to die more often, so you will also need to take materials from your base more often too. This is why you want a few trees in a tree farm -- as many as possible -- and a quarry that's constantly running. If nobody is setting up these things -- you should do it yourself so that you can push efficiently. If nobody in your team is putting wood in the quarry, then you should do that every time you respawn as well.</p>
+<p>For pushing, we usually want at least 600 wood (but you can as well go with 1000 if you have lots of wood or trees) and a drill (you want to have one almost every time you push). Having some stone -- usually somewhere between 100 and 200, but if you have more then you can take even up to 500 -- can also be a big advantage for blocking enemy doors.</p>
+</div>
+<div id="material-scavenging" class="section level2">
+<h2><span class="header-section-number">4.3</span> Material scavenging</h2>
+<p>You're actually going to try to use as many of your materials as possible before getting killed (because that's how most pushes end up, and you want as many coins as possible). Since our materials are going to be used pretty fast, you want to scavenge any additional materials you can find on the map. Holding C will highlight all materials and other items useful to you on the map.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/matscav.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>If some materials are stuck in a 1 block wide gap, like in the gif below, sometimes you won't be able to pick it up. You can however use a trick to get it closer to you -- just place blocks until it goes up.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/mattrick.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>If you have too many materials and there are additional materials laying around, you can quickly use some of what you have -- you can do that by making simple improvements to the mid base or to the tower. This provides lots of coins which can eventually be used for some offensive tactics when you succeed in a push.</p>
+</div>
+<div id="observing-other-players" class="section level2">
+<h2><span class="header-section-number">4.4</span> Observing other players</h2>
+<p>Offensive playstyle will often require you to try to teamwork with random players in your team, as well as often fight against enemies -- both builders and knights. To be more efficient, you should pay attention to who are the best knights in your team -- so that you can rely on them if you're pushing together, as well as know who in your team isn't that advanced and often repeats the same mistakes (such as opening your doors and accidentally letting enemies kill you). You should also observe how good the enemies are and watch what they are doing -- does the opposing team have any good builder? What are they doing -- do they have a plan and try to base expand, gain control of mid or what? Pay attention to the enemy knights as well -- the best knights in the enemy team are also the most likely to kill you and prevent you from succeeding, so you should be wary of them.</p>
+</div>
+<div id="pushing" class="section level2">
+<h2><span class="header-section-number">4.5</span> Pushing</h2>
+<p>As an offensive builder you will want to push at the enemy structures most of the time. There's a lot that you should keep in mind here.</p>
+<div id="skipping-mid-or-not" class="section level3">
+<h3><span class="header-section-number">4.5.1</span> Skipping mid or not?</h3>
+<p>Sometimes the enemy may have control of mid, and that can in certain situations be advantageous to you and give you an opportunity to win with a surprise attack. Basically, if the enemies are focused on keeping control of mid and attacking the enemy structures, as well as ratting sometimes, their tower -- and the flagroom -- is likely to not be well-defended. This happens especially if there's a respawn ballista at a mid base; if you get to the enemy base, you're less likely to get noticed because people are respawning at mid instead of the base. This can cause teams to lose sometimes because of a single builder and one or two knights.</p>
+<p>The idea is that you want to go through mid and ignore the enemy ballista or tunnel while not getting too much attention (unless you want to get attention and distract the enemies so that your team can regain control of mid). There's a lot that can happen -- sometimes nobody will even go after you, most of the time only two or three knights will try to get to you, while sometimes it'll be the entire enemy team. However, if the enemy team doesn't chase after you or if it's a single person, that's a big opportunity for you. As with any other push, you should focus on doing as much damage as possible or maybe even try to get the flag -- and if that fails, just survive the longest and distract as many enemies as possible.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/skipmid.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Sometimes you can skip mid by getting launched from a catapult at the top of your tower -- if that's possible, you could even get gold and attempt to build a tunnel in the enemy base.</p>
+<p>However, keep in mind that you don't always want to skip mid. If your team has problems with defending the tower, you should help with defending or getting control of mid.</p>
+</div>
+<div id="building-quick-wooden-walls-ledges" class="section level3">
+<h3><span class="header-section-number">4.5.2</span> Building quick wooden walls, ledges</h3>
+<p>Sometimes you may want to quickly make wooden walls in order to skip enemy knights or just not get damaged by them. We're doing it with wood because as mentioned in the first chapter, wood doesn't need as much support from the ground as stone blocks, so we can make over 20 blocks long ledges. This is a great mobility trick that allows you to get past gaps with enemies.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ledgeover2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ledgeover.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="building-food-shops" class="section level3">
+<h3><span class="header-section-number">4.5.3</span> Building food shops</h3>
+<p>As we mentioned earlier, we want lots of wood for pushing. If you have lots of wood and you get damaged -- by a slash or any enemy arrow -- you should make a food shop and quickly heal. Doesn't matter where you place the food shop -- you can as well place it as soon as you get damaged. You can also make some quick defenses around it if enemy archers are constantly shooting at you. The point is that you should try to not die until you use up all your materials (to get coins, but to not feed the materials to the enemy as well), so there's no point in saving the wood.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/foodshop.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="analysing-enemy-tower-and-making-a-plan" class="section level3">
+<h3><span class="header-section-number">4.5.4</span> Analysing enemy tower and making a plan</h3>
+<p>Pushing is about constantly keeping up pressure and trying to achieve something. It's good to have at least a general goal on what you want to do -- do you want to go on top of the enemy tower and make a knight shop there (and spam kegs if you have coins)? Or maybe you want to collapse a part of it? Or do you just want to annoy the enemies and block all the doors? Or maybe just constantly drill into the flag defenses until one time you are successful?</p>
+<p>These are all viable options and we will talk about them in the next sections. Whenever you're in a match, you should look at the enemy tower and analyse its weaknesses to make a plan of action -- for example:</p>
+<ul>
+<li>How many doors does the tower have? How hard would it be to block them all?</li>
+<li>Is there any part of the tower that is made of just stone blocks and would be easily drillable?</li>
+<li>Is there any easy way to get into the enemy knight shop?</li>
+<li>Is there a tunnel or a ballista on top? How hard would it be to get on top of the enemy tower?</li>
+<li>How hard would the tower be to collapse by using various tactics (for example, by bomb arrow spam or just collapsing by destroying backwalls)?</li>
+</ul>
+<p>Here are some examples of towers (I tried to pick somewhat good ones, but it's still public CTF) I spotted on random matches on public CTF and what I would do against them as an offensive builder:</p>
+<p><img src="imgs/04-offensive/img1.png"></p>
+<p>This is a pretty good tower -- it's not worth trying to go to the top with your team because there's way too many doors, and even if you managed to get there you can't do much damage. It's also not that easy to collapse. Howver, there's an obvious weakness -- the bottom is very sparsely protected and has no doors. What I would do is make some defenses for myself at the bottom (stone blocks + doors -- yellow colour), then drill through (the arrow) and then quickly block all the enemy doors with stone blocks then drill into the flag.</p>
+<p>If you have an opportunity and there are no enemy knights, you could also attempt to get the enemy keg to do some damage to the tower (and buy more kegs if you have coins).</p>
+<p><img src="imgs/04-offensive/plan1.png"></p>
+<p><img src="imgs/04-offensive/img2.png"></p>
+<p>It's a decent tower with lots of doors, a ballista and a tunnel, but yet again the bottom doesn't have much protection. What I would do is get through to the bottom part, block all doors with stone blocks (yellow colour) and try to get to the flag (green arrows)</p>
+<p><img src="imgs/04-offensive/plan2.png"></p>
+<p><img src="imgs/04-offensive/img3.png"></p>
+<p>For this tower we have 2 things we could do. For the first variant, if there are not many enemies, you could try climbing up with ladders (green lines) and then get to the ballista (green arrow) while blocking all enemy doors with stone blocks (yellow colour). You can capture the ballista or destroy it. After that, you can drill down to the flag while blocking all enemy doors as well and go back the same way you got in.</p>
+<p>The 2nd option is if there are lots of enemies on top that would most likely kill you -- in this case, we place one ladder on the wall, then make some defences around us (2 layers from top -- see 4.5.12) as well as a door from bottom, and then drill to the flag while trying to make use of the corner trick (see 4.6.1) and blocking enemy doors</p>
+<p><img src="imgs/04-offensive/plan3.png"></p>
+<p>It's good to also look at the enemy tower and try to analyse its weaknesses whenever you die and wait for respawn.</p>
+</div>
+<div id="observing-knight-fights" class="section level3">
+<h3><span class="header-section-number">4.5.5</span> Observing knight fights</h3>
+<p>Similarly to taking mid, the best way to damage enemy tower or get the enemy flag is teamwork -- so you need to know when your knights are succeeding in skirmishes. You should watch how your knights are doing when fighting under the enemy tower or on enemy terrain; check if good knights from your team are there. As soon as they kill the enemies and the opposing team's defense is somewhat weakened, you should start pushing with them. Try to be fast -- the defeated enemies will eventually respawn and get back there.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/observe2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Your knights won't always succeed though; if they are defeated by enemy knights, you will have to find a less direct way to get to the enemy structures. Sometimes it's better to just retreat and wait for your knights to come back.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/observe1.webm" controls loop="loop" preload>
+</video>
+<p><br> You should also watch out for bombs from the enemies -- they may decide to throw some at you and damage or kill you.</p>
+</div>
+<div id="killing-enemy-builders-for-materials" class="section level3">
+<h3><span class="header-section-number">4.5.6</span> Killing enemy builders for materials</h3>
+<p>This applies pretty much every time, especially if you have a drill or you have knights with you -- try to kill the enemy builders and get their materials. The more materials you use, the more effective you can be at supporting your knights by spamming doors and spikes, as well as farming coins for buying kegs or making ledges.</p>
+<p>For example, in the gif below I was missing wood to build a knight shop, so I killed a builder which had some wood.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/scavenge.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="scaling-the-enemy-tower----wallclimbing-with-stone-or-wood-blocks" class="section level3">
+<h3><span class="header-section-number">4.5.7</span> Scaling the enemy tower -- wallclimbing with stone or wood blocks</h3>
+<p>You can spam stone blocks below you while constantly jumping and wallclimb the enemy tower. This is usually done when you're pushing solo or there are lots of enemy knights; you also block lots of doors by doing this.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/blockspam2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Of course, you can do it with wood blocks as well, but they're much easier to destroy for the enemy builders (as well as knights), so they're less effective. If your goal is just to get to the top of the tower however, then feel free to do it.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/blockspam.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="scaling-the-enemy-tower----ladders" class="section level3">
+<h3><span class="header-section-number">4.5.8</span> Scaling the enemy tower -- ladders</h3>
+<p>Scaling the enemy tower with ladders is most effective if the enemy tower doesn't have many doors and if you have knight support with you.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ladderclimb.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Sometimes after placing a few ladders, enemy knights may try to come to you from below. This is a good opportunity to drop spikes and kill them.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/climbspike.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Keep in mind that in certain situations your vertically placed ladders can fall off. This happens if you try to place them next to a single block while there's no backwall either; in order to not fall off, the bottom part of the ladder needs to be placed next to a block as well.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ladderfall.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>This usually happens if you blocked enemy doors and then try building ladders over it. However, there's a simple solution -- you can just rotate the ladders and place them horizontally. They don't fall off in this situation.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/horizonladder.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>When you get to the upper parts of the tower by ladder placing, sometimes enemies wil come to the top and will may try to kill you. In this case you want to build a ledge over your head (so that they don't jump down on you) with some doors for your knights, as well as some additional side defenses in case enemy knights still try to jump off and slash you from the side.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ladderledge.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/climbdefense.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>In a situation like that you can either wait for your knights to defeat the enemies or start mining/drilling into the side of the tower.</p>
+</div>
+<div id="scaling-the-enemy-tower-with-blocks-ladders" class="section level3">
+<h3><span class="header-section-number">4.5.9</span> Scaling the enemy tower with blocks + ladders</h3>
+<p>The best way to climb usually is combining the 2 ways -- blocking doors with stone blocks, but placing ladders as well. As mentioned a few sentences ago, use vertical ladders for single blocks.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/blockladder.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="scaling-the-enemy-tower----platforms" class="section level3">
+<h3><span class="header-section-number">4.5.10</span> Scaling the enemy tower -- platforms</h3>
+<p>Some builders sometimes decide to use platforms facing upwards. This can provide some defense from enemy knights jumping down (as well as from spikes if you place two platforms for each time) and lets your knights climb the tower as well, but keep in mind that platforms are easily destroyable by enemy knights (and sometimes they're able to slash through them as well) and that climbing them is slower than climbing ladders. Moreover, placing platforms is slightly slower than solid stone or wood blocks.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/platformspam.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Keep in mind this is mostly a tactic to annoy the enemies, rather than actually climbing the tower.</p>
+</div>
+<div id="getting-launched-from-a-catapult" class="section level3">
+<h3><span class="header-section-number">4.5.11</span> Getting launched from a catapult</h3>
+<p>You can sometimes get yourself launched from a catapult at your mid base or main tower. If you manage to get to the enemy wall, you should place ladders as soon as possible. Same advice as regarding scaling enemy tower with ladders applies here.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/catalad.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>You can hold a chicken for additional distance as well.</p>
+<p>Sometimes you can even get launched to the top of the enemy tower.</p>
+<p>Another fun thing you can do is get into a crate (hold the crate and press E) and have it picked up by a knight, which is then launched from a catapult.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/catacrate.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="going-into-the-bottom-of-the-tower" class="section level3">
+<h3><span class="header-section-number">4.5.12</span> Going into the bottom of the tower</h3>
+<p>Of course, you won't always want to climb the tower, especially if you can get the flag in an easier way. Sometimes if the bottom of the tower is sparsely defended you can try going in there.</p>
+<p>A good way is to make some small defences at the bottom of the tower and then start mining/drilling towards it, like in the gif below.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/towerbot.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Let's look at this defense:</p>
+<p><img src="imgs/04-offensive/bottom.png"></p>
+<p>As you can see, we're only making one entrance from the side -- this is because enemy builders will often try to drop a spike from above and kill you; if there were doors, some knight in your team could open it on accident and get you killed.</p>
+<p>Why do we want two layers of stone blocks from the top? -- If there was only one layer, an enemy knight could kill you with a bomb. This is because <strong>bombs can kill you through one layer of solid blocks</strong>. This doesn't happen with platforms or with doors (the doors get damaged and absorb all the damage -- keep in mind that a bomb doesn't even destroy the door fully, it just damages it to around 20% health).</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/through.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Making 2 layers of solid block defenses in any situation when we're surrounded by enemies requires the enemy knights to use at least 2 bombs and greatly increases our chance of survival, giving us some more time to reposition ourselves or get a bit further into the tower.</p>
+<p>When we're inside the tower, standard doorfight tactics apply -- just spam doors and rely on your knights. However, don't trust your knights too much in some cases -- for example, you should block top doors with stone blocks instead of doors if you're going to the side, because your knights could open them accidentally and get you killed.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/blockstone.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="destroying-mines" class="section level3">
+<h3><span class="header-section-number">4.5.13</span> Destroying mines</h3>
+<p>You should also watch out for mines and destroy any you see. It takes two pickaxe hits to destroy every mine. However, there's one bug you should watch out for -- if a mine is stuck in a 1 block wide hole, like in the gif below, hitting it from below will cause it to go through the hole somehow.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/mina1.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>What you want to do in situations like this is either block or ignore the mine (if you have knights near you that could accidentally die on the mine), or if possible -- hit the mine, quickly move away, then hit it again, like in the gif below.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/mina2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="being-on-top-of-tower" class="section level3">
+<h3><span class="header-section-number">4.5.14</span> Being on top of tower</h3>
+<p>After getting to the top of the enemy tower, there are various things you can do. First thing you want to do is block all the enemy doors. Make sure to build a ledge with doors from the side you came from as well so that the enemies don't get to you from there either.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/climbtower.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>If you have lots of coins, now is a good moment to use them. What you can do is quickly build a tall wall and a knight shop on top of it, change to knight and then buy kegs and drop them down. Use up all your materials before changing to knight for as many coins as possible. If there are enemy knights that could collapse the wall, you should use stone instead of wood for the bottom part of it. You can use some additional backwalls too or place some ladders for your knights as well.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spamkeg.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Sometimes people will have a very high column of ladders in their tower, without any additional doors. You can use this to your advantage by dropping a spike and killing a lot of people (Also, if your tower has that too, you should fix that).</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/towerspike.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Of course you can do that much more easily if the enemy tower has lots of backwalls and not many solid blocks.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spikesimple.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="destroying-enemy-tunnel" class="section level3">
+<h3><span class="header-section-number">4.5.15</span> Destroying enemy tunnel</h3>
+<p>Pretty much same advice here applies as regarding destroying mid base tunnel; however, there's one additional thing that you can do if the tunnel is on top of the enemy tower. Basically, collapsing blocks destroy doors and shops when they fall down. You can make a chunk of wood supported by one backwall and then collapse it like in the gif below to destroy enemy doors and shops.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/tunneldie.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>This can sometimes apply in other situations too -- for example for destroying a mid tunnel.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/midtunneldestroy.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>You can also do this when there are no doors, but this will require destroying a block like in the gif below.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/tunnelcollapse1.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Keep in mind that this only applies to doors. If you ever find yourself in a situation like this but on the defense, you can counter it by just replacing your top doors with wood or stone blocks.</p>
+</div>
+<div id="buying-kegs-in-enemy-knight-shop" class="section level3">
+<h3><span class="header-section-number">4.5.16</span> Buying kegs in enemy knight shop</h3>
+<p>Although spamming kegs from top of the tower is good, in some situations buying them in the middle of the enemy base will be more effective. The idea is to get to the enemy knight shop and buy some kegs, then light as many as you can. One keg's explosion will light the other kegs and you will do a lot of damage to the enemy tower.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/kegspam.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Sometimes enemies will buy a water bucket and extinguish the kegs (even through doors). If this happens, just light the keg again.</p>
+<p>There's one thing you should also know -- if a keg explodes near a shop, the shop is going to absorb some of the damage from the keg and the backwall behind the shop won't be damaged. This means that in some cases you will actually need at least 2 kegs for even a thin tower (unless you destroy the shops first)</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/absorbshop.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="collapsing-the-tower" class="section level3">
+<h3><span class="header-section-number">4.5.17</span> Collapsing the tower</h3>
+<p>Besides using kegs, you can try to collapse the tower in a different way. If you have a lot of knights with you, but getting to the flag at the current moment would be a bit tricky, you should definitely attempt to collapse the tower.</p>
+<p>The best way to collapse a tower is to try to notice the fastest way of destroying its support and noticing kind of a line. Example &quot;line&quot; is the highlighted blocks in the image below -- destroying these blocks (if you don't have a drill for solid blocks) would be the fastest way to collapse.</p>
+<p><img src="imgs/04-offensive/line.png"></p>
+<p>You want to use a drill for solid blocks such as wood or stone (try to find a &quot;line&quot; with as many as possible -- of course if you have a drill), avoid wasting time on destroying doors unless necessary and finish by destroying backwalls. If you don't have a drill, focus on backwalls only.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/drillcollapse.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>There's a trick which lets you destroy backwalls quicker: basically, if you hit a stone backwall one time with your pickaxe, you can replace it with a wooden backwall, which is then much easier to destroy than a slightly damaged stone backwall.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/backwallreplace.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Comparison:</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/replacecomparison.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>With replacement, one stone backwall takes 1 hit, replacement, 2 more hits to destroy</p>
+<p>Without replacement, one stone backwall takes 5 hits to destroy</p>
+</div>
+<div id="using-enemy-tunnels" class="section level3">
+<h3><span class="header-section-number">4.5.18</span> Using enemy tunnels</h3>
+<p>Not that strictly related to pushing, but sometimes you can use an enemy tunnel (for example their mid base one) to travel to another one (tent one or tower one). However, you should be careful and check earlier (for example when waiting for respawn) if the enemy tunnel you're travelling to has a sawtrap. You should be wary of enemy mines on the tunnels as well (they'll instantly kill you).</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/tunneluse.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>There's also a trick that can actually let you avoid sawtraps. The idea is to place a ladder in the room with the tunnel and while climbing both vertically and horizontally on the ladder (holding W + A/D) use the tunnel. This will make you move slightly after teleporting to the other tunnel and avoid the sawtrap. Other players in your team can do this as well.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/laddertrick.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>In the gif above, you would get killed in the saw if you used the tunnel without the ladder trick.</p>
+<p>This however can also be countered if the spot with the sawtrap is 6 blocks wide and has two sawtraps instead of only one.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/2saws.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="falling-down-on-collapsing-blocks" class="section level3">
+<h3><span class="header-section-number">4.5.19</span> Falling down on collapsing blocks</h3>
+<p>If you're on a ledge high over the ground, sometimes you may want to go to the bottom. You can collapse 2-3 wooden blocks and then fall down on them slowly to not get any fall damage.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/falldown.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="making-a-tunnel-in-the-middle-of-the-enemy-base" class="section level3">
+<h3><span class="header-section-number">4.5.20</span> Making a tunnel in the middle of the enemy base</h3>
+<p>Sometimes you can end up destroying the tunnel in the enemy tower and may have gold. If you have other mats, you can try building a tunnel for your own team. This is a bit risky, but if done well it can cause a quick victory.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/enemybasetunnel.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/tunnelbuild.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>You can combine it with the ladder trick from &quot;Using enemy tunnels&quot; section as well. In the gif below, first I travelled to it by using the ladder trick, then destroyed it and used the gold to make my own.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/anothertunnel.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+</div>
+<div id="combat" class="section level2">
+<h2><span class="header-section-number">4.6</span> Combat</h2>
+<p>Although builder isn't a combat class, as an offensive builder you want to be somewhat good at killing people for maximum effectiveness as well (it's also quite fun).</p>
+<div id="using-doors-at-certain-corner-angles-to-damage-knights" class="section level3">
+<h3><span class="header-section-number">4.6.1</span> Using doors at certain corner angles to damage knights</h3>
+<p>This is arguably the most powerful combat trick for builders; there's a certain angle which lets you damage knights by pickaxe and drills without them being able to damage you by slashes. In the image below, the knight is unable to damage you by slashing (unless by a generally unknown trick that I'll mention later), while you're able to damage them by a pickaxe or drill.</p>
+<p><img src="imgs/04-offensive/angleimg.png"></p>
+<p>Basically, the way it works is that whenever a knight attack a door, the door absorbs the damage of the slash/jab and the slash/jab's arc (which starts from the top) doesn't continue past the door. In this situation, the knight can only attack the door. You can however still attack them.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/angledoor.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>You can often force yourself into such situations by being at a lower level than the enemy players and placing doors properly.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/angledrill2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Knights will often think that they should be able to damage you and get closer to you. You can also place a block behind them when they get close so that they don't run away.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/angleblock.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Make sure to not open the door accidentally -- the enemies can go through it and then be able to kill you.</p>
+<p>Now, the thing is, that the enemy knight is actually able to slash you by starting his slash so that it doesn't hit the door and then moving the slash arc to hit the enemy builder (starting the slash from the opposite side and quickly moving the direction he's pointing to by 180 degrees with his mouse downwards, not hitting the door at all)</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/trickangle.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>However, barely anyone knows about this and you'll be able to kill a majority of the knights without getting any damage.</p>
+<p>This angle works similar in a situation like in the gif below as well, but if the knight doesn't aim directly at you they may sometimes damage you. It's also a bit more dangerous to try damaging them at this angle because it's easier to accidentally open the door.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/swapplace.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Keep in mind that enemy builders can attack you at both of these angles -- it's just knights who can't.</p>
+</div>
+<div id="enemy-knights-glitching-in-the-doors" class="section level3">
+<h3><span class="header-section-number">4.6.2</span> Enemy knights glitching in the doors</h3>
+<p>Sometimes if you open doors for a short moment for the enemy knights and they have slight lag, they will get stuck in a closed door and you will be able to damage them while they won't be able to.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/glitch.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="pickaxe-1v1-with-other-builders" class="section level3">
+<h3><span class="header-section-number">4.6.3</span> Pickaxe 1v1 with other builders</h3>
+<p>Whenever you're doing a 1v1 with other builders, you should try to spike them first somehow to get a heart advantage and then finish them with a pickaxe. If you don't have any way to do that, then the result of the 1v1 will depend on whoever damaged the enemy player first. To do that, you should start attacking them with your pickaxe as soon as they're in your range.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spike1val.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/1v1.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Another way to win the 1v1 is to heal yourself -- eat a burger, a fish or use a heart to heal yourself after losing some health. You can eat it by using the Eat Food bind (V key by default). Try to use food at as low health as possible, because the enemy may have food too. In the gif below, I eat a burger with the V key right after getting hit 5 times (so one hit away from death -- half a heart).</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/eat.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Generally try to not engage in pickaxe 1v1s if you have fewer hearts than the enemy.</p>
+<p>Spamming the right mouse button instead of holding it makes no difference.</p>
+</div>
+<div id="pickaxe-through-door-corners" class="section level3">
+<h3><span class="header-section-number">4.6.4</span> Pickaxe through door corners</h3>
+<p>You're able to hit the enemy in situations like in the gif below with your pickaxe if you aim at the right spot and position yourself properly.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/doorhit2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Example of how it can be used in actual gameplay:</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/doorhit.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="heating-drill-before-combat" class="section level3">
+<h3><span class="header-section-number">4.6.5</span> Heating drill before combat</h3>
+<p>Since the drill does more damage when at least 50% heated, sometimes before engaging in a 1v1 with a builder that has a drill you may want to heat your own drill slightly for more damage (1.5 heart of damage instead of 1). You can do it by using it for a moment on any blocks.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/heatdrill.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Keep in mind that the drill usually overheats after that (if it was heated to the point of doing more damage) and will drop to the ground, so don't do this if there are more than one enemy builder around.</p>
+</div>
+<div id="hiding-drill-from-enemy-builder" class="section level3">
+<h3><span class="header-section-number">4.6.6</span> Hiding drill from enemy builder</h3>
+<p>You can try to make the enemy builder think that you have no drill by keeping it in your inventory and provoke them to attack you, and then take it out and kill them.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/drillhide.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="baiting-and-overheating-enemy-builders-drill" class="section level3">
+<h3><span class="header-section-number">4.6.7</span> Baiting and overheating enemy builder's drill</h3>
+<p>Sometimes you may want to not fight against a builder with a drill -- especially if you don't have one yourself. The idea is to bait them and get them to drill doors in a doorfight -- spam lots of doors. They may overheat their drill on your doors. You want to wait a short while (you can't pick up a drill right after it overheated and dropped to the ground) -- about half a second -- and pick it up from the ground. You can also try to use the drill to kill the enemy right after. However, in most cases it'll overheat again right after using it. Try to pick it up and press the left mouse button once as quickly as possible, and then finish the enemy with normal pickaxe hits.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/bait.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/overheat2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>If you already had a drill, you can just attack the enemy right after their drill got overheated.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/baitenemi.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="spamming-overheated-drill" class="section level3">
+<h3><span class="header-section-number">4.6.8</span> Spamming overheated drill</h3>
+<p>If you get stuck in a place with enemies but there's an overheated drill on the ground, you should hold right mouse button (to damage enemies with pickaxe) while spamming C and left mouse button at the same time to quickly damage enemies with the steaming drill before it falls down again. Keep in mind that picking up a steaming overheated drill does 0.25 heart of damage, so don't do this if you don't have enough health.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spamdrill.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spamdrill4.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="using-ladders-against-encased-builder" class="section level3">
+<h3><span class="header-section-number">4.6.9</span> Using ladders against encased builder</h3>
+<p>Often there will be an enemy builder encasing themselves with lots of mats. Getting to them even with a drill may take some time -- they can just constantly repair the blocks. However, as mentioned in the section <a href="https://deynarde.github.io/kag-builder-guide/builder-iii-progressive-playstyle.html#getting-to-the-flagroom">3.3.8 -- Getting to the flagroom</a>, you can place ladders next to the blocks, which prevents them from repairing it, but still letting you drill through.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ratcase.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/ratcase2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="killing-knights-with-low-health" class="section level3">
+<h3><span class="header-section-number">4.6.10</span> Killing knights with low health</h3>
+<p>You can easily kill knights that have low health (1 heart), even with your pickaxe -- attack them in between their slashes (wait for them to miss a slash, then attack).</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/lowhpknight.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="offensive-spiking" class="section level3">
+<h3><span class="header-section-number">4.6.11</span> Offensive spiking</h3>
+<p>You can drop spikes at enemies in a lot of situations. You can make use of the door-related corner angle mentioned earlier as well. Some examples are in the gifs below</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/combatspike.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/combatspike2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/combatspike3.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Waiting for enemy to open door before dropping spike (spikes go through opened doors):</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spikedoor.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="dirt-spikes-against-enemies-digging-down" class="section level3">
+<h3><span class="header-section-number">4.6.12</span> Dirt spikes against enemies digging down</h3>
+<p>If the enemies are digging down towards you, you can place some spikes on dirt (or on wood) right before they fall down and damage them. This can of course be countered by placing ladders, but it still works sometimes.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/spikedirt.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="escape-spikes" class="section level3">
+<h3><span class="header-section-number">4.6.13</span> Escape spikes</h3>
+<p>If you're escaping from a knight and there's some backwall around, you can drop spikes as the enemy is going towards you and damage them or even kill them.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/escapespike.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>You can also place some ladders and spike them as they get close.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/escapeladder.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="double-hit-spikes" class="section level3">
+<h3><span class="header-section-number">4.6.14</span> Double hit spikes</h3>
+<p>Spikes can deal two hearts of damage by hitting the same enemy twice. If the enemy is jumping towards you, you should place a spike below them slightly to the side right as they fall down. They will be hit by the spike from the side and then the spike will hit them again, like in the gif below.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/doublehitspike.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="collapsing-blocks-on-enemies" class="section level3">
+<h3><span class="header-section-number">4.6.15</span> Collapsing blocks on enemies</h3>
+<p>Collapsing blocks do a lot of damage, even to shielding knights. A good trick is to make some ladders and then some wood blocks -- the enemy knights will likely destroy the ladders and cause the wood blocks to collapse on themselves.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/collapsekill.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>One collapsing block does 1.5 heart of damage. 3 blocks are enough to kill a knight. A horizontal collapsing platform also kills knights because in most cases the knight will get hit by 3 blocks.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/collapsecomp.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="stomping" class="section level3">
+<h3><span class="header-section-number">4.6.16</span> Stomping</h3>
+<p>You can fall down on enemy builders (as well as knights, but that's a bit more dangerous) to stomp them while dealing some damage and stunning them. You can combine it with using a spike right after (if there's backwall), drilling them or hitting them with your pickaxe.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/stomp1.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/stomp2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="crouching" class="section level3">
+<h3><span class="header-section-number">4.6.17</span> Crouching</h3>
+<p>Crouching is when you hold down the S (move down) button. This causes your collision hitbox to disappear -- enemies will be able to go through you. You can't move for this to work (if you move, they'll collide with you even if you hold S), but you can still attack (by pickaxe or by using a drill). This can be used to avoid being stomped by enemies. You can also attack enemies that get stunned from fall damage right after crouching.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/crouch2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/crouchdrill.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="dirt-spike-crouch" class="section level3">
+<h3><span class="header-section-number">4.6.18</span> Dirt spike + crouch</h3>
+<p>This doesn't work very often, but if enemies are digging downwards towards you, you can place dirtspikes (spikes on dirt/bedrock/wood etc.) below yourself and then crouch and have them fall down into the spikes. You can then jump out right after they get damaged and block them.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/crouchspike.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+<div id="catching-and-throwing-back-enemy-bombs" class="section level3">
+<h3><span class="header-section-number">4.6.19</span> Catching and throwing back enemy bombs</h3>
+<p>Enemy knights can sometimes throw a bomb too early or die right after lighting a bomb and give you enough time to catch it and throw it somewhere else.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/bombthrow.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/bombcatch.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>In the gif below, I've quickly caught the bomb and threw it at a distance so that it would only do 1.5 hearts of damage instead of instantly killing me.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/bombthrow2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>(Unrelated, but you can also notice crouching to not get stomped by enemy)</p>
+<p>If you're being attacked by several enemies at once, you can catch an enemy bomb and suicide with it to try to kill some enemies.</p>
+<p>In the gif below, I pick up the enemy bomb at the last moment and kill the enemy builder.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/bombpickup1.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>In the gif below, blue builder picks up my knight teammate's bomb and kills me and the knight.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/bombpickup2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+</div>
+</div>
+<div id="playing-with-a-knight-friend" class="section level2">
+<h2><span class="header-section-number">4.7</span> Playing with a knight friend</h2>
+<p>Playing as an offensive builder+knight duo in public CTF matches in my opinion is one of the best ways to experience KAG. Since you don't have to rely on random people you can play much better and win stalemates by teamwork, as long as your knight defends you and supports you as much as they can: follows you, catches enemy bombs so that they don't damage you, gives you materials from enemy builders and helps you during doorfights.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/bombacatch2.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>Besides launching yourself from a catapult in a crate held by a knight, as mentioned earlier, your knight friend can also bomb jump with you in a crate.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/cratejump.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+<p>If your knight friend drops resupply materials when respawning (changes to builder and back to knight), you'll also have more materials and be more effective at pushing.</p>
+<video style="display:block; max-width:100%; height:auto;" src="webm/04-offensive/matdrop.webm" controls loop="loop" preload>
+</video>
+<p><br></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="builder-iii-progressive-playstyle.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="builder-v-miscellaneous.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "night",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/deynarde/kag-builder-guide/blob/master/04-offensive.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

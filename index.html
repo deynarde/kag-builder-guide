@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Builder Guide</title>
+  <meta name="description" content="A KAG builder guide for both new and experienced players." />
+  <meta name="generator" content="bookdown 0.21.4 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Builder Guide" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="A KAG builder guide for both new and experienced players." />
+  <meta name="github-repo" content="deynarde/kag-builder-guide" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Builder Guide" />
+  
+  <meta name="twitter:description" content="A KAG builder guide for both new and experienced players." />
+  
+
+<meta name="author" content="by Bunnie" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="builder-i-the-basics.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Builder Guide</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="chapter" data-level="1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html"><i class="fa fa-check"></i><b>1</b> Builder I: The Basics</a><ul>
+<li class="chapter" data-level="1.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#the-builder-class"><i class="fa fa-check"></i><b>1.1</b> The builder class</a></li>
+<li class="chapter" data-level="1.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#getting-materials"><i class="fa fa-check"></i><b>1.2</b> Getting materials</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone"><i class="fa fa-check"></i><b>1.2.1</b> Stone</a></li>
+<li class="chapter" data-level="1.2.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#gold"><i class="fa fa-check"></i><b>1.2.2</b> Gold</a></li>
+<li class="chapter" data-level="1.2.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood"><i class="fa fa-check"></i><b>1.2.3</b> Wood</a></li>
+<li class="chapter" data-level="1.2.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#resupplies"><i class="fa fa-check"></i><b>1.2.4</b> Resupplies</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#your-building-menu"><i class="fa fa-check"></i><b>1.3</b> Your building menu</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone-block"><i class="fa fa-check"></i><b>1.3.1</b> Stone block</a></li>
+<li class="chapter" data-level="1.3.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone-backwall"><i class="fa fa-check"></i><b>1.3.2</b> Stone backwall</a></li>
+<li class="chapter" data-level="1.3.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#stone-door"><i class="fa fa-check"></i><b>1.3.3</b> Stone door</a></li>
+<li class="chapter" data-level="1.3.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood-block"><i class="fa fa-check"></i><b>1.3.4</b> Wood block</a></li>
+<li class="chapter" data-level="1.3.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood-backwall"><i class="fa fa-check"></i><b>1.3.5</b> Wood backwall</a></li>
+<li class="chapter" data-level="1.3.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#wood-door"><i class="fa fa-check"></i><b>1.3.6</b> Wood door</a></li>
+<li class="chapter" data-level="1.3.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#trapblock"><i class="fa fa-check"></i><b>1.3.7</b> Trapblock</a></li>
+<li class="chapter" data-level="1.3.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#ladder"><i class="fa fa-check"></i><b>1.3.8</b> Ladder</a></li>
+<li class="chapter" data-level="1.3.9" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#platform"><i class="fa fa-check"></i><b>1.3.9</b> Platform</a></li>
+<li class="chapter" data-level="1.3.10" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#workshop"><i class="fa fa-check"></i><b>1.3.10</b> Workshop</a></li>
+<li class="chapter" data-level="1.3.11" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#spikes"><i class="fa fa-check"></i><b>1.3.11</b> Spikes</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#workshops-items-siege"><i class="fa fa-check"></i><b>1.4</b> Workshops, items, siege</a><ul>
+<li class="chapter" data-level="1.4.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#builder-shop"><i class="fa fa-check"></i><b>1.4.1</b> Builder shop</a></li>
+<li class="chapter" data-level="1.4.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#quarters"><i class="fa fa-check"></i><b>1.4.2</b> Quarters</a></li>
+<li class="chapter" data-level="1.4.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#knight-shop"><i class="fa fa-check"></i><b>1.4.3</b> Knight shop</a></li>
+<li class="chapter" data-level="1.4.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#archer-shop"><i class="fa fa-check"></i><b>1.4.4</b> Archer shop</a></li>
+<li class="chapter" data-level="1.4.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#naval-shop"><i class="fa fa-check"></i><b>1.4.5</b> Naval shop</a></li>
+<li class="chapter" data-level="1.4.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#siege-shop"><i class="fa fa-check"></i><b>1.4.6</b> Siege shop</a></li>
+<li class="chapter" data-level="1.4.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#storage"><i class="fa fa-check"></i><b>1.4.7</b> Storage</a></li>
+<li class="chapter" data-level="1.4.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#tunnel"><i class="fa fa-check"></i><b>1.4.8</b> Tunnel</a></li>
+<li class="chapter" data-level="1.4.9" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#quarry"><i class="fa fa-check"></i><b>1.4.9</b> Quarry</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#building-a-base"><i class="fa fa-check"></i><b>1.5</b> Building a base</a><ul>
+<li class="chapter" data-level="1.5.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#a-front-tower"><i class="fa fa-check"></i><b>1.5.1</b> A front tower</a></li>
+<li class="chapter" data-level="1.5.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#flag-rooms"><i class="fa fa-check"></i><b>1.5.2</b> Flag rooms</a></li>
+<li class="chapter" data-level="1.5.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#tunnels"><i class="fa fa-check"></i><b>1.5.3</b> Tunnels</a></li>
+<li class="chapter" data-level="1.5.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#tree-farm"><i class="fa fa-check"></i><b>1.5.4</b> Tree farm</a></li>
+<li class="chapter" data-level="1.5.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#shops"><i class="fa fa-check"></i><b>1.5.5</b> Shops</a></li>
+</ul></li>
+<li class="chapter" data-level="1.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#block-support----wood-and-stone-blocks"><i class="fa fa-check"></i><b>1.6</b> Block support -- wood and stone blocks</a></li>
+<li class="chapter" data-level="1.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#block-repairing"><i class="fa fa-check"></i><b>1.7</b> Block repairing</a></li>
+<li class="chapter" data-level="1.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#common-mistakes"><i class="fa fa-check"></i><b>1.8</b> Common mistakes</a><ul>
+<li class="chapter" data-level="1.8.1" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#leaving-shops-in-the-open"><i class="fa fa-check"></i><b>1.8.1</b> Leaving shops in the open</a></li>
+<li class="chapter" data-level="1.8.2" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#overusing-stone-doors"><i class="fa fa-check"></i><b>1.8.2</b> Overusing stone doors</a></li>
+<li class="chapter" data-level="1.8.3" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#overusing-wood-not-placing-stone-backwall"><i class="fa fa-check"></i><b>1.8.3</b> Overusing wood, not placing stone backwall</a></li>
+<li class="chapter" data-level="1.8.4" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#awkward-top-doors"><i class="fa fa-check"></i><b>1.8.4</b> Awkward top doors</a></li>
+<li class="chapter" data-level="1.8.5" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#awkward-movement-in-general"><i class="fa fa-check"></i><b>1.8.5</b> Awkward movement in general</a></li>
+<li class="chapter" data-level="1.8.6" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#not-enough-doors"><i class="fa fa-check"></i><b>1.8.6</b> Not enough doors</a></li>
+<li class="chapter" data-level="1.8.7" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#certain-shops-at-the-bottom-of-the-tower"><i class="fa fa-check"></i><b>1.8.7</b> Certain shops at the bottom of the tower</a></li>
+<li class="chapter" data-level="1.8.8" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#putting-a-saw-in-the-flag-room"><i class="fa fa-check"></i><b>1.8.8</b> Putting a saw in the flag room</a></li>
+</ul></li>
+<li class="chapter" data-level="1.9" data-path="builder-i-the-basics.html"><a href="builder-i-the-basics.html#progressing-to-victory"><i class="fa fa-check"></i><b>1.9</b> Progressing to victory</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html"><i class="fa fa-check"></i><b>2</b> Builder II: Defensive playstyle</a><ul>
+<li class="chapter" data-level="2.1" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#what-youre-going-to-focus-on"><i class="fa fa-check"></i><b>2.1</b> What you're going to focus on</a></li>
+<li class="chapter" data-level="2.2" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#resource-management"><i class="fa fa-check"></i><b>2.2</b> Resource management</a></li>
+<li class="chapter" data-level="2.3" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#base-expansion"><i class="fa fa-check"></i><b>2.3</b> Base expansion</a></li>
+<li class="chapter" data-level="2.4" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#different-functionality-of-platforms"><i class="fa fa-check"></i><b>2.4</b> Different functionality of platforms</a></li>
+<li class="chapter" data-level="2.5" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#setting-up-siege-on-top-of-tower"><i class="fa fa-check"></i><b>2.5</b> Setting up siege on top of tower</a></li>
+<li class="chapter" data-level="2.6" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#spike-dropping"><i class="fa fa-check"></i><b>2.6</b> Spike dropping</a></li>
+<li class="chapter" data-level="2.7" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#defending-from-rats"><i class="fa fa-check"></i><b>2.7</b> Defending from rats</a></li>
+<li class="chapter" data-level="2.8" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#keg-dropping"><i class="fa fa-check"></i><b>2.8</b> Keg dropping</a></li>
+<li class="chapter" data-level="2.9" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#being-under-siege"><i class="fa fa-check"></i><b>2.9</b> Being under siege</a></li>
+<li class="chapter" data-level="2.10" data-path="builder-ii-defensive-playstyle.html"><a href="builder-ii-defensive-playstyle.html#what-to-spend-money-on"><i class="fa fa-check"></i><b>2.10</b> What to spend money on</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html"><i class="fa fa-check"></i><b>3</b> Builder III: Progressive playstyle</a><ul>
+<li class="chapter" data-level="3.1" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#what-youre-going-to-focus-on-1"><i class="fa fa-check"></i><b>3.1</b> What you're going to focus on</a></li>
+<li class="chapter" data-level="3.2" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#mid-control"><i class="fa fa-check"></i><b>3.2</b> Mid control</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#start-of-the-match"><i class="fa fa-check"></i><b>3.2.1</b> Start of the match</a></li>
+<li class="chapter" data-level="3.2.2" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#upkeep-and-further-expansion"><i class="fa fa-check"></i><b>3.2.2</b> Upkeep and further expansion</a></li>
+<li class="chapter" data-level="3.2.3" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#taking-mid-from-the-enemies"><i class="fa fa-check"></i><b>3.2.3</b> Taking mid from the enemies</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#ratting"><i class="fa fa-check"></i><b>3.3</b> Ratting</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#where-to-start-making-your-rat-tunnel-and-how-deep-should-it-be"><i class="fa fa-check"></i><b>3.3.1</b> Where to start making your rat tunnel and how deep should it be</a></li>
+<li class="chapter" data-level="3.3.2" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#when-to-rat"><i class="fa fa-check"></i><b>3.3.2</b> When to rat</a></li>
+<li class="chapter" data-level="3.3.3" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#stealthy-ratting-or-not"><i class="fa fa-check"></i><b>3.3.3</b> Stealthy ratting or not?</a></li>
+<li class="chapter" data-level="3.3.4" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#managing-your-rat-tunnel"><i class="fa fa-check"></i><b>3.3.4</b> Managing your rat tunnel</a></li>
+<li class="chapter" data-level="3.3.5" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#placing-a-tunnel"><i class="fa fa-check"></i><b>3.3.5</b> Placing a tunnel</a></li>
+<li class="chapter" data-level="3.3.6" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#using-a-drill"><i class="fa fa-check"></i><b>3.3.6</b> Using a drill</a></li>
+<li class="chapter" data-level="3.3.7" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#doorfights"><i class="fa fa-check"></i><b>3.3.7</b> Doorfights</a></li>
+<li class="chapter" data-level="3.3.8" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#getting-to-the-flagroom"><i class="fa fa-check"></i><b>3.3.8</b> Getting to the flagroom</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="builder-iii-progressive-playstyle.html"><a href="builder-iii-progressive-playstyle.html#coin-farming-again"><i class="fa fa-check"></i><b>3.4</b> Coin farming (again)</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html"><i class="fa fa-check"></i><b>4</b> Builder IV: Offensive playstyle</a><ul>
+<li class="chapter" data-level="4.1" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#what-youre-going-to-focus-on-2"><i class="fa fa-check"></i><b>4.1</b> What you're going to focus on</a></li>
+<li class="chapter" data-level="4.2" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#preparation-before-pushing"><i class="fa fa-check"></i><b>4.2</b> Preparation before pushing</a></li>
+<li class="chapter" data-level="4.3" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#material-scavenging"><i class="fa fa-check"></i><b>4.3</b> Material scavenging</a></li>
+<li class="chapter" data-level="4.4" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#observing-other-players"><i class="fa fa-check"></i><b>4.4</b> Observing other players</a></li>
+<li class="chapter" data-level="4.5" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#pushing"><i class="fa fa-check"></i><b>4.5</b> Pushing</a><ul>
+<li class="chapter" data-level="4.5.1" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#skipping-mid-or-not"><i class="fa fa-check"></i><b>4.5.1</b> Skipping mid or not?</a></li>
+<li class="chapter" data-level="4.5.2" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#building-quick-wooden-walls-ledges"><i class="fa fa-check"></i><b>4.5.2</b> Building quick wooden walls, ledges</a></li>
+<li class="chapter" data-level="4.5.3" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#building-food-shops"><i class="fa fa-check"></i><b>4.5.3</b> Building food shops</a></li>
+<li class="chapter" data-level="4.5.4" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#analysing-enemy-tower-and-making-a-plan"><i class="fa fa-check"></i><b>4.5.4</b> Analysing enemy tower and making a plan</a></li>
+<li class="chapter" data-level="4.5.5" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#observing-knight-fights"><i class="fa fa-check"></i><b>4.5.5</b> Observing knight fights</a></li>
+<li class="chapter" data-level="4.5.6" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#killing-enemy-builders-for-materials"><i class="fa fa-check"></i><b>4.5.6</b> Killing enemy builders for materials</a></li>
+<li class="chapter" data-level="4.5.7" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#scaling-the-enemy-tower----wallclimbing-with-stone-or-wood-blocks"><i class="fa fa-check"></i><b>4.5.7</b> Scaling the enemy tower -- wallclimbing with stone or wood blocks</a></li>
+<li class="chapter" data-level="4.5.8" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#scaling-the-enemy-tower----ladders"><i class="fa fa-check"></i><b>4.5.8</b> Scaling the enemy tower -- ladders</a></li>
+<li class="chapter" data-level="4.5.9" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#scaling-the-enemy-tower-with-blocks-ladders"><i class="fa fa-check"></i><b>4.5.9</b> Scaling the enemy tower with blocks + ladders</a></li>
+<li class="chapter" data-level="4.5.10" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#scaling-the-enemy-tower----platforms"><i class="fa fa-check"></i><b>4.5.10</b> Scaling the enemy tower -- platforms</a></li>
+<li class="chapter" data-level="4.5.11" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#getting-launched-from-a-catapult"><i class="fa fa-check"></i><b>4.5.11</b> Getting launched from a catapult</a></li>
+<li class="chapter" data-level="4.5.12" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#going-into-the-bottom-of-the-tower"><i class="fa fa-check"></i><b>4.5.12</b> Going into the bottom of the tower</a></li>
+<li class="chapter" data-level="4.5.13" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#destroying-mines"><i class="fa fa-check"></i><b>4.5.13</b> Destroying mines</a></li>
+<li class="chapter" data-level="4.5.14" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#being-on-top-of-tower"><i class="fa fa-check"></i><b>4.5.14</b> Being on top of tower</a></li>
+<li class="chapter" data-level="4.5.15" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#destroying-enemy-tunnel"><i class="fa fa-check"></i><b>4.5.15</b> Destroying enemy tunnel</a></li>
+<li class="chapter" data-level="4.5.16" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#buying-kegs-in-enemy-knight-shop"><i class="fa fa-check"></i><b>4.5.16</b> Buying kegs in enemy knight shop</a></li>
+<li class="chapter" data-level="4.5.17" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#collapsing-the-tower"><i class="fa fa-check"></i><b>4.5.17</b> Collapsing the tower</a></li>
+<li class="chapter" data-level="4.5.18" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#using-enemy-tunnels"><i class="fa fa-check"></i><b>4.5.18</b> Using enemy tunnels</a></li>
+<li class="chapter" data-level="4.5.19" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#falling-down-on-collapsing-blocks"><i class="fa fa-check"></i><b>4.5.19</b> Falling down on collapsing blocks</a></li>
+<li class="chapter" data-level="4.5.20" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#making-a-tunnel-in-the-middle-of-the-enemy-base"><i class="fa fa-check"></i><b>4.5.20</b> Making a tunnel in the middle of the enemy base</a></li>
+</ul></li>
+<li class="chapter" data-level="4.6" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#combat"><i class="fa fa-check"></i><b>4.6</b> Combat</a><ul>
+<li class="chapter" data-level="4.6.1" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#using-doors-at-certain-corner-angles-to-damage-knights"><i class="fa fa-check"></i><b>4.6.1</b> Using doors at certain corner angles to damage knights</a></li>
+<li class="chapter" data-level="4.6.2" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#enemy-knights-glitching-in-the-doors"><i class="fa fa-check"></i><b>4.6.2</b> Enemy knights glitching in the doors</a></li>
+<li class="chapter" data-level="4.6.3" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#pickaxe-1v1-with-other-builders"><i class="fa fa-check"></i><b>4.6.3</b> Pickaxe 1v1 with other builders</a></li>
+<li class="chapter" data-level="4.6.4" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#pickaxe-through-door-corners"><i class="fa fa-check"></i><b>4.6.4</b> Pickaxe through door corners</a></li>
+<li class="chapter" data-level="4.6.5" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#heating-drill-before-combat"><i class="fa fa-check"></i><b>4.6.5</b> Heating drill before combat</a></li>
+<li class="chapter" data-level="4.6.6" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#hiding-drill-from-enemy-builder"><i class="fa fa-check"></i><b>4.6.6</b> Hiding drill from enemy builder</a></li>
+<li class="chapter" data-level="4.6.7" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#baiting-and-overheating-enemy-builders-drill"><i class="fa fa-check"></i><b>4.6.7</b> Baiting and overheating enemy builder's drill</a></li>
+<li class="chapter" data-level="4.6.8" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#spamming-overheated-drill"><i class="fa fa-check"></i><b>4.6.8</b> Spamming overheated drill</a></li>
+<li class="chapter" data-level="4.6.9" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#using-ladders-against-encased-builder"><i class="fa fa-check"></i><b>4.6.9</b> Using ladders against encased builder</a></li>
+<li class="chapter" data-level="4.6.10" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#killing-knights-with-low-health"><i class="fa fa-check"></i><b>4.6.10</b> Killing knights with low health</a></li>
+<li class="chapter" data-level="4.6.11" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#offensive-spiking"><i class="fa fa-check"></i><b>4.6.11</b> Offensive spiking</a></li>
+<li class="chapter" data-level="4.6.12" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#dirt-spikes-against-enemies-digging-down"><i class="fa fa-check"></i><b>4.6.12</b> Dirt spikes against enemies digging down</a></li>
+<li class="chapter" data-level="4.6.13" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#escape-spikes"><i class="fa fa-check"></i><b>4.6.13</b> Escape spikes</a></li>
+<li class="chapter" data-level="4.6.14" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#double-hit-spikes"><i class="fa fa-check"></i><b>4.6.14</b> Double hit spikes</a></li>
+<li class="chapter" data-level="4.6.15" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#collapsing-blocks-on-enemies"><i class="fa fa-check"></i><b>4.6.15</b> Collapsing blocks on enemies</a></li>
+<li class="chapter" data-level="4.6.16" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#stomping"><i class="fa fa-check"></i><b>4.6.16</b> Stomping</a></li>
+<li class="chapter" data-level="4.6.17" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#crouching"><i class="fa fa-check"></i><b>4.6.17</b> Crouching</a></li>
+<li class="chapter" data-level="4.6.18" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#dirt-spike-crouch"><i class="fa fa-check"></i><b>4.6.18</b> Dirt spike + crouch</a></li>
+<li class="chapter" data-level="4.6.19" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#catching-and-throwing-back-enemy-bombs"><i class="fa fa-check"></i><b>4.6.19</b> Catching and throwing back enemy bombs</a></li>
+</ul></li>
+<li class="chapter" data-level="4.7" data-path="builder-iv-offensive-playstyle.html"><a href="builder-iv-offensive-playstyle.html#playing-with-a-knight-friend"><i class="fa fa-check"></i><b>4.7</b> Playing with a knight friend</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html"><i class="fa fa-check"></i><b>5</b> Builder V: Miscellaneous</a><ul>
+<li class="chapter" data-level="5.1" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#videos"><i class="fa fa-check"></i><b>5.1</b> Videos</a></li>
+<li class="chapter" data-level="5.2" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#miscellanous-mechanics"><i class="fa fa-check"></i><b>5.2</b> Miscellanous mechanics</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#using-number-keys-to-buy-items-in-menus"><i class="fa fa-check"></i><b>5.2.1</b> Using number keys to buy items in menus</a></li>
+<li class="chapter" data-level="5.2.2" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#using-bind-modifier-key-number-keys-to-select-blocks-faster"><i class="fa fa-check"></i><b>5.2.2</b> Using bind modifier key + number keys to select blocks faster</a></li>
+<li class="chapter" data-level="5.2.3" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#picking-up-sharks"><i class="fa fa-check"></i><b>5.2.3</b> Picking up sharks</a></li>
+<li class="chapter" data-level="5.2.4" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#ladders-in-flag-room"><i class="fa fa-check"></i><b>5.2.4</b> Ladders in flag room</a></li>
+<li class="chapter" data-level="5.2.5" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#saw-crate-trap"><i class="fa fa-check"></i><b>5.2.5</b> Saw + crate trap</a></li>
+<li class="chapter" data-level="5.2.6" data-path="builder-v-miscellaneous.html"><a href="builder-v-miscellaneous.html#pressing-c-while-having-a-block-selected"><i class="fa fa-check"></i><b>5.2.6</b> Pressing C while having a block selected</a></li>
+</ul></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Builder Guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Builder Guide</h1>
+<h2 class="subtitle"><em>The tactical class of KAG</em></h2>
+<p class="author"><em>by Bunnie</em></p>
+<p class="date"><em>14/11/2020</em></p>
+</div>
+<div id="introduction" class="section level1 unnumbered">
+<h1>Introduction</h1>
+<p align="center">
+<img src="imgs/logo.png">
+</p>
+<p>Builder is probably the most advanced class to play in KAG. It's different from the other classes -- from a certain point of view, a Builder can do the most for their team out of all classes. It's mostly a tactical class, although having good reflexes will sometimes help you too; however, not as much muscle memory is needed as for the Knight class.</p>
+<p>Although this guide is for everyone -- from newbies to players with some experience already -- it'd be good if you already completed the in-game Basics and Capture The Flag tutorials and knew the obvious stuff such as the controls and basic mechanics: mining, building, wallclimbing, changing class, picking up items etc.</p>
+<p>The guide has a few chapters, which you can see and browse on the left part of the website.</p>
+<blockquote>
+<p>For a tutorial on playing as archer see: <a href="https://deynarde.github.io/kag-archer-guide/">Archer Guide</a>.</p>
+</blockquote>
+<blockquote>
+<p>For a tutorial on playing as knight see: <a href="https://deynarde.github.io/kag-knight-guide/">Knight Guide</a>.</p>
+</blockquote>
+<blockquote>
+<p>If you have any questions about the builder class, you can contact me at the [KAG Discord] (<a href="https://discord.gg/kag" class="uri">https://discord.gg/kag</a>) - my tag is <code>bunnie#8553</code>.</p>
+</blockquote>
+<blockquote>
+<p>Big thanks to all members of the HOMEK clan which I am the leader of -- especially deynarde for setting this website up, as well as all the people regularly playing Captains which helped me learn Builder.</p>
+</blockquote>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="builder-i-the-basics.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "night",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/deynarde/kag-builder-guide/blob/master/index.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
