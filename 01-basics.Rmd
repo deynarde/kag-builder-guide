@@ -775,13 +775,13 @@ It's also good to put a mine in each flag room (or even 2!). If any enemies even
 
 As I mentioned earlier, there should be a tunnel in your tower for quick travel. The first tunnel should be next to your tent (or at least close to it).
 
-The tunnel near your tent **should always have a sawtrap**. A sawtrap like this -- one trapblock, the tunnel on it and a saw below:
+The tunnel near your tent **should always have a sawtrap**. A sawtrap like this -- team bridges, the tunnel on it and the saw under the team bridges.
 
-<img src="imgs/01-basic/tunneltent.png">
+<img src="imgs/01-basic/imog.png">
 
-Here's how to build one -- as you can see, you can put a trapblock before putting the saw -- if you want to put the saw in the hole, you can just jump on the trapblock, hold S and throw it downwards.
+Here's how to build one:
 
-<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/tunneltrap.webm" controls loop="loop" preload></video><br>
+<video style="display:block; max-width:100%; height:auto;" src="webm/01-basics/giffod.webm" controls loop="loop" preload></video><br>
 
 ### Tree farm
 
